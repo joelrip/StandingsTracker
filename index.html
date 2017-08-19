@@ -1,0 +1,2681 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+<title>USL Tracker 2017</title>
+
+<meta property="og:title" content="USL Tracker 2017" />
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+
+<link rel="icon" href="data:image/x-icon;" type="image/x-icon">
+
+
+<script type="text/javascript">
+window.FlexDashboardComponents = [];
+</script>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/stickytableheaders-0.1.19/jquery.stickytableheaders.min.js"></script>
+<script src="site_libs/htmlwidgets-0.9/htmlwidgets.js"></script>
+<script src="site_libs/proj4js-2.3.15/proj4.js"></script>
+<link href="site_libs/highcharts-5.0.7/css/motion.css" rel="stylesheet" />
+<script src="site_libs/highcharts-5.0.7/highstock.js"></script>
+<script src="site_libs/highcharts-5.0.7/highcharts-3d.js"></script>
+<script src="site_libs/highcharts-5.0.7/highcharts-more.js"></script>
+<script src="site_libs/highcharts-5.0.7/modules/annotations.js"></script>
+<script src="site_libs/highcharts-5.0.7/modules/broken-axis.js"></script>
+<script src="site_libs/highcharts-5.0.7/modules/data.js"></script>
+<script src="site_libs/highcharts-5.0.7/modules/drilldown.js"></script>
+<script src="site_libs/highcharts-5.0.7/modules/exporting.js"></script>
+<script src="site_libs/highcharts-5.0.7/modules/funnel.js"></script>
+<script src="site_libs/highcharts-5.0.7/modules/heatmap.js"></script>
+<script src="site_libs/highcharts-5.0.7/modules/map.js"></script>
+<script src="site_libs/highcharts-5.0.7/modules/no-data-to-display.js"></script>
+<script src="site_libs/highcharts-5.0.7/modules/offline-exporting.js"></script>
+<script src="site_libs/highcharts-5.0.7/modules/solid-gauge.js"></script>
+<script src="site_libs/highcharts-5.0.7/modules/treemap.js"></script>
+<script src="site_libs/highcharts-5.0.7/plugins/export-csv.js"></script>
+<script src="site_libs/highcharts-5.0.7/plugins/grouped-categories.js"></script>
+<script src="site_libs/highcharts-5.0.7/plugins/motion.js"></script>
+<script src="site_libs/highcharts-5.0.7/plugins/multicolor_series.js"></script>
+<script src="site_libs/highcharts-5.0.7/custom/reset.js"></script>
+<script src="site_libs/highcharts-5.0.7/custom/symbols-extra.js"></script>
+<script src="site_libs/highcharts-5.0.7/custom/text-symbols.js"></script>
+<link href="site_libs/htmlwdgtgrid-1/htmlwdgtgrid.css" rel="stylesheet" />
+<script src="site_libs/highchart-binding-0.5.0.9999/highchart.js"></script>
+<style type="text/css">
+
+/*
+ Dashboard CSS from Keen IO Dashboards
+ (https://github.com/keen/dashboards)
+*/
+
+body {
+  background: #f2f2f2;
+  padding: 60px 0 0 8px; /* padding-top overridden by theme */
+}
+
+body hr {
+  border-color: #d7d7d7;
+  margin: 10px 0;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar .navbar-brand {
+  text-decoration: none;
+}
+
+.navbar-logo {
+  margin-top: 1px;
+}
+
+.navbar-logo img {
+  margin-right: 12px;
+}
+
+.navbar-author {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.navbar .dropdown-menu .fa {
+  min-width: 20px;
+}
+
+.navbar .dropdown-menu {
+  min-width: 150px;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.chart-wrapper,
+.nav-tabs-custom,
+.sbframe-commentary
+{
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+.chart-title {
+  border-bottom: 1px solid #d7d7d7;
+  color: #666;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 7px 10px 4px;
+}
+
+.chart-wrapper .chart-title:empty {
+  display: none;
+}
+
+.chart-wrapper .chart-stage {
+  overflow: hidden;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.chart-wrapper .chart-notes {
+  background: #fbfbfb;
+  border-top: 1px solid #e2e2e2;
+  color: #808080;
+  font-size: 12px;
+  padding: 8px 10px 5px;
+}
+
+/*
+ CSS for handling flexbox layout
+*/
+
+#dashboard-container {
+  visibility: hidden;
+}
+
+.tab-content>.dashboard-page-wrapper.active {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dashboard-page-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dashboard-row-orientation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dashboard-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.dashboard-row-flex {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.dashboard-column-orientation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.dashboard-column {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.chart-wrapper-flex {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.chart-stage-flex {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.chart-shim {
+  position: absolute;
+  left: 8px; top: 8px; right: 8px; bottom: 8px;
+}
+
+.no-padding .chart-shim {
+  left: 0; top: 0; right: 0; bottom: 0;
+}
+
+.flowing-content-shim {
+  overflow: auto;
+  left: 0; top: 0; right: 0; bottom: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.flowing-content-container {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.chart-stage .table-bordered {
+  border: none;
+}
+
+.chart-stage .table-bordered > tbody > tr > th,
+.chart-stage .table-bordered > tfoot > tr > th,
+.chart-stage .table-bordered > tbody > tr > td,
+.chart-stage .table-bordered > tfoot > tr > td {
+  border: none;
+}
+
+.chart-stage .table-bordered > tbody > tr > td {
+  border-top: 1px solid #dddddd;
+}
+
+.chart-stage .table-bordered > thead > tr > th {
+  border: none;
+  border-bottom: 2px solid #dddddd;
+}
+
+.bootstrap-table table>thead {
+  background-color: #fff;
+}
+
+.bootstrap-table table.data,
+.bootstrap-table table.shiny-table {
+  width: inherit !important;
+}
+
+.bootstrap-table table.data>tbody>tr>th,
+.bootstrap-table table.shiny-table>tbody>tr>th {
+  border-top: none;
+  border-bottom: 2px solid #dddddd;
+  padding: 5px;
+}
+
+.bootstrap-table .data td[align=right] {
+  font-family: inherit;
+}
+
+.chart-wrapper form {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.shiny-input-container label {
+  font-weight: normal;
+}
+
+.chart-stage .html-widget {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.chart-stage .html-widget-static-bound {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.chart-stage .shiny-bound-output {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Omit display of empty paragraphs */
+
+.chart-shim>p:empty {
+  display: none;
+}
+
+.chart-stage>p:empty {
+  display: none;
+}
+
+/* Omit display of special knitr options div*/
+
+.chart-stage .knitr-options {
+  display: none;
+}
+
+/* Automatically resizing images */
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+.image-container img {
+  opacity: 0;
+  overflow: hidden;
+}
+
+/* Value box */
+
+.value-box {
+  border-radius: 2px;
+  position: relative;
+  display: block;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.value-box > .inner {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.value-box .value {
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0 0 3px 0;
+  white-space: nowrap;
+  padding: 0;
+}
+
+.value-box .caption {
+  font-size: 15px;
+}
+.value-box .caption > small {
+  display: block;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.value-box .icon i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 80px;
+  color: rgba(0, 0, 0, 0.15);
+}
+
+.linked-value:hover {
+  cursor: pointer;
+}
+
+.value-box.linked-value:hover {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* STORYBOARD */
+
+.storyboard-nav button {
+  background: transparent;
+  border: 0;
+  opacity: .3;
+  outline: none;
+  padding: 0;
+}
+
+.storyboard-nav button:hover,
+.storyboard-nav button:hover {
+  opacity: .5;
+}
+
+.storyboard-nav button:disabled,
+.storyboard-nav button:disabled {
+  opacity: .1;
+}
+
+.storyboard-nav .sbnext,
+.storyboard-nav .sbprev {
+  float: left;
+  width: 2%;
+  height: 120px;
+  font-size: 50px;
+}
+
+.storyboard-nav .sbprev {
+  text-align: left;
+  width: 2%;
+}
+
+.storyboard-nav .sbnext {
+  float: right;
+  text-align: right;
+  margin-right: 8px;
+}
+
+.storyboard-nav .sbframelist {
+  margin: 0 auto;
+  width: 94%;
+  height: 120px;
+  overflow: hidden;
+  text-shadow: none;
+  margin-bottom: 8px;
+}
+
+.storyboard-nav .sbframelist ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.storyboard-nav .sbframelist ul li {
+  float: left;
+  width: 270px;
+  height: 100%;
+  padding: 10px 10px 10px 10px;
+  margin-right: 8px;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  color: #3a3c47;
+  text-align: left;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.storyboard-nav .sbframelist ul li:last-child {
+  margin-right: 0px;
+}
+
+.storyboard-nav .sbframelist ul li.active {
+  color: #fff;
+  background: #B8B8B8;
+}
+
+.sbframe-commentary {
+  width: 300px;
+  background: #fbfbfb;
+  font-size: 14px;
+}
+
+.sbframe-commentary ul {
+  padding-left: 22px;
+}
+
+.sbframe.active {
+  display: flex;
+}
+
+.sbframe:not(.active) {
+  display: none;
+}
+
+/* NAV TABS */
+
+.nav-tabs-custom > .nav-tabs {
+  margin: 0;
+  border-bottom: 1px solid #d7d7d7;
+  color: #666;
+  font-size: 14px;
+  font-weight: 300;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.nav-tabs-custom > .nav-tabs > li {
+  border-top: 3px solid transparent;
+  margin-bottom: -1px;
+  margin-right: 5px;
+}
+.nav-tabs-custom > .nav-tabs > li > a,
+.nav-tabs-custom > .nav-tabs > li > a:active {
+  color: #666;
+  font-weight: 300;
+  font-size: 14px;
+  border-radius: 0;
+  padding: 3px 10px 5px;
+  text-transform: none;
+}
+
+.nav-tabs-custom > .nav-tabs > li:not(.active) > a {
+  border-bottom-color: transparent;
+}
+
+.nav-tabs-custom > .nav-tabs > li > a.text-muted {
+  color: #999;
+}
+.nav-tabs-custom > .nav-tabs > li > a,
+.nav-tabs-custom > .nav-tabs > li > a:hover {
+  background: transparent;
+  margin: 0;
+}
+.nav-tabs-custom > .nav-tabs > li > a:hover {
+  color: #999;
+}
+.nav-tabs-custom > .nav-tabs > li:not(.active) > a:hover,
+.nav-tabs-custom > .nav-tabs > li:not(.active) > a:focus,
+.nav-tabs-custom > .nav-tabs > li:not(.active) > a:active {
+  border-color: transparent;
+}
+.nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #3c8dbc;
+}
+.nav-tabs-custom > .nav-tabs > li.active > a,
+.nav-tabs-custom > .nav-tabs > li.active:hover > a {
+  background-color: #fff;
+  color: #666;
+}
+.nav-tabs-custom > .nav-tabs > li.active > a {
+  border-top-color: transparent;
+  border-left-color: #d7d7d7;
+  border-right-color: #d7d7d7;
+}
+.nav-tabs-custom > .nav-tabs > li:first-of-type {
+  margin-left: 0;
+}
+.nav-tabs-custom > .nav-tabs > li:first-of-type.active > a {
+  border-left-color: transparent;
+}
+.nav-tabs-custom > .nav-tabs.pull-right {
+  float: none !important;
+}
+.nav-tabs-custom > .nav-tabs.pull-right > li {
+  float: right;
+}
+.nav-tabs-custom > .nav-tabs.pull-right > li:first-of-type {
+  margin-right: 0;
+}
+.nav-tabs-custom > .nav-tabs.pull-right > li:first-of-type > a {
+  border-left-width: 1px;
+}
+.nav-tabs-custom > .nav-tabs.pull-right > li:first-of-type.active > a {
+  border-left-color: #d7d7d7;
+  border-right-color: transparent;
+}
+.nav-tabs-custom > .nav-tabs > li.header {
+  line-height: 35px;
+  padding: 0 10px;
+  font-size: 20px;
+  color: #666;
+}
+.nav-tabs-custom > .nav-tabs > li.header > .fa,
+.nav-tabs-custom > .nav-tabs > li.header > .glyphicon,
+.nav-tabs-custom > .nav-tabs > li.header > .ion {
+  margin-right: 5px;
+}
+.nav-tabs-custom > .tab-content {
+  background: #fff;
+  padding: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-tabs-custom > .tab-content > .chart-wrapper {
+  background: #fff;
+  border: none;
+  margin: 0;
+}
+
+
+.nav-tabs-custom > .tab-content > .active {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-tabs-custom .dropdown.open > a:active,
+.nav-tabs-custom .dropdown.open > a:focus {
+  background: transparent;
+  color: #999;
+}
+
+
+@media (max-width: 767px) {
+  .value-box {
+    text-align: center;
+    margin-right: 8px;
+  }
+  .value-box .icon {
+    display: none;
+  }
+}
+
+/* Fixed position sidebar */
+
+.section.sidebar {
+  position: fixed;
+  top: 51px; /* overridden by theme */
+  left: 0;
+  bottom: 0;
+  border-right: 1px solid #e2e2e2;
+  background-color: white; /* overridden by theme */
+  padding-left: 10px;
+  padding-right: 10px;
+  visibility: hidden;
+  overflow: auto;
+}
+
+.section.sidebar form p:first-child {
+  margin-top: 10px;
+}
+
+/* Embedded source code */
+
+#flexdashboard-source-code {
+  display: none;
+}
+
+.featherlight-content #flexdashboard-source-code {
+  display: inline-block;
+}
+
+.featherlight-content {
+  width: 80%;
+  max-width: 800px;
+  padding: 0 !important;
+  border-bottom: none !important;
+}
+
+.featherlight:last-of-type {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.featherlight-inner {
+  width: 100%;
+}
+
+.featherlight-content pre {
+  margin: 0;
+  border: 0;
+  background: #fff;
+  font-size: 12px;
+}
+
+.unselectable {
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#flexdashboard-source-code code {
+  -ms-user-select: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+}
+
+/* DataTables Tweaks */
+
+.dataTables_filter input[type="search"] {
+  -webkit-appearance: searchfield;
+  outline: none;
+}
+
+.dataTables_wrapper.no-footer
+.dataTables_info {
+  padding-top: 0;
+}
+
+
+table.dataTable thead th {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+/* Mobile phone only CSS */
+
+.desktop-layout div.section.mobile {
+  display: none;
+}
+
+.mobile-layout div.section.no-mobile {
+  display: none;
+}
+
+.mobile-figure {
+  display: none;
+}
+
+
+
+body {
+  padding-top: 60px;
+}
+
+.section.sidebar {
+  top: 51px;
+  background-color: rgba(39, 128, 227, 0.1);
+}
+
+.value-box {
+  color: #f9f9f9;
+}
+
+.bg-primary {
+  background-color: rgba(39, 128, 227, 0.7);
+}
+
+.storyboard-nav .sbframelist ul li.active {
+  background-color: rgba(39, 128, 227, 0.7);
+}
+
+.nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: rgba(39, 128, 227, 0.7);
+}
+
+.bg-info {
+  background-color: rgba(153, 84, 187, 0.7);
+}
+
+.bg-warning {
+  background-color: rgba(255, 117, 24, 0.7);
+}
+
+.bg-danger {
+  background-color: rgba(255, 0, 57, 0.7);
+}
+
+.bg-success {
+  background-color: rgba(63, 182, 24, 0.7);
+}
+
+.chart-title {
+  font-weight: 500;
+}
+
+.nav-tabs-custom > .nav-tabs > li > a,
+.nav-tabs-custom > .nav-tabs > li > a:active {
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+html, body {
+  height: 100%;
+}
+
+#dashboard-container {
+  height: 100%;
+}
+}
+</style>
+
+
+
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="container-fluid">
+<div class="navbar-header">
+
+<button id="navbar-button" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+<span class="navbar-logo pull-left">
+  
+</span>
+<span class="navbar-brand">
+  USL Tracker 2017
+  <span class="navbar-author">
+        </span>
+</span>
+
+</div>
+<div id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-left">
+</ul>
+<ul class="nav navbar-nav navbar-right">
+</ul>
+</div><!--/.nav-collapse-->
+</div><!--/.container-->
+</div><!--/.navbar-->
+
+<script type="text/javascript">
+
+
+var FlexDashboard = (function () {
+
+  // initialize options
+  var _options = {};
+
+  var FlexDashboard = function() {
+
+    // default options
+    _options = $.extend(_options, {
+      theme: "cosmo",
+      fillPage: false,
+      orientation: 'columns',
+      storyboard: false,
+      defaultFigWidth: 576,
+      defaultFigHeight: 461,
+      defaultFigWidthMobile: 360,
+      defaultFigHeightMobile: 461,
+      isMobile: false,
+      isPortrait: false
+    });
+  };
+
+  function init(options) {
+
+    // extend default options
+    $.extend(true, _options, options);
+
+    // add ids to sections that don't have them (pandoc won't assign ids
+    // to e.g. sections with titles consisting of only chinese characters)
+    var nextId = 1;
+    $('.level1:not([id]),.level2:not([id]),.level3:not([id])').each(function() {
+      $(this).attr('id', 'dashboard-' + nextId++);
+    });
+
+    // find navbar items
+    var navbarItems = $('#flexdashboard-navbar');
+    if (navbarItems.length)
+      navbarItems = JSON.parse(navbarItems.html());
+    addNavbarItems(navbarItems);
+
+    // find the main dashboard container
+    var dashboardContainer = $('#dashboard-container');
+
+    // resolve mobile classes
+    resolveMobileClasses(dashboardContainer);
+
+    // one time global initialization for components
+    componentsInit(dashboardContainer);
+
+    // look for a global sidebar
+    var globalSidebar = dashboardContainer.find(".section.level1.sidebar");
+    if (globalSidebar.length > 0) {
+
+      // global layout for fullscreen displays
+      if (!isMobilePhone()) {
+
+         // hoist it up to the top level
+         globalSidebar.insertBefore(dashboardContainer);
+
+         // lay it out (set width/positions)
+         layoutSidebar(globalSidebar, dashboardContainer);
+
+      // tuck sidebar into first page for mobile phones
+      } else {
+
+        // convert it into a level3 section
+        globalSidebar.removeClass('sidebar');
+        globalSidebar.removeClass('level1');
+        globalSidebar.addClass('level3');
+        var h1 = globalSidebar.children('h1');
+        var h3 = $('<h3></h3>');
+        h3.html(h1.html());
+        h3.insertBefore(h1);
+        h1.remove();
+
+        // move it into the first page
+        var page = dashboardContainer.find('.section.level1').first();
+        if (page.length > 0)
+          page.prepend(globalSidebar);
+      }
+    }
+
+    // look for pages to layout
+    var pages = $('div.section.level1');
+    if (pages.length > 0) {
+
+        // find the navbar and collapse on clicked
+        var navbar = $('#navbar');
+        navbar.on("click", "a[data-toggle!=dropdown]", null, function () {
+           navbar.collapse('hide');
+        });
+
+        // envelop the dashboard container in a tab content div
+        dashboardContainer.wrapInner('<div class="tab-content"></div>');
+
+        pages.each(function(index) {
+
+          // lay it out
+          layoutDashboardPage($(this));
+
+          // add it to the navbar
+          addToNavbar($(this), index === 0);
+
+        });
+
+    } else {
+
+      // remove the navbar and navbar button if we don't
+      // have any navbuttons
+      if (navbarItems.length === 0) {
+        $('#navbar').remove();
+        $('#navbar-button').remove();
+      }
+
+      // add the storyboard class if requested
+      if (_options.storyboard)
+        dashboardContainer.addClass('storyboard');
+
+      // layout the entire page
+      layoutDashboardPage(dashboardContainer);
+    }
+
+    // if we are in shiny we need to trigger a window resize event to
+    // force correct layout of shiny-bound-output elements
+    if (isShinyDoc())
+      $(window).trigger('resize');
+
+    // make main components visible
+    $('.section.sidebar').css('visibility', 'visible');
+    dashboardContainer.css('visibility', 'visible');
+
+    // handle location hash
+    handleLocationHash();
+
+    // intialize prism highlighting
+    initPrismHighlighting();
+
+    // record mobile and orientation state then register a handler
+    // to refresh if it changes
+    _options.isMobile = isMobilePhone();
+    _options.isPortrait = isPortrait();
+    $(window).on('resize', function() {
+      if (_options.isMobile !== isMobilePhone() ||
+          _options.isPortrait !== isPortrait()) {
+        window.location.reload();
+      }
+    });
+
+    // trigger layoutcomplete event
+    dashboardContainer.trigger('flexdashboard:layoutcomplete');
+  }
+
+  function resolveMobileClasses(dashboardContainer) {
+     // add top level layout class
+    dashboardContainer.addClass(isMobilePhone() ? 'mobile-layout' :
+                                                  'desktop-layout');
+
+    // look for .mobile sections and add .no-mobile to their peers
+    var mobileSections = $('.section.mobile');
+    mobileSections.each(function() {
+       var id = $(this).attr('id');
+       var nomobileId = id.replace(/-\d+$/, '');
+       $('#' + nomobileId).addClass('no-mobile');
+    });
+  }
+
+  function addNavbarItems(navbarItems) {
+
+    var navbarLeft = $('ul.navbar-left');
+    var navbarRight = $('ul.navbar-right');
+
+    for (var i = 0; i<navbarItems.length; i++) {
+
+      // get the item
+      var item = navbarItems[i];
+
+      // determine the container
+      var container = null;
+      if (item.align === "left")
+        container = navbarLeft;
+      else
+        container = navbarRight;
+
+      // navbar menu if we have multiple items
+      if (item.items) {
+        var menu = navbarMenu(null, item.icon, item.title, container);
+        for (var j = 0; j<item.items.length; j++) {
+          var subItem = item.items[j];
+          var li = $('<li></li>');
+          li.append(navbarLink(subItem.icon, subItem.title, subItem.href, subItem.target));
+          menu.append(li);
+        }
+      } else {
+        var li = $('<li></li>');
+        li.append(navbarLink(item.icon, item.title, item.href, item.target));
+        container.append(li);
+      }
+    }
+  }
+
+  // create or get a reference to an existing dropdown menu
+  function navbarMenu(id, icon, title, container) {
+    var existingMenu = [];
+    if (id)
+      existingMenu = container.children('#' + id);
+    if (existingMenu.length > 0) {
+      return existingMenu.children('ul');
+    } else {
+      var li = $('<li></li>');
+      if (id)
+        li.attr('id', id);
+      li.addClass('dropdown');
+      // auto add "Share" title on mobile if necessary
+      if (!title && icon && (icon === "fa-share-alt") && isMobilePhone())
+        title = "Share";
+      if (title) {
+        title = title + ' <span class="caret"></span>';
+      }
+      var a = navbarLink(icon, title, "#");
+      a.addClass('dropdown-toggle');
+      a.attr('data-toggle', 'dropdown');
+      a.attr('role', 'button');
+      a.attr('aria-expanded', 'false');
+      li.append(a);
+      var ul = $('<ul class="dropdown-menu"></ul>');
+      ul.attr('role', 'menu');
+      li.append(ul);
+      container.append(li);
+      return ul;
+    }
+  }
+
+  function addToNavbar(page, active) {
+
+    // capture the id and data-icon attribute (if any)
+    var id = page.attr('id');
+    var icon = page.attr('data-icon');
+    var navmenu = page.attr('data-navmenu');
+
+    // get hidden state (transfer this to navbar)
+    var hidden = page.hasClass('hidden');
+    page.removeClass('hidden');
+
+    // sanitize the id for use with bootstrap tabs
+    id = id.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_');
+    page.attr('id', id);
+
+    // get the wrapper
+    var wrapper = page.closest('.dashboard-page-wrapper');
+
+    // move the id to the wrapper
+    page.removeAttr('id');
+    wrapper.attr('id', id);
+
+    // add the tab-pane class to the wrapper
+    wrapper.addClass('tab-pane');
+    if (active)
+      wrapper.addClass('active');
+
+    // get a reference to the h1, discover it's id and title, then remove it
+    var h1 = wrapper.find('h1').first();
+    var title = h1.html();
+    h1.remove();
+
+    // create a navbar item
+    var li = $('<li></li>');
+    var a = navbarLink(icon, title, '#' + id);
+    a.attr('data-toggle', 'tab');
+    li.append(a);
+
+    // add it to the navbar (or navbar menu if specified)
+    var container = $('ul.navbar-left');
+    if (navmenu) {
+      var menuId = navmenu.replace(/\s+/g, '');
+      var menu = navbarMenu(menuId, null, navmenu, container);
+      menu.append(li);
+    } else {
+      container.append(li);
+    }
+
+    // hide it if requested
+    if (hidden)
+      li.addClass('hidden');
+  }
+
+  function navbarLink(icon, title, href, target) {
+
+    var a = $('<a></a>');
+    if (icon) {
+
+      // get the name of the icon set and icon
+      var dashPos = icon.indexOf("-");
+      var iconSet = icon.substring(0, dashPos);
+      var iconName = icon.substring(dashPos + 1);
+
+      // create the icon
+      var iconElement = $('<span class="' + iconSet + ' ' + icon + '"></span>');
+      if (title)
+        iconElement.css('margin-right', '7px');
+      a.append(iconElement);
+      // if href is null see if we can auto-generate based on icon (e.g. social)
+      if (!href)
+        maybeGenerateLinkFromIcon(iconName, a);
+    }
+    if (title)
+      a.append(title);
+
+    // add the href.
+    if (href) {
+      if (href === "source_embed") {
+        a.attr('href', '#');
+        a.attr('data-featherlight', "#flexdashboard-source-code");
+        a.featherlight({
+            beforeOpen: function(event){
+              $('body').addClass('unselectable');
+            },
+            afterClose: function(event){
+              $('body').removeClass('unselectable');
+            }
+        });
+      } else {
+        a.attr('href', href);
+      }
+    }
+
+    // add the arget
+    if (target)
+      a.attr('target', target);
+
+    return a;
+  }
+
+  // auto generate a link from an icon name (e.g. twitter) when possible
+  function maybeGenerateLinkFromIcon(iconName, a) {
+
+     var serviceLinks = {
+      "twitter": "https://twitter.com/share?text=" + encodeURIComponent(document.title) + "&url="+encodeURIComponent(location.href),
+      "facebook": "https://www.facebook.com/sharer/sharer.php?s=100&p[url]="+encodeURIComponent(location.href),
+      "google-plus": "https://plus.google.com/share?url="+encodeURIComponent(location.href),
+      "linkedin": "https://www.linkedin.com/shareArticle?mini=true&url="+encodeURIComponent(location.href) + "&title=" + encodeURIComponent(document.title),
+      "pinterest": "https://pinterest.com/pin/create/link/?url="+encodeURIComponent(location.href) + "&description=" + encodeURIComponent(document.title)
+    };
+
+    var makeSocialLink = function(a, href) {
+      a.attr('href', '#');
+      a.on('click', function(e) {
+        e.preventDefault();
+        window.open(href);
+      });
+    };
+
+    $.each(serviceLinks, function(key, value) {
+      if (iconName.indexOf(key) !== -1)
+        makeSocialLink(a, value);
+    });
+  }
+
+  // layout a dashboard page
+  function layoutDashboardPage(page) {
+
+    // use a page wrapper so that free form content above the
+    // dashboard appears at the top rather than the side (as it
+    // would without the wrapper in a column orientation)
+    var wrapper = $('<div class="dashboard-page-wrapper"></div>');
+    page.wrap(wrapper);
+
+    // if there are no level2 or level3 headers synthesize a level3
+    // header to contain the (e.g. frame it, scroll container, etc.)
+    var headers = page.find('h2,h3');
+    if (headers.length === 0)
+      page.wrapInner('<div class="section level3"></div>');
+
+    // hoist up any content before level 2 or level 3 headers
+    var children = page.children();
+    children.each(function(index) {
+      if ($(this).hasClass('level2') || $(this).hasClass('level3'))
+        return false;
+      $(this).insertBefore(page);
+    });
+
+    // determine orientation and fillPage behavior for distinct media
+    var orientation, fillPage, storyboard;
+
+    // media: mobile phone
+    if (isMobilePhone()) {
+
+      // if there is a sidebar we need to ensure it's content
+      // is properly framed as an h3
+      var sidebar = page.find('.section.sidebar');
+      sidebar.removeClass('sidebar');
+      sidebar.wrapInner('<div class="section level3"></div>');
+      var h2 = sidebar.find('h2');
+      var h3 = $('<h3></h3>');
+      h3.html(h2.html());
+      h3.insertBefore(h2);
+      h2.remove();
+
+      // wipeout h2 elements then enclose them in a single h2
+      var level2 = page.find('div.section.level2');
+      level2.each(function() {
+        level2.children('h2').remove();
+        level2.children().unwrap();
+      });
+      page.wrapInner('<div class="section level2"></div>');
+
+      // substitute mobile images
+      if (isPortrait()) {
+        var mobileFigures = $('img.mobile-figure');
+        mobileFigures.each(function() {
+          // get the src (might be base64 encoded)
+          var src = $(this).attr('src');
+
+          // find it's peer
+          var id = $(this).attr('data-mobile-figure-id');
+          var img = $('img[data-figure-id=' + id + "]");
+          img.attr('src', src)
+             .attr('width', _options.defaultFigWidthMobile)
+             .attr('height', _options.defaultFigHeightMobile);
+        });
+      }
+
+      // hoist storyboard commentary into it's own section
+      if (page.hasClass('storyboard')) {
+        var commentaryHR = page.find('div.section.level3 hr');
+        commentaryHR.each(function() {
+          var commentary = $(this).nextAll().detach();
+          var commentarySection = $('<div class="section level3"></div>');
+          commentarySection.append(commentary);
+          commentarySection.insertAfter($(this).closest('div.section.level3'));
+          $(this).remove();
+        });
+      }
+
+      // force a non full screen layout by columns
+      orientation = _options.orientation = 'columns';
+      fillPage = _options.fillPage = false;
+      storyboard = _options.storyboard = false;
+
+    // media: desktop
+    } else {
+
+      // determine orientation
+      orientation = page.attr('data-orientation');
+      if (orientation !== 'rows' && orientation != 'columns')
+        orientation = _options.orientation;
+
+      // determine storyboard mode
+      storyboard = page.hasClass('storyboard');
+
+      // fillPage based on options (force for storyboard)
+      fillPage = _options.fillPage || storyboard;
+
+      // handle sidebar
+      var sidebar = page.find('.section.level2.sidebar');
+      if (sidebar.length > 0)
+        layoutSidebar(sidebar, page);
+    }
+
+    // give it and it's parent divs height: 100% if we are in fillPage mode
+    if (fillPage) {
+      page.addClass('vertical-layout-fill');
+      page.css('height', '100%');
+      page.parents('div').css('height', '100%');
+    } else {
+      page.addClass('vertical-layout-scroll');
+    }
+
+    // perform the layout
+    if (storyboard)
+      layoutPageAsStoryboard(page);
+    else if (orientation === 'rows')
+      layoutPageByRows(page, fillPage);
+    else if (orientation === 'columns')
+      layoutPageByColumns(page, fillPage);
+  }
+
+  function layoutSidebar(sidebar, content) {
+
+    // get it out of the header hierarchy
+    sidebar = sidebar.first();
+    if (sidebar.hasClass('level1')) {
+      sidebar.removeClass('level1');
+      sidebar.children('h1').remove();
+    } else if (sidebar.hasClass('level2')) {
+      sidebar.removeClass('level2');
+      sidebar.children('h2').remove();
+    }
+
+    // determine width
+    var sidebarWidth = isTablet() ? 220 : 250;
+    var dataWidth = parseInt(sidebar.attr('data-width'));
+    if (dataWidth)
+      sidebarWidth = dataWidth;
+
+    // set the width and shift the page right to accomodate the sidebar
+    sidebar.css('width', sidebarWidth + 'px');
+    content.css('padding-left', sidebarWidth + 'px');
+
+    // wrap it's contents in a form
+    sidebar.wrapInner($('<form></form>'));
+  }
+
+  function layoutPageAsStoryboard(page) {
+
+    // create storyboard navigation
+    var nav = $('<div class="storyboard-nav"></div>');
+
+    // add navigation buttons
+    var prev = $('<button class="sbprev"><i class="fa fa-angle-left"></i></button>');
+    nav.append(prev);
+    var next= $('<button class="sbnext"><i class="fa fa-angle-right"></i></button>');
+    nav.append(next);
+
+    // add navigation frame
+    var frameList = $('<div class="sbframelist"></div>');
+    nav.append(frameList);
+    var ul = $('<ul></ul>');
+    frameList.append(ul);
+
+     // find all the level3 sections (those are the storyboard frames)
+    var frames = page.find('div.section.level3');
+    frames.each(function() {
+
+      // mark it
+      $(this).addClass('sbframe');
+
+      // divide it into chart content and (optional) commentary
+      $(this).addClass('dashboard-column-orientation');
+
+      // stuff the chart into it's own div w/ flex
+      $(this).wrapInner('<div class="sbframe-component"></div>');
+      setFlex($(this), 1);
+      var frame = $(this).children('.sbframe-component');
+
+      // extract the title from the h3
+      var li = $('<li></li>');
+      var h3 = frame.children('h3');
+      li.html(h3.html());
+      h3.remove();
+      ul.append(li);
+
+      // extract commentary
+      var hr = frame.children('hr');
+      if (hr.length) {
+        var commentary = hr.nextAll().detach();
+        hr.remove();
+        var commentaryFrame = $('<div class="sbframe-commentary"></div>');
+        commentaryFrame.addClass('flowing-content-shim');
+        commentaryFrame.addClass('flowing-content-container');
+        commentaryFrame.append(commentary);
+        $(this).append(commentaryFrame);
+
+        // look for a data-commentary-width attribute
+        var commentaryWidth = $(this).attr('data-commentary-width');
+        if (commentaryWidth)
+          commentaryFrame.css('width', commentaryWidth + 'px');
+      }
+
+      // layout the chart (force flex)
+      var result = layoutChart(frame, true);
+
+      // ice the notes if there are none
+      if (!result.notes)
+        frame.find('.chart-notes').remove();
+
+      // set flex on chart
+      setFlex(frame, 1);
+    });
+
+    // create a div to hold all the frames
+    var frameContent = $('<div class="sbframe-content"></div>');
+    frameContent.addClass('dashboard-row-orientation');
+    frameContent.append(frames.detach());
+
+    // row orientation to stack nav and frame content
+    page.addClass('dashboard-row-orientation');
+    page.append(nav);
+    page.append(frameContent);
+    setFlex(frameContent, 1);
+
+    // initialize sly
+    var sly = new Sly(frameList, {
+    		horizontal: true,
+    		itemNav: 'basic',
+    		smart: true,
+    		activateOn: 'click',
+    		startAt: 0,
+    		scrollBy: 1,
+    		activatePageOn: 'click',
+    		speed: 200,
+    		moveBy: 600,
+    		dragHandle: true,
+    		dynamicHandle: true,
+    		clickBar: true,
+    		keyboardNavBy: 'items',
+    		next: next,
+    		prev: prev
+    	}).init();
+
+    // make first frame active
+    frames.removeClass('active');
+    frames.first().addClass('active');
+
+    // subscribe to frame changed events
+    sly.on('active', function (eventName, itemIndex) {
+      frames.removeClass('active');
+      frames.eq(itemIndex).addClass('active')
+                          .trigger('shown');
+    });
+  }
+
+  function layoutPageByRows(page, fillPage) {
+
+    // row orientation
+    page.addClass('dashboard-row-orientation');
+
+    // find all the level2 sections (those are the rows)
+    var rows = page.find('div.section.level2');
+
+    // if there are no level2 sections then treat the
+    // entire page as if it's a level 2 section
+    if (rows.length === 0) {
+      page.wrapInner('<div class="section level2"></div>');
+      rows = page.find('div.section.level2');
+    }
+
+    rows.each(function () {
+
+      // flags
+      var haveNotes = false;
+      var haveFlexHeight = true;
+
+      // remove the h2
+      $(this).children('h2').remove();
+
+      // check for a tabset
+      var isTabset = $(this).hasClass('tabset');
+      if (isTabset)
+        layoutTabset($(this));
+
+      // give it row layout semantics if it's not a tabset
+      if (!isTabset)
+        $(this).addClass('dashboard-row');
+
+      // find all of the level 3 subheads
+      var columns = $(this).find('div.section.level3');
+
+      // determine figureSizes sizes
+      var figureSizes = chartFigureSizes(columns);
+
+      // fixup the columns
+      columns.each(function(index) {
+
+        // layout the chart (force flex if we are in a tabset)
+        var result = layoutChart($(this), isTabset);
+
+        // update flexHeight state
+        if (!result.flex)
+          haveFlexHeight = false;
+
+        // update state
+        if (result.notes)
+          haveNotes = true;
+
+        // set the column flex based on the figure width
+        // (value boxes will just get the default figure width)
+        var chartWidth = figureSizes[index].width;
+        setFlex($(this), chartWidth + ' ' + chartWidth + ' 0px');
+
+      });
+
+      // remove empty chart note divs
+      if (isTabset)
+        $(this).find('.chart-notes').filter(function() {
+            return $(this).html() === "&nbsp;";
+        }).remove();
+      if (!haveNotes)
+        $(this).find('.chart-notes').remove();
+
+       // make it a flexbox row
+      if (haveFlexHeight)
+        $(this).addClass('dashboard-row-flex');
+
+      // now we can set the height on all the wrappers (based on maximum
+      // figure height + room for title and notes, or data-height on the
+      // container if specified). However, don't do this if there is
+      // no flex on any of the constituent columns
+      var flexHeight = null;
+      var dataHeight = parseInt($(this).attr('data-height'));
+      if (dataHeight)
+        flexHeight = adjustedHeight(dataHeight, columns.first());
+      else if (haveFlexHeight)
+        flexHeight = maxChartHeight(figureSizes, columns);
+      if (flexHeight) {
+        if (fillPage)
+          setFlex($(this), flexHeight + ' ' + flexHeight + ' 0px');
+        else {
+          $(this).css('height', flexHeight + 'px');
+          setFlex($(this), '0 0 ' + flexHeight + 'px');
+        }
+      }
+
+    });
+  }
+
+  function layoutPageByColumns(page, fillPage) {
+
+    // column orientation
+    page.addClass('dashboard-column-orientation');
+
+    // find all the level2 sections (those are the columns)
+    var columns = page.find('div.section.level2');
+
+    // if there are no level2 sections then treat the
+    // entire page as if it's a level 2 section
+    if (columns.length === 0) {
+      page.wrapInner('<div class="section level2"></div>');
+      columns = page.find('div.section.level2');
+    }
+
+    // layout each column
+    columns.each(function (index) {
+
+      // remove the h2
+      $(this).children('h2').remove();
+
+      // make it a flexbox column
+      $(this).addClass('dashboard-column');
+
+      // check for a tabset
+      var isTabset = $(this).hasClass('tabset');
+      if (isTabset)
+        layoutTabset($(this));
+
+      // find all the h3 elements
+      var rows = $(this).find('div.section.level3');
+
+      // get the figure sizes for the rows
+      var figureSizes = chartFigureSizes(rows);
+
+      // column flex is the max row width (or data-width if specified)
+      var flexWidth;
+      var dataWidth = parseInt($(this).attr('data-width'));
+      if (dataWidth)
+        flexWidth = dataWidth;
+      else
+        flexWidth = maxChartWidth(figureSizes);
+      setFlex($(this), flexWidth + ' ' + flexWidth + ' 0px');
+
+      // layout each chart
+      rows.each(function(index) {
+
+        // perform the layout
+        var result = layoutChart($(this), false);
+
+        // ice the notes if there are none
+        if (!result.notes)
+          $(this).find('.chart-notes').remove();
+
+        // set flex height based on figHeight, then adjust
+        if (result.flex) {
+          var chartHeight = figureSizes[index].height;
+          chartHeight = adjustedHeight(chartHeight, $(this));
+          if (fillPage)
+            setFlex($(this), chartHeight + ' ' + chartHeight + ' 0px');
+          else {
+            $(this).css('height', chartHeight + 'px');
+            setFlex($(this), chartHeight + ' ' + chartHeight + ' ' + chartHeight + 'px');
+          }
+        }
+      });
+    });
+  }
+
+  function chartFigureSizes(charts) {
+
+    // sizes
+    var figureSizes = new Array(charts.length);
+
+    // check each chart
+    charts.each(function(index) {
+
+      // start with default
+      figureSizes[index] = {
+        width: _options.defaultFigWidth,
+        height: _options.defaultFigHeight
+      };
+
+      // look for data-height or data-width then knit options
+      var dataWidth = parseInt($(this).attr('data-width'));
+      var dataHeight = parseInt($(this).attr('data-height'));
+      var knitrOptions = $(this).find('.knitr-options:first');
+      var knitrWidth, knitrHeight;
+      if (knitrOptions) {
+        knitrWidth = parseInt(knitrOptions.attr('data-fig-width'));
+        knitrHeight =  parseInt(knitrOptions.attr('data-fig-height'));
+      }
+
+      // width
+      if (dataWidth)
+        figureSizes[index].width = dataWidth;
+      else if (knitrWidth)
+        figureSizes[index].width = knitrWidth;
+
+      // height
+      if (dataHeight)
+        figureSizes[index].height = dataHeight;
+      else if (knitrHeight)
+        figureSizes[index].height = knitrHeight;
+    });
+
+    // return sizes
+    return figureSizes;
+  }
+
+  function maxChartHeight(figureSizes, charts) {
+
+    // first compute the maximum height
+    var maxHeight = _options.defaultFigHeight;
+    for (var i = 0; i<figureSizes.length; i++)
+      if (figureSizes[i].height > maxHeight)
+        maxHeight = figureSizes[i].height;
+
+    // now add offests for chart title and chart notes
+    if (charts.length)
+      maxHeight = adjustedHeight(maxHeight, charts.first());
+
+    return maxHeight;
+  }
+
+  function adjustedHeight(height, chart) {
+    if (chart.length > 0) {
+      var chartTitle = chart.find('.chart-title');
+      if (chartTitle.length)
+        height += chartTitle.first().outerHeight();
+      var chartNotes = chart.find('.chart-notes');
+      if (chartNotes.length)
+        height += chartNotes.first().outerHeight();
+    }
+    return height;
+  }
+
+  function maxChartWidth(figureSizes) {
+    var maxWidth = _options.defaultFigWidth;
+    for (var i = 0; i<figureSizes.length; i++)
+      if (figureSizes[i].width > maxWidth)
+        maxWidth = figureSizes[i].width;
+    return maxWidth;
+  }
+
+  // layout a chart
+  function layoutChart(chart, forceFlex) {
+
+    // state to return
+    var result = {
+      notes: false,
+      flex: false
+    };
+
+    // extract the title
+    var title = extractTitle(chart);
+
+    // find components that apply to this container
+    var components = componentsFind(chart);
+
+    // if it's a custom component then call it and return
+    var customComponents = componentsCustom(components);
+    if (customComponents.length) {
+      componentsLayout(customComponents, title, chart);
+      result.notes = false;
+      result.flex = forceFlex || componentsFlex(customComponents);
+      return result;
+    }
+
+    // put all the content in a chart wrapper div
+    chart.addClass('chart-wrapper');
+    chart.wrapInner('<div class="chart-stage"></div>');
+    var chartContent = chart.children('.chart-stage');
+
+    // flex the content if appropriate
+    result.flex = forceFlex || componentsFlex(components);
+    if (result.flex) {
+      // add flex classes
+      chart.addClass('chart-wrapper-flex');
+      chartContent.addClass('chart-stage-flex');
+
+      // additional shim to break out of flexbox sizing
+      chartContent.wrapInner('<div class="chart-shim"></div>');
+      chartContent = chartContent.children('.chart-shim');
+    }
+
+    // set custom data-padding attribute
+    var pad = chart.attr('data-padding');
+    if (pad) {
+      if (pad === "0")
+        chart.addClass('no-padding');
+      else {
+        pad = pad + 'px';
+        chartContent.css('left', pad)
+                    .css('top', pad)
+                    .css('right', pad)
+                    .css('bottom', pad)
+      }
+    }
+
+    // call compoents
+    componentsLayout(components, title, chartContent);
+
+    // also activate components on shiny output
+    findShinyOutput(chartContent).on('shiny:value',
+      function(event) {
+        var element = $(event.target);
+        setTimeout(function() {
+
+          // see if we opted out of flex based on our output (for shiny
+          // we can't tell what type of output we have until after the
+          // value is bound)
+          var components = componentsFind(element);
+          var flex = forceFlex || componentsFlex(components);
+          if (!flex) {
+            chart.css('height', "");
+            setFlex(chart, "");
+            chart.removeClass('chart-wrapper-flex');
+            chartContent.removeClass('chart-stage-flex');
+            chartContent.children().unwrap();
+          }
+
+          // perform layout
+          componentsLayout(components, title, element.parent());
+        }, 10);
+      });
+
+    // add the title
+    var chartTitle = $('<div class="chart-title"></div>');
+    chartTitle.html(title);
+    chart.prepend(chartTitle);
+
+    // add the notes section
+    var chartNotes = $('<div class="chart-notes"></div>');
+    chartNotes.html('&nbsp;');
+    chart.append(chartNotes);
+
+    // attempt to extract notes if we have a component
+    if (components.length)
+      result.notes = extractChartNotes(chartContent, chartNotes);
+
+    // return result
+    return result;
+  }
+
+  // build a tabset from a section div with the .tabset class
+  function layoutTabset(tabset) {
+
+    // check for fade option
+    var fade = tabset.hasClass("tabset-fade");
+    var navClass = "nav-tabs";
+
+    // determine the heading level of the tabset and tabs
+    var match = tabset.attr('class').match(/level(\d) /);
+    if (match === null)
+      return;
+    var tabsetLevel = Number(match[1]);
+    var tabLevel = tabsetLevel + 1;
+
+    // find all subheadings immediately below
+    var tabs = tabset.find("div.section.level" + tabLevel);
+    if (!tabs.length)
+      return;
+
+    // create tablist and tab-content elements
+    var tabList = $('<ul class="nav ' + navClass + '" role="tablist"></ul>');
+    $(tabs[0]).before(tabList);
+    var tabContent = $('<div class="tab-content"></div>');
+    $(tabs[0]).before(tabContent);
+
+    // build the tabset
+    tabs.each(function(i) {
+
+      // get the tab div
+      var tab = $(tabs[i]);
+
+      // get the id then sanitize it for use with bootstrap tabs
+      var id = tab.attr('id');
+
+      // sanitize the id for use with bootstrap tabs
+      id = id.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_');
+      tab.attr('id', id);
+
+      // get the heading element within it and grab it's text
+      var heading = tab.find('h' + tabLevel + ':first');
+      var headingText = heading.html();
+
+      // build and append the tab list item
+      var a = $('<a role="tab" data-toggle="tab">' + headingText + '</a>');
+      a.attr('href', '#' + id);
+      a.attr('aria-controls', id);
+      var li = $('<li role="presentation"></li>');
+      li.append(a);
+      if (i === 0)
+        li.attr('class', 'active');
+      tabList.append(li);
+
+      // set it's attributes
+      tab.attr('role', 'tabpanel');
+      tab.addClass('tab-pane');
+      tab.addClass('tabbed-pane');
+      tab.addClass('no-title');
+      if (fade)
+        tab.addClass('fade');
+      if (i === 0) {
+        tab.addClass('active');
+        if (fade)
+          tab.addClass('in');
+      }
+
+      // move it into the tab content div
+      tab.detach().appendTo(tabContent);
+    });
+
+    // add nav-tabs-custom
+    tabset.addClass('nav-tabs-custom');
+
+    // internal layout is dashboard-column with tab-content flexing
+    tabset.addClass('dashboard-column');
+    setFlex(tabContent, 1);
+  }
+
+  // one time global initialization for components
+  function componentsInit(dashboardContainer) {
+    for (var i=0; i<window.FlexDashboardComponents.length; i++) {
+      var component = window.FlexDashboardComponents[i];
+      if (component.init)
+        component.init(dashboardContainer);
+    }
+  }
+
+  // find components that apply within a container
+  function componentsFind(container) {
+
+    // look for components
+    var components = [];
+    for (var i=0; i<window.FlexDashboardComponents.length; i++) {
+      var component = window.FlexDashboardComponents[i];
+      if (component.find(container).length)
+        components.push(component);
+    }
+
+    // if there were none then use a special flowing content component
+    // that just adds a scrollbar in fillPage mode
+    if (components.length == 0) {
+      components.push({
+        find: function(container) {
+          return container;
+        },
+
+        flex: function(fillPage) {
+          return fillPage;
+        },
+
+        layout: function(title, container, element, fillPage) {
+          if (fillPage) {
+            container.addClass('flowing-content-shim');
+            container.addClass('flowing-content-container');
+          }
+        }
+      });
+    }
+
+    return components;
+  }
+
+  // if there is a custom component then pick it out
+  function componentsCustom(components) {
+    var customComponent = [];
+    for (var i=0; i<components.length; i++)
+      if (components[i].type === "custom") {
+        customComponent.push(components[i]);
+        break;
+      }
+    return customComponent;
+  }
+
+  // query all components for flex
+  function componentsFlex(components) {
+
+    // no components at all means no flex
+    if (components.length === 0)
+      return false;
+
+    // otherwise query components (assume true unless we see false)
+    var isMobile = isMobilePhone();
+    for (var i=0; i<components.length; i++)
+      if (components[i].flex && !components[i].flex(_options.fillPage))
+        return false;
+    return true;
+  }
+
+  // layout all components
+  function componentsLayout(components, title, container) {
+    var isMobile = isMobilePhone();
+    for (var i=0; i<components.length; i++) {
+      var element = components[i].find(container);
+      if (components[i].layout) {
+        // call layout (don't call other components if it returns false)
+        var result = components[i].layout(title, container, element, _options.fillPage);
+        if (result === false)
+          return;
+      }
+    }
+  }
+
+  // get a reference to the h3, discover it's inner html, and remove it
+  function extractTitle(container) {
+    var h3 = container.children('h3').first();
+    var title = '';
+    if (!container.hasClass('no-title'))
+      title = h3.html();
+    h3.remove();
+    return title;
+  }
+
+  // extract chart notes
+  function extractChartNotes(chartContent, chartNotes) {
+    // look for a terminating blockquote or image caption
+    var blockquote = chartContent.children('blockquote:last-child');
+    var caption = chartContent.children('div.image-container')
+                              .children('p.caption');
+    if (blockquote.length) {
+      chartNotes.html(blockquote.children('p:first-child').html());
+      blockquote.remove();
+      return true;
+    } else if (caption.length) {
+      chartNotes.html(caption.html());
+      caption.remove();
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  function findShinyOutput(chartContent) {
+    return chartContent.find('.shiny-text-output, .shiny-html-output');
+  }
+
+  // safely detect rendering on a mobile phone
+  function isMobilePhone() {
+    try
+    {
+      return ! window.matchMedia("only screen and (min-width: 768px)").matches;
+    }
+    catch(e) {
+      return false;
+    }
+  }
+
+  function isFillPage() {
+    return _options.fillPage;
+  }
+
+  // detect portrait mode
+  function isPortrait() {
+    return ($(window).width() < $(window).height());
+  }
+
+  // safely detect rendering on a tablet
+  function isTablet() {
+    try
+    {
+      return window.matchMedia("only screen and (min-width: 769px) and (max-width: 992px)").matches;
+    }
+    catch(e) {
+      return false;
+    }
+  }
+
+  // test whether this is a shiny doc
+  function isShinyDoc() {
+    return (typeof(window.Shiny) !== "undefined" && !!window.Shiny.outputBindings);
+  }
+
+  // set flex using vendor specific prefixes
+  function setFlex(el, flex) {
+    el.css('-webkit-box-flex', flex)
+      .css('-webkit-flex', flex)
+      .css('-ms-flex', flex)
+      .css('flex', flex);
+  }
+
+  // support bookmarking of pages
+  function handleLocationHash() {
+
+    // restore tab/page from bookmark
+    var hash = window.location.hash;
+    if (hash.length > 0)
+      $('ul.nav a[href="' + hash + '"]').tab('show');
+    FlexDashboardUtils.manageActiveNavbarMenu();
+
+    // navigate to a tab when the history changes
+    window.addEventListener("popstate", function(e) {
+      var hash = window.location.hash;
+      var activeTab = $('ul.nav a[href="' + hash + '"]');
+      if (activeTab.length) {
+        activeTab.tab('show');
+      } else {
+        $('ul.nav a:first').tab('show');
+      }
+      FlexDashboardUtils.manageActiveNavbarMenu();
+    });
+
+    // add a hash to the URL when the user clicks on a tab/page
+    $('.navbar-nav a[data-toggle="tab"]').on('click', function(e) {
+      var baseUrl = FlexDashboardUtils.urlWithoutHash(window.location.href);
+      var hash = FlexDashboardUtils.urlHash($(this).attr('href'));
+      var href = baseUrl + hash;
+      FlexDashboardUtils.setLocation(href);
+    });
+
+    // handle clicks of other links that should activate pages
+    var navPages = $('ul.navbar-nav li a[data-toggle=tab]');
+    navPages.each(function() {
+      var href =  $(this).attr('href');
+      var links = $('a[href="' + href + '"][data-toggle!=tab]');
+      links.each(function() {
+        $(this).on('click', function(e) {
+          window.FlexDashboardUtils.showPage(href);
+        });
+      });
+    });
+  }
+
+  // tweak Prism highlighting
+  function initPrismHighlighting() {
+
+    if (window.Prism) {
+      Prism.languages.insertBefore('r', 'comment', {
+        'heading': [
+          {
+            // title 1
+        	  // =======
+
+        	  // title 2
+        	  // -------
+        	  pattern: /\w+.*(?:\r?\n|\r)(?:====+|----+)/,
+            alias: 'operator'
+          },
+          {
+            // ### title 3
+            pattern: /(^\s*)###[^#].+/m,
+            lookbehind: true,
+            alias: 'operator'
+          }
+        ]
+      });
+
+      // prism highlight
+      Prism.highlightAll();
+    }
+  }
+
+
+  // get theme color
+  var themeColors = {
+    bootstrap: {
+      primary: "rgba(51, 122, 183, 0.4)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    cerulean: {
+      primary: "rgb(47, 164, 231)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    journal: {
+      primary: "rgba(235, 104, 100, 0.70)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    flatly: {
+      primary: "rgba(44, 62, 80, 0.70)",
+      info: "rgba(52, 152, 219, 0.70)",
+      success: "rgba(24, 188, 156, 0.70)",
+      warning: "rgba(243, 156, 18, 0.70)",
+      danger: "rgba(231, 76, 60, 0.70)"
+    },
+    readable: {
+      primary: "rgba(69, 130, 236, 0.4)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    spacelab: {
+      primary: "rgba(68, 110, 155, 0.25)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    united: {
+      primary: "rgba(221, 72, 20, 0.30)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    cosmo: {
+      primary: "rgba(39, 128, 227, 0.7)",
+      info: "rgba(153, 84, 187, 0.7)",
+      success: "rgba(63, 182, 24, 0.7)",
+      warning: "rgba(255, 117, 24, 0.7)",
+      danger: "rgba(255, 0, 57, 0.7)"
+    },
+    lumen: {
+      primary: "rgba(21, 140, 186, 0.70)",
+      info: "rgba(117, 202, 235, 0.90)",
+      success: "rgba(40, 182, 44, 0.70)",
+      warning: "rgba(255, 133, 27, 0.70)",
+      danger: "rgba(255, 65, 54, 0.70)"
+    },
+    paper: {
+      primary: "rgba(33, 150, 243, 0.35)",
+      info: "rgb(225, 190, 231)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(255, 224, 178)",
+      danger: "rgb(249, 189, 187)"
+    },
+    sandstone: {
+      primary: "rgba(50, 93, 136, 0.3)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    simplex: {
+      primary: "rgba(217, 35, 15, 0.25)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    yeti: {
+      primary: "rgba(0, 140, 186, 0.298039)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    }
+  }
+  function themeColor(color) {
+    return themeColors[_options.theme][color];
+  }
+
+  FlexDashboard.prototype = {
+    constructor: FlexDashboard,
+    init: init,
+    isMobilePhone: isMobilePhone,
+    isFillPage: isFillPage,
+    themeColor: themeColor
+  };
+
+  return FlexDashboard;
+
+})();
+
+// utils
+window.FlexDashboardUtils = {
+  resizableImage: function(img) {
+    var src = img.attr('src');
+    var url = 'url("' + src + '")';
+    img.parent().css('background', url)
+                .css('background-size', 'contain')
+                .css('background-repeat', 'no-repeat')
+                .css('background-position', 'center')
+                .addClass('image-container');
+  },
+  setLocation: function(href) {
+    if (history && history.pushState) {
+      history.pushState(null, null, href);
+    } else {
+      window.location.replace(href);
+    }
+    setTimeout(function() {
+        window.scrollTo(0, 0);
+    }, 10);
+    this.manageActiveNavbarMenu();
+  },
+  showPage: function(href) {
+    $('ul.navbar-nav li a[href="' + href + '"]').tab('show');
+    var baseUrl = this.urlWithoutHash(window.location.href);
+    var loc = baseUrl + href;
+    this.setLocation(loc);
+  },
+  showLinkedValue: function(href) {
+    // check for a page link
+    if ($('ul.navbar-nav li a[data-toggle=tab][href="' + href + '"]').length > 0)
+      this.showPage(href);
+    else
+      window.open(href);
+  },
+  urlWithoutHash: function(url) {
+    var hashLoc = url.indexOf('#');
+    if (hashLoc != -1)
+      return url.substring(0, hashLoc);
+    else
+      return url;
+  },
+  urlHash: function(url) {
+    var hashLoc = url.indexOf('#');
+    if (hashLoc != -1)
+      return url.substring(hashLoc);
+    else
+      return "";
+  },
+  manageActiveNavbarMenu: function () {
+    // remove active from anyone currently active
+    $('.navbar ul.nav').find('li').removeClass('active');
+    // find the active tab
+    var activeTab = $('.dashboard-page-wrapper.tab-pane.active');
+    if (activeTab.length > 0) {
+      var tabId = activeTab.attr('id');
+      if (tabId)
+        $(".navbar ul.nav a[href='#" + tabId + "']").parents('li').addClass('active');
+    }
+  }
+};
+
+window.FlexDashboard = new FlexDashboard();
+
+// empty content
+window.FlexDashboardComponents.push({
+  find: function(container) {
+    if (container.find('p').length == 0)
+      return container;
+    else
+      return $();
+  }
+})
+
+// plot image
+window.FlexDashboardComponents.push({
+
+  find: function(container) {
+    return container.children('p')
+                    .children('img:only-child');
+  },
+
+  layout: function(title, container, element, fillPage) {
+    FlexDashboardUtils.resizableImage(element);
+  }
+});
+
+// plot image (figure style)
+window.FlexDashboardComponents.push({
+
+  find: function(container) {
+    return container.children('div.figure').children('img');
+  },
+
+  layout: function(title, container, element, fillPage) {
+    FlexDashboardUtils.resizableImage(element);
+  }
+});
+
+// htmlwidget
+window.FlexDashboardComponents.push({
+
+  init: function(dashboardContainer) {
+    // trigger "shown" after initial layout to force static htmlwidgets
+    // in runtime: shiny to be resized after the dom has been transformed
+    dashboardContainer.on('flexdashboard:layoutcomplete', function(event) {
+      setTimeout(function() {
+        dashboardContainer.trigger('shown');
+      }, 200);
+    });
+  },
+
+  find: function(container) {
+    return container.children('div[id^="htmlwidget-"],div.html-widget');
+  }
+});
+
+// gauge
+window.FlexDashboardComponents.push({
+
+  find: function(container) {
+    return container.children('div.html-widget.gauge');
+  },
+
+  flex: function(fillPage) {
+    return false;
+  },
+
+  layout: function(title, container, element, fillPage) {
+
+
+  }
+
+});
+
+// shiny output
+window.FlexDashboardComponents.push({
+  find: function(container) {
+    return container.children('div[class^="shiny-"]');
+  }
+});
+
+// datatables
+window.FlexDashboardComponents.push({
+  find: function(container) {
+    return container.find('.datatables');
+  },
+  flex: function(fillPage) {
+    return fillPage;
+  }
+});
+
+// bootstrap table
+window.FlexDashboardComponents.push({
+
+  find: function(container) {
+    var bsTable = container.find('table.table');
+    if (bsTable.length !== 0)
+      return bsTable;
+    else
+      return container.find('tr.header').parent('thead').parent('table');
+  },
+
+  flex: function(fillPage) {
+    return fillPage;
+  },
+
+  layout: function(title, container, element, fillPage) {
+
+    // alias variables
+    var bsTable = element;
+
+    // fixup xtable generated tables with a proper thead
+    var headerRow = bsTable.find('tbody > tr:first-child > th').parent();
+    if (headerRow.length > 0) {
+      var thead = $('<thead></thead>');
+      bsTable.prepend(thead);
+      headerRow.detach().appendTo(thead);
+    }
+
+    // improve appearance
+    container.addClass('bootstrap-table');
+
+    // for fill page provide scrolling w/ sticky headers
+    if (fillPage) {
+      // force scrollbar on overflow
+      container.addClass('flowing-content-shim');
+
+      // stable table headers when scrolling
+      bsTable.stickyTableHeaders({
+        scrollableArea: container
+      });
+    }
+  }
+});
+
+// embedded shiny app
+window.FlexDashboardComponents.push({
+
+  find: function(container) {
+    return container.find('iframe.shiny-frame');
+  },
+
+  flex: function(fillPage) {
+    return fillPage;
+  },
+
+  layout: function(title, container, element, fillPage) {
+    if (fillPage) {
+      element.attr('height', '100%');
+    } else {
+      // provide default height if necessary
+      var height = element.get(0).style.height;
+      if (!height)
+        height = element.attr('height');
+      if (!height)
+        element.attr('height', 500);
+    }
+  }
+});
+
+// shiny fillRow or fillCol
+window.FlexDashboardComponents.push({
+
+  find: function(container) {
+    return container.find('.flexfill-container');
+  },
+
+  flex: function(fillPage) {
+    return fillPage;
+  },
+
+  layout: function(title, container, element, fillPage) {
+    if (fillPage)
+      element.css('height', '100%');
+    else {
+      // provide default height if necessary
+      var height = element.get(0).style.height;
+      if (height === "100%" || height === "auto" || height === "initial" ||
+          height === "inherit" || !height) {
+        element.css('height', 500);
+      }
+    }
+  }
+});
+
+// valueBox
+window.FlexDashboardComponents.push({
+
+  type: "custom",
+
+  find: function(container) {
+    if (container.find('span.value-output, .shiny-valuebox-output').length)
+      return container;
+    else
+      return $();
+  },
+
+  flex: function(fillPage) {
+    return false;
+  },
+
+  layout: function(title, container, element, fillPage) {
+
+    // alias variables
+    var chartTitle = title;
+    var valueBox = element;
+
+    // add value-box class to container
+    container.addClass('value-box');
+
+    // value paragraph
+    var value = $('<p class="value"></p>');
+
+    // if we have shiny-text-output then just move it in
+    var valueOutputSpan = [];
+    var shinyOutput = valueBox.find('.shiny-valuebox-output').detach();
+    if (shinyOutput.length) {
+      valueBox.children().remove();
+      shinyOutput.html("&mdash;");
+      value.append(shinyOutput);
+    } else {
+      // extract the value (remove leading vector index)
+      var chartValue = valueBox.text().trim();
+      chartValue = chartValue.replace("[1] ", "");
+      valueOutputSpan = valueBox.find('span.value-output').detach();
+      valueBox.children().remove();
+      value.text(chartValue);
+    }
+
+    // caption
+    var caption = $('<p class="caption"></p>');
+    caption.html(chartTitle);
+
+    // build inner div for value box and add it
+    var inner = $('<div class="inner"></div>');
+    inner.append(value);
+    inner.append(caption);
+    valueBox.append(inner);
+
+    // add icon if specified
+    var icon = $('<div class="icon"><i></i></div>');
+    valueBox.append(icon);
+    function setIcon(chartIcon) {
+      var iconLib = "";
+      var components = chartIcon.split("-");
+      if (components.length > 1)
+        iconLib = components[0];
+      icon.children('i').attr('class', iconLib + ' ' + chartIcon);
+    }
+    var chartIcon = valueBox.attr('data-icon');
+    if (chartIcon)
+      setIcon(chartIcon);
+
+    // set color based on data-background if necessary
+    var dataBackground = valueBox.attr('data-background');
+    if (dataBackground)
+      valueBox.css('background-color', bgColor);
+    else {
+      // default to bg-primary if no other background is specified
+      if (!valueBox.hasClass('bg-primary') &&
+          !valueBox.hasClass('bg-info') &&
+          !valueBox.hasClass('bg-warning') &&
+          !valueBox.hasClass('bg-success') &&
+          !valueBox.hasClass('bg-danger')) {
+        valueBox.addClass('bg-primary');
+      }
+    }
+
+    // handle data attributes in valueOutputSpan
+    function handleValueOutput(valueOutput) {
+
+      // caption
+      var dataCaption = valueOutput.attr('data-caption');
+      if (dataCaption)
+        caption.html(dataCaption);
+
+      // icon
+      var dataIcon = valueOutput.attr('data-icon');
+      if (dataIcon)
+        setIcon(dataIcon);
+
+      // color
+      var dataColor = valueOutput.attr('data-color');
+      if (dataColor) {
+        if (dataColor.indexOf('bg-') === 0) {
+          valueBox.css('background-color', '');
+          if (!valueBox.hasClass(dataColor)) {
+             valueBox.removeClass('bg-primary bg-info bg-warning bg-danger bg-success');
+             valueBox.addClass(dataColor);
+          }
+        } else {
+          valueBox.removeClass('bg-primary bg-info bg-warning bg-danger bg-success');
+          valueBox.css('background-color', dataColor);
+        }
+      }
+
+      // url
+      var dataHref = valueOutput.attr('data-href');
+      if (dataHref) {
+        valueBox.addClass('linked-value');
+        valueBox.on('click', function(e) {
+          window.FlexDashboardUtils.showLinkedValue(dataHref);
+        });
+      }
+    }
+
+    // check for a valueOutputSpan
+    if (valueOutputSpan.length > 0) {
+      handleValueOutput(valueOutputSpan);
+    }
+
+    // if we have a shinyOutput then bind a listener to handle
+    // new valueOutputSpan values
+    shinyOutput.on('shiny:value',
+      function(event) {
+        var element = $(event.target);
+        setTimeout(function() {
+          var valueOutputSpan = element.find('span.value-output');
+          if (valueOutputSpan.length > 0)
+            handleValueOutput(valueOutputSpan);
+        }, 10);
+      }
+    );
+  }
+});
+
+
+</script>
+
+<div id="dashboard-container">
+
+<div id="row" class="section level2" data-height="275">
+<h2>Row</h2>
+<div id="introduction" class="section level3">
+<h3>Introduction</h3>
+<p>
+<p><strong>Hi there!</strong> I built this little interactive chart of <a href="http://www.uslsoccer.com/">USL</a> standings after becoming frustrated with the fact that some teams had so many games in hand over other teams (at one point this season, a team in the Western Conference had played 6 more games than another team) that the official standings became somewhat misleading. It’s less important how many points each team has on a given <strong>date</strong> than how many points they each have after playing a given number of <strong>games</strong>.</p>
+<p>
+<p>So one thing these charts do is allow you to compare relative team standings after any given number of games. Just hover over a point in the charts, and you’ll see the relative positions of all the teams when they had played that number of games. You can also remove a team from the chart by clicking its name in the legend, so you can see just the teams you want to see.</p>
+<p>
+<p>But I have also made another, more experimental modification. Instead of showing the number of points each team has, the charts show the number of points <strong>minus the number of games played</strong>. Put another way, instead of 3 points for a win, 1 for a draw, and 0 for a loss, they show 2, 0, and -1 points respectively. This has the benefit of showing a team going <strong>down</strong> when they lose a game, staying level when they draw, and going up when they win, but without changing their relative positions. It’s sort of like rotating the picture clockwise a bit. This way, if two teams have the same number of points, but one has played fewer games than the other, the team that has played fewer games is visually higher on the chart than the one that has played more games, giving what I think is a better representation of their relative positions in the standings. I hope you find it as useful as I do!</p>
+</div>
+</div>
+<div id="row-1" class="section level2">
+<h2>Row</h2>
+<div id="western-conference" class="section level3" font-size="16">
+<h3><strong>Western Conference</strong></h3>
+<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+
+</div>
+<div id="htmlwidget-e401d5efa00c399ac136" style="width:100%;height:500px;" class="highchart html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e401d5efa00c399ac136">{"x":{"hc_opts":{"title":{"text":null},"yAxis":{"title":{"text":"Points Minus Games Played"},"type":"linear"},"credits":{"enabled":false},"exporting":{"enabled":false},"plotOptions":{"series":{"turboThreshold":0,"showInLegend":true},"treemap":{"layoutAlgorithm":"squarified"},"scatter":{"marker":{"symbol":"circle"}}},"series":[{"name":"CS Switchbacks FC","data":[{"Teams":"CS Switchbacks FC","Game":1,"Points":3,"Conference":"West","x":1,"y":2},{"Teams":"CS Switchbacks FC","Game":2,"Points":4,"Conference":"West","x":2,"y":2},{"Teams":"CS Switchbacks FC","Game":3,"Points":5,"Conference":"West","x":3,"y":2},{"Teams":"CS Switchbacks FC","Game":4,"Points":5,"Conference":"West","x":4,"y":1},{"Teams":"CS Switchbacks FC","Game":5,"Points":8,"Conference":"West","x":5,"y":3},{"Teams":"CS Switchbacks FC","Game":6,"Points":9,"Conference":"West","x":6,"y":3},{"Teams":"CS Switchbacks FC","Game":7,"Points":9,"Conference":"West","x":7,"y":2},{"Teams":"CS Switchbacks FC","Game":8,"Points":12,"Conference":"West","x":8,"y":4},{"Teams":"CS Switchbacks FC","Game":9,"Points":13,"Conference":"West","x":9,"y":4},{"Teams":"CS Switchbacks FC","Game":10,"Points":13,"Conference":"West","x":10,"y":3},{"Teams":"CS Switchbacks FC","Game":11,"Points":13,"Conference":"West","x":11,"y":2},{"Teams":"CS Switchbacks FC","Game":12,"Points":14,"Conference":"West","x":12,"y":2},{"Teams":"CS Switchbacks FC","Game":13,"Points":17,"Conference":"West","x":13,"y":4},{"Teams":"CS Switchbacks FC","Game":14,"Points":20,"Conference":"West","x":14,"y":6},{"Teams":"CS Switchbacks FC","Game":15,"Points":20,"Conference":"West","x":15,"y":5},{"Teams":"CS Switchbacks FC","Game":16,"Points":23,"Conference":"West","x":16,"y":7},{"Teams":"CS Switchbacks FC","Game":17,"Points":23,"Conference":"West","x":17,"y":6},{"Teams":"CS Switchbacks FC","Game":18,"Points":24,"Conference":"West","x":18,"y":6},{"Teams":"CS Switchbacks FC","Game":19,"Points":24,"Conference":"West","x":19,"y":5},{"Teams":"CS Switchbacks FC","Game":20,"Points":24,"Conference":"West","x":20,"y":4},{"Teams":"CS Switchbacks FC","Game":21,"Points":27,"Conference":"West","x":21,"y":6},{"Teams":"CS Switchbacks FC","Game":22,"Points":30,"Conference":"West","x":22,"y":8},{"Teams":"CS Switchbacks FC","Game":23,"Points":33,"Conference":"West","x":23,"y":10},{"Teams":"CS Switchbacks FC","Game":24,"Points":33,"Conference":"West","x":24,"y":9},{"Teams":"CS Switchbacks FC","Game":25,"Points":33,"Conference":"West","x":25,"y":8},{"Teams":"CS Switchbacks FC","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"CS Switchbacks FC","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"CS Switchbacks FC","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"CS Switchbacks FC","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"CS Switchbacks FC","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"LA Galaxy II","data":[{"Teams":"LA Galaxy II","Game":1,"Points":3,"Conference":"West","x":1,"y":2},{"Teams":"LA Galaxy II","Game":2,"Points":3,"Conference":"West","x":2,"y":1},{"Teams":"LA Galaxy II","Game":3,"Points":3,"Conference":"West","x":3,"y":0},{"Teams":"LA Galaxy II","Game":4,"Points":3,"Conference":"West","x":4,"y":-1},{"Teams":"LA Galaxy II","Game":5,"Points":4,"Conference":"West","x":5,"y":-1},{"Teams":"LA Galaxy II","Game":6,"Points":4,"Conference":"West","x":6,"y":-2},{"Teams":"LA Galaxy II","Game":7,"Points":4,"Conference":"West","x":7,"y":-3},{"Teams":"LA Galaxy II","Game":8,"Points":7,"Conference":"West","x":8,"y":-1},{"Teams":"LA Galaxy II","Game":9,"Points":8,"Conference":"West","x":9,"y":-1},{"Teams":"LA Galaxy II","Game":10,"Points":8,"Conference":"West","x":10,"y":-2},{"Teams":"LA Galaxy II","Game":11,"Points":8,"Conference":"West","x":11,"y":-3},{"Teams":"LA Galaxy II","Game":12,"Points":8,"Conference":"West","x":12,"y":-4},{"Teams":"LA Galaxy II","Game":13,"Points":11,"Conference":"West","x":13,"y":-2},{"Teams":"LA Galaxy II","Game":14,"Points":11,"Conference":"West","x":14,"y":-3},{"Teams":"LA Galaxy II","Game":15,"Points":11,"Conference":"West","x":15,"y":-4},{"Teams":"LA Galaxy II","Game":16,"Points":11,"Conference":"West","x":16,"y":-5},{"Teams":"LA Galaxy II","Game":17,"Points":14,"Conference":"West","x":17,"y":-3},{"Teams":"LA Galaxy II","Game":18,"Points":15,"Conference":"West","x":18,"y":-3},{"Teams":"LA Galaxy II","Game":19,"Points":16,"Conference":"West","x":19,"y":-3},{"Teams":"LA Galaxy II","Game":20,"Points":19,"Conference":"West","x":20,"y":-1},{"Teams":"LA Galaxy II","Game":21,"Points":19,"Conference":"West","x":21,"y":-2},{"Teams":"LA Galaxy II","Game":22,"Points":22,"Conference":"West","x":22,"y":0},{"Teams":"LA Galaxy II","Game":23,"Points":null,"Conference":"West","x":23,"y":null},{"Teams":"LA Galaxy II","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"LA Galaxy II","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"LA Galaxy II","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"LA Galaxy II","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"LA Galaxy II","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"LA Galaxy II","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"LA Galaxy II","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"OKC Energy FC","data":[{"Teams":"OKC Energy FC","Game":1,"Points":0,"Conference":"West","x":1,"y":-1},{"Teams":"OKC Energy FC","Game":2,"Points":1,"Conference":"West","x":2,"y":-1},{"Teams":"OKC Energy FC","Game":3,"Points":1,"Conference":"West","x":3,"y":-2},{"Teams":"OKC Energy FC","Game":4,"Points":4,"Conference":"West","x":4,"y":0},{"Teams":"OKC Energy FC","Game":5,"Points":4,"Conference":"West","x":5,"y":-1},{"Teams":"OKC Energy FC","Game":6,"Points":4,"Conference":"West","x":6,"y":-2},{"Teams":"OKC Energy FC","Game":7,"Points":7,"Conference":"West","x":7,"y":0},{"Teams":"OKC Energy FC","Game":8,"Points":10,"Conference":"West","x":8,"y":2},{"Teams":"OKC Energy FC","Game":9,"Points":10,"Conference":"West","x":9,"y":1},{"Teams":"OKC Energy FC","Game":10,"Points":13,"Conference":"West","x":10,"y":3},{"Teams":"OKC Energy FC","Game":11,"Points":14,"Conference":"West","x":11,"y":3},{"Teams":"OKC Energy FC","Game":12,"Points":17,"Conference":"West","x":12,"y":5},{"Teams":"OKC Energy FC","Game":13,"Points":17,"Conference":"West","x":13,"y":4},{"Teams":"OKC Energy FC","Game":14,"Points":18,"Conference":"West","x":14,"y":4},{"Teams":"OKC Energy FC","Game":15,"Points":18,"Conference":"West","x":15,"y":3},{"Teams":"OKC Energy FC","Game":16,"Points":18,"Conference":"West","x":16,"y":2},{"Teams":"OKC Energy FC","Game":17,"Points":19,"Conference":"West","x":17,"y":2},{"Teams":"OKC Energy FC","Game":18,"Points":22,"Conference":"West","x":18,"y":4},{"Teams":"OKC Energy FC","Game":19,"Points":23,"Conference":"West","x":19,"y":4},{"Teams":"OKC Energy FC","Game":20,"Points":26,"Conference":"West","x":20,"y":6},{"Teams":"OKC Energy FC","Game":21,"Points":29,"Conference":"West","x":21,"y":8},{"Teams":"OKC Energy FC","Game":22,"Points":29,"Conference":"West","x":22,"y":7},{"Teams":"OKC Energy FC","Game":23,"Points":null,"Conference":"West","x":23,"y":null},{"Teams":"OKC Energy FC","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"OKC Energy FC","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"OKC Energy FC","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"OKC Energy FC","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"OKC Energy FC","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"OKC Energy FC","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"OKC Energy FC","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Orange County SC","data":[{"Teams":"Orange County SC","Game":1,"Points":3,"Conference":"West","x":1,"y":2},{"Teams":"Orange County SC","Game":2,"Points":3,"Conference":"West","x":2,"y":1},{"Teams":"Orange County SC","Game":3,"Points":6,"Conference":"West","x":3,"y":3},{"Teams":"Orange County SC","Game":4,"Points":7,"Conference":"West","x":4,"y":3},{"Teams":"Orange County SC","Game":5,"Points":10,"Conference":"West","x":5,"y":5},{"Teams":"Orange County SC","Game":6,"Points":10,"Conference":"West","x":6,"y":4},{"Teams":"Orange County SC","Game":7,"Points":10,"Conference":"West","x":7,"y":3},{"Teams":"Orange County SC","Game":8,"Points":10,"Conference":"West","x":8,"y":2},{"Teams":"Orange County SC","Game":9,"Points":13,"Conference":"West","x":9,"y":4},{"Teams":"Orange County SC","Game":10,"Points":14,"Conference":"West","x":10,"y":4},{"Teams":"Orange County SC","Game":11,"Points":15,"Conference":"West","x":11,"y":4},{"Teams":"Orange County SC","Game":12,"Points":18,"Conference":"West","x":12,"y":6},{"Teams":"Orange County SC","Game":13,"Points":19,"Conference":"West","x":13,"y":6},{"Teams":"Orange County SC","Game":14,"Points":22,"Conference":"West","x":14,"y":8},{"Teams":"Orange County SC","Game":15,"Points":25,"Conference":"West","x":15,"y":10},{"Teams":"Orange County SC","Game":16,"Points":25,"Conference":"West","x":16,"y":9},{"Teams":"Orange County SC","Game":17,"Points":26,"Conference":"West","x":17,"y":9},{"Teams":"Orange County SC","Game":18,"Points":26,"Conference":"West","x":18,"y":8},{"Teams":"Orange County SC","Game":19,"Points":27,"Conference":"West","x":19,"y":8},{"Teams":"Orange County SC","Game":20,"Points":28,"Conference":"West","x":20,"y":8},{"Teams":"Orange County SC","Game":21,"Points":29,"Conference":"West","x":21,"y":8},{"Teams":"Orange County SC","Game":22,"Points":null,"Conference":"West","x":22,"y":null},{"Teams":"Orange County SC","Game":23,"Points":null,"Conference":"West","x":23,"y":null},{"Teams":"Orange County SC","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"Orange County SC","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"Orange County SC","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"Orange County SC","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"Orange County SC","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"Orange County SC","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"Orange County SC","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Phoenix Rising FC","data":[{"Teams":"Phoenix Rising FC","Game":1,"Points":0,"Conference":"West","x":1,"y":-1},{"Teams":"Phoenix Rising FC","Game":2,"Points":0,"Conference":"West","x":2,"y":-2},{"Teams":"Phoenix Rising FC","Game":3,"Points":3,"Conference":"West","x":3,"y":0},{"Teams":"Phoenix Rising FC","Game":4,"Points":6,"Conference":"West","x":4,"y":2},{"Teams":"Phoenix Rising FC","Game":5,"Points":6,"Conference":"West","x":5,"y":1},{"Teams":"Phoenix Rising FC","Game":6,"Points":9,"Conference":"West","x":6,"y":3},{"Teams":"Phoenix Rising FC","Game":7,"Points":9,"Conference":"West","x":7,"y":2},{"Teams":"Phoenix Rising FC","Game":8,"Points":12,"Conference":"West","x":8,"y":4},{"Teams":"Phoenix Rising FC","Game":9,"Points":12,"Conference":"West","x":9,"y":3},{"Teams":"Phoenix Rising FC","Game":10,"Points":15,"Conference":"West","x":10,"y":5},{"Teams":"Phoenix Rising FC","Game":11,"Points":16,"Conference":"West","x":11,"y":5},{"Teams":"Phoenix Rising FC","Game":12,"Points":17,"Conference":"West","x":12,"y":5},{"Teams":"Phoenix Rising FC","Game":13,"Points":18,"Conference":"West","x":13,"y":5},{"Teams":"Phoenix Rising FC","Game":14,"Points":19,"Conference":"West","x":14,"y":5},{"Teams":"Phoenix Rising FC","Game":15,"Points":22,"Conference":"West","x":15,"y":7},{"Teams":"Phoenix Rising FC","Game":16,"Points":22,"Conference":"West","x":16,"y":6},{"Teams":"Phoenix Rising FC","Game":17,"Points":22,"Conference":"West","x":17,"y":5},{"Teams":"Phoenix Rising FC","Game":18,"Points":25,"Conference":"West","x":18,"y":7},{"Teams":"Phoenix Rising FC","Game":19,"Points":26,"Conference":"West","x":19,"y":7},{"Teams":"Phoenix Rising FC","Game":20,"Points":27,"Conference":"West","x":20,"y":7},{"Teams":"Phoenix Rising FC","Game":21,"Points":null,"Conference":"West","x":21,"y":null},{"Teams":"Phoenix Rising FC","Game":22,"Points":null,"Conference":"West","x":22,"y":null},{"Teams":"Phoenix Rising FC","Game":23,"Points":null,"Conference":"West","x":23,"y":null},{"Teams":"Phoenix Rising FC","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"Phoenix Rising FC","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"Phoenix Rising FC","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"Phoenix Rising FC","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"Phoenix Rising FC","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"Phoenix Rising FC","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"Phoenix Rising FC","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Portland Timbers II","data":[{"Teams":"Portland Timbers II","Game":1,"Points":0,"Conference":"West","x":1,"y":-1},{"Teams":"Portland Timbers II","Game":2,"Points":0,"Conference":"West","x":2,"y":-2},{"Teams":"Portland Timbers II","Game":3,"Points":0,"Conference":"West","x":3,"y":-3},{"Teams":"Portland Timbers II","Game":4,"Points":0,"Conference":"West","x":4,"y":-4},{"Teams":"Portland Timbers II","Game":5,"Points":0,"Conference":"West","x":5,"y":-5},{"Teams":"Portland Timbers II","Game":6,"Points":3,"Conference":"West","x":6,"y":-3},{"Teams":"Portland Timbers II","Game":7,"Points":3,"Conference":"West","x":7,"y":-4},{"Teams":"Portland Timbers II","Game":8,"Points":3,"Conference":"West","x":8,"y":-5},{"Teams":"Portland Timbers II","Game":9,"Points":4,"Conference":"West","x":9,"y":-5},{"Teams":"Portland Timbers II","Game":10,"Points":4,"Conference":"West","x":10,"y":-6},{"Teams":"Portland Timbers II","Game":11,"Points":4,"Conference":"West","x":11,"y":-7},{"Teams":"Portland Timbers II","Game":12,"Points":4,"Conference":"West","x":12,"y":-8},{"Teams":"Portland Timbers II","Game":13,"Points":4,"Conference":"West","x":13,"y":-9},{"Teams":"Portland Timbers II","Game":14,"Points":4,"Conference":"West","x":14,"y":-10},{"Teams":"Portland Timbers II","Game":15,"Points":4,"Conference":"West","x":15,"y":-11},{"Teams":"Portland Timbers II","Game":16,"Points":5,"Conference":"West","x":16,"y":-11},{"Teams":"Portland Timbers II","Game":17,"Points":5,"Conference":"West","x":17,"y":-12},{"Teams":"Portland Timbers II","Game":18,"Points":5,"Conference":"West","x":18,"y":-13},{"Teams":"Portland Timbers II","Game":19,"Points":6,"Conference":"West","x":19,"y":-13},{"Teams":"Portland Timbers II","Game":20,"Points":9,"Conference":"West","x":20,"y":-11},{"Teams":"Portland Timbers II","Game":21,"Points":9,"Conference":"West","x":21,"y":-12},{"Teams":"Portland Timbers II","Game":22,"Points":9,"Conference":"West","x":22,"y":-13},{"Teams":"Portland Timbers II","Game":23,"Points":9,"Conference":"West","x":23,"y":-14},{"Teams":"Portland Timbers II","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"Portland Timbers II","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"Portland Timbers II","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"Portland Timbers II","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"Portland Timbers II","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"Portland Timbers II","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"Portland Timbers II","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Real Monarchs SLC","data":[{"Teams":"Real Monarchs SLC","Game":1,"Points":3,"Conference":"West","x":1,"y":2},{"Teams":"Real Monarchs SLC","Game":2,"Points":6,"Conference":"West","x":2,"y":4},{"Teams":"Real Monarchs SLC","Game":3,"Points":9,"Conference":"West","x":3,"y":6},{"Teams":"Real Monarchs SLC","Game":4,"Points":9,"Conference":"West","x":4,"y":5},{"Teams":"Real Monarchs SLC","Game":5,"Points":12,"Conference":"West","x":5,"y":7},{"Teams":"Real Monarchs SLC","Game":6,"Points":15,"Conference":"West","x":6,"y":9},{"Teams":"Real Monarchs SLC","Game":7,"Points":18,"Conference":"West","x":7,"y":11},{"Teams":"Real Monarchs SLC","Game":8,"Points":21,"Conference":"West","x":8,"y":13},{"Teams":"Real Monarchs SLC","Game":9,"Points":24,"Conference":"West","x":9,"y":15},{"Teams":"Real Monarchs SLC","Game":10,"Points":27,"Conference":"West","x":10,"y":17},{"Teams":"Real Monarchs SLC","Game":11,"Points":30,"Conference":"West","x":11,"y":19},{"Teams":"Real Monarchs SLC","Game":12,"Points":33,"Conference":"West","x":12,"y":21},{"Teams":"Real Monarchs SLC","Game":13,"Points":36,"Conference":"West","x":13,"y":23},{"Teams":"Real Monarchs SLC","Game":14,"Points":37,"Conference":"West","x":14,"y":23},{"Teams":"Real Monarchs SLC","Game":15,"Points":37,"Conference":"West","x":15,"y":22},{"Teams":"Real Monarchs SLC","Game":16,"Points":40,"Conference":"West","x":16,"y":24},{"Teams":"Real Monarchs SLC","Game":17,"Points":43,"Conference":"West","x":17,"y":26},{"Teams":"Real Monarchs SLC","Game":18,"Points":44,"Conference":"West","x":18,"y":26},{"Teams":"Real Monarchs SLC","Game":19,"Points":47,"Conference":"West","x":19,"y":28},{"Teams":"Real Monarchs SLC","Game":20,"Points":48,"Conference":"West","x":20,"y":28},{"Teams":"Real Monarchs SLC","Game":21,"Points":48,"Conference":"West","x":21,"y":27},{"Teams":"Real Monarchs SLC","Game":22,"Points":51,"Conference":"West","x":22,"y":29},{"Teams":"Real Monarchs SLC","Game":23,"Points":52,"Conference":"West","x":23,"y":29},{"Teams":"Real Monarchs SLC","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"Real Monarchs SLC","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"Real Monarchs SLC","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"Real Monarchs SLC","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"Real Monarchs SLC","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"Real Monarchs SLC","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"Real Monarchs SLC","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Reno 1868 FC","data":[{"Teams":"Reno 1868 FC","Game":1,"Points":0,"Conference":"West","x":1,"y":-1},{"Teams":"Reno 1868 FC","Game":2,"Points":1,"Conference":"West","x":2,"y":-1},{"Teams":"Reno 1868 FC","Game":3,"Points":1,"Conference":"West","x":3,"y":-2},{"Teams":"Reno 1868 FC","Game":4,"Points":1,"Conference":"West","x":4,"y":-3},{"Teams":"Reno 1868 FC","Game":5,"Points":2,"Conference":"West","x":5,"y":-3},{"Teams":"Reno 1868 FC","Game":6,"Points":5,"Conference":"West","x":6,"y":-1},{"Teams":"Reno 1868 FC","Game":7,"Points":8,"Conference":"West","x":7,"y":1},{"Teams":"Reno 1868 FC","Game":8,"Points":11,"Conference":"West","x":8,"y":3},{"Teams":"Reno 1868 FC","Game":9,"Points":12,"Conference":"West","x":9,"y":3},{"Teams":"Reno 1868 FC","Game":10,"Points":15,"Conference":"West","x":10,"y":5},{"Teams":"Reno 1868 FC","Game":11,"Points":18,"Conference":"West","x":11,"y":7},{"Teams":"Reno 1868 FC","Game":12,"Points":18,"Conference":"West","x":12,"y":6},{"Teams":"Reno 1868 FC","Game":13,"Points":21,"Conference":"West","x":13,"y":8},{"Teams":"Reno 1868 FC","Game":14,"Points":22,"Conference":"West","x":14,"y":8},{"Teams":"Reno 1868 FC","Game":15,"Points":25,"Conference":"West","x":15,"y":10},{"Teams":"Reno 1868 FC","Game":16,"Points":26,"Conference":"West","x":16,"y":10},{"Teams":"Reno 1868 FC","Game":17,"Points":27,"Conference":"West","x":17,"y":10},{"Teams":"Reno 1868 FC","Game":18,"Points":30,"Conference":"West","x":18,"y":12},{"Teams":"Reno 1868 FC","Game":19,"Points":30,"Conference":"West","x":19,"y":11},{"Teams":"Reno 1868 FC","Game":20,"Points":33,"Conference":"West","x":20,"y":13},{"Teams":"Reno 1868 FC","Game":21,"Points":36,"Conference":"West","x":21,"y":15},{"Teams":"Reno 1868 FC","Game":22,"Points":null,"Conference":"West","x":22,"y":null},{"Teams":"Reno 1868 FC","Game":23,"Points":null,"Conference":"West","x":23,"y":null},{"Teams":"Reno 1868 FC","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"Reno 1868 FC","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"Reno 1868 FC","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"Reno 1868 FC","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"Reno 1868 FC","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"Reno 1868 FC","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"Reno 1868 FC","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Rio Grande Valley FC","data":[{"Teams":"Rio Grande Valley FC","Game":1,"Points":0,"Conference":"West","x":1,"y":-1},{"Teams":"Rio Grande Valley FC","Game":2,"Points":0,"Conference":"West","x":2,"y":-2},{"Teams":"Rio Grande Valley FC","Game":3,"Points":3,"Conference":"West","x":3,"y":0},{"Teams":"Rio Grande Valley FC","Game":4,"Points":6,"Conference":"West","x":4,"y":2},{"Teams":"Rio Grande Valley FC","Game":5,"Points":6,"Conference":"West","x":5,"y":1},{"Teams":"Rio Grande Valley FC","Game":6,"Points":9,"Conference":"West","x":6,"y":3},{"Teams":"Rio Grande Valley FC","Game":7,"Points":12,"Conference":"West","x":7,"y":5},{"Teams":"Rio Grande Valley FC","Game":8,"Points":13,"Conference":"West","x":8,"y":5},{"Teams":"Rio Grande Valley FC","Game":9,"Points":14,"Conference":"West","x":9,"y":5},{"Teams":"Rio Grande Valley FC","Game":10,"Points":14,"Conference":"West","x":10,"y":4},{"Teams":"Rio Grande Valley FC","Game":11,"Points":17,"Conference":"West","x":11,"y":6},{"Teams":"Rio Grande Valley FC","Game":12,"Points":17,"Conference":"West","x":12,"y":5},{"Teams":"Rio Grande Valley FC","Game":13,"Points":17,"Conference":"West","x":13,"y":4},{"Teams":"Rio Grande Valley FC","Game":14,"Points":20,"Conference":"West","x":14,"y":6},{"Teams":"Rio Grande Valley FC","Game":15,"Points":20,"Conference":"West","x":15,"y":5},{"Teams":"Rio Grande Valley FC","Game":16,"Points":21,"Conference":"West","x":16,"y":5},{"Teams":"Rio Grande Valley FC","Game":17,"Points":21,"Conference":"West","x":17,"y":4},{"Teams":"Rio Grande Valley FC","Game":18,"Points":21,"Conference":"West","x":18,"y":3},{"Teams":"Rio Grande Valley FC","Game":19,"Points":21,"Conference":"West","x":19,"y":2},{"Teams":"Rio Grande Valley FC","Game":20,"Points":22,"Conference":"West","x":20,"y":2},{"Teams":"Rio Grande Valley FC","Game":21,"Points":25,"Conference":"West","x":21,"y":4},{"Teams":"Rio Grande Valley FC","Game":22,"Points":26,"Conference":"West","x":22,"y":4},{"Teams":"Rio Grande Valley FC","Game":23,"Points":null,"Conference":"West","x":23,"y":null},{"Teams":"Rio Grande Valley FC","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"Rio Grande Valley FC","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"Rio Grande Valley FC","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"Rio Grande Valley FC","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"Rio Grande Valley FC","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"Rio Grande Valley FC","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"Rio Grande Valley FC","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Sacramento Republic FC","data":[{"Teams":"Sacramento Republic FC","Game":1,"Points":3,"Conference":"West","x":1,"y":2},{"Teams":"Sacramento Republic FC","Game":2,"Points":6,"Conference":"West","x":2,"y":4},{"Teams":"Sacramento Republic FC","Game":3,"Points":9,"Conference":"West","x":3,"y":6},{"Teams":"Sacramento Republic FC","Game":4,"Points":9,"Conference":"West","x":4,"y":5},{"Teams":"Sacramento Republic FC","Game":5,"Points":9,"Conference":"West","x":5,"y":4},{"Teams":"Sacramento Republic FC","Game":6,"Points":9,"Conference":"West","x":6,"y":3},{"Teams":"Sacramento Republic FC","Game":7,"Points":10,"Conference":"West","x":7,"y":3},{"Teams":"Sacramento Republic FC","Game":8,"Points":10,"Conference":"West","x":8,"y":2},{"Teams":"Sacramento Republic FC","Game":9,"Points":10,"Conference":"West","x":9,"y":1},{"Teams":"Sacramento Republic FC","Game":10,"Points":13,"Conference":"West","x":10,"y":3},{"Teams":"Sacramento Republic FC","Game":11,"Points":14,"Conference":"West","x":11,"y":3},{"Teams":"Sacramento Republic FC","Game":12,"Points":15,"Conference":"West","x":12,"y":3},{"Teams":"Sacramento Republic FC","Game":13,"Points":15,"Conference":"West","x":13,"y":2},{"Teams":"Sacramento Republic FC","Game":14,"Points":18,"Conference":"West","x":14,"y":4},{"Teams":"Sacramento Republic FC","Game":15,"Points":21,"Conference":"West","x":15,"y":6},{"Teams":"Sacramento Republic FC","Game":16,"Points":24,"Conference":"West","x":16,"y":8},{"Teams":"Sacramento Republic FC","Game":17,"Points":25,"Conference":"West","x":17,"y":8},{"Teams":"Sacramento Republic FC","Game":18,"Points":28,"Conference":"West","x":18,"y":10},{"Teams":"Sacramento Republic FC","Game":19,"Points":31,"Conference":"West","x":19,"y":12},{"Teams":"Sacramento Republic FC","Game":20,"Points":34,"Conference":"West","x":20,"y":14},{"Teams":"Sacramento Republic FC","Game":21,"Points":null,"Conference":"West","x":21,"y":null},{"Teams":"Sacramento Republic FC","Game":22,"Points":null,"Conference":"West","x":22,"y":null},{"Teams":"Sacramento Republic FC","Game":23,"Points":null,"Conference":"West","x":23,"y":null},{"Teams":"Sacramento Republic FC","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"Sacramento Republic FC","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"Sacramento Republic FC","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"Sacramento Republic FC","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"Sacramento Republic FC","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"Sacramento Republic FC","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"Sacramento Republic FC","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"San Antonio FC","data":[{"Teams":"San Antonio FC","Game":1,"Points":3,"Conference":"West","x":1,"y":2},{"Teams":"San Antonio FC","Game":2,"Points":6,"Conference":"West","x":2,"y":4},{"Teams":"San Antonio FC","Game":3,"Points":7,"Conference":"West","x":3,"y":4},{"Teams":"San Antonio FC","Game":4,"Points":10,"Conference":"West","x":4,"y":6},{"Teams":"San Antonio FC","Game":5,"Points":13,"Conference":"West","x":5,"y":8},{"Teams":"San Antonio FC","Game":6,"Points":16,"Conference":"West","x":6,"y":10},{"Teams":"San Antonio FC","Game":7,"Points":19,"Conference":"West","x":7,"y":12},{"Teams":"San Antonio FC","Game":8,"Points":22,"Conference":"West","x":8,"y":14},{"Teams":"San Antonio FC","Game":9,"Points":23,"Conference":"West","x":9,"y":14},{"Teams":"San Antonio FC","Game":10,"Points":26,"Conference":"West","x":10,"y":16},{"Teams":"San Antonio FC","Game":11,"Points":29,"Conference":"West","x":11,"y":18},{"Teams":"San Antonio FC","Game":12,"Points":30,"Conference":"West","x":12,"y":18},{"Teams":"San Antonio FC","Game":13,"Points":31,"Conference":"West","x":13,"y":18},{"Teams":"San Antonio FC","Game":14,"Points":34,"Conference":"West","x":14,"y":20},{"Teams":"San Antonio FC","Game":15,"Points":34,"Conference":"West","x":15,"y":19},{"Teams":"San Antonio FC","Game":16,"Points":35,"Conference":"West","x":16,"y":19},{"Teams":"San Antonio FC","Game":17,"Points":36,"Conference":"West","x":17,"y":19},{"Teams":"San Antonio FC","Game":18,"Points":37,"Conference":"West","x":18,"y":19},{"Teams":"San Antonio FC","Game":19,"Points":40,"Conference":"West","x":19,"y":21},{"Teams":"San Antonio FC","Game":20,"Points":41,"Conference":"West","x":20,"y":21},{"Teams":"San Antonio FC","Game":21,"Points":41,"Conference":"West","x":21,"y":20},{"Teams":"San Antonio FC","Game":22,"Points":null,"Conference":"West","x":22,"y":null},{"Teams":"San Antonio FC","Game":23,"Points":null,"Conference":"West","x":23,"y":null},{"Teams":"San Antonio FC","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"San Antonio FC","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"San Antonio FC","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"San Antonio FC","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"San Antonio FC","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"San Antonio FC","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"San Antonio FC","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Seattle Sounders FC II","data":[{"Teams":"Seattle Sounders FC II","Game":1,"Points":0,"Conference":"West","x":1,"y":-1},{"Teams":"Seattle Sounders FC II","Game":2,"Points":3,"Conference":"West","x":2,"y":1},{"Teams":"Seattle Sounders FC II","Game":3,"Points":3,"Conference":"West","x":3,"y":0},{"Teams":"Seattle Sounders FC II","Game":4,"Points":6,"Conference":"West","x":4,"y":2},{"Teams":"Seattle Sounders FC II","Game":5,"Points":6,"Conference":"West","x":5,"y":1},{"Teams":"Seattle Sounders FC II","Game":6,"Points":6,"Conference":"West","x":6,"y":0},{"Teams":"Seattle Sounders FC II","Game":7,"Points":9,"Conference":"West","x":7,"y":2},{"Teams":"Seattle Sounders FC II","Game":8,"Points":12,"Conference":"West","x":8,"y":4},{"Teams":"Seattle Sounders FC II","Game":9,"Points":13,"Conference":"West","x":9,"y":4},{"Teams":"Seattle Sounders FC II","Game":10,"Points":13,"Conference":"West","x":10,"y":3},{"Teams":"Seattle Sounders FC II","Game":11,"Points":14,"Conference":"West","x":11,"y":3},{"Teams":"Seattle Sounders FC II","Game":12,"Points":17,"Conference":"West","x":12,"y":5},{"Teams":"Seattle Sounders FC II","Game":13,"Points":17,"Conference":"West","x":13,"y":4},{"Teams":"Seattle Sounders FC II","Game":14,"Points":20,"Conference":"West","x":14,"y":6},{"Teams":"Seattle Sounders FC II","Game":15,"Points":20,"Conference":"West","x":15,"y":5},{"Teams":"Seattle Sounders FC II","Game":16,"Points":23,"Conference":"West","x":16,"y":7},{"Teams":"Seattle Sounders FC II","Game":17,"Points":23,"Conference":"West","x":17,"y":6},{"Teams":"Seattle Sounders FC II","Game":18,"Points":23,"Conference":"West","x":18,"y":5},{"Teams":"Seattle Sounders FC II","Game":19,"Points":23,"Conference":"West","x":19,"y":4},{"Teams":"Seattle Sounders FC II","Game":20,"Points":23,"Conference":"West","x":20,"y":3},{"Teams":"Seattle Sounders FC II","Game":21,"Points":23,"Conference":"West","x":21,"y":2},{"Teams":"Seattle Sounders FC II","Game":22,"Points":23,"Conference":"West","x":22,"y":1},{"Teams":"Seattle Sounders FC II","Game":23,"Points":26,"Conference":"West","x":23,"y":3},{"Teams":"Seattle Sounders FC II","Game":24,"Points":29,"Conference":"West","x":24,"y":5},{"Teams":"Seattle Sounders FC II","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"Seattle Sounders FC II","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"Seattle Sounders FC II","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"Seattle Sounders FC II","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"Seattle Sounders FC II","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"Seattle Sounders FC II","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Swope Park Rangers","data":[{"Teams":"Swope Park Rangers","Game":1,"Points":3,"Conference":"West","x":1,"y":2},{"Teams":"Swope Park Rangers","Game":2,"Points":6,"Conference":"West","x":2,"y":4},{"Teams":"Swope Park Rangers","Game":3,"Points":9,"Conference":"West","x":3,"y":6},{"Teams":"Swope Park Rangers","Game":4,"Points":9,"Conference":"West","x":4,"y":5},{"Teams":"Swope Park Rangers","Game":5,"Points":9,"Conference":"West","x":5,"y":4},{"Teams":"Swope Park Rangers","Game":6,"Points":12,"Conference":"West","x":6,"y":6},{"Teams":"Swope Park Rangers","Game":7,"Points":12,"Conference":"West","x":7,"y":5},{"Teams":"Swope Park Rangers","Game":8,"Points":12,"Conference":"West","x":8,"y":4},{"Teams":"Swope Park Rangers","Game":9,"Points":13,"Conference":"West","x":9,"y":4},{"Teams":"Swope Park Rangers","Game":10,"Points":16,"Conference":"West","x":10,"y":6},{"Teams":"Swope Park Rangers","Game":11,"Points":17,"Conference":"West","x":11,"y":6},{"Teams":"Swope Park Rangers","Game":12,"Points":20,"Conference":"West","x":12,"y":8},{"Teams":"Swope Park Rangers","Game":13,"Points":23,"Conference":"West","x":13,"y":10},{"Teams":"Swope Park Rangers","Game":14,"Points":26,"Conference":"West","x":14,"y":12},{"Teams":"Swope Park Rangers","Game":15,"Points":29,"Conference":"West","x":15,"y":14},{"Teams":"Swope Park Rangers","Game":16,"Points":32,"Conference":"West","x":16,"y":16},{"Teams":"Swope Park Rangers","Game":17,"Points":35,"Conference":"West","x":17,"y":18},{"Teams":"Swope Park Rangers","Game":18,"Points":38,"Conference":"West","x":18,"y":20},{"Teams":"Swope Park Rangers","Game":19,"Points":38,"Conference":"West","x":19,"y":19},{"Teams":"Swope Park Rangers","Game":20,"Points":39,"Conference":"West","x":20,"y":19},{"Teams":"Swope Park Rangers","Game":21,"Points":40,"Conference":"West","x":21,"y":19},{"Teams":"Swope Park Rangers","Game":22,"Points":41,"Conference":"West","x":22,"y":19},{"Teams":"Swope Park Rangers","Game":23,"Points":null,"Conference":"West","x":23,"y":null},{"Teams":"Swope Park Rangers","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"Swope Park Rangers","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"Swope Park Rangers","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"Swope Park Rangers","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"Swope Park Rangers","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"Swope Park Rangers","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"Swope Park Rangers","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Tulsa Roughnecks FC","data":[{"Teams":"Tulsa Roughnecks FC","Game":1,"Points":0,"Conference":"West","x":1,"y":-1},{"Teams":"Tulsa Roughnecks FC","Game":2,"Points":3,"Conference":"West","x":2,"y":1},{"Teams":"Tulsa Roughnecks FC","Game":3,"Points":3,"Conference":"West","x":3,"y":0},{"Teams":"Tulsa Roughnecks FC","Game":4,"Points":6,"Conference":"West","x":4,"y":2},{"Teams":"Tulsa Roughnecks FC","Game":5,"Points":6,"Conference":"West","x":5,"y":1},{"Teams":"Tulsa Roughnecks FC","Game":6,"Points":9,"Conference":"West","x":6,"y":3},{"Teams":"Tulsa Roughnecks FC","Game":7,"Points":12,"Conference":"West","x":7,"y":5},{"Teams":"Tulsa Roughnecks FC","Game":8,"Points":12,"Conference":"West","x":8,"y":4},{"Teams":"Tulsa Roughnecks FC","Game":9,"Points":12,"Conference":"West","x":9,"y":3},{"Teams":"Tulsa Roughnecks FC","Game":10,"Points":15,"Conference":"West","x":10,"y":5},{"Teams":"Tulsa Roughnecks FC","Game":11,"Points":15,"Conference":"West","x":11,"y":4},{"Teams":"Tulsa Roughnecks FC","Game":12,"Points":15,"Conference":"West","x":12,"y":3},{"Teams":"Tulsa Roughnecks FC","Game":13,"Points":15,"Conference":"West","x":13,"y":2},{"Teams":"Tulsa Roughnecks FC","Game":14,"Points":18,"Conference":"West","x":14,"y":4},{"Teams":"Tulsa Roughnecks FC","Game":15,"Points":21,"Conference":"West","x":15,"y":6},{"Teams":"Tulsa Roughnecks FC","Game":16,"Points":22,"Conference":"West","x":16,"y":6},{"Teams":"Tulsa Roughnecks FC","Game":17,"Points":25,"Conference":"West","x":17,"y":8},{"Teams":"Tulsa Roughnecks FC","Game":18,"Points":26,"Conference":"West","x":18,"y":8},{"Teams":"Tulsa Roughnecks FC","Game":19,"Points":26,"Conference":"West","x":19,"y":7},{"Teams":"Tulsa Roughnecks FC","Game":20,"Points":29,"Conference":"West","x":20,"y":9},{"Teams":"Tulsa Roughnecks FC","Game":21,"Points":32,"Conference":"West","x":21,"y":11},{"Teams":"Tulsa Roughnecks FC","Game":22,"Points":33,"Conference":"West","x":22,"y":11},{"Teams":"Tulsa Roughnecks FC","Game":23,"Points":null,"Conference":"West","x":23,"y":null},{"Teams":"Tulsa Roughnecks FC","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"Tulsa Roughnecks FC","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"Tulsa Roughnecks FC","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"Tulsa Roughnecks FC","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"Tulsa Roughnecks FC","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"Tulsa Roughnecks FC","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"Tulsa Roughnecks FC","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Vancouver Whitecaps II","data":[{"Teams":"Vancouver Whitecaps II","Game":1,"Points":0,"Conference":"West","x":1,"y":-1},{"Teams":"Vancouver Whitecaps II","Game":2,"Points":1,"Conference":"West","x":2,"y":-1},{"Teams":"Vancouver Whitecaps II","Game":3,"Points":4,"Conference":"West","x":3,"y":1},{"Teams":"Vancouver Whitecaps II","Game":4,"Points":7,"Conference":"West","x":4,"y":3},{"Teams":"Vancouver Whitecaps II","Game":5,"Points":7,"Conference":"West","x":5,"y":2},{"Teams":"Vancouver Whitecaps II","Game":6,"Points":8,"Conference":"West","x":6,"y":2},{"Teams":"Vancouver Whitecaps II","Game":7,"Points":8,"Conference":"West","x":7,"y":1},{"Teams":"Vancouver Whitecaps II","Game":8,"Points":8,"Conference":"West","x":8,"y":0},{"Teams":"Vancouver Whitecaps II","Game":9,"Points":11,"Conference":"West","x":9,"y":2},{"Teams":"Vancouver Whitecaps II","Game":10,"Points":11,"Conference":"West","x":10,"y":1},{"Teams":"Vancouver Whitecaps II","Game":11,"Points":14,"Conference":"West","x":11,"y":3},{"Teams":"Vancouver Whitecaps II","Game":12,"Points":14,"Conference":"West","x":12,"y":2},{"Teams":"Vancouver Whitecaps II","Game":13,"Points":14,"Conference":"West","x":13,"y":1},{"Teams":"Vancouver Whitecaps II","Game":14,"Points":15,"Conference":"West","x":14,"y":1},{"Teams":"Vancouver Whitecaps II","Game":15,"Points":15,"Conference":"West","x":15,"y":0},{"Teams":"Vancouver Whitecaps II","Game":16,"Points":16,"Conference":"West","x":16,"y":0},{"Teams":"Vancouver Whitecaps II","Game":17,"Points":16,"Conference":"West","x":17,"y":-1},{"Teams":"Vancouver Whitecaps II","Game":18,"Points":17,"Conference":"West","x":18,"y":-1},{"Teams":"Vancouver Whitecaps II","Game":19,"Points":17,"Conference":"West","x":19,"y":-2},{"Teams":"Vancouver Whitecaps II","Game":20,"Points":18,"Conference":"West","x":20,"y":-2},{"Teams":"Vancouver Whitecaps II","Game":21,"Points":18,"Conference":"West","x":21,"y":-3},{"Teams":"Vancouver Whitecaps II","Game":22,"Points":18,"Conference":"West","x":22,"y":-4},{"Teams":"Vancouver Whitecaps II","Game":23,"Points":null,"Conference":"West","x":23,"y":null},{"Teams":"Vancouver Whitecaps II","Game":24,"Points":null,"Conference":"West","x":24,"y":null},{"Teams":"Vancouver Whitecaps II","Game":25,"Points":null,"Conference":"West","x":25,"y":null},{"Teams":"Vancouver Whitecaps II","Game":26,"Points":null,"Conference":"West","x":26,"y":null},{"Teams":"Vancouver Whitecaps II","Game":27,"Points":null,"Conference":"West","x":27,"y":null},{"Teams":"Vancouver Whitecaps II","Game":28,"Points":null,"Conference":"West","x":28,"y":null},{"Teams":"Vancouver Whitecaps II","Game":29,"Points":null,"Conference":"West","x":29,"y":null},{"Teams":"Vancouver Whitecaps II","Game":30,"Points":null,"Conference":"West","x":30,"y":null}],"type":"line","marker":{"enabled":false}}],"xAxis":{"type":"linear","title":{"text":"Game"},"categories":null},"colors":["#e6194b","#3cb44b","#ffe119","#0082c8","#f58231","#911eb4","#46f0f0","#f032e6","#d2f53c","#800000","#008080","#e6beff","#aa6e28","#eee9b7","#fabebe"],"legend":{"align":"right","verticalAlign":"middle","layout":"vertical"},"tooltip":{"crosshairs":true,"backgroundColor":"#fcffc5","shared":true,"formatter":"function() {\n                  var s = '<strong>Game '+ this.x +'<\/strong>';\n                 \n                  var sortedPoints = this.points.sort(function(a, b){\n                      return ((a.y > b.y) ? -1 : ((a.y < b.y) ? 1 : 0));\n                    });\n                  $.each(sortedPoints , function(i, point) {\n                  s += '<br/>'+ point.series.name +': '+ point.y;\n                  });\n                 \n                  return s;\n                  }"}},"theme":{"chart":{"backgroundColor":"transparent"}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":["hc_opts.tooltip.formatter"],"jsHooks":[]}</script>
+</div>
+<div id="eastern-conference" class="section level3">
+<h3><strong>Eastern Conference</strong></h3>
+<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+
+</div>
+<div id="htmlwidget-3883f133c40c58e4dbce" style="width:100%;height:500px;" class="highchart html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3883f133c40c58e4dbce">{"x":{"hc_opts":{"title":{"text":null},"yAxis":{"title":{"text":"Points Minus Games Played"},"type":"linear"},"credits":{"enabled":false},"exporting":{"enabled":false},"plotOptions":{"series":{"turboThreshold":0,"showInLegend":true},"treemap":{"layoutAlgorithm":"squarified"},"scatter":{"marker":{"symbol":"circle"}}},"series":[{"name":"Bethlehem Steel FC","data":[{"Teams":"Bethlehem Steel FC","Game":1,"Points":0,"Conference":"East","x":1,"y":-1},{"Teams":"Bethlehem Steel FC","Game":2,"Points":3,"Conference":"East","x":2,"y":1},{"Teams":"Bethlehem Steel FC","Game":3,"Points":3,"Conference":"East","x":3,"y":0},{"Teams":"Bethlehem Steel FC","Game":4,"Points":3,"Conference":"East","x":4,"y":-1},{"Teams":"Bethlehem Steel FC","Game":5,"Points":6,"Conference":"East","x":5,"y":1},{"Teams":"Bethlehem Steel FC","Game":6,"Points":6,"Conference":"East","x":6,"y":0},{"Teams":"Bethlehem Steel FC","Game":7,"Points":9,"Conference":"East","x":7,"y":2},{"Teams":"Bethlehem Steel FC","Game":8,"Points":9,"Conference":"East","x":8,"y":1},{"Teams":"Bethlehem Steel FC","Game":9,"Points":9,"Conference":"East","x":9,"y":0},{"Teams":"Bethlehem Steel FC","Game":10,"Points":12,"Conference":"East","x":10,"y":2},{"Teams":"Bethlehem Steel FC","Game":11,"Points":13,"Conference":"East","x":11,"y":2},{"Teams":"Bethlehem Steel FC","Game":12,"Points":16,"Conference":"East","x":12,"y":4},{"Teams":"Bethlehem Steel FC","Game":13,"Points":19,"Conference":"East","x":13,"y":6},{"Teams":"Bethlehem Steel FC","Game":14,"Points":22,"Conference":"East","x":14,"y":8},{"Teams":"Bethlehem Steel FC","Game":15,"Points":23,"Conference":"East","x":15,"y":8},{"Teams":"Bethlehem Steel FC","Game":16,"Points":26,"Conference":"East","x":16,"y":10},{"Teams":"Bethlehem Steel FC","Game":17,"Points":27,"Conference":"East","x":17,"y":10},{"Teams":"Bethlehem Steel FC","Game":18,"Points":27,"Conference":"East","x":18,"y":9},{"Teams":"Bethlehem Steel FC","Game":19,"Points":27,"Conference":"East","x":19,"y":8},{"Teams":"Bethlehem Steel FC","Game":20,"Points":30,"Conference":"East","x":20,"y":10},{"Teams":"Bethlehem Steel FC","Game":21,"Points":33,"Conference":"East","x":21,"y":12},{"Teams":"Bethlehem Steel FC","Game":22,"Points":33,"Conference":"East","x":22,"y":11},{"Teams":"Bethlehem Steel FC","Game":23,"Points":null,"Conference":"East","x":23,"y":null},{"Teams":"Bethlehem Steel FC","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"Bethlehem Steel FC","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Bethlehem Steel FC","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Bethlehem Steel FC","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Bethlehem Steel FC","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Bethlehem Steel FC","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Bethlehem Steel FC","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Charleston Battery","data":[{"Teams":"Charleston Battery","Game":1,"Points":3,"Conference":"East","x":1,"y":2},{"Teams":"Charleston Battery","Game":2,"Points":6,"Conference":"East","x":2,"y":4},{"Teams":"Charleston Battery","Game":3,"Points":6,"Conference":"East","x":3,"y":3},{"Teams":"Charleston Battery","Game":4,"Points":9,"Conference":"East","x":4,"y":5},{"Teams":"Charleston Battery","Game":5,"Points":12,"Conference":"East","x":5,"y":7},{"Teams":"Charleston Battery","Game":6,"Points":13,"Conference":"East","x":6,"y":7},{"Teams":"Charleston Battery","Game":7,"Points":16,"Conference":"East","x":7,"y":9},{"Teams":"Charleston Battery","Game":8,"Points":19,"Conference":"East","x":8,"y":11},{"Teams":"Charleston Battery","Game":9,"Points":20,"Conference":"East","x":9,"y":11},{"Teams":"Charleston Battery","Game":10,"Points":23,"Conference":"East","x":10,"y":13},{"Teams":"Charleston Battery","Game":11,"Points":23,"Conference":"East","x":11,"y":12},{"Teams":"Charleston Battery","Game":12,"Points":24,"Conference":"East","x":12,"y":12},{"Teams":"Charleston Battery","Game":13,"Points":27,"Conference":"East","x":13,"y":14},{"Teams":"Charleston Battery","Game":14,"Points":28,"Conference":"East","x":14,"y":14},{"Teams":"Charleston Battery","Game":15,"Points":31,"Conference":"East","x":15,"y":16},{"Teams":"Charleston Battery","Game":16,"Points":34,"Conference":"East","x":16,"y":18},{"Teams":"Charleston Battery","Game":17,"Points":35,"Conference":"East","x":17,"y":18},{"Teams":"Charleston Battery","Game":18,"Points":35,"Conference":"East","x":18,"y":17},{"Teams":"Charleston Battery","Game":19,"Points":35,"Conference":"East","x":19,"y":16},{"Teams":"Charleston Battery","Game":20,"Points":36,"Conference":"East","x":20,"y":16},{"Teams":"Charleston Battery","Game":21,"Points":37,"Conference":"East","x":21,"y":16},{"Teams":"Charleston Battery","Game":22,"Points":37,"Conference":"East","x":22,"y":15},{"Teams":"Charleston Battery","Game":23,"Points":38,"Conference":"East","x":23,"y":15},{"Teams":"Charleston Battery","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"Charleston Battery","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Charleston Battery","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Charleston Battery","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Charleston Battery","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Charleston Battery","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Charleston Battery","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Charlotte Independence","data":[{"Teams":"Charlotte Independence","Game":1,"Points":0,"Conference":"East","x":1,"y":-1},{"Teams":"Charlotte Independence","Game":2,"Points":1,"Conference":"East","x":2,"y":-1},{"Teams":"Charlotte Independence","Game":3,"Points":2,"Conference":"East","x":3,"y":-1},{"Teams":"Charlotte Independence","Game":4,"Points":5,"Conference":"East","x":4,"y":1},{"Teams":"Charlotte Independence","Game":5,"Points":5,"Conference":"East","x":5,"y":0},{"Teams":"Charlotte Independence","Game":6,"Points":8,"Conference":"East","x":6,"y":2},{"Teams":"Charlotte Independence","Game":7,"Points":11,"Conference":"East","x":7,"y":4},{"Teams":"Charlotte Independence","Game":8,"Points":12,"Conference":"East","x":8,"y":4},{"Teams":"Charlotte Independence","Game":9,"Points":12,"Conference":"East","x":9,"y":3},{"Teams":"Charlotte Independence","Game":10,"Points":13,"Conference":"East","x":10,"y":3},{"Teams":"Charlotte Independence","Game":11,"Points":16,"Conference":"East","x":11,"y":5},{"Teams":"Charlotte Independence","Game":12,"Points":19,"Conference":"East","x":12,"y":7},{"Teams":"Charlotte Independence","Game":13,"Points":22,"Conference":"East","x":13,"y":9},{"Teams":"Charlotte Independence","Game":14,"Points":25,"Conference":"East","x":14,"y":11},{"Teams":"Charlotte Independence","Game":15,"Points":28,"Conference":"East","x":15,"y":13},{"Teams":"Charlotte Independence","Game":16,"Points":31,"Conference":"East","x":16,"y":15},{"Teams":"Charlotte Independence","Game":17,"Points":32,"Conference":"East","x":17,"y":15},{"Teams":"Charlotte Independence","Game":18,"Points":33,"Conference":"East","x":18,"y":15},{"Teams":"Charlotte Independence","Game":19,"Points":36,"Conference":"East","x":19,"y":17},{"Teams":"Charlotte Independence","Game":20,"Points":39,"Conference":"East","x":20,"y":19},{"Teams":"Charlotte Independence","Game":21,"Points":40,"Conference":"East","x":21,"y":19},{"Teams":"Charlotte Independence","Game":22,"Points":40,"Conference":"East","x":22,"y":18},{"Teams":"Charlotte Independence","Game":23,"Points":43,"Conference":"East","x":23,"y":20},{"Teams":"Charlotte Independence","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"Charlotte Independence","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Charlotte Independence","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Charlotte Independence","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Charlotte Independence","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Charlotte Independence","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Charlotte Independence","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"FC Cincinnati","data":[{"Teams":"FC Cincinnati","Game":1,"Points":0,"Conference":"East","x":1,"y":-1},{"Teams":"FC Cincinnati","Game":2,"Points":3,"Conference":"East","x":2,"y":1},{"Teams":"FC Cincinnati","Game":3,"Points":3,"Conference":"East","x":3,"y":0},{"Teams":"FC Cincinnati","Game":4,"Points":6,"Conference":"East","x":4,"y":2},{"Teams":"FC Cincinnati","Game":5,"Points":7,"Conference":"East","x":5,"y":2},{"Teams":"FC Cincinnati","Game":6,"Points":8,"Conference":"East","x":6,"y":2},{"Teams":"FC Cincinnati","Game":7,"Points":8,"Conference":"East","x":7,"y":1},{"Teams":"FC Cincinnati","Game":8,"Points":9,"Conference":"East","x":8,"y":1},{"Teams":"FC Cincinnati","Game":9,"Points":9,"Conference":"East","x":9,"y":0},{"Teams":"FC Cincinnati","Game":10,"Points":12,"Conference":"East","x":10,"y":2},{"Teams":"FC Cincinnati","Game":11,"Points":15,"Conference":"East","x":11,"y":4},{"Teams":"FC Cincinnati","Game":12,"Points":15,"Conference":"East","x":12,"y":3},{"Teams":"FC Cincinnati","Game":13,"Points":16,"Conference":"East","x":13,"y":3},{"Teams":"FC Cincinnati","Game":14,"Points":17,"Conference":"East","x":14,"y":3},{"Teams":"FC Cincinnati","Game":15,"Points":20,"Conference":"East","x":15,"y":5},{"Teams":"FC Cincinnati","Game":16,"Points":21,"Conference":"East","x":16,"y":5},{"Teams":"FC Cincinnati","Game":17,"Points":21,"Conference":"East","x":17,"y":4},{"Teams":"FC Cincinnati","Game":18,"Points":24,"Conference":"East","x":18,"y":6},{"Teams":"FC Cincinnati","Game":19,"Points":27,"Conference":"East","x":19,"y":8},{"Teams":"FC Cincinnati","Game":20,"Points":30,"Conference":"East","x":20,"y":10},{"Teams":"FC Cincinnati","Game":21,"Points":30,"Conference":"East","x":21,"y":9},{"Teams":"FC Cincinnati","Game":22,"Points":31,"Conference":"East","x":22,"y":9},{"Teams":"FC Cincinnati","Game":23,"Points":31,"Conference":"East","x":23,"y":8},{"Teams":"FC Cincinnati","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"FC Cincinnati","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"FC Cincinnati","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"FC Cincinnati","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"FC Cincinnati","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"FC Cincinnati","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"FC Cincinnati","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Harrisburg City Islanders","data":[{"Teams":"Harrisburg City Islanders","Game":1,"Points":0,"Conference":"East","x":1,"y":-1},{"Teams":"Harrisburg City Islanders","Game":2,"Points":3,"Conference":"East","x":2,"y":1},{"Teams":"Harrisburg City Islanders","Game":3,"Points":6,"Conference":"East","x":3,"y":3},{"Teams":"Harrisburg City Islanders","Game":4,"Points":7,"Conference":"East","x":4,"y":3},{"Teams":"Harrisburg City Islanders","Game":5,"Points":7,"Conference":"East","x":5,"y":2},{"Teams":"Harrisburg City Islanders","Game":6,"Points":7,"Conference":"East","x":6,"y":1},{"Teams":"Harrisburg City Islanders","Game":7,"Points":8,"Conference":"East","x":7,"y":1},{"Teams":"Harrisburg City Islanders","Game":8,"Points":9,"Conference":"East","x":8,"y":1},{"Teams":"Harrisburg City Islanders","Game":9,"Points":10,"Conference":"East","x":9,"y":1},{"Teams":"Harrisburg City Islanders","Game":10,"Points":10,"Conference":"East","x":10,"y":0},{"Teams":"Harrisburg City Islanders","Game":11,"Points":10,"Conference":"East","x":11,"y":-1},{"Teams":"Harrisburg City Islanders","Game":12,"Points":10,"Conference":"East","x":12,"y":-2},{"Teams":"Harrisburg City Islanders","Game":13,"Points":10,"Conference":"East","x":13,"y":-3},{"Teams":"Harrisburg City Islanders","Game":14,"Points":13,"Conference":"East","x":14,"y":-1},{"Teams":"Harrisburg City Islanders","Game":15,"Points":16,"Conference":"East","x":15,"y":1},{"Teams":"Harrisburg City Islanders","Game":16,"Points":16,"Conference":"East","x":16,"y":0},{"Teams":"Harrisburg City Islanders","Game":17,"Points":19,"Conference":"East","x":17,"y":2},{"Teams":"Harrisburg City Islanders","Game":18,"Points":22,"Conference":"East","x":18,"y":4},{"Teams":"Harrisburg City Islanders","Game":19,"Points":23,"Conference":"East","x":19,"y":4},{"Teams":"Harrisburg City Islanders","Game":20,"Points":23,"Conference":"East","x":20,"y":3},{"Teams":"Harrisburg City Islanders","Game":21,"Points":24,"Conference":"East","x":21,"y":3},{"Teams":"Harrisburg City Islanders","Game":22,"Points":24,"Conference":"East","x":22,"y":2},{"Teams":"Harrisburg City Islanders","Game":23,"Points":24,"Conference":"East","x":23,"y":1},{"Teams":"Harrisburg City Islanders","Game":24,"Points":24,"Conference":"East","x":24,"y":0},{"Teams":"Harrisburg City Islanders","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Harrisburg City Islanders","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Harrisburg City Islanders","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Harrisburg City Islanders","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Harrisburg City Islanders","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Harrisburg City Islanders","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Louisville City FC","data":[{"Teams":"Louisville City FC","Game":1,"Points":1,"Conference":"East","x":1,"y":0},{"Teams":"Louisville City FC","Game":2,"Points":4,"Conference":"East","x":2,"y":2},{"Teams":"Louisville City FC","Game":3,"Points":7,"Conference":"East","x":3,"y":4},{"Teams":"Louisville City FC","Game":4,"Points":10,"Conference":"East","x":4,"y":6},{"Teams":"Louisville City FC","Game":5,"Points":11,"Conference":"East","x":5,"y":6},{"Teams":"Louisville City FC","Game":6,"Points":12,"Conference":"East","x":6,"y":6},{"Teams":"Louisville City FC","Game":7,"Points":12,"Conference":"East","x":7,"y":5},{"Teams":"Louisville City FC","Game":8,"Points":15,"Conference":"East","x":8,"y":7},{"Teams":"Louisville City FC","Game":9,"Points":16,"Conference":"East","x":9,"y":7},{"Teams":"Louisville City FC","Game":10,"Points":19,"Conference":"East","x":10,"y":9},{"Teams":"Louisville City FC","Game":11,"Points":22,"Conference":"East","x":11,"y":11},{"Teams":"Louisville City FC","Game":12,"Points":25,"Conference":"East","x":12,"y":13},{"Teams":"Louisville City FC","Game":13,"Points":25,"Conference":"East","x":13,"y":12},{"Teams":"Louisville City FC","Game":14,"Points":28,"Conference":"East","x":14,"y":14},{"Teams":"Louisville City FC","Game":15,"Points":29,"Conference":"East","x":15,"y":14},{"Teams":"Louisville City FC","Game":16,"Points":29,"Conference":"East","x":16,"y":13},{"Teams":"Louisville City FC","Game":17,"Points":32,"Conference":"East","x":17,"y":15},{"Teams":"Louisville City FC","Game":18,"Points":35,"Conference":"East","x":18,"y":17},{"Teams":"Louisville City FC","Game":19,"Points":35,"Conference":"East","x":19,"y":16},{"Teams":"Louisville City FC","Game":20,"Points":38,"Conference":"East","x":20,"y":18},{"Teams":"Louisville City FC","Game":21,"Points":null,"Conference":"East","x":21,"y":null},{"Teams":"Louisville City FC","Game":22,"Points":null,"Conference":"East","x":22,"y":null},{"Teams":"Louisville City FC","Game":23,"Points":null,"Conference":"East","x":23,"y":null},{"Teams":"Louisville City FC","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"Louisville City FC","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Louisville City FC","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Louisville City FC","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Louisville City FC","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Louisville City FC","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Louisville City FC","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"New York Red Bulls II","data":[{"Teams":"New York Red Bulls II","Game":1,"Points":1,"Conference":"East","x":1,"y":0},{"Teams":"New York Red Bulls II","Game":2,"Points":4,"Conference":"East","x":2,"y":2},{"Teams":"New York Red Bulls II","Game":3,"Points":4,"Conference":"East","x":3,"y":1},{"Teams":"New York Red Bulls II","Game":4,"Points":4,"Conference":"East","x":4,"y":0},{"Teams":"New York Red Bulls II","Game":5,"Points":7,"Conference":"East","x":5,"y":2},{"Teams":"New York Red Bulls II","Game":6,"Points":8,"Conference":"East","x":6,"y":2},{"Teams":"New York Red Bulls II","Game":7,"Points":11,"Conference":"East","x":7,"y":4},{"Teams":"New York Red Bulls II","Game":8,"Points":11,"Conference":"East","x":8,"y":3},{"Teams":"New York Red Bulls II","Game":9,"Points":11,"Conference":"East","x":9,"y":2},{"Teams":"New York Red Bulls II","Game":10,"Points":11,"Conference":"East","x":10,"y":1},{"Teams":"New York Red Bulls II","Game":11,"Points":14,"Conference":"East","x":11,"y":3},{"Teams":"New York Red Bulls II","Game":12,"Points":17,"Conference":"East","x":12,"y":5},{"Teams":"New York Red Bulls II","Game":13,"Points":17,"Conference":"East","x":13,"y":4},{"Teams":"New York Red Bulls II","Game":14,"Points":17,"Conference":"East","x":14,"y":3},{"Teams":"New York Red Bulls II","Game":15,"Points":18,"Conference":"East","x":15,"y":3},{"Teams":"New York Red Bulls II","Game":16,"Points":21,"Conference":"East","x":16,"y":5},{"Teams":"New York Red Bulls II","Game":17,"Points":21,"Conference":"East","x":17,"y":4},{"Teams":"New York Red Bulls II","Game":18,"Points":21,"Conference":"East","x":18,"y":3},{"Teams":"New York Red Bulls II","Game":19,"Points":21,"Conference":"East","x":19,"y":2},{"Teams":"New York Red Bulls II","Game":20,"Points":24,"Conference":"East","x":20,"y":4},{"Teams":"New York Red Bulls II","Game":21,"Points":24,"Conference":"East","x":21,"y":3},{"Teams":"New York Red Bulls II","Game":22,"Points":27,"Conference":"East","x":22,"y":5},{"Teams":"New York Red Bulls II","Game":23,"Points":28,"Conference":"East","x":23,"y":5},{"Teams":"New York Red Bulls II","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"New York Red Bulls II","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"New York Red Bulls II","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"New York Red Bulls II","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"New York Red Bulls II","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"New York Red Bulls II","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"New York Red Bulls II","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Orlando City B","data":[{"Teams":"Orlando City B","Game":1,"Points":0,"Conference":"East","x":1,"y":-1},{"Teams":"Orlando City B","Game":2,"Points":0,"Conference":"East","x":2,"y":-2},{"Teams":"Orlando City B","Game":3,"Points":3,"Conference":"East","x":3,"y":0},{"Teams":"Orlando City B","Game":4,"Points":4,"Conference":"East","x":4,"y":0},{"Teams":"Orlando City B","Game":5,"Points":4,"Conference":"East","x":5,"y":-1},{"Teams":"Orlando City B","Game":6,"Points":5,"Conference":"East","x":6,"y":-1},{"Teams":"Orlando City B","Game":7,"Points":8,"Conference":"East","x":7,"y":1},{"Teams":"Orlando City B","Game":8,"Points":9,"Conference":"East","x":8,"y":1},{"Teams":"Orlando City B","Game":9,"Points":12,"Conference":"East","x":9,"y":3},{"Teams":"Orlando City B","Game":10,"Points":12,"Conference":"East","x":10,"y":2},{"Teams":"Orlando City B","Game":11,"Points":15,"Conference":"East","x":11,"y":4},{"Teams":"Orlando City B","Game":12,"Points":16,"Conference":"East","x":12,"y":4},{"Teams":"Orlando City B","Game":13,"Points":16,"Conference":"East","x":13,"y":3},{"Teams":"Orlando City B","Game":14,"Points":16,"Conference":"East","x":14,"y":2},{"Teams":"Orlando City B","Game":15,"Points":19,"Conference":"East","x":15,"y":4},{"Teams":"Orlando City B","Game":16,"Points":20,"Conference":"East","x":16,"y":4},{"Teams":"Orlando City B","Game":17,"Points":21,"Conference":"East","x":17,"y":4},{"Teams":"Orlando City B","Game":18,"Points":22,"Conference":"East","x":18,"y":4},{"Teams":"Orlando City B","Game":19,"Points":23,"Conference":"East","x":19,"y":4},{"Teams":"Orlando City B","Game":20,"Points":24,"Conference":"East","x":20,"y":4},{"Teams":"Orlando City B","Game":21,"Points":25,"Conference":"East","x":21,"y":4},{"Teams":"Orlando City B","Game":22,"Points":28,"Conference":"East","x":22,"y":6},{"Teams":"Orlando City B","Game":23,"Points":31,"Conference":"East","x":23,"y":8},{"Teams":"Orlando City B","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"Orlando City B","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Orlando City B","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Orlando City B","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Orlando City B","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Orlando City B","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Orlando City B","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Ottawa Fury","data":[{"Teams":"Ottawa Fury","Game":1,"Points":0,"Conference":"East","x":1,"y":-1},{"Teams":"Ottawa Fury","Game":2,"Points":0,"Conference":"East","x":2,"y":-2},{"Teams":"Ottawa Fury","Game":3,"Points":3,"Conference":"East","x":3,"y":0},{"Teams":"Ottawa Fury","Game":4,"Points":4,"Conference":"East","x":4,"y":0},{"Teams":"Ottawa Fury","Game":5,"Points":5,"Conference":"East","x":5,"y":0},{"Teams":"Ottawa Fury","Game":6,"Points":6,"Conference":"East","x":6,"y":0},{"Teams":"Ottawa Fury","Game":7,"Points":6,"Conference":"East","x":7,"y":-1},{"Teams":"Ottawa Fury","Game":8,"Points":9,"Conference":"East","x":8,"y":1},{"Teams":"Ottawa Fury","Game":9,"Points":12,"Conference":"East","x":9,"y":3},{"Teams":"Ottawa Fury","Game":10,"Points":13,"Conference":"East","x":10,"y":3},{"Teams":"Ottawa Fury","Game":11,"Points":16,"Conference":"East","x":11,"y":5},{"Teams":"Ottawa Fury","Game":12,"Points":16,"Conference":"East","x":12,"y":4},{"Teams":"Ottawa Fury","Game":13,"Points":19,"Conference":"East","x":13,"y":6},{"Teams":"Ottawa Fury","Game":14,"Points":20,"Conference":"East","x":14,"y":6},{"Teams":"Ottawa Fury","Game":15,"Points":20,"Conference":"East","x":15,"y":5},{"Teams":"Ottawa Fury","Game":16,"Points":20,"Conference":"East","x":16,"y":4},{"Teams":"Ottawa Fury","Game":17,"Points":21,"Conference":"East","x":17,"y":4},{"Teams":"Ottawa Fury","Game":18,"Points":24,"Conference":"East","x":18,"y":6},{"Teams":"Ottawa Fury","Game":19,"Points":24,"Conference":"East","x":19,"y":5},{"Teams":"Ottawa Fury","Game":20,"Points":27,"Conference":"East","x":20,"y":7},{"Teams":"Ottawa Fury","Game":21,"Points":27,"Conference":"East","x":21,"y":6},{"Teams":"Ottawa Fury","Game":22,"Points":null,"Conference":"East","x":22,"y":null},{"Teams":"Ottawa Fury","Game":23,"Points":null,"Conference":"East","x":23,"y":null},{"Teams":"Ottawa Fury","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"Ottawa Fury","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Ottawa Fury","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Ottawa Fury","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Ottawa Fury","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Ottawa Fury","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Ottawa Fury","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Pittsburgh Riverhounds","data":[{"Teams":"Pittsburgh Riverhounds","Game":1,"Points":1,"Conference":"East","x":1,"y":0},{"Teams":"Pittsburgh Riverhounds","Game":2,"Points":1,"Conference":"East","x":2,"y":-1},{"Teams":"Pittsburgh Riverhounds","Game":3,"Points":4,"Conference":"East","x":3,"y":1},{"Teams":"Pittsburgh Riverhounds","Game":4,"Points":4,"Conference":"East","x":4,"y":0},{"Teams":"Pittsburgh Riverhounds","Game":5,"Points":5,"Conference":"East","x":5,"y":0},{"Teams":"Pittsburgh Riverhounds","Game":6,"Points":5,"Conference":"East","x":6,"y":-1},{"Teams":"Pittsburgh Riverhounds","Game":7,"Points":8,"Conference":"East","x":7,"y":1},{"Teams":"Pittsburgh Riverhounds","Game":8,"Points":11,"Conference":"East","x":8,"y":3},{"Teams":"Pittsburgh Riverhounds","Game":9,"Points":14,"Conference":"East","x":9,"y":5},{"Teams":"Pittsburgh Riverhounds","Game":10,"Points":14,"Conference":"East","x":10,"y":4},{"Teams":"Pittsburgh Riverhounds","Game":11,"Points":15,"Conference":"East","x":11,"y":4},{"Teams":"Pittsburgh Riverhounds","Game":12,"Points":15,"Conference":"East","x":12,"y":3},{"Teams":"Pittsburgh Riverhounds","Game":13,"Points":16,"Conference":"East","x":13,"y":3},{"Teams":"Pittsburgh Riverhounds","Game":14,"Points":16,"Conference":"East","x":14,"y":2},{"Teams":"Pittsburgh Riverhounds","Game":15,"Points":19,"Conference":"East","x":15,"y":4},{"Teams":"Pittsburgh Riverhounds","Game":16,"Points":19,"Conference":"East","x":16,"y":3},{"Teams":"Pittsburgh Riverhounds","Game":17,"Points":20,"Conference":"East","x":17,"y":3},{"Teams":"Pittsburgh Riverhounds","Game":18,"Points":21,"Conference":"East","x":18,"y":3},{"Teams":"Pittsburgh Riverhounds","Game":19,"Points":22,"Conference":"East","x":19,"y":3},{"Teams":"Pittsburgh Riverhounds","Game":20,"Points":23,"Conference":"East","x":20,"y":3},{"Teams":"Pittsburgh Riverhounds","Game":21,"Points":23,"Conference":"East","x":21,"y":2},{"Teams":"Pittsburgh Riverhounds","Game":22,"Points":24,"Conference":"East","x":22,"y":2},{"Teams":"Pittsburgh Riverhounds","Game":23,"Points":27,"Conference":"East","x":23,"y":4},{"Teams":"Pittsburgh Riverhounds","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"Pittsburgh Riverhounds","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Pittsburgh Riverhounds","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Pittsburgh Riverhounds","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Pittsburgh Riverhounds","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Pittsburgh Riverhounds","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Pittsburgh Riverhounds","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Richmond Kickers","data":[{"Teams":"Richmond Kickers","Game":1,"Points":3,"Conference":"East","x":1,"y":2},{"Teams":"Richmond Kickers","Game":2,"Points":3,"Conference":"East","x":2,"y":1},{"Teams":"Richmond Kickers","Game":3,"Points":3,"Conference":"East","x":3,"y":0},{"Teams":"Richmond Kickers","Game":4,"Points":3,"Conference":"East","x":4,"y":-1},{"Teams":"Richmond Kickers","Game":5,"Points":6,"Conference":"East","x":5,"y":1},{"Teams":"Richmond Kickers","Game":6,"Points":6,"Conference":"East","x":6,"y":0},{"Teams":"Richmond Kickers","Game":7,"Points":7,"Conference":"East","x":7,"y":0},{"Teams":"Richmond Kickers","Game":8,"Points":8,"Conference":"East","x":8,"y":0},{"Teams":"Richmond Kickers","Game":9,"Points":9,"Conference":"East","x":9,"y":0},{"Teams":"Richmond Kickers","Game":10,"Points":10,"Conference":"East","x":10,"y":0},{"Teams":"Richmond Kickers","Game":11,"Points":10,"Conference":"East","x":11,"y":-1},{"Teams":"Richmond Kickers","Game":12,"Points":10,"Conference":"East","x":12,"y":-2},{"Teams":"Richmond Kickers","Game":13,"Points":10,"Conference":"East","x":13,"y":-3},{"Teams":"Richmond Kickers","Game":14,"Points":11,"Conference":"East","x":14,"y":-3},{"Teams":"Richmond Kickers","Game":15,"Points":11,"Conference":"East","x":15,"y":-4},{"Teams":"Richmond Kickers","Game":16,"Points":12,"Conference":"East","x":16,"y":-4},{"Teams":"Richmond Kickers","Game":17,"Points":12,"Conference":"East","x":17,"y":-5},{"Teams":"Richmond Kickers","Game":18,"Points":12,"Conference":"East","x":18,"y":-6},{"Teams":"Richmond Kickers","Game":19,"Points":15,"Conference":"East","x":19,"y":-4},{"Teams":"Richmond Kickers","Game":20,"Points":16,"Conference":"East","x":20,"y":-4},{"Teams":"Richmond Kickers","Game":21,"Points":16,"Conference":"East","x":21,"y":-5},{"Teams":"Richmond Kickers","Game":22,"Points":17,"Conference":"East","x":22,"y":-5},{"Teams":"Richmond Kickers","Game":23,"Points":17,"Conference":"East","x":23,"y":-6},{"Teams":"Richmond Kickers","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"Richmond Kickers","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Richmond Kickers","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Richmond Kickers","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Richmond Kickers","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Richmond Kickers","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Richmond Kickers","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Rochester Rhinos","data":[{"Teams":"Rochester Rhinos","Game":1,"Points":3,"Conference":"East","x":1,"y":2},{"Teams":"Rochester Rhinos","Game":2,"Points":4,"Conference":"East","x":2,"y":2},{"Teams":"Rochester Rhinos","Game":3,"Points":4,"Conference":"East","x":3,"y":1},{"Teams":"Rochester Rhinos","Game":4,"Points":5,"Conference":"East","x":4,"y":1},{"Teams":"Rochester Rhinos","Game":5,"Points":8,"Conference":"East","x":5,"y":3},{"Teams":"Rochester Rhinos","Game":6,"Points":9,"Conference":"East","x":6,"y":3},{"Teams":"Rochester Rhinos","Game":7,"Points":12,"Conference":"East","x":7,"y":5},{"Teams":"Rochester Rhinos","Game":8,"Points":15,"Conference":"East","x":8,"y":7},{"Teams":"Rochester Rhinos","Game":9,"Points":16,"Conference":"East","x":9,"y":7},{"Teams":"Rochester Rhinos","Game":10,"Points":17,"Conference":"East","x":10,"y":7},{"Teams":"Rochester Rhinos","Game":11,"Points":20,"Conference":"East","x":11,"y":9},{"Teams":"Rochester Rhinos","Game":12,"Points":20,"Conference":"East","x":12,"y":8},{"Teams":"Rochester Rhinos","Game":13,"Points":20,"Conference":"East","x":13,"y":7},{"Teams":"Rochester Rhinos","Game":14,"Points":21,"Conference":"East","x":14,"y":7},{"Teams":"Rochester Rhinos","Game":15,"Points":24,"Conference":"East","x":15,"y":9},{"Teams":"Rochester Rhinos","Game":16,"Points":25,"Conference":"East","x":16,"y":9},{"Teams":"Rochester Rhinos","Game":17,"Points":26,"Conference":"East","x":17,"y":9},{"Teams":"Rochester Rhinos","Game":18,"Points":29,"Conference":"East","x":18,"y":11},{"Teams":"Rochester Rhinos","Game":19,"Points":32,"Conference":"East","x":19,"y":13},{"Teams":"Rochester Rhinos","Game":20,"Points":32,"Conference":"East","x":20,"y":12},{"Teams":"Rochester Rhinos","Game":21,"Points":35,"Conference":"East","x":21,"y":14},{"Teams":"Rochester Rhinos","Game":22,"Points":null,"Conference":"East","x":22,"y":null},{"Teams":"Rochester Rhinos","Game":23,"Points":null,"Conference":"East","x":23,"y":null},{"Teams":"Rochester Rhinos","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"Rochester Rhinos","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Rochester Rhinos","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Rochester Rhinos","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Rochester Rhinos","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Rochester Rhinos","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Rochester Rhinos","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Saint Louis FC","data":[{"Teams":"Saint Louis FC","Game":1,"Points":1,"Conference":"East","x":1,"y":0},{"Teams":"Saint Louis FC","Game":2,"Points":4,"Conference":"East","x":2,"y":2},{"Teams":"Saint Louis FC","Game":3,"Points":7,"Conference":"East","x":3,"y":4},{"Teams":"Saint Louis FC","Game":4,"Points":10,"Conference":"East","x":4,"y":6},{"Teams":"Saint Louis FC","Game":5,"Points":10,"Conference":"East","x":5,"y":5},{"Teams":"Saint Louis FC","Game":6,"Points":10,"Conference":"East","x":6,"y":4},{"Teams":"Saint Louis FC","Game":7,"Points":11,"Conference":"East","x":7,"y":4},{"Teams":"Saint Louis FC","Game":8,"Points":11,"Conference":"East","x":8,"y":3},{"Teams":"Saint Louis FC","Game":9,"Points":12,"Conference":"East","x":9,"y":3},{"Teams":"Saint Louis FC","Game":10,"Points":15,"Conference":"East","x":10,"y":5},{"Teams":"Saint Louis FC","Game":11,"Points":15,"Conference":"East","x":11,"y":4},{"Teams":"Saint Louis FC","Game":12,"Points":15,"Conference":"East","x":12,"y":3},{"Teams":"Saint Louis FC","Game":13,"Points":15,"Conference":"East","x":13,"y":2},{"Teams":"Saint Louis FC","Game":14,"Points":16,"Conference":"East","x":14,"y":2},{"Teams":"Saint Louis FC","Game":15,"Points":16,"Conference":"East","x":15,"y":1},{"Teams":"Saint Louis FC","Game":16,"Points":19,"Conference":"East","x":16,"y":3},{"Teams":"Saint Louis FC","Game":17,"Points":19,"Conference":"East","x":17,"y":2},{"Teams":"Saint Louis FC","Game":18,"Points":22,"Conference":"East","x":18,"y":4},{"Teams":"Saint Louis FC","Game":19,"Points":23,"Conference":"East","x":19,"y":4},{"Teams":"Saint Louis FC","Game":20,"Points":23,"Conference":"East","x":20,"y":3},{"Teams":"Saint Louis FC","Game":21,"Points":26,"Conference":"East","x":21,"y":5},{"Teams":"Saint Louis FC","Game":22,"Points":null,"Conference":"East","x":22,"y":null},{"Teams":"Saint Louis FC","Game":23,"Points":null,"Conference":"East","x":23,"y":null},{"Teams":"Saint Louis FC","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"Saint Louis FC","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Saint Louis FC","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Saint Louis FC","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Saint Louis FC","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Saint Louis FC","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Saint Louis FC","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Tampa Bay Rowdies","data":[{"Teams":"Tampa Bay Rowdies","Game":1,"Points":3,"Conference":"East","x":1,"y":2},{"Teams":"Tampa Bay Rowdies","Game":2,"Points":6,"Conference":"East","x":2,"y":4},{"Teams":"Tampa Bay Rowdies","Game":3,"Points":9,"Conference":"East","x":3,"y":6},{"Teams":"Tampa Bay Rowdies","Game":4,"Points":9,"Conference":"East","x":4,"y":5},{"Teams":"Tampa Bay Rowdies","Game":5,"Points":10,"Conference":"East","x":5,"y":5},{"Teams":"Tampa Bay Rowdies","Game":6,"Points":10,"Conference":"East","x":6,"y":4},{"Teams":"Tampa Bay Rowdies","Game":7,"Points":13,"Conference":"East","x":7,"y":6},{"Teams":"Tampa Bay Rowdies","Game":8,"Points":14,"Conference":"East","x":8,"y":6},{"Teams":"Tampa Bay Rowdies","Game":9,"Points":17,"Conference":"East","x":9,"y":8},{"Teams":"Tampa Bay Rowdies","Game":10,"Points":20,"Conference":"East","x":10,"y":10},{"Teams":"Tampa Bay Rowdies","Game":11,"Points":20,"Conference":"East","x":11,"y":9},{"Teams":"Tampa Bay Rowdies","Game":12,"Points":21,"Conference":"East","x":12,"y":9},{"Teams":"Tampa Bay Rowdies","Game":13,"Points":22,"Conference":"East","x":13,"y":9},{"Teams":"Tampa Bay Rowdies","Game":14,"Points":23,"Conference":"East","x":14,"y":9},{"Teams":"Tampa Bay Rowdies","Game":15,"Points":24,"Conference":"East","x":15,"y":9},{"Teams":"Tampa Bay Rowdies","Game":16,"Points":24,"Conference":"East","x":16,"y":8},{"Teams":"Tampa Bay Rowdies","Game":17,"Points":24,"Conference":"East","x":17,"y":7},{"Teams":"Tampa Bay Rowdies","Game":18,"Points":27,"Conference":"East","x":18,"y":9},{"Teams":"Tampa Bay Rowdies","Game":19,"Points":28,"Conference":"East","x":19,"y":9},{"Teams":"Tampa Bay Rowdies","Game":20,"Points":31,"Conference":"East","x":20,"y":11},{"Teams":"Tampa Bay Rowdies","Game":21,"Points":34,"Conference":"East","x":21,"y":13},{"Teams":"Tampa Bay Rowdies","Game":22,"Points":37,"Conference":"East","x":22,"y":15},{"Teams":"Tampa Bay Rowdies","Game":23,"Points":37,"Conference":"East","x":23,"y":14},{"Teams":"Tampa Bay Rowdies","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"Tampa Bay Rowdies","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Tampa Bay Rowdies","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Tampa Bay Rowdies","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Tampa Bay Rowdies","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Tampa Bay Rowdies","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Tampa Bay Rowdies","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}},{"name":"Toronto FC II","data":[{"Teams":"Toronto FC II","Game":1,"Points":3,"Conference":"East","x":1,"y":2},{"Teams":"Toronto FC II","Game":2,"Points":3,"Conference":"East","x":2,"y":1},{"Teams":"Toronto FC II","Game":3,"Points":3,"Conference":"East","x":3,"y":0},{"Teams":"Toronto FC II","Game":4,"Points":4,"Conference":"East","x":4,"y":0},{"Teams":"Toronto FC II","Game":5,"Points":5,"Conference":"East","x":5,"y":0},{"Teams":"Toronto FC II","Game":6,"Points":6,"Conference":"East","x":6,"y":0},{"Teams":"Toronto FC II","Game":7,"Points":6,"Conference":"East","x":7,"y":-1},{"Teams":"Toronto FC II","Game":8,"Points":6,"Conference":"East","x":8,"y":-2},{"Teams":"Toronto FC II","Game":9,"Points":6,"Conference":"East","x":9,"y":-3},{"Teams":"Toronto FC II","Game":10,"Points":7,"Conference":"East","x":10,"y":-3},{"Teams":"Toronto FC II","Game":11,"Points":7,"Conference":"East","x":11,"y":-4},{"Teams":"Toronto FC II","Game":12,"Points":7,"Conference":"East","x":12,"y":-5},{"Teams":"Toronto FC II","Game":13,"Points":8,"Conference":"East","x":13,"y":-5},{"Teams":"Toronto FC II","Game":14,"Points":11,"Conference":"East","x":14,"y":-3},{"Teams":"Toronto FC II","Game":15,"Points":11,"Conference":"East","x":15,"y":-4},{"Teams":"Toronto FC II","Game":16,"Points":11,"Conference":"East","x":16,"y":-5},{"Teams":"Toronto FC II","Game":17,"Points":14,"Conference":"East","x":17,"y":-3},{"Teams":"Toronto FC II","Game":18,"Points":14,"Conference":"East","x":18,"y":-4},{"Teams":"Toronto FC II","Game":19,"Points":14,"Conference":"East","x":19,"y":-5},{"Teams":"Toronto FC II","Game":20,"Points":14,"Conference":"East","x":20,"y":-6},{"Teams":"Toronto FC II","Game":21,"Points":17,"Conference":"East","x":21,"y":-4},{"Teams":"Toronto FC II","Game":22,"Points":18,"Conference":"East","x":22,"y":-4},{"Teams":"Toronto FC II","Game":23,"Points":18,"Conference":"East","x":23,"y":-5},{"Teams":"Toronto FC II","Game":24,"Points":null,"Conference":"East","x":24,"y":null},{"Teams":"Toronto FC II","Game":25,"Points":null,"Conference":"East","x":25,"y":null},{"Teams":"Toronto FC II","Game":26,"Points":null,"Conference":"East","x":26,"y":null},{"Teams":"Toronto FC II","Game":27,"Points":null,"Conference":"East","x":27,"y":null},{"Teams":"Toronto FC II","Game":28,"Points":null,"Conference":"East","x":28,"y":null},{"Teams":"Toronto FC II","Game":29,"Points":null,"Conference":"East","x":29,"y":null},{"Teams":"Toronto FC II","Game":30,"Points":null,"Conference":"East","x":30,"y":null}],"type":"line","marker":{"enabled":false}}],"xAxis":{"type":"linear","title":{"text":"Game"},"categories":null},"colors":["#e6194b","#3cb44b","#ffe119","#0082c8","#f58231","#911eb4","#46f0f0","#f032e6","#d2f53c","#800000","#008080","#e6beff","#aa6e28","#eee9b7","#fabebe"],"legend":{"align":"right","verticalAlign":"middle","layout":"vertical"},"tooltip":{"crosshairs":true,"backgroundColor":"#fcffc5","shared":true,"formatter":"function() {\n                  var s = '<strong>Game '+ this.x +'<\/strong>';\n                 \n                  var sortedPoints = this.points.sort(function(a, b){\n                      return ((a.y > b.y) ? -1 : ((a.y < b.y) ? 1 : 0));\n                    });\n                  $.each(sortedPoints , function(i, point) {\n                  s += '<br/>'+ point.series.name +': '+ point.y;\n                  });\n                 \n                  return s;\n                  }"}},"theme":{"chart":{"backgroundColor":"transparent"}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","drillUpText":"Back to {series.name}","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"thousandsSep":" ","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":["hc_opts.tooltip.formatter"],"jsHooks":[]}</script>
+</div>
+</div>
+
+</div>
+
+<script>
+
+$(document).ready(function () {
+
+  // add bootstrap table styles to pandoc tables
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+
+  // initialize mathjax
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+  document.getElementsByTagName("head")[0].appendChild(script);
+
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+  FlexDashboard.init({
+    theme: "cosmo",
+    fillPage: true,
+    orientation: "rows",
+    storyboard: false,
+    defaultFigWidth: 576,
+    defaultFigHeight: 460,
+    defaultFigWidthMobile: 360,
+    defaultFigHeightMobile: 460
+  });
+});
+</script>
+
+</body>
+</html>
