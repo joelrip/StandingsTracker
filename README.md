@@ -1,2 +1,2 @@
-# USLTracker
-Charting the USL season
+# StandingsTracker
+Charting the 2017 season
