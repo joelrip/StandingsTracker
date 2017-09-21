@@ -615,7 +615,7 @@
 "Sporting Kansas City",27,41,"West",41,41,62,14,14,14,35
 "Toronto FC",27,56,"East",56,56,77,29,29,29,50
 "Vancouver Whitecaps",27,44,"West",44,44,65,17,17,17,38
-"Atlanta United",28,NA,"East",46,43,64,NA,18,15,36
+"Atlanta United",28,46,"East",46,46,64,18,18,18,36
 "Chicago Fire",28,45,"East",45,45,63,17,17,17,35
 "Colorado Rapids",28,26,"West",26,26,44,-2,-2,-2,16
 "Columbus Crew",28,42,"East",42,42,60,14,14,14,32
@@ -637,16 +637,16 @@
 "Sporting Kansas City",28,44,"West",44,44,62,16,16,16,34
 "Toronto FC",28,59,"East",59,59,77,31,31,31,49
 "Vancouver Whitecaps",28,45,"West",45,45,63,17,17,17,35
-"Atlanta United",29,NA,"East",49,43,64,NA,20,14,35
+"Atlanta United",29,NA,"East",49,46,64,NA,20,17,35
 "Chicago Fire",29,48,"East",48,48,63,19,19,19,34
 "Colorado Rapids",29,NA,"West",29,26,44,NA,0,-3,15
 "Columbus Crew",29,43,"East",43,43,58,14,14,14,29
 "DC United",29,28,"East",28,28,43,-1,-1,-1,14
 "FC Dallas",29,NA,"West",41,38,56,NA,12,9,27
 "Houston Dynamo",29,NA,"West",41,38,56,NA,12,9,27
-"LA Galaxy",29,NA,"West",30,27,45,NA,1,-2,16
+"LA Galaxy",29,27,"West",27,27,42,-2,-2,-2,13
 "Minnesota United",29,NA,"West",32,29,47,NA,3,0,18
-"Montreal Impact",29,NA,"East",39,36,54,NA,10,7,25
+"Montreal Impact",29,39,"East",39,39,54,10,10,10,25
 "New England Rev.",29,35,"East",35,35,50,6,6,6,21
 "New York City FC",29,51,"East",51,51,66,22,22,22,37
 "New York Red Bulls",29,NA,"East",45,42,60,NA,16,13,31
@@ -659,16 +659,16 @@
 "Sporting Kansas City",29,NA,"West",47,44,62,NA,18,15,33
 "Toronto FC",29,62,"East",62,62,77,33,33,33,48
 "Vancouver Whitecaps",29,NA,"West",48,45,63,NA,19,16,34
-"Atlanta United",30,NA,"East",52,43,64,NA,22,13,34
+"Atlanta United",30,NA,"East",52,46,64,NA,22,16,34
 "Chicago Fire",30,NA,"East",51,48,63,NA,21,18,33
 "Colorado Rapids",30,NA,"West",32,26,44,NA,2,-4,14
 "Columbus Crew",30,44,"East",44,44,56,14,14,14,26
 "DC United",30,NA,"East",31,28,43,NA,1,-2,13
 "FC Dallas",30,NA,"West",44,38,56,NA,14,8,26
 "Houston Dynamo",30,NA,"West",44,38,56,NA,14,8,26
-"LA Galaxy",30,NA,"West",33,27,45,NA,3,-3,15
+"LA Galaxy",30,NA,"West",30,27,42,NA,0,-3,12
 "Minnesota United",30,NA,"West",35,29,47,NA,5,-1,17
-"Montreal Impact",30,NA,"East",42,36,54,NA,12,6,24
+"Montreal Impact",30,NA,"East",42,39,54,NA,12,9,24
 "New England Rev.",30,NA,"East",38,35,50,NA,8,5,20
 "New York City FC",30,NA,"East",54,51,66,NA,24,21,36
 "New York Red Bulls",30,NA,"East",48,42,60,NA,18,12,30
@@ -679,18 +679,18 @@
 "San Jose Earthquakes",30,NA,"West",42,39,54,NA,12,9,24
 "Seattle Sounders FC",30,NA,"West",47,44,59,NA,17,14,29
 "Sporting Kansas City",30,NA,"West",50,44,62,NA,20,14,32
-"Toronto FC",30,NA,"East",65,62,77,NA,35,32,47
+"Toronto FC",30,62,"East",62,62,74,32,32,32,44
 "Vancouver Whitecaps",30,NA,"West",51,45,63,NA,21,15,33
-"Atlanta United",31,NA,"East",55,43,64,NA,24,12,33
+"Atlanta United",31,NA,"East",55,46,64,NA,24,15,33
 "Chicago Fire",31,NA,"East",54,48,63,NA,23,17,32
 "Colorado Rapids",31,NA,"West",35,26,44,NA,4,-5,13
 "Columbus Crew",31,NA,"East",47,44,56,NA,16,13,25
 "DC United",31,NA,"East",34,28,43,NA,3,-3,12
 "FC Dallas",31,NA,"West",47,38,56,NA,16,7,25
 "Houston Dynamo",31,NA,"West",47,38,56,NA,16,7,25
-"LA Galaxy",31,NA,"West",36,27,45,NA,5,-4,14
+"LA Galaxy",31,NA,"West",33,27,42,NA,2,-4,11
 "Minnesota United",31,NA,"West",38,29,47,NA,7,-2,16
-"Montreal Impact",31,NA,"East",45,36,54,NA,14,5,23
+"Montreal Impact",31,NA,"East",45,39,54,NA,14,8,23
 "New England Rev.",31,NA,"East",41,35,50,NA,10,4,19
 "New York City FC",31,NA,"East",57,51,66,NA,26,20,35
 "New York Red Bulls",31,NA,"East",51,42,60,NA,20,11,29
@@ -701,18 +701,18 @@
 "San Jose Earthquakes",31,NA,"West",45,39,54,NA,14,8,23
 "Seattle Sounders FC",31,NA,"West",50,44,59,NA,19,13,28
 "Sporting Kansas City",31,NA,"West",53,44,62,NA,22,13,31
-"Toronto FC",31,NA,"East",68,62,77,NA,37,31,46
+"Toronto FC",31,NA,"East",65,62,74,NA,34,31,43
 "Vancouver Whitecaps",31,NA,"West",54,45,63,NA,23,14,32
-"Atlanta United",32,NA,"East",58,43,64,NA,26,11,32
+"Atlanta United",32,NA,"East",58,46,64,NA,26,14,32
 "Chicago Fire",32,NA,"East",57,48,63,NA,25,16,31
 "Colorado Rapids",32,NA,"West",38,26,44,NA,6,-6,12
 "Columbus Crew",32,NA,"East",50,44,56,NA,18,12,24
 "DC United",32,NA,"East",37,28,43,NA,5,-4,11
 "FC Dallas",32,NA,"West",50,38,56,NA,18,6,24
 "Houston Dynamo",32,NA,"West",50,38,56,NA,18,6,24
-"LA Galaxy",32,NA,"West",39,27,45,NA,7,-5,13
+"LA Galaxy",32,NA,"West",36,27,42,NA,4,-5,10
 "Minnesota United",32,NA,"West",41,29,47,NA,9,-3,15
-"Montreal Impact",32,NA,"East",48,36,54,NA,16,4,22
+"Montreal Impact",32,NA,"East",48,39,54,NA,16,7,22
 "New England Rev.",32,NA,"East",44,35,50,NA,12,3,18
 "New York City FC",32,NA,"East",60,51,66,NA,28,19,34
 "New York Red Bulls",32,NA,"East",54,42,60,NA,22,10,28
@@ -723,18 +723,18 @@
 "San Jose Earthquakes",32,NA,"West",48,39,54,NA,16,7,22
 "Seattle Sounders FC",32,NA,"West",53,44,59,NA,21,12,27
 "Sporting Kansas City",32,NA,"West",56,44,62,NA,24,12,30
-"Toronto FC",32,NA,"East",71,62,77,NA,39,30,45
+"Toronto FC",32,NA,"East",68,62,74,NA,36,30,42
 "Vancouver Whitecaps",32,NA,"West",57,45,63,NA,25,13,31
-"Atlanta United",33,NA,"East",61,43,64,NA,28,10,31
+"Atlanta United",33,NA,"East",61,46,64,NA,28,13,31
 "Chicago Fire",33,NA,"East",60,48,63,NA,27,15,30
 "Colorado Rapids",33,NA,"West",41,26,44,NA,8,-7,11
 "Columbus Crew",33,NA,"East",53,44,56,NA,20,11,23
 "DC United",33,NA,"East",40,28,43,NA,7,-5,10
 "FC Dallas",33,NA,"West",53,38,56,NA,20,5,23
 "Houston Dynamo",33,NA,"West",53,38,56,NA,20,5,23
-"LA Galaxy",33,NA,"West",42,27,45,NA,9,-6,12
+"LA Galaxy",33,NA,"West",39,27,42,NA,6,-6,9
 "Minnesota United",33,NA,"West",44,29,47,NA,11,-4,14
-"Montreal Impact",33,NA,"East",51,36,54,NA,18,3,21
+"Montreal Impact",33,NA,"East",51,39,54,NA,18,6,21
 "New England Rev.",33,NA,"East",47,35,50,NA,14,2,17
 "New York City FC",33,NA,"East",63,51,66,NA,30,18,33
 "New York Red Bulls",33,NA,"East",57,42,60,NA,24,9,27
@@ -745,18 +745,18 @@
 "San Jose Earthquakes",33,NA,"West",51,39,54,NA,18,6,21
 "Seattle Sounders FC",33,NA,"West",56,44,59,NA,23,11,26
 "Sporting Kansas City",33,NA,"West",59,44,62,NA,26,11,29
-"Toronto FC",33,NA,"East",74,62,77,NA,41,29,44
+"Toronto FC",33,NA,"East",71,62,74,NA,38,29,41
 "Vancouver Whitecaps",33,NA,"West",60,45,63,NA,27,12,30
-"Atlanta United",34,NA,"East",64,43,64,NA,30,9,30
+"Atlanta United",34,NA,"East",64,46,64,NA,30,12,30
 "Chicago Fire",34,NA,"East",63,48,63,NA,29,14,29
 "Colorado Rapids",34,NA,"West",44,26,44,NA,10,-8,10
 "Columbus Crew",34,NA,"East",56,44,56,NA,22,10,22
 "DC United",34,NA,"East",43,28,43,NA,9,-6,9
 "FC Dallas",34,NA,"West",56,38,56,NA,22,4,22
 "Houston Dynamo",34,NA,"West",56,38,56,NA,22,4,22
-"LA Galaxy",34,NA,"West",45,27,45,NA,11,-7,11
+"LA Galaxy",34,NA,"West",42,27,42,NA,8,-7,8
 "Minnesota United",34,NA,"West",47,29,47,NA,13,-5,13
-"Montreal Impact",34,NA,"East",54,36,54,NA,20,2,20
+"Montreal Impact",34,NA,"East",54,39,54,NA,20,5,20
 "New England Rev.",34,NA,"East",50,35,50,NA,16,1,16
 "New York City FC",34,NA,"East",66,51,66,NA,32,17,32
 "New York Red Bulls",34,NA,"East",60,42,60,NA,26,8,26
@@ -767,75 +767,75 @@
 "San Jose Earthquakes",34,NA,"West",54,39,54,NA,20,5,20
 "Seattle Sounders FC",34,NA,"West",59,44,59,NA,25,10,25
 "Sporting Kansas City",34,NA,"West",62,44,62,NA,28,10,28
-"Toronto FC",34,NA,"East",77,62,77,NA,43,28,43
+"Toronto FC",34,NA,"East",74,62,74,NA,40,28,40
 "Vancouver Whitecaps",34,NA,"West",63,45,63,NA,29,11,29
-"Thresholds",0,NA,"West",NA,-102,103,NA,NA,-102,103
-"Thresholds",0,NA,"East",NA,-102,103,NA,NA,-102,103
-"Thresholds",1,NA,"West",NA,-98,101,NA,NA,-99,100
-"Thresholds",1,NA,"East",NA,-98,101,NA,NA,-99,100
+"Thresholds",0,NA,"West",NA,-103,103,NA,NA,-103,103
+"Thresholds",0,NA,"East",NA,-103,103,NA,NA,-103,103
+"Thresholds",1,NA,"West",NA,-99,101,NA,NA,-100,100
+"Thresholds",1,NA,"East",NA,-99,101,NA,NA,-100,100
 "Thresholds",2,NA,"West",NA,-95,98,NA,NA,-97,96
-"Thresholds",2,NA,"East",NA,-94,99,NA,NA,-96,97
-"Thresholds",3,NA,"West",NA,-89,98,NA,NA,-92,95
-"Thresholds",3,NA,"East",NA,-89,98,NA,NA,-92,95
+"Thresholds",2,NA,"East",NA,-95,99,NA,NA,-97,97
+"Thresholds",3,NA,"West",NA,-90,98,NA,NA,-93,95
+"Thresholds",3,NA,"East",NA,-90,98,NA,NA,-93,95
 "Thresholds",4,NA,"West",NA,-86,95,NA,NA,-90,91
 "Thresholds",4,NA,"East",NA,-85,96,NA,NA,-89,92
-"Thresholds",5,NA,"West",NA,-81,94,NA,NA,-86,89
-"Thresholds",5,NA,"East",NA,-80,95,NA,NA,-85,90
+"Thresholds",5,NA,"West",NA,-82,94,NA,NA,-87,89
+"Thresholds",5,NA,"East",NA,-81,95,NA,NA,-86,90
 "Thresholds",6,NA,"West",NA,-78,91,NA,NA,-84,85
-"Thresholds",6,NA,"East",NA,-77,92,NA,NA,-83,86
+"Thresholds",6,NA,"East",NA,-78,92,NA,NA,-84,86
 "Thresholds",7,NA,"West",NA,-73,90,NA,NA,-80,83
-"Thresholds",7,NA,"East",NA,-71,92,NA,NA,-78,85
+"Thresholds",7,NA,"East",NA,-72,92,NA,NA,-79,85
 "Thresholds",8,NA,"West",NA,-69,88,NA,NA,-77,80
-"Thresholds",8,NA,"East",NA,-67,90,NA,NA,-75,82
-"Thresholds",9,NA,"West",NA,-65,86,NA,NA,-74,77
+"Thresholds",8,NA,"East",NA,-68,90,NA,NA,-76,82
+"Thresholds",9,NA,"West",NA,-64,86,NA,NA,-73,77
 "Thresholds",9,NA,"East",NA,-64,87,NA,NA,-73,78
-"Thresholds",10,NA,"West",NA,-61,84,NA,NA,-71,74
-"Thresholds",10,NA,"East",NA,-60,85,NA,NA,-70,75
+"Thresholds",10,NA,"West",NA,-60,84,NA,NA,-70,74
+"Thresholds",10,NA,"East",NA,-58,85,NA,NA,-68,75
 "Thresholds",11,NA,"West",NA,-55,84,NA,NA,-66,73
 "Thresholds",11,NA,"East",NA,-54,85,NA,NA,-65,74
-"Thresholds",12,NA,"West",NA,-50,83,NA,NA,-62,71
-"Thresholds",12,NA,"East",NA,-50,83,NA,NA,-62,71
-"Thresholds",13,NA,"West",NA,-45,82,NA,NA,-58,69
+"Thresholds",12,NA,"West",NA,-51,83,NA,NA,-63,71
+"Thresholds",12,NA,"East",NA,-49,83,NA,NA,-61,71
+"Thresholds",13,NA,"West",NA,-46,82,NA,NA,-59,69
 "Thresholds",13,NA,"East",NA,-46,81,NA,NA,-59,68
-"Thresholds",14,NA,"West",NA,-41,80,NA,NA,-55,66
+"Thresholds",14,NA,"West",NA,-42,80,NA,NA,-56,66
 "Thresholds",14,NA,"East",NA,-42,79,NA,NA,-56,65
-"Thresholds",15,NA,"West",NA,-38,77,NA,NA,-53,62
+"Thresholds",15,NA,"West",NA,-37,77,NA,NA,-52,62
 "Thresholds",15,NA,"East",NA,-37,78,NA,NA,-52,63
 "Thresholds",16,NA,"West",NA,-34,75,NA,NA,-50,59
 "Thresholds",16,NA,"East",NA,-33,76,NA,NA,-49,60
 "Thresholds",17,NA,"West",NA,-29,74,NA,NA,-46,57
 "Thresholds",17,NA,"East",NA,-29,74,NA,NA,-46,57
-"Thresholds",18,NA,"West",NA,-26,71,NA,NA,-44,53
+"Thresholds",18,NA,"West",NA,-24,71,NA,NA,-42,53
 "Thresholds",18,NA,"East",NA,-23,74,NA,NA,-41,56
-"Thresholds",19,NA,"West",NA,-21,70,NA,NA,-40,51
-"Thresholds",19,NA,"East",NA,-20,71,NA,NA,-39,52
+"Thresholds",19,NA,"West",NA,-20,70,NA,NA,-39,51
+"Thresholds",19,NA,"East",NA,-17,71,NA,NA,-36,52
 "Thresholds",20,NA,"West",NA,-16,69,NA,NA,-36,49
 "Thresholds",20,NA,"East",NA,-14,71,NA,NA,-34,51
 "Thresholds",21,NA,"West",NA,-13,66,NA,NA,-34,45
-"Thresholds",21,NA,"East",NA,-10,69,NA,NA,-31,48
+"Thresholds",21,NA,"East",NA,-9,69,NA,NA,-30,48
 "Thresholds",22,NA,"West",NA,-7,66,NA,NA,-29,44
 "Thresholds",22,NA,"East",NA,-6,67,NA,NA,-28,45
 "Thresholds",23,NA,"West",NA,-2,65,NA,NA,-25,42
 "Thresholds",23,NA,"East",NA,-1,66,NA,NA,-24,43
-"Thresholds",24,NA,"West",NA,2,63,NA,NA,-22,39
-"Thresholds",24,NA,"East",NA,2,63,NA,NA,-22,39
+"Thresholds",24,NA,"West",NA,3,63,NA,NA,-21,39
+"Thresholds",24,NA,"East",NA,5,63,NA,NA,-19,39
 "Thresholds",25,NA,"West",NA,6,61,NA,NA,-19,36
 "Thresholds",25,NA,"East",NA,8,63,NA,NA,-17,38
-"Thresholds",26,NA,"West",NA,9,58,NA,NA,-17,32
-"Thresholds",26,NA,"East",NA,12,61,NA,NA,-14,35
+"Thresholds",26,NA,"West",NA,12,58,NA,NA,-14,32
+"Thresholds",26,NA,"East",NA,11,61,NA,NA,-15,35
 "Thresholds",27,NA,"West",NA,15,58,NA,NA,-12,31
-"Thresholds",27,NA,"East",NA,15,58,NA,NA,-12,31
-"Thresholds",28,NA,"West",NA,18,55,NA,NA,-10,27
-"Thresholds",28,NA,"East",NA,18,55,NA,NA,-10,27
-"Thresholds",29,NA,"West",NA,23,55,NA,NA,-6,26
-"Thresholds",29,NA,"East",NA,21,55,NA,NA,-8,26
-"Thresholds",30,NA,"West",NA,26,55,NA,NA,-4,25
-"Thresholds",30,NA,"East",NA,24,55,NA,NA,-6,25
-"Thresholds",31,NA,"West",NA,29,55,NA,NA,-2,24
-"Thresholds",31,NA,"East",NA,27,55,NA,NA,-4,24
-"Thresholds",32,NA,"West",NA,32,55,NA,NA,0,23
-"Thresholds",32,NA,"East",NA,30,55,NA,NA,-2,23
-"Thresholds",33,NA,"West",NA,35,55,NA,NA,2,22
-"Thresholds",33,NA,"East",NA,33,55,NA,NA,0,22
-"Thresholds",34,NA,"West",NA,38,55,NA,NA,4,21
-"Thresholds",34,NA,"East",NA,36,55,NA,NA,2,21
+"Thresholds",27,NA,"East",NA,17,58,NA,NA,-10,31
+"Thresholds",28,NA,"West",NA,19,55,NA,NA,-9,27
+"Thresholds",28,NA,"East",NA,23,55,NA,NA,-5,27
+"Thresholds",29,NA,"West",NA,22,55,NA,NA,-7,26
+"Thresholds",29,NA,"East",NA,26,55,NA,NA,-3,26
+"Thresholds",30,NA,"West",NA,25,55,NA,NA,-5,25
+"Thresholds",30,NA,"East",NA,29,55,NA,NA,-1,25
+"Thresholds",31,NA,"West",NA,28,55,NA,NA,-3,24
+"Thresholds",31,NA,"East",NA,32,55,NA,NA,1,24
+"Thresholds",32,NA,"West",NA,31,55,NA,NA,-1,23
+"Thresholds",32,NA,"East",NA,35,55,NA,NA,3,23
+"Thresholds",33,NA,"West",NA,34,55,NA,NA,1,22
+"Thresholds",33,NA,"East",NA,38,55,NA,NA,5,22
+"Thresholds",34,NA,"West",NA,37,55,NA,NA,3,21
+"Thresholds",34,NA,"East",NA,41,55,NA,NA,7,21
