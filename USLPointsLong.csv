@@ -907,12 +907,12 @@
 "Harrisburg City Islanders",30,34,"East",34,34,40,4,4,4,10
 "LA Galaxy II",30,26,"West",26,26,32,-4,-4,-4,2
 "Louisville City FC",30,56,"East",56,56,62,26,26,26,32
-"New York Red Bulls II",30,NA,"East",44,41,50,NA,14,11,20
+"New York Red Bulls II",30,41,"East",41,41,47,11,11,11,17
 "OKC Energy FC",30,43,"West",43,43,49,13,13,13,19
-"Orange County SC",30,NA,"West",40,37,46,NA,10,7,16
+"Orange County SC",30,40,"West",40,40,46,10,10,10,16
 "Orlando City B",30,42,"East",42,42,48,12,12,12,18
 "Ottawa Fury",30,34,"East",34,34,40,4,4,4,10
-"Phoenix Rising FC",30,NA,"West",52,49,58,NA,22,19,28
+"Phoenix Rising FC",30,52,"West",52,52,58,22,22,22,28
 "Pittsburgh Riverhounds",30,35,"East",35,35,41,5,5,5,11
 "Portland Timbers II",30,NA,"West",18,15,24,NA,-12,-15,-6
 "Real Monarchs SLC",30,63,"West",63,63,69,33,33,33,39
@@ -920,14 +920,14 @@
 "Richmond Kickers",30,29,"East",29,29,35,-1,-1,-1,5
 "Rio Grande Valley FC",30,35,"West",35,35,41,5,5,5,11
 "Rochester Rhinos",30,NA,"East",47,44,53,NA,17,14,23
-"Sacramento Republic FC",30,NA,"West",48,45,54,NA,18,15,24
+"Sacramento Republic FC",30,45,"West",45,45,51,15,15,15,21
 "Saint Louis FC",30,35,"East",35,35,41,5,5,5,11
 "San Antonio FC",30,NA,"West",58,55,64,NA,28,25,34
 "Seattle Sounders FC II",30,NA,"West",34,31,40,NA,4,1,10
 "Swope Park Rangers",30,55,"West",55,55,61,25,25,25,31
-"Tampa Bay Rowdies",30,NA,"East",49,46,55,NA,19,16,25
+"Tampa Bay Rowdies",30,49,"East",49,49,55,19,19,19,25
 "Toronto FC II",30,25,"East",25,25,31,-5,-5,-5,1
-"Tulsa Roughnecks FC",30,NA,"West",46,43,52,NA,16,13,22
+"Tulsa Roughnecks FC",30,43,"West",43,43,49,13,13,13,19
 "Vancouver Whitecaps II",30,23,"West",23,23,29,-7,-7,-7,-1
 "Bethlehem Steel FC",31,NA,"East",46,40,49,NA,15,9,18
 "Charleston Battery",31,NA,"East",51,48,54,NA,20,17,23
@@ -937,12 +937,12 @@
 "Harrisburg City Islanders",31,37,"East",37,37,40,6,6,6,9
 "LA Galaxy II",31,NA,"West",29,26,32,NA,-2,-5,1
 "Louisville City FC",31,NA,"East",59,56,62,NA,28,25,31
-"New York Red Bulls II",31,NA,"East",47,41,50,NA,16,10,19
+"New York Red Bulls II",31,NA,"East",44,41,47,NA,13,10,16
 "OKC Energy FC",31,NA,"West",46,43,49,NA,15,12,18
-"Orange County SC",31,NA,"West",43,37,46,NA,12,6,15
+"Orange County SC",31,NA,"West",43,40,46,NA,12,9,15
 "Orlando City B",31,NA,"East",45,42,48,NA,14,11,17
 "Ottawa Fury",31,NA,"East",37,34,40,NA,6,3,9
-"Phoenix Rising FC",31,NA,"West",55,49,58,NA,24,18,27
+"Phoenix Rising FC",31,NA,"West",55,52,58,NA,24,21,27
 "Pittsburgh Riverhounds",31,NA,"East",38,35,41,NA,7,4,10
 "Portland Timbers II",31,NA,"West",21,15,24,NA,-10,-16,-7
 "Real Monarchs SLC",31,NA,"West",66,63,69,NA,35,32,38
@@ -950,14 +950,14 @@
 "Richmond Kickers",31,NA,"East",32,29,35,NA,1,-2,4
 "Rio Grande Valley FC",31,NA,"West",38,35,41,NA,7,4,10
 "Rochester Rhinos",31,NA,"East",50,44,53,NA,19,13,22
-"Sacramento Republic FC",31,NA,"West",51,45,54,NA,20,14,23
+"Sacramento Republic FC",31,NA,"West",48,45,51,NA,17,14,20
 "Saint Louis FC",31,NA,"East",38,35,41,NA,7,4,10
 "San Antonio FC",31,NA,"West",61,55,64,NA,30,24,33
 "Seattle Sounders FC II",31,NA,"West",37,31,40,NA,6,0,9
 "Swope Park Rangers",31,NA,"West",58,55,61,NA,27,24,30
-"Tampa Bay Rowdies",31,NA,"East",52,46,55,NA,21,15,24
+"Tampa Bay Rowdies",31,NA,"East",52,49,55,NA,21,18,24
 "Toronto FC II",31,NA,"East",28,25,31,NA,-3,-6,0
-"Tulsa Roughnecks FC",31,NA,"West",49,43,52,NA,18,12,21
+"Tulsa Roughnecks FC",31,NA,"West",46,43,49,NA,15,12,18
 "Vancouver Whitecaps II",31,NA,"West",26,23,29,NA,-5,-8,-2
 "Bethlehem Steel FC",32,NA,"East",49,40,49,NA,17,8,17
 "Charleston Battery",32,NA,"East",54,48,54,NA,22,16,22
@@ -967,12 +967,12 @@
 "Harrisburg City Islanders",32,NA,"East",40,37,40,NA,8,5,8
 "LA Galaxy II",32,NA,"West",32,26,32,NA,0,-6,0
 "Louisville City FC",32,NA,"East",62,56,62,NA,30,24,30
-"New York Red Bulls II",32,NA,"East",50,41,50,NA,18,9,18
+"New York Red Bulls II",32,NA,"East",47,41,47,NA,15,9,15
 "OKC Energy FC",32,NA,"West",49,43,49,NA,17,11,17
-"Orange County SC",32,NA,"West",46,37,46,NA,14,5,14
+"Orange County SC",32,NA,"West",46,40,46,NA,14,8,14
 "Orlando City B",32,NA,"East",48,42,48,NA,16,10,16
 "Ottawa Fury",32,NA,"East",40,34,40,NA,8,2,8
-"Phoenix Rising FC",32,NA,"West",58,49,58,NA,26,17,26
+"Phoenix Rising FC",32,NA,"West",58,52,58,NA,26,20,26
 "Pittsburgh Riverhounds",32,NA,"East",41,35,41,NA,9,3,9
 "Portland Timbers II",32,NA,"West",24,15,24,NA,-8,-17,-8
 "Real Monarchs SLC",32,NA,"West",69,63,69,NA,37,31,37
@@ -980,14 +980,14 @@
 "Richmond Kickers",32,NA,"East",35,29,35,NA,3,-3,3
 "Rio Grande Valley FC",32,NA,"West",41,35,41,NA,9,3,9
 "Rochester Rhinos",32,NA,"East",53,44,53,NA,21,12,21
-"Sacramento Republic FC",32,NA,"West",54,45,54,NA,22,13,22
+"Sacramento Republic FC",32,NA,"West",51,45,51,NA,19,13,19
 "Saint Louis FC",32,NA,"East",41,35,41,NA,9,3,9
 "San Antonio FC",32,NA,"West",64,55,64,NA,32,23,32
 "Seattle Sounders FC II",32,NA,"West",40,31,40,NA,8,-1,8
 "Swope Park Rangers",32,NA,"West",61,55,61,NA,29,23,29
-"Tampa Bay Rowdies",32,NA,"East",55,46,55,NA,23,14,23
+"Tampa Bay Rowdies",32,NA,"East",55,49,55,NA,23,17,23
 "Toronto FC II",32,NA,"East",31,25,31,NA,-1,-7,-1
-"Tulsa Roughnecks FC",32,NA,"West",52,43,52,NA,20,11,20
+"Tulsa Roughnecks FC",32,NA,"West",49,43,49,NA,17,11,17
 "Vancouver Whitecaps II",32,NA,"West",29,23,29,NA,-3,-9,-3
 "Thresholds",0,NA,"West",NA,-97,97,NA,NA,-97,97
 "Thresholds",0,NA,"East",NA,-97,97,NA,NA,-97,97
@@ -1050,8 +1050,8 @@
 "Thresholds",29,NA,"West",NA,30,47,NA,NA,1,18
 "Thresholds",29,NA,"East",NA,30,49,NA,NA,1,20
 "Thresholds",30,NA,"West",NA,36,47,NA,NA,6,17
-"Thresholds",30,NA,"East",NA,34,49,NA,NA,4,19
+"Thresholds",30,NA,"East",NA,34,48,NA,NA,4,18
 "Thresholds",31,NA,"West",NA,39,47,NA,NA,8,16
-"Thresholds",31,NA,"East",NA,37,49,NA,NA,6,18
+"Thresholds",31,NA,"East",NA,37,48,NA,NA,6,17
 "Thresholds",32,NA,"West",NA,42,47,NA,NA,10,15
-"Thresholds",32,NA,"East",NA,40,49,NA,NA,8,17
+"Thresholds",32,NA,"East",NA,40,48,NA,NA,8,16
