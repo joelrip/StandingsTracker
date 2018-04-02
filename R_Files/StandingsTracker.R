@@ -34,7 +34,8 @@ StandingsTracker <- function(ScoresTable, west, games, inNum, outNum) {
   }
   
   #convert to cumulative points table
-  teams = unique(ScoresTable$Home[order(ScoresTable$Home)])
+  teams = c(ScoresTable$Home, ScoresTable$Away)
+  teams = unique(teams[order(teams)])
   PointsTable = data.frame("Teams" = teams, "Game0" = 0)
   for (item in 1:games) {
     PointsTable = cbind(PointsTable, NA)
