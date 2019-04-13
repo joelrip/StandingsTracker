@@ -1,6 +1,6 @@
 ---
 title: "Standings Tracker"
-date: "Updated April 1, 2018"
+date: "Updated March 13, 2019"
 output: 
   flexdashboard::flex_dashboard:
     social: [ "twitter", "facebook"]
@@ -17,7 +17,7 @@ output:
 
 </style>
 
-<p class="intro">Graphing the progress of the 2018 US club soccer season, game by game.</p>
+<p class="intro">Graphing the progress of the 2019 US club soccer season, game by game.</p>
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
@@ -85,8 +85,10 @@ for (item in unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds
 }
 
 cols = c("#e6194b", "#3cb44b", "#ffe119", "#0082c8", "#f58231", "#911eb4", "#46f0f0", "#f032e6",
-         "#d2f53c", "#fabebe", "#008080", "#800000", "#e6beff", "#aa6e28", "#eee9b7", "#aaffc3",
-         "#808000") 
+         "#d2f53c", "#fabebe", "#008080", "#800000", "#e6beff", "#eee9b7", "#aa6e28", "#aaffc3",
+         "#808000")
+chartMax = 35
+chartMin = -15
 
 
 ```
@@ -108,7 +110,7 @@ highchart() %>%
   hc_add_series_list(MLSWestSeries) %>%
   hc_colors(cols) %>%
   hc_yAxis(title = list(text = "Points Minus Games Played"), 
-           max = 15, min = -5, 
+           max = chartMax, min = chartMin, 
            endOnTick = F) %>%
   hc_xAxis(title = list(text = "Game")) %>%
   #hc_add_annotation(title = list(text = "Clinched<br/>Playoffs"), xValue = 34, yValue = 30) %>%
@@ -141,7 +143,7 @@ highchart() %>%
   hc_add_series_list(MLSEastSeries) %>%
   hc_colors(cols) %>%
   hc_yAxis(title = list(text = "Points Minus Games Played"), 
-           max = 15, min = -5,
+           max = chartMax, min = chartMin,
            endOnTick = F) %>%
   hc_xAxis(title = list(text = "Game")) %>%
   #hc_add_annotation(title = list(text = "Clinched<br/>Playoffs"), xValue = 34, yValue = 30) %>%
@@ -180,11 +182,11 @@ highchart() %>%
   hc_add_series_list(USLWestSeries) %>%
   hc_colors(cols) %>%
   hc_yAxis(title = list(text = "Points Minus Games Played"), 
-           max = 15, min = -5,
+           max = chartMax, min = chartMin,
            endOnTick = F) %>%
   hc_xAxis(title = list(text = "Game")) %>%
-  #hc_add_annotation(title = list(text = "Clinched<br/>Playoffs"), xValue = 32, yValue = 30) %>%
-  #hc_add_annotation(title = list(text = "Mathematically<br/>Eliminated"), xValue = 32, yValue = -10) %>%
+  #hc_add_annotation(title = list(text = "Clinched<br/>Playoffs"), xValue = 34, yValue = 30) %>%
+  #hc_add_annotation(title = list(text = "Mathematically<br/>Eliminated"), xValue = 34, yValue = -10) %>%
   hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
   hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
              formatter = JS("function() {
@@ -213,11 +215,11 @@ highchart() %>%
   hc_add_series_list(USLEastSeries) %>%
   hc_colors(cols) %>%
   hc_yAxis(title = list(text = "Points Minus Games Played"), 
-           max = 15, min = -5, 
+           max = chartMax, min = chartMin, 
            endOnTick = F) %>%
   hc_xAxis(title = list(text = "Game")) %>%
-  #hc_add_annotation(title = list(text = "Clinched<br/>Playoffs"), xValue = 32, yValue = 30) %>%
-  #hc_add_annotation(title = list(text = "Mathematically<br/>Eliminated"), xValue = 32, yValue = -10) %>%
+  #hc_add_annotation(title = list(text = "Clinched<br/>Playoffs"), xValue = 34, yValue = 30) %>%
+  #hc_add_annotation(title = list(text = "Mathematically<br/>Eliminated"), xValue = 34, yValue = -10) %>%
   hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
   hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
              formatter = JS("function() {
