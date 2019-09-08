@@ -874,7 +874,7 @@
 "El Paso Locomotive FC",24,32,"West",32,32,62,8,8,8,38
 "Fresno FC",24,47,"West",47,47,77,23,23,23,53
 "Hartford Athletic",24,16,"East",16,16,46,-8,-8,-8,22
-"Indy Eleven",24,NA,"East",50,47,80,NA,26,23,56
+"Indy Eleven",24,50,"East",50,50,80,26,26,26,56
 "LA Galaxy II",24,32,"West",32,32,62,8,8,8,38
 "Las Vegas Lights FC",24,30,"West",30,30,60,6,6,6,36
 "Loudoun United FC",24,24,"East",24,24,54,0,0,0,30
@@ -893,7 +893,7 @@
 "Reno 1868 FC",24,44,"West",44,44,74,20,20,20,50
 "Rio Grande Valley FC Toros",24,25,"West",25,25,55,1,1,1,31
 "Sacramento Republic FC",24,34,"West",34,34,64,10,10,10,40
-"Saint Louis FC",24,NA,"East",29,26,59,NA,5,2,35
+"Saint Louis FC",24,29,"East",29,29,59,5,5,5,35
 "San Antonio FC",24,31,"West",31,31,61,7,7,7,37
 "Swope Park Rangers",24,15,"East",15,15,45,-9,-9,-9,21
 "Tacoma Defiance",24,17,"West",17,17,47,-7,-7,-7,23
@@ -907,13 +907,13 @@
 "Charleston Battery",25,NA,"East",34,31,61,NA,9,6,36
 "Charlotte Independence",25,25,"East",25,25,52,0,0,0,27
 "CS Switchbacks FC",25,22,"West",22,22,49,-3,-3,-3,24
-"El Paso Locomotive FC",25,NA,"West",35,32,62,NA,10,7,37
+"El Paso Locomotive FC",25,33,"West",33,33,60,8,8,8,35
 "Fresno FC",25,47,"West",47,47,74,22,22,22,49
 "Hartford Athletic",25,16,"East",16,16,43,-9,-9,-9,18
-"Indy Eleven",25,NA,"East",53,47,80,NA,28,22,55
+"Indy Eleven",25,NA,"East",53,50,80,NA,28,25,55
 "LA Galaxy II",25,33,"West",33,33,60,8,8,8,35
 "Las Vegas Lights FC",25,31,"West",31,31,58,6,6,6,33
-"Loudoun United FC",25,NA,"East",27,24,54,NA,2,-1,29
+"Loudoun United FC",25,24,"East",24,24,51,-1,-1,-1,26
 "Louisville City FC",25,42,"East",42,42,69,17,17,17,44
 "Memphis 901 FC",25,22,"East",22,22,49,-3,-3,-3,24
 "Nashville SC",25,45,"East",45,45,72,20,20,20,47
@@ -922,343 +922,343 @@
 "North Carolina FC",25,46,"East",46,46,73,21,21,21,48
 "Oklahoma City Energy FC",25,33,"West",33,33,60,8,8,8,35
 "Orange County SC",25,33,"West",33,33,60,8,8,8,35
-"Ottawa Fury FC",25,NA,"East",42,39,69,NA,17,14,44
+"Ottawa Fury FC",25,39,"East",39,39,66,14,14,14,41
 "Pittsburgh Riverhounds",25,47,"East",47,47,74,22,22,22,49
 "Portland Timbers 2",25,32,"West",32,32,59,7,7,7,34
-"Real Monarchs SLC",25,NA,"West",39,36,66,NA,14,11,41
+"Real Monarchs SLC",25,37,"West",37,37,64,12,12,12,39
 "Reno 1868 FC",25,44,"West",44,44,71,19,19,19,46
 "Rio Grande Valley FC Toros",25,28,"West",28,28,55,3,3,3,30
 "Sacramento Republic FC",25,34,"West",34,34,61,9,9,9,36
-"Saint Louis FC",25,NA,"East",32,26,59,NA,7,1,34
+"Saint Louis FC",25,32,"East",32,32,59,7,7,7,34
 "San Antonio FC",25,34,"West",34,34,61,9,9,9,36
-"Swope Park Rangers",25,NA,"East",18,15,45,NA,-7,-10,20
+"Swope Park Rangers",25,15,"East",15,15,42,-10,-10,-10,17
 "Tacoma Defiance",25,20,"West",20,20,47,-5,-5,-5,22
 "Tampa Bay Rowdies",25,49,"East",49,49,76,24,24,24,51
 "Tulsa Roughnecks",25,20,"West",20,20,47,-5,-5,-5,22
 "Arizona United",26,62,"West",62,62,86,36,36,36,60
-"Atlanta United 2",26,NA,"East",23,20,47,NA,-3,-6,21
-"Austin Bold FC",26,NA,"West",39,36,63,NA,13,10,37
-"Bethlehem Steel FC",26,NA,"East",29,26,53,NA,3,0,27
-"Birmingham Legion FC",26,NA,"East",36,33,60,NA,10,7,34
+"Atlanta United 2",26,20,"East",20,20,44,-6,-6,-6,18
+"Austin Bold FC",26,39,"West",39,39,63,13,13,13,37
+"Bethlehem Steel FC",26,27,"East",27,27,51,1,1,1,25
+"Birmingham Legion FC",26,36,"East",36,36,60,10,10,10,34
 "Charleston Battery",26,NA,"East",37,31,61,NA,11,5,35
 "Charlotte Independence",26,25,"East",25,25,49,-1,-1,-1,23
 "CS Switchbacks FC",26,22,"West",22,22,46,-4,-4,-4,20
-"El Paso Locomotive FC",26,NA,"West",38,32,62,NA,12,6,36
-"Fresno FC",26,NA,"West",50,47,74,NA,24,21,48
+"El Paso Locomotive FC",26,36,"West",36,36,60,10,10,10,34
+"Fresno FC",26,50,"West",50,50,74,24,24,24,48
 "Hartford Athletic",26,19,"East",19,19,43,-7,-7,-7,17
-"Indy Eleven",26,NA,"East",56,47,80,NA,30,21,54
+"Indy Eleven",26,NA,"East",56,50,80,NA,30,24,54
 "LA Galaxy II",26,36,"West",36,36,60,10,10,10,34
-"Las Vegas Lights FC",26,NA,"West",34,31,58,NA,8,5,32
-"Loudoun United FC",26,NA,"East",30,24,54,NA,4,-2,28
+"Las Vegas Lights FC",26,32,"West",32,32,56,6,6,6,30
+"Loudoun United FC",26,NA,"East",27,24,51,NA,1,-2,25
 "Louisville City FC",26,43,"East",43,43,67,17,17,17,41
-"Memphis 901 FC",26,NA,"East",25,22,49,NA,-1,-4,23
+"Memphis 901 FC",26,25,"East",25,25,49,-1,-1,-1,23
 "Nashville SC",26,48,"East",48,48,72,22,22,22,46
-"New Mexico United",26,NA,"West",37,34,61,NA,11,8,35
+"New Mexico United",26,34,"West",34,34,58,8,8,8,32
 "New York Red Bulls II",26,53,"East",53,53,77,27,27,27,51
 "North Carolina FC",26,46,"East",46,46,70,20,20,20,44
 "Oklahoma City Energy FC",26,36,"West",36,36,60,10,10,10,34
-"Orange County SC",26,NA,"West",36,33,60,NA,10,7,34
-"Ottawa Fury FC",26,NA,"East",45,39,69,NA,19,13,43
-"Pittsburgh Riverhounds",26,NA,"East",50,47,74,NA,24,21,48
+"Orange County SC",26,36,"West",36,36,60,10,10,10,34
+"Ottawa Fury FC",26,39,"East",39,39,63,13,13,13,37
+"Pittsburgh Riverhounds",26,48,"East",48,48,72,22,22,22,46
 "Portland Timbers 2",26,35,"West",35,35,59,9,9,9,33
-"Real Monarchs SLC",26,NA,"West",42,36,66,NA,16,10,40
+"Real Monarchs SLC",26,37,"West",37,37,61,11,11,11,35
 "Reno 1868 FC",26,44,"West",44,44,68,18,18,18,42
-"Rio Grande Valley FC Toros",26,NA,"West",31,28,55,NA,5,2,29
-"Sacramento Republic FC",26,NA,"West",37,34,61,NA,11,8,35
-"Saint Louis FC",26,NA,"East",35,26,59,NA,9,0,33
+"Rio Grande Valley FC Toros",26,28,"West",28,28,52,2,2,2,26
+"Sacramento Republic FC",26,37,"West",37,37,61,11,11,11,35
+"Saint Louis FC",26,35,"East",35,35,59,9,9,9,33
 "San Antonio FC",26,34,"West",34,34,58,8,8,8,32
-"Swope Park Rangers",26,NA,"East",21,15,45,NA,-5,-11,19
-"Tacoma Defiance",26,NA,"West",23,20,47,NA,-3,-6,21
+"Swope Park Rangers",26,NA,"East",18,15,42,NA,-8,-11,16
+"Tacoma Defiance",26,20,"West",20,20,44,-6,-6,-6,18
 "Tampa Bay Rowdies",26,49,"East",49,49,73,23,23,23,47
 "Tulsa Roughnecks",26,23,"West",23,23,47,-3,-3,-3,21
-"Arizona United",27,NA,"West",65,62,86,NA,38,35,59
-"Atlanta United 2",27,NA,"East",26,20,47,NA,-1,-7,20
-"Austin Bold FC",27,NA,"West",42,36,63,NA,15,9,36
-"Bethlehem Steel FC",27,NA,"East",32,26,53,NA,5,-1,26
-"Birmingham Legion FC",27,NA,"East",39,33,60,NA,12,6,33
+"Arizona United",27,65,"West",65,65,86,38,38,38,59
+"Atlanta United 2",27,23,"East",23,23,44,-4,-4,-4,17
+"Austin Bold FC",27,40,"West",40,40,61,13,13,13,34
+"Bethlehem Steel FC",27,NA,"East",30,27,51,NA,3,0,24
+"Birmingham Legion FC",27,NA,"East",39,36,60,NA,12,9,33
 "Charleston Battery",27,NA,"East",40,31,61,NA,13,4,34
 "Charlotte Independence",27,26,"East",26,26,47,-1,-1,-1,20
 "CS Switchbacks FC",27,22,"West",22,22,43,-5,-5,-5,16
-"El Paso Locomotive FC",27,NA,"West",41,32,62,NA,14,5,35
-"Fresno FC",27,NA,"West",53,47,74,NA,26,20,47
-"Hartford Athletic",27,NA,"East",22,19,43,NA,-5,-8,16
-"Indy Eleven",27,NA,"East",59,47,80,NA,32,20,53
-"LA Galaxy II",27,NA,"West",39,36,60,NA,12,9,33
-"Las Vegas Lights FC",27,NA,"West",37,31,58,NA,10,4,31
-"Loudoun United FC",27,NA,"East",33,24,54,NA,6,-3,27
-"Louisville City FC",27,NA,"East",46,43,67,NA,19,16,40
-"Memphis 901 FC",27,NA,"East",28,22,49,NA,1,-5,22
+"El Paso Locomotive FC",27,NA,"West",39,36,60,NA,12,9,33
+"Fresno FC",27,NA,"West",53,50,74,NA,26,23,47
+"Hartford Athletic",27,19,"East",19,19,40,-8,-8,-8,13
+"Indy Eleven",27,NA,"East",59,50,80,NA,32,23,53
+"LA Galaxy II",27,39,"West",39,39,60,12,12,12,33
+"Las Vegas Lights FC",27,32,"West",32,32,53,5,5,5,26
+"Loudoun United FC",27,NA,"East",30,24,51,NA,3,-3,24
+"Louisville City FC",27,44,"East",44,44,65,17,17,17,38
+"Memphis 901 FC",27,NA,"East",28,25,49,NA,1,-2,22
 "Nashville SC",27,51,"East",51,51,72,24,24,24,45
-"New Mexico United",27,NA,"West",40,34,61,NA,13,7,34
-"New York Red Bulls II",27,NA,"East",56,53,77,NA,29,26,50
+"New Mexico United",27,NA,"West",37,34,58,NA,10,7,31
+"New York Red Bulls II",27,53,"East",53,53,74,26,26,26,47
 "North Carolina FC",27,46,"East",46,46,67,19,19,19,40
 "Oklahoma City Energy FC",27,37,"West",37,37,58,10,10,10,31
-"Orange County SC",27,NA,"West",39,33,60,NA,12,6,33
-"Ottawa Fury FC",27,NA,"East",48,39,69,NA,21,12,42
-"Pittsburgh Riverhounds",27,NA,"East",53,47,74,NA,26,20,47
+"Orange County SC",27,NA,"West",39,36,60,NA,12,9,33
+"Ottawa Fury FC",27,NA,"East",42,39,63,NA,15,12,36
+"Pittsburgh Riverhounds",27,NA,"East",51,48,72,NA,24,21,45
 "Portland Timbers 2",27,NA,"West",38,35,59,NA,11,8,32
-"Real Monarchs SLC",27,NA,"West",45,36,66,NA,18,9,39
-"Reno 1868 FC",27,NA,"West",47,44,68,NA,20,17,41
-"Rio Grande Valley FC Toros",27,NA,"West",34,28,55,NA,7,1,28
-"Sacramento Republic FC",27,NA,"West",40,34,61,NA,13,7,34
-"Saint Louis FC",27,NA,"East",38,26,59,NA,11,-1,32
-"San Antonio FC",27,NA,"West",37,34,58,NA,10,7,31
-"Swope Park Rangers",27,NA,"East",24,15,45,NA,-3,-12,18
-"Tacoma Defiance",27,NA,"West",26,20,47,NA,-1,-7,20
-"Tampa Bay Rowdies",27,NA,"East",52,49,73,NA,25,22,46
-"Tulsa Roughnecks",27,NA,"West",26,23,47,NA,-1,-4,20
-"Arizona United",28,NA,"West",68,62,86,NA,40,34,58
-"Atlanta United 2",28,NA,"East",29,20,47,NA,1,-8,19
-"Austin Bold FC",28,NA,"West",45,36,63,NA,17,8,35
-"Bethlehem Steel FC",28,NA,"East",35,26,53,NA,7,-2,25
-"Birmingham Legion FC",28,NA,"East",42,33,60,NA,14,5,32
+"Real Monarchs SLC",27,NA,"West",40,37,61,NA,13,10,34
+"Reno 1868 FC",27,44,"West",44,44,65,17,17,17,38
+"Rio Grande Valley FC Toros",27,28,"West",28,28,49,1,1,1,22
+"Sacramento Republic FC",27,NA,"West",40,37,61,NA,13,10,34
+"Saint Louis FC",27,NA,"East",38,35,59,NA,11,8,32
+"San Antonio FC",27,34,"West",34,34,55,7,7,7,28
+"Swope Park Rangers",27,NA,"East",21,15,42,NA,-6,-12,15
+"Tacoma Defiance",27,NA,"West",23,20,44,NA,-4,-7,17
+"Tampa Bay Rowdies",27,52,"East",52,52,73,25,25,25,46
+"Tulsa Roughnecks",27,24,"West",24,24,45,-3,-3,-3,18
+"Arizona United",28,NA,"West",68,65,86,NA,40,37,58
+"Atlanta United 2",28,NA,"East",26,23,44,NA,-2,-5,16
+"Austin Bold FC",28,NA,"West",43,40,61,NA,15,12,33
+"Bethlehem Steel FC",28,NA,"East",33,27,51,NA,5,-1,23
+"Birmingham Legion FC",28,NA,"East",42,36,60,NA,14,8,32
 "Charleston Battery",28,NA,"East",43,31,61,NA,15,3,33
-"Charlotte Independence",28,NA,"East",29,26,47,NA,1,-2,19
-"CS Switchbacks FC",28,NA,"West",25,22,43,NA,-3,-6,15
-"El Paso Locomotive FC",28,NA,"West",44,32,62,NA,16,4,34
-"Fresno FC",28,NA,"West",56,47,74,NA,28,19,46
-"Hartford Athletic",28,NA,"East",25,19,43,NA,-3,-9,15
-"Indy Eleven",28,NA,"East",62,47,80,NA,34,19,52
-"LA Galaxy II",28,NA,"West",42,36,60,NA,14,8,32
-"Las Vegas Lights FC",28,NA,"West",40,31,58,NA,12,3,30
-"Loudoun United FC",28,NA,"East",36,24,54,NA,8,-4,26
-"Louisville City FC",28,NA,"East",49,43,67,NA,21,15,39
-"Memphis 901 FC",28,NA,"East",31,22,49,NA,3,-6,21
-"Nashville SC",28,NA,"East",54,51,72,NA,26,23,44
-"New Mexico United",28,NA,"West",43,34,61,NA,15,6,33
-"New York Red Bulls II",28,NA,"East",59,53,77,NA,31,25,49
-"North Carolina FC",28,NA,"East",49,46,67,NA,21,18,39
+"Charlotte Independence",28,26,"East",26,26,44,-2,-2,-2,16
+"CS Switchbacks FC",28,23,"West",23,23,41,-5,-5,-5,13
+"El Paso Locomotive FC",28,NA,"West",42,36,60,NA,14,8,32
+"Fresno FC",28,NA,"West",56,50,74,NA,28,22,46
+"Hartford Athletic",28,22,"East",22,22,40,-6,-6,-6,12
+"Indy Eleven",28,NA,"East",62,50,80,NA,34,22,52
+"LA Galaxy II",28,NA,"West",42,39,60,NA,14,11,32
+"Las Vegas Lights FC",28,NA,"West",35,32,53,NA,7,4,25
+"Loudoun United FC",28,NA,"East",33,24,51,NA,5,-4,23
+"Louisville City FC",28,NA,"East",47,44,65,NA,19,16,37
+"Memphis 901 FC",28,NA,"East",31,25,49,NA,3,-3,21
+"Nashville SC",28,51,"East",51,51,69,23,23,23,41
+"New Mexico United",28,NA,"West",40,34,58,NA,12,6,30
+"New York Red Bulls II",28,NA,"East",56,53,74,NA,28,25,46
+"North Carolina FC",28,47,"East",47,47,65,19,19,19,37
 "Oklahoma City Energy FC",28,NA,"West",40,37,58,NA,12,9,30
-"Orange County SC",28,NA,"West",42,33,60,NA,14,5,32
-"Ottawa Fury FC",28,NA,"East",51,39,69,NA,23,11,41
-"Pittsburgh Riverhounds",28,NA,"East",56,47,74,NA,28,19,46
+"Orange County SC",28,NA,"West",42,36,60,NA,14,8,32
+"Ottawa Fury FC",28,NA,"East",45,39,63,NA,17,11,35
+"Pittsburgh Riverhounds",28,NA,"East",54,48,72,NA,26,20,44
 "Portland Timbers 2",28,NA,"West",41,35,59,NA,13,7,31
-"Real Monarchs SLC",28,NA,"West",48,36,66,NA,20,8,38
-"Reno 1868 FC",28,NA,"West",50,44,68,NA,22,16,40
-"Rio Grande Valley FC Toros",28,NA,"West",37,28,55,NA,9,0,27
-"Sacramento Republic FC",28,NA,"West",43,34,61,NA,15,6,33
-"Saint Louis FC",28,NA,"East",41,26,59,NA,13,-2,31
-"San Antonio FC",28,NA,"West",40,34,58,NA,12,6,30
-"Swope Park Rangers",28,NA,"East",27,15,45,NA,-1,-13,17
-"Tacoma Defiance",28,NA,"West",29,20,47,NA,1,-8,19
-"Tampa Bay Rowdies",28,NA,"East",55,49,73,NA,27,21,45
-"Tulsa Roughnecks",28,NA,"West",29,23,47,NA,1,-5,19
-"Arizona United",29,NA,"West",71,62,86,NA,42,33,57
-"Atlanta United 2",29,NA,"East",32,20,47,NA,3,-9,18
-"Austin Bold FC",29,NA,"West",48,36,63,NA,19,7,34
-"Bethlehem Steel FC",29,NA,"East",38,26,53,NA,9,-3,24
-"Birmingham Legion FC",29,NA,"East",45,33,60,NA,16,4,31
+"Real Monarchs SLC",28,NA,"West",43,37,61,NA,15,9,33
+"Reno 1868 FC",28,NA,"West",47,44,65,NA,19,16,37
+"Rio Grande Valley FC Toros",28,NA,"West",31,28,49,NA,3,0,21
+"Sacramento Republic FC",28,NA,"West",43,37,61,NA,15,9,33
+"Saint Louis FC",28,NA,"East",41,35,59,NA,13,7,31
+"San Antonio FC",28,NA,"West",37,34,55,NA,9,6,27
+"Swope Park Rangers",28,NA,"East",24,15,42,NA,-4,-13,14
+"Tacoma Defiance",28,NA,"West",26,20,44,NA,-2,-8,16
+"Tampa Bay Rowdies",28,NA,"East",55,52,73,NA,27,24,45
+"Tulsa Roughnecks",28,27,"West",27,27,45,-1,-1,-1,17
+"Arizona United",29,NA,"West",71,65,86,NA,42,36,57
+"Atlanta United 2",29,NA,"East",29,23,44,NA,0,-6,15
+"Austin Bold FC",29,NA,"West",46,40,61,NA,17,11,32
+"Bethlehem Steel FC",29,NA,"East",36,27,51,NA,7,-2,22
+"Birmingham Legion FC",29,NA,"East",45,36,60,NA,16,7,31
 "Charleston Battery",29,NA,"East",46,31,61,NA,17,2,32
-"Charlotte Independence",29,NA,"East",32,26,47,NA,3,-3,18
-"CS Switchbacks FC",29,NA,"West",28,22,43,NA,-1,-7,14
-"El Paso Locomotive FC",29,NA,"West",47,32,62,NA,18,3,33
-"Fresno FC",29,NA,"West",59,47,74,NA,30,18,45
-"Hartford Athletic",29,NA,"East",28,19,43,NA,-1,-10,14
-"Indy Eleven",29,NA,"East",65,47,80,NA,36,18,51
-"LA Galaxy II",29,NA,"West",45,36,60,NA,16,7,31
-"Las Vegas Lights FC",29,NA,"West",43,31,58,NA,14,2,29
-"Loudoun United FC",29,NA,"East",39,24,54,NA,10,-5,25
-"Louisville City FC",29,NA,"East",52,43,67,NA,23,14,38
-"Memphis 901 FC",29,NA,"East",34,22,49,NA,5,-7,20
-"Nashville SC",29,NA,"East",57,51,72,NA,28,22,43
-"New Mexico United",29,NA,"West",46,34,61,NA,17,5,32
-"New York Red Bulls II",29,NA,"East",62,53,77,NA,33,24,48
-"North Carolina FC",29,NA,"East",52,46,67,NA,23,17,38
+"Charlotte Independence",29,NA,"East",29,26,44,NA,0,-3,15
+"CS Switchbacks FC",29,NA,"West",26,23,41,NA,-3,-6,12
+"El Paso Locomotive FC",29,NA,"West",45,36,60,NA,16,7,31
+"Fresno FC",29,NA,"West",59,50,74,NA,30,21,45
+"Hartford Athletic",29,NA,"East",25,22,40,NA,-4,-7,11
+"Indy Eleven",29,NA,"East",65,50,80,NA,36,21,51
+"LA Galaxy II",29,NA,"West",45,39,60,NA,16,10,31
+"Las Vegas Lights FC",29,NA,"West",38,32,53,NA,9,3,24
+"Loudoun United FC",29,NA,"East",36,24,51,NA,7,-5,22
+"Louisville City FC",29,NA,"East",50,44,65,NA,21,15,36
+"Memphis 901 FC",29,NA,"East",34,25,49,NA,5,-4,20
+"Nashville SC",29,NA,"East",54,51,69,NA,25,22,40
+"New Mexico United",29,NA,"West",43,34,58,NA,14,5,29
+"New York Red Bulls II",29,NA,"East",59,53,74,NA,30,24,45
+"North Carolina FC",29,NA,"East",50,47,65,NA,21,18,36
 "Oklahoma City Energy FC",29,NA,"West",43,37,58,NA,14,8,29
-"Orange County SC",29,NA,"West",45,33,60,NA,16,4,31
-"Ottawa Fury FC",29,NA,"East",54,39,69,NA,25,10,40
-"Pittsburgh Riverhounds",29,NA,"East",59,47,74,NA,30,18,45
+"Orange County SC",29,NA,"West",45,36,60,NA,16,7,31
+"Ottawa Fury FC",29,NA,"East",48,39,63,NA,19,10,34
+"Pittsburgh Riverhounds",29,NA,"East",57,48,72,NA,28,19,43
 "Portland Timbers 2",29,NA,"West",44,35,59,NA,15,6,30
-"Real Monarchs SLC",29,NA,"West",51,36,66,NA,22,7,37
-"Reno 1868 FC",29,NA,"West",53,44,68,NA,24,15,39
-"Rio Grande Valley FC Toros",29,NA,"West",40,28,55,NA,11,-1,26
-"Sacramento Republic FC",29,NA,"West",46,34,61,NA,17,5,32
-"Saint Louis FC",29,NA,"East",44,26,59,NA,15,-3,30
-"San Antonio FC",29,NA,"West",43,34,58,NA,14,5,29
-"Swope Park Rangers",29,NA,"East",30,15,45,NA,1,-14,16
-"Tacoma Defiance",29,NA,"West",32,20,47,NA,3,-9,18
-"Tampa Bay Rowdies",29,NA,"East",58,49,73,NA,29,20,44
-"Tulsa Roughnecks",29,NA,"West",32,23,47,NA,3,-6,18
-"Arizona United",30,NA,"West",74,62,86,NA,44,32,56
-"Atlanta United 2",30,NA,"East",35,20,47,NA,5,-10,17
-"Austin Bold FC",30,NA,"West",51,36,63,NA,21,6,33
-"Bethlehem Steel FC",30,NA,"East",41,26,53,NA,11,-4,23
-"Birmingham Legion FC",30,NA,"East",48,33,60,NA,18,3,30
+"Real Monarchs SLC",29,NA,"West",46,37,61,NA,17,8,32
+"Reno 1868 FC",29,NA,"West",50,44,65,NA,21,15,36
+"Rio Grande Valley FC Toros",29,NA,"West",34,28,49,NA,5,-1,20
+"Sacramento Republic FC",29,NA,"West",46,37,61,NA,17,8,32
+"Saint Louis FC",29,NA,"East",44,35,59,NA,15,6,30
+"San Antonio FC",29,NA,"West",40,34,55,NA,11,5,26
+"Swope Park Rangers",29,NA,"East",27,15,42,NA,-2,-14,13
+"Tacoma Defiance",29,NA,"West",29,20,44,NA,0,-9,15
+"Tampa Bay Rowdies",29,NA,"East",58,52,73,NA,29,23,44
+"Tulsa Roughnecks",29,NA,"West",30,27,45,NA,1,-2,16
+"Arizona United",30,NA,"West",74,65,86,NA,44,35,56
+"Atlanta United 2",30,NA,"East",32,23,44,NA,2,-7,14
+"Austin Bold FC",30,NA,"West",49,40,61,NA,19,10,31
+"Bethlehem Steel FC",30,NA,"East",39,27,51,NA,9,-3,21
+"Birmingham Legion FC",30,NA,"East",48,36,60,NA,18,6,30
 "Charleston Battery",30,NA,"East",49,31,61,NA,19,1,31
-"Charlotte Independence",30,NA,"East",35,26,47,NA,5,-4,17
-"CS Switchbacks FC",30,NA,"West",31,22,43,NA,1,-8,13
-"El Paso Locomotive FC",30,NA,"West",50,32,62,NA,20,2,32
-"Fresno FC",30,NA,"West",62,47,74,NA,32,17,44
-"Hartford Athletic",30,NA,"East",31,19,43,NA,1,-11,13
-"Indy Eleven",30,NA,"East",68,47,80,NA,38,17,50
-"LA Galaxy II",30,NA,"West",48,36,60,NA,18,6,30
-"Las Vegas Lights FC",30,NA,"West",46,31,58,NA,16,1,28
-"Loudoun United FC",30,NA,"East",42,24,54,NA,12,-6,24
-"Louisville City FC",30,NA,"East",55,43,67,NA,25,13,37
-"Memphis 901 FC",30,NA,"East",37,22,49,NA,7,-8,19
-"Nashville SC",30,NA,"East",60,51,72,NA,30,21,42
-"New Mexico United",30,NA,"West",49,34,61,NA,19,4,31
-"New York Red Bulls II",30,NA,"East",65,53,77,NA,35,23,47
-"North Carolina FC",30,NA,"East",55,46,67,NA,25,16,37
+"Charlotte Independence",30,NA,"East",32,26,44,NA,2,-4,14
+"CS Switchbacks FC",30,NA,"West",29,23,41,NA,-1,-7,11
+"El Paso Locomotive FC",30,NA,"West",48,36,60,NA,18,6,30
+"Fresno FC",30,NA,"West",62,50,74,NA,32,20,44
+"Hartford Athletic",30,NA,"East",28,22,40,NA,-2,-8,10
+"Indy Eleven",30,NA,"East",68,50,80,NA,38,20,50
+"LA Galaxy II",30,NA,"West",48,39,60,NA,18,9,30
+"Las Vegas Lights FC",30,NA,"West",41,32,53,NA,11,2,23
+"Loudoun United FC",30,NA,"East",39,24,51,NA,9,-6,21
+"Louisville City FC",30,NA,"East",53,44,65,NA,23,14,35
+"Memphis 901 FC",30,NA,"East",37,25,49,NA,7,-5,19
+"Nashville SC",30,NA,"East",57,51,69,NA,27,21,39
+"New Mexico United",30,NA,"West",46,34,58,NA,16,4,28
+"New York Red Bulls II",30,NA,"East",62,53,74,NA,32,23,44
+"North Carolina FC",30,NA,"East",53,47,65,NA,23,17,35
 "Oklahoma City Energy FC",30,NA,"West",46,37,58,NA,16,7,28
-"Orange County SC",30,NA,"West",48,33,60,NA,18,3,30
-"Ottawa Fury FC",30,NA,"East",57,39,69,NA,27,9,39
-"Pittsburgh Riverhounds",30,NA,"East",62,47,74,NA,32,17,44
+"Orange County SC",30,NA,"West",48,36,60,NA,18,6,30
+"Ottawa Fury FC",30,NA,"East",51,39,63,NA,21,9,33
+"Pittsburgh Riverhounds",30,NA,"East",60,48,72,NA,30,18,42
 "Portland Timbers 2",30,NA,"West",47,35,59,NA,17,5,29
-"Real Monarchs SLC",30,NA,"West",54,36,66,NA,24,6,36
-"Reno 1868 FC",30,NA,"West",56,44,68,NA,26,14,38
-"Rio Grande Valley FC Toros",30,NA,"West",43,28,55,NA,13,-2,25
-"Sacramento Republic FC",30,NA,"West",49,34,61,NA,19,4,31
-"Saint Louis FC",30,NA,"East",47,26,59,NA,17,-4,29
-"San Antonio FC",30,NA,"West",46,34,58,NA,16,4,28
-"Swope Park Rangers",30,NA,"East",33,15,45,NA,3,-15,15
-"Tacoma Defiance",30,NA,"West",35,20,47,NA,5,-10,17
-"Tampa Bay Rowdies",30,NA,"East",61,49,73,NA,31,19,43
-"Tulsa Roughnecks",30,NA,"West",35,23,47,NA,5,-7,17
-"Arizona United",31,NA,"West",77,62,86,NA,46,31,55
-"Atlanta United 2",31,NA,"East",38,20,47,NA,7,-11,16
-"Austin Bold FC",31,NA,"West",54,36,63,NA,23,5,32
-"Bethlehem Steel FC",31,NA,"East",44,26,53,NA,13,-5,22
-"Birmingham Legion FC",31,NA,"East",51,33,60,NA,20,2,29
+"Real Monarchs SLC",30,NA,"West",49,37,61,NA,19,7,31
+"Reno 1868 FC",30,NA,"West",53,44,65,NA,23,14,35
+"Rio Grande Valley FC Toros",30,NA,"West",37,28,49,NA,7,-2,19
+"Sacramento Republic FC",30,NA,"West",49,37,61,NA,19,7,31
+"Saint Louis FC",30,NA,"East",47,35,59,NA,17,5,29
+"San Antonio FC",30,NA,"West",43,34,55,NA,13,4,25
+"Swope Park Rangers",30,NA,"East",30,15,42,NA,0,-15,12
+"Tacoma Defiance",30,NA,"West",32,20,44,NA,2,-10,14
+"Tampa Bay Rowdies",30,NA,"East",61,52,73,NA,31,22,43
+"Tulsa Roughnecks",30,NA,"West",33,27,45,NA,3,-3,15
+"Arizona United",31,NA,"West",77,65,86,NA,46,34,55
+"Atlanta United 2",31,NA,"East",35,23,44,NA,4,-8,13
+"Austin Bold FC",31,NA,"West",52,40,61,NA,21,9,30
+"Bethlehem Steel FC",31,NA,"East",42,27,51,NA,11,-4,20
+"Birmingham Legion FC",31,NA,"East",51,36,60,NA,20,5,29
 "Charleston Battery",31,NA,"East",52,31,61,NA,21,0,30
-"Charlotte Independence",31,NA,"East",38,26,47,NA,7,-5,16
-"CS Switchbacks FC",31,NA,"West",34,22,43,NA,3,-9,12
-"El Paso Locomotive FC",31,NA,"West",53,32,62,NA,22,1,31
-"Fresno FC",31,NA,"West",65,47,74,NA,34,16,43
-"Hartford Athletic",31,NA,"East",34,19,43,NA,3,-12,12
-"Indy Eleven",31,NA,"East",71,47,80,NA,40,16,49
-"LA Galaxy II",31,NA,"West",51,36,60,NA,20,5,29
-"Las Vegas Lights FC",31,NA,"West",49,31,58,NA,18,0,27
-"Loudoun United FC",31,NA,"East",45,24,54,NA,14,-7,23
-"Louisville City FC",31,NA,"East",58,43,67,NA,27,12,36
-"Memphis 901 FC",31,NA,"East",40,22,49,NA,9,-9,18
-"Nashville SC",31,NA,"East",63,51,72,NA,32,20,41
-"New Mexico United",31,NA,"West",52,34,61,NA,21,3,30
-"New York Red Bulls II",31,NA,"East",68,53,77,NA,37,22,46
-"North Carolina FC",31,NA,"East",58,46,67,NA,27,15,36
+"Charlotte Independence",31,NA,"East",35,26,44,NA,4,-5,13
+"CS Switchbacks FC",31,NA,"West",32,23,41,NA,1,-8,10
+"El Paso Locomotive FC",31,NA,"West",51,36,60,NA,20,5,29
+"Fresno FC",31,NA,"West",65,50,74,NA,34,19,43
+"Hartford Athletic",31,NA,"East",31,22,40,NA,0,-9,9
+"Indy Eleven",31,NA,"East",71,50,80,NA,40,19,49
+"LA Galaxy II",31,NA,"West",51,39,60,NA,20,8,29
+"Las Vegas Lights FC",31,NA,"West",44,32,53,NA,13,1,22
+"Loudoun United FC",31,NA,"East",42,24,51,NA,11,-7,20
+"Louisville City FC",31,NA,"East",56,44,65,NA,25,13,34
+"Memphis 901 FC",31,NA,"East",40,25,49,NA,9,-6,18
+"Nashville SC",31,NA,"East",60,51,69,NA,29,20,38
+"New Mexico United",31,NA,"West",49,34,58,NA,18,3,27
+"New York Red Bulls II",31,NA,"East",65,53,74,NA,34,22,43
+"North Carolina FC",31,NA,"East",56,47,65,NA,25,16,34
 "Oklahoma City Energy FC",31,NA,"West",49,37,58,NA,18,6,27
-"Orange County SC",31,NA,"West",51,33,60,NA,20,2,29
-"Ottawa Fury FC",31,NA,"East",60,39,69,NA,29,8,38
-"Pittsburgh Riverhounds",31,NA,"East",65,47,74,NA,34,16,43
+"Orange County SC",31,NA,"West",51,36,60,NA,20,5,29
+"Ottawa Fury FC",31,NA,"East",54,39,63,NA,23,8,32
+"Pittsburgh Riverhounds",31,NA,"East",63,48,72,NA,32,17,41
 "Portland Timbers 2",31,NA,"West",50,35,59,NA,19,4,28
-"Real Monarchs SLC",31,NA,"West",57,36,66,NA,26,5,35
-"Reno 1868 FC",31,NA,"West",59,44,68,NA,28,13,37
-"Rio Grande Valley FC Toros",31,NA,"West",46,28,55,NA,15,-3,24
-"Sacramento Republic FC",31,NA,"West",52,34,61,NA,21,3,30
-"Saint Louis FC",31,NA,"East",50,26,59,NA,19,-5,28
-"San Antonio FC",31,NA,"West",49,34,58,NA,18,3,27
-"Swope Park Rangers",31,NA,"East",36,15,45,NA,5,-16,14
-"Tacoma Defiance",31,NA,"West",38,20,47,NA,7,-11,16
-"Tampa Bay Rowdies",31,NA,"East",64,49,73,NA,33,18,42
-"Tulsa Roughnecks",31,NA,"West",38,23,47,NA,7,-8,16
-"Arizona United",32,NA,"West",80,62,86,NA,48,30,54
-"Atlanta United 2",32,NA,"East",41,20,47,NA,9,-12,15
-"Austin Bold FC",32,NA,"West",57,36,63,NA,25,4,31
-"Bethlehem Steel FC",32,NA,"East",47,26,53,NA,15,-6,21
-"Birmingham Legion FC",32,NA,"East",54,33,60,NA,22,1,28
+"Real Monarchs SLC",31,NA,"West",52,37,61,NA,21,6,30
+"Reno 1868 FC",31,NA,"West",56,44,65,NA,25,13,34
+"Rio Grande Valley FC Toros",31,NA,"West",40,28,49,NA,9,-3,18
+"Sacramento Republic FC",31,NA,"West",52,37,61,NA,21,6,30
+"Saint Louis FC",31,NA,"East",50,35,59,NA,19,4,28
+"San Antonio FC",31,NA,"West",46,34,55,NA,15,3,24
+"Swope Park Rangers",31,NA,"East",33,15,42,NA,2,-16,11
+"Tacoma Defiance",31,NA,"West",35,20,44,NA,4,-11,13
+"Tampa Bay Rowdies",31,NA,"East",64,52,73,NA,33,21,42
+"Tulsa Roughnecks",31,NA,"West",36,27,45,NA,5,-4,14
+"Arizona United",32,NA,"West",80,65,86,NA,48,33,54
+"Atlanta United 2",32,NA,"East",38,23,44,NA,6,-9,12
+"Austin Bold FC",32,NA,"West",55,40,61,NA,23,8,29
+"Bethlehem Steel FC",32,NA,"East",45,27,51,NA,13,-5,19
+"Birmingham Legion FC",32,NA,"East",54,36,60,NA,22,4,28
 "Charleston Battery",32,NA,"East",55,31,61,NA,23,-1,29
-"Charlotte Independence",32,NA,"East",41,26,47,NA,9,-6,15
-"CS Switchbacks FC",32,NA,"West",37,22,43,NA,5,-10,11
-"El Paso Locomotive FC",32,NA,"West",56,32,62,NA,24,0,30
-"Fresno FC",32,NA,"West",68,47,74,NA,36,15,42
-"Hartford Athletic",32,NA,"East",37,19,43,NA,5,-13,11
-"Indy Eleven",32,NA,"East",74,47,80,NA,42,15,48
-"LA Galaxy II",32,NA,"West",54,36,60,NA,22,4,28
-"Las Vegas Lights FC",32,NA,"West",52,31,58,NA,20,-1,26
-"Loudoun United FC",32,NA,"East",48,24,54,NA,16,-8,22
-"Louisville City FC",32,NA,"East",61,43,67,NA,29,11,35
-"Memphis 901 FC",32,NA,"East",43,22,49,NA,11,-10,17
-"Nashville SC",32,NA,"East",66,51,72,NA,34,19,40
-"New Mexico United",32,NA,"West",55,34,61,NA,23,2,29
-"New York Red Bulls II",32,NA,"East",71,53,77,NA,39,21,45
-"North Carolina FC",32,NA,"East",61,46,67,NA,29,14,35
+"Charlotte Independence",32,NA,"East",38,26,44,NA,6,-6,12
+"CS Switchbacks FC",32,NA,"West",35,23,41,NA,3,-9,9
+"El Paso Locomotive FC",32,NA,"West",54,36,60,NA,22,4,28
+"Fresno FC",32,NA,"West",68,50,74,NA,36,18,42
+"Hartford Athletic",32,NA,"East",34,22,40,NA,2,-10,8
+"Indy Eleven",32,NA,"East",74,50,80,NA,42,18,48
+"LA Galaxy II",32,NA,"West",54,39,60,NA,22,7,28
+"Las Vegas Lights FC",32,NA,"West",47,32,53,NA,15,0,21
+"Loudoun United FC",32,NA,"East",45,24,51,NA,13,-8,19
+"Louisville City FC",32,NA,"East",59,44,65,NA,27,12,33
+"Memphis 901 FC",32,NA,"East",43,25,49,NA,11,-7,17
+"Nashville SC",32,NA,"East",63,51,69,NA,31,19,37
+"New Mexico United",32,NA,"West",52,34,58,NA,20,2,26
+"New York Red Bulls II",32,NA,"East",68,53,74,NA,36,21,42
+"North Carolina FC",32,NA,"East",59,47,65,NA,27,15,33
 "Oklahoma City Energy FC",32,NA,"West",52,37,58,NA,20,5,26
-"Orange County SC",32,NA,"West",54,33,60,NA,22,1,28
-"Ottawa Fury FC",32,NA,"East",63,39,69,NA,31,7,37
-"Pittsburgh Riverhounds",32,NA,"East",68,47,74,NA,36,15,42
+"Orange County SC",32,NA,"West",54,36,60,NA,22,4,28
+"Ottawa Fury FC",32,NA,"East",57,39,63,NA,25,7,31
+"Pittsburgh Riverhounds",32,NA,"East",66,48,72,NA,34,16,40
 "Portland Timbers 2",32,NA,"West",53,35,59,NA,21,3,27
-"Real Monarchs SLC",32,NA,"West",60,36,66,NA,28,4,34
-"Reno 1868 FC",32,NA,"West",62,44,68,NA,30,12,36
-"Rio Grande Valley FC Toros",32,NA,"West",49,28,55,NA,17,-4,23
-"Sacramento Republic FC",32,NA,"West",55,34,61,NA,23,2,29
-"Saint Louis FC",32,NA,"East",53,26,59,NA,21,-6,27
-"San Antonio FC",32,NA,"West",52,34,58,NA,20,2,26
-"Swope Park Rangers",32,NA,"East",39,15,45,NA,7,-17,13
-"Tacoma Defiance",32,NA,"West",41,20,47,NA,9,-12,15
-"Tampa Bay Rowdies",32,NA,"East",67,49,73,NA,35,17,41
-"Tulsa Roughnecks",32,NA,"West",41,23,47,NA,9,-9,15
-"Arizona United",33,NA,"West",83,62,86,NA,50,29,53
-"Atlanta United 2",33,NA,"East",44,20,47,NA,11,-13,14
-"Austin Bold FC",33,NA,"West",60,36,63,NA,27,3,30
-"Bethlehem Steel FC",33,NA,"East",50,26,53,NA,17,-7,20
-"Birmingham Legion FC",33,NA,"East",57,33,60,NA,24,0,27
+"Real Monarchs SLC",32,NA,"West",55,37,61,NA,23,5,29
+"Reno 1868 FC",32,NA,"West",59,44,65,NA,27,12,33
+"Rio Grande Valley FC Toros",32,NA,"West",43,28,49,NA,11,-4,17
+"Sacramento Republic FC",32,NA,"West",55,37,61,NA,23,5,29
+"Saint Louis FC",32,NA,"East",53,35,59,NA,21,3,27
+"San Antonio FC",32,NA,"West",49,34,55,NA,17,2,23
+"Swope Park Rangers",32,NA,"East",36,15,42,NA,4,-17,10
+"Tacoma Defiance",32,NA,"West",38,20,44,NA,6,-12,12
+"Tampa Bay Rowdies",32,NA,"East",67,52,73,NA,35,20,41
+"Tulsa Roughnecks",32,NA,"West",39,27,45,NA,7,-5,13
+"Arizona United",33,NA,"West",83,65,86,NA,50,32,53
+"Atlanta United 2",33,NA,"East",41,23,44,NA,8,-10,11
+"Austin Bold FC",33,NA,"West",58,40,61,NA,25,7,28
+"Bethlehem Steel FC",33,NA,"East",48,27,51,NA,15,-6,18
+"Birmingham Legion FC",33,NA,"East",57,36,60,NA,24,3,27
 "Charleston Battery",33,NA,"East",58,31,61,NA,25,-2,28
-"Charlotte Independence",33,NA,"East",44,26,47,NA,11,-7,14
-"CS Switchbacks FC",33,NA,"West",40,22,43,NA,7,-11,10
-"El Paso Locomotive FC",33,NA,"West",59,32,62,NA,26,-1,29
-"Fresno FC",33,NA,"West",71,47,74,NA,38,14,41
-"Hartford Athletic",33,NA,"East",40,19,43,NA,7,-14,10
-"Indy Eleven",33,NA,"East",77,47,80,NA,44,14,47
-"LA Galaxy II",33,NA,"West",57,36,60,NA,24,3,27
-"Las Vegas Lights FC",33,NA,"West",55,31,58,NA,22,-2,25
-"Loudoun United FC",33,NA,"East",51,24,54,NA,18,-9,21
-"Louisville City FC",33,NA,"East",64,43,67,NA,31,10,34
-"Memphis 901 FC",33,NA,"East",46,22,49,NA,13,-11,16
-"Nashville SC",33,NA,"East",69,51,72,NA,36,18,39
-"New Mexico United",33,NA,"West",58,34,61,NA,25,1,28
-"New York Red Bulls II",33,NA,"East",74,53,77,NA,41,20,44
-"North Carolina FC",33,NA,"East",64,46,67,NA,31,13,34
+"Charlotte Independence",33,NA,"East",41,26,44,NA,8,-7,11
+"CS Switchbacks FC",33,NA,"West",38,23,41,NA,5,-10,8
+"El Paso Locomotive FC",33,NA,"West",57,36,60,NA,24,3,27
+"Fresno FC",33,NA,"West",71,50,74,NA,38,17,41
+"Hartford Athletic",33,NA,"East",37,22,40,NA,4,-11,7
+"Indy Eleven",33,NA,"East",77,50,80,NA,44,17,47
+"LA Galaxy II",33,NA,"West",57,39,60,NA,24,6,27
+"Las Vegas Lights FC",33,NA,"West",50,32,53,NA,17,-1,20
+"Loudoun United FC",33,NA,"East",48,24,51,NA,15,-9,18
+"Louisville City FC",33,NA,"East",62,44,65,NA,29,11,32
+"Memphis 901 FC",33,NA,"East",46,25,49,NA,13,-8,16
+"Nashville SC",33,NA,"East",66,51,69,NA,33,18,36
+"New Mexico United",33,NA,"West",55,34,58,NA,22,1,25
+"New York Red Bulls II",33,NA,"East",71,53,74,NA,38,20,41
+"North Carolina FC",33,NA,"East",62,47,65,NA,29,14,32
 "Oklahoma City Energy FC",33,NA,"West",55,37,58,NA,22,4,25
-"Orange County SC",33,NA,"West",57,33,60,NA,24,0,27
-"Ottawa Fury FC",33,NA,"East",66,39,69,NA,33,6,36
-"Pittsburgh Riverhounds",33,NA,"East",71,47,74,NA,38,14,41
+"Orange County SC",33,NA,"West",57,36,60,NA,24,3,27
+"Ottawa Fury FC",33,NA,"East",60,39,63,NA,27,6,30
+"Pittsburgh Riverhounds",33,NA,"East",69,48,72,NA,36,15,39
 "Portland Timbers 2",33,NA,"West",56,35,59,NA,23,2,26
-"Real Monarchs SLC",33,NA,"West",63,36,66,NA,30,3,33
-"Reno 1868 FC",33,NA,"West",65,44,68,NA,32,11,35
-"Rio Grande Valley FC Toros",33,NA,"West",52,28,55,NA,19,-5,22
-"Sacramento Republic FC",33,NA,"West",58,34,61,NA,25,1,28
-"Saint Louis FC",33,NA,"East",56,26,59,NA,23,-7,26
-"San Antonio FC",33,NA,"West",55,34,58,NA,22,1,25
-"Swope Park Rangers",33,NA,"East",42,15,45,NA,9,-18,12
-"Tacoma Defiance",33,NA,"West",44,20,47,NA,11,-13,14
-"Tampa Bay Rowdies",33,NA,"East",70,49,73,NA,37,16,40
-"Tulsa Roughnecks",33,NA,"West",44,23,47,NA,11,-10,14
-"Arizona United",34,NA,"West",86,62,86,NA,52,28,52
-"Atlanta United 2",34,NA,"East",47,20,47,NA,13,-14,13
-"Austin Bold FC",34,NA,"West",63,36,63,NA,29,2,29
-"Bethlehem Steel FC",34,NA,"East",53,26,53,NA,19,-8,19
-"Birmingham Legion FC",34,NA,"East",60,33,60,NA,26,-1,26
+"Real Monarchs SLC",33,NA,"West",58,37,61,NA,25,4,28
+"Reno 1868 FC",33,NA,"West",62,44,65,NA,29,11,32
+"Rio Grande Valley FC Toros",33,NA,"West",46,28,49,NA,13,-5,16
+"Sacramento Republic FC",33,NA,"West",58,37,61,NA,25,4,28
+"Saint Louis FC",33,NA,"East",56,35,59,NA,23,2,26
+"San Antonio FC",33,NA,"West",52,34,55,NA,19,1,22
+"Swope Park Rangers",33,NA,"East",39,15,42,NA,6,-18,9
+"Tacoma Defiance",33,NA,"West",41,20,44,NA,8,-13,11
+"Tampa Bay Rowdies",33,NA,"East",70,52,73,NA,37,19,40
+"Tulsa Roughnecks",33,NA,"West",42,27,45,NA,9,-6,12
+"Arizona United",34,NA,"West",86,65,86,NA,52,31,52
+"Atlanta United 2",34,NA,"East",44,23,44,NA,10,-11,10
+"Austin Bold FC",34,NA,"West",61,40,61,NA,27,6,27
+"Bethlehem Steel FC",34,NA,"East",51,27,51,NA,17,-7,17
+"Birmingham Legion FC",34,NA,"East",60,36,60,NA,26,2,26
 "Charleston Battery",34,NA,"East",61,31,61,NA,27,-3,27
-"Charlotte Independence",34,NA,"East",47,26,47,NA,13,-8,13
-"CS Switchbacks FC",34,NA,"West",43,22,43,NA,9,-12,9
-"El Paso Locomotive FC",34,NA,"West",62,32,62,NA,28,-2,28
-"Fresno FC",34,NA,"West",74,47,74,NA,40,13,40
-"Hartford Athletic",34,NA,"East",43,19,43,NA,9,-15,9
-"Indy Eleven",34,NA,"East",80,47,80,NA,46,13,46
-"LA Galaxy II",34,NA,"West",60,36,60,NA,26,2,26
-"Las Vegas Lights FC",34,NA,"West",58,31,58,NA,24,-3,24
-"Loudoun United FC",34,NA,"East",54,24,54,NA,20,-10,20
-"Louisville City FC",34,NA,"East",67,43,67,NA,33,9,33
-"Memphis 901 FC",34,NA,"East",49,22,49,NA,15,-12,15
-"Nashville SC",34,NA,"East",72,51,72,NA,38,17,38
-"New Mexico United",34,NA,"West",61,34,61,NA,27,0,27
-"New York Red Bulls II",34,NA,"East",77,53,77,NA,43,19,43
-"North Carolina FC",34,NA,"East",67,46,67,NA,33,12,33
+"Charlotte Independence",34,NA,"East",44,26,44,NA,10,-8,10
+"CS Switchbacks FC",34,NA,"West",41,23,41,NA,7,-11,7
+"El Paso Locomotive FC",34,NA,"West",60,36,60,NA,26,2,26
+"Fresno FC",34,NA,"West",74,50,74,NA,40,16,40
+"Hartford Athletic",34,NA,"East",40,22,40,NA,6,-12,6
+"Indy Eleven",34,NA,"East",80,50,80,NA,46,16,46
+"LA Galaxy II",34,NA,"West",60,39,60,NA,26,5,26
+"Las Vegas Lights FC",34,NA,"West",53,32,53,NA,19,-2,19
+"Loudoun United FC",34,NA,"East",51,24,51,NA,17,-10,17
+"Louisville City FC",34,NA,"East",65,44,65,NA,31,10,31
+"Memphis 901 FC",34,NA,"East",49,25,49,NA,15,-9,15
+"Nashville SC",34,NA,"East",69,51,69,NA,35,17,35
+"New Mexico United",34,NA,"West",58,34,58,NA,24,0,24
+"New York Red Bulls II",34,NA,"East",74,53,74,NA,40,19,40
+"North Carolina FC",34,NA,"East",65,47,65,NA,31,13,31
 "Oklahoma City Energy FC",34,NA,"West",58,37,58,NA,24,3,24
-"Orange County SC",34,NA,"West",60,33,60,NA,26,-1,26
-"Ottawa Fury FC",34,NA,"East",69,39,69,NA,35,5,35
-"Pittsburgh Riverhounds",34,NA,"East",74,47,74,NA,40,13,40
+"Orange County SC",34,NA,"West",60,36,60,NA,26,2,26
+"Ottawa Fury FC",34,NA,"East",63,39,63,NA,29,5,29
+"Pittsburgh Riverhounds",34,NA,"East",72,48,72,NA,38,14,38
 "Portland Timbers 2",34,NA,"West",59,35,59,NA,25,1,25
-"Real Monarchs SLC",34,NA,"West",66,36,66,NA,32,2,32
-"Reno 1868 FC",34,NA,"West",68,44,68,NA,34,10,34
-"Rio Grande Valley FC Toros",34,NA,"West",55,28,55,NA,21,-6,21
-"Sacramento Republic FC",34,NA,"West",61,34,61,NA,27,0,27
-"Saint Louis FC",34,NA,"East",59,26,59,NA,25,-8,25
-"San Antonio FC",34,NA,"West",58,34,58,NA,24,0,24
-"Swope Park Rangers",34,NA,"East",45,15,45,NA,11,-19,11
-"Tacoma Defiance",34,NA,"West",47,20,47,NA,13,-14,13
-"Tampa Bay Rowdies",34,NA,"East",73,49,73,NA,39,15,39
-"Tulsa Roughnecks",34,NA,"West",47,23,47,NA,13,-11,13
+"Real Monarchs SLC",34,NA,"West",61,37,61,NA,27,3,27
+"Reno 1868 FC",34,NA,"West",65,44,65,NA,31,10,31
+"Rio Grande Valley FC Toros",34,NA,"West",49,28,49,NA,15,-6,15
+"Sacramento Republic FC",34,NA,"West",61,37,61,NA,27,3,27
+"Saint Louis FC",34,NA,"East",59,35,59,NA,25,1,25
+"San Antonio FC",34,NA,"West",55,34,55,NA,21,0,21
+"Swope Park Rangers",34,NA,"East",42,15,42,NA,8,-19,8
+"Tacoma Defiance",34,NA,"West",44,20,44,NA,10,-14,10
+"Tampa Bay Rowdies",34,NA,"East",73,52,73,NA,39,18,39
+"Tulsa Roughnecks",34,NA,"West",45,27,45,NA,11,-7,11
 "Thresholds",0,NA,"West",NA,-103,103,NA,NA,-103,103
 "Thresholds",0,NA,"East",NA,-103,103,NA,NA,-103,103
 "Thresholds",1,NA,"West",NA,-99,101,NA,NA,-100,100
@@ -1310,22 +1310,22 @@
 "Thresholds",24,NA,"West",NA,1,62,NA,NA,-23,38
 "Thresholds",24,NA,"East",NA,0,60,NA,NA,-24,36
 "Thresholds",25,NA,"West",NA,5,61,NA,NA,-20,36
-"Thresholds",25,NA,"East",NA,3,60,NA,NA,-22,35
-"Thresholds",26,NA,"West",NA,9,61,NA,NA,-17,35
-"Thresholds",26,NA,"East",NA,6,60,NA,NA,-20,34
-"Thresholds",27,NA,"West",NA,12,60,NA,NA,-15,33
-"Thresholds",27,NA,"East",NA,9,60,NA,NA,-18,33
-"Thresholds",28,NA,"West",NA,15,60,NA,NA,-13,32
-"Thresholds",28,NA,"East",NA,12,60,NA,NA,-16,32
-"Thresholds",29,NA,"West",NA,18,60,NA,NA,-11,31
-"Thresholds",29,NA,"East",NA,15,60,NA,NA,-14,31
-"Thresholds",30,NA,"West",NA,21,60,NA,NA,-9,30
-"Thresholds",30,NA,"East",NA,18,60,NA,NA,-12,30
-"Thresholds",31,NA,"West",NA,24,60,NA,NA,-7,29
-"Thresholds",31,NA,"East",NA,21,60,NA,NA,-10,29
-"Thresholds",32,NA,"West",NA,27,60,NA,NA,-5,28
-"Thresholds",32,NA,"East",NA,24,60,NA,NA,-8,28
-"Thresholds",33,NA,"West",NA,30,60,NA,NA,-3,27
-"Thresholds",33,NA,"East",NA,27,60,NA,NA,-6,27
-"Thresholds",34,NA,"West",NA,33,60,NA,NA,-1,26
-"Thresholds",34,NA,"East",NA,30,60,NA,NA,-4,26
+"Thresholds",25,NA,"East",NA,4,60,NA,NA,-21,35
+"Thresholds",26,NA,"West",NA,11,60,NA,NA,-15,34
+"Thresholds",26,NA,"East",NA,10,60,NA,NA,-16,34
+"Thresholds",27,NA,"West",NA,14,59,NA,NA,-13,32
+"Thresholds",27,NA,"East",NA,13,60,NA,NA,-14,33
+"Thresholds",28,NA,"West",NA,17,59,NA,NA,-11,31
+"Thresholds",28,NA,"East",NA,16,60,NA,NA,-12,32
+"Thresholds",29,NA,"West",NA,20,59,NA,NA,-9,30
+"Thresholds",29,NA,"East",NA,19,60,NA,NA,-10,31
+"Thresholds",30,NA,"West",NA,23,59,NA,NA,-7,29
+"Thresholds",30,NA,"East",NA,22,60,NA,NA,-8,30
+"Thresholds",31,NA,"West",NA,26,59,NA,NA,-5,28
+"Thresholds",31,NA,"East",NA,25,60,NA,NA,-6,29
+"Thresholds",32,NA,"West",NA,29,59,NA,NA,-3,27
+"Thresholds",32,NA,"East",NA,28,60,NA,NA,-4,28
+"Thresholds",33,NA,"West",NA,32,59,NA,NA,-1,26
+"Thresholds",33,NA,"East",NA,31,60,NA,NA,-2,27
+"Thresholds",34,NA,"West",NA,35,59,NA,NA,1,25
+"Thresholds",34,NA,"East",NA,34,60,NA,NA,0,26
