@@ -733,13 +733,13 @@
 "Montreal Impact",30,37,"East",37,37,49,7,7,7,19
 "New England Revolution",30,40,"East",40,40,52,10,10,10,22
 "New York City FC",30,57,"East",57,57,69,27,27,27,39
-"New York Red Bulls",30,NA,"East",44,41,56,NA,14,11,26
+"New York Red Bulls",30,41,"East",41,41,53,11,11,11,23
 "Orlando City SC",30,35,"East",35,35,47,5,5,5,17
 "Philadelphia Union",30,52,"East",52,52,64,22,22,22,34
 "Portland Timbers",30,NA,"West",46,43,58,NA,16,13,28
 "Real Salt Lake",30,46,"West",46,46,58,16,16,16,28
 "San Jose Earthquakes",30,44,"West",44,44,56,14,14,14,26
-"Seattle Sounders FC",30,NA,"West",49,46,61,NA,19,16,31
+"Seattle Sounders FC",30,49,"West",49,49,61,19,19,19,31
 "Sporting Kansas City",30,NA,"West",40,37,52,NA,10,7,22
 "Toronto FC",30,42,"East",42,42,54,12,12,12,24
 "Vancouver Whitecaps",30,27,"West",27,27,39,-3,-3,-3,9
@@ -757,13 +757,13 @@
 "Montreal Impact",31,37,"East",37,37,46,6,6,6,15
 "New England Revolution",31,NA,"East",43,40,52,NA,12,9,21
 "New York City FC",31,NA,"East",60,57,69,NA,29,26,38
-"New York Red Bulls",31,NA,"East",47,41,56,NA,16,10,25
+"New York Red Bulls",31,NA,"East",44,41,53,NA,13,10,22
 "Orlando City SC",31,36,"East",36,36,45,5,5,5,14
 "Philadelphia Union",31,NA,"East",55,52,64,NA,24,21,33
 "Portland Timbers",31,NA,"West",49,43,58,NA,18,12,27
 "Real Salt Lake",31,NA,"West",49,46,58,NA,18,15,27
 "San Jose Earthquakes",31,NA,"West",47,44,56,NA,16,13,25
-"Seattle Sounders FC",31,NA,"West",52,46,61,NA,21,15,30
+"Seattle Sounders FC",31,NA,"West",52,49,61,NA,21,18,30
 "Sporting Kansas City",31,NA,"West",43,37,52,NA,12,6,21
 "Toronto FC",31,45,"East",45,45,54,14,14,14,23
 "Vancouver Whitecaps",31,30,"West",30,30,39,-1,-1,-1,8
@@ -781,13 +781,13 @@
 "Montreal Impact",32,NA,"East",40,37,46,NA,8,5,14
 "New England Revolution",32,NA,"East",46,40,52,NA,14,8,20
 "New York City FC",32,NA,"East",63,57,69,NA,31,25,37
-"New York Red Bulls",32,NA,"East",50,41,56,NA,18,9,24
+"New York Red Bulls",32,NA,"East",47,41,53,NA,15,9,21
 "Orlando City SC",32,NA,"East",39,36,45,NA,7,4,13
 "Philadelphia Union",32,NA,"East",58,52,64,NA,26,20,32
 "Portland Timbers",32,NA,"West",52,43,58,NA,20,11,26
 "Real Salt Lake",32,NA,"West",52,46,58,NA,20,14,26
 "San Jose Earthquakes",32,NA,"West",50,44,56,NA,18,12,24
-"Seattle Sounders FC",32,NA,"West",55,46,61,NA,23,14,29
+"Seattle Sounders FC",32,NA,"West",55,49,61,NA,23,17,29
 "Sporting Kansas City",32,NA,"West",46,37,52,NA,14,5,20
 "Toronto FC",32,NA,"East",48,45,54,NA,16,13,22
 "Vancouver Whitecaps",32,NA,"West",33,30,39,NA,1,-2,7
@@ -805,13 +805,13 @@
 "Montreal Impact",33,NA,"East",43,37,46,NA,10,4,13
 "New England Revolution",33,NA,"East",49,40,52,NA,16,7,19
 "New York City FC",33,NA,"East",66,57,69,NA,33,24,36
-"New York Red Bulls",33,NA,"East",53,41,56,NA,20,8,23
+"New York Red Bulls",33,NA,"East",50,41,53,NA,17,8,20
 "Orlando City SC",33,NA,"East",42,36,45,NA,9,3,12
 "Philadelphia Union",33,NA,"East",61,52,64,NA,28,19,31
 "Portland Timbers",33,NA,"West",55,43,58,NA,22,10,25
 "Real Salt Lake",33,NA,"West",55,46,58,NA,22,13,25
 "San Jose Earthquakes",33,NA,"West",53,44,56,NA,20,11,23
-"Seattle Sounders FC",33,NA,"West",58,46,61,NA,25,13,28
+"Seattle Sounders FC",33,NA,"West",58,49,61,NA,25,16,28
 "Sporting Kansas City",33,NA,"West",49,37,52,NA,16,4,19
 "Toronto FC",33,NA,"East",51,45,54,NA,18,12,21
 "Vancouver Whitecaps",33,NA,"West",36,30,39,NA,3,-3,6
@@ -829,13 +829,13 @@
 "Montreal Impact",34,NA,"East",46,37,46,NA,12,3,12
 "New England Revolution",34,NA,"East",52,40,52,NA,18,6,18
 "New York City FC",34,NA,"East",69,57,69,NA,35,23,35
-"New York Red Bulls",34,NA,"East",56,41,56,NA,22,7,22
+"New York Red Bulls",34,NA,"East",53,41,53,NA,19,7,19
 "Orlando City SC",34,NA,"East",45,36,45,NA,11,2,11
 "Philadelphia Union",34,NA,"East",64,52,64,NA,30,18,30
 "Portland Timbers",34,NA,"West",58,43,58,NA,24,9,24
 "Real Salt Lake",34,NA,"West",58,46,58,NA,24,12,24
 "San Jose Earthquakes",34,NA,"West",56,44,56,NA,22,10,22
-"Seattle Sounders FC",34,NA,"West",61,46,61,NA,27,12,27
+"Seattle Sounders FC",34,NA,"West",61,49,61,NA,27,15,27
 "Sporting Kansas City",34,NA,"West",52,37,52,NA,18,3,18
 "Toronto FC",34,NA,"East",54,45,54,NA,20,11,20
 "Vancouver Whitecaps",34,NA,"West",39,30,39,NA,5,-4,5

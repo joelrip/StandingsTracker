@@ -1045,7 +1045,7 @@
 "Tulsa Roughnecks",28,27,"West",27,27,45,-1,-1,-1,17
 "Arizona United",29,71,"West",71,71,86,42,42,42,57
 "Atlanta United 2",29,NA,"East",27,24,42,NA,-2,-5,13
-"Austin Bold FC",29,NA,"West",43,40,58,NA,14,11,29
+"Austin Bold FC",29,40,"West",40,40,55,11,11,11,26
 "Bethlehem Steel FC",29,NA,"East",33,27,48,NA,4,-2,19
 "Birmingham Legion FC",29,NA,"East",42,36,57,NA,13,7,28
 "Charleston Battery",29,NA,"East",41,35,56,NA,12,6,27
@@ -1070,7 +1070,7 @@
 "Pittsburgh Riverhounds",29,NA,"East",57,51,72,NA,28,22,43
 "Portland Timbers 2",29,NA,"West",38,35,53,NA,9,6,24
 "Real Monarchs SLC",29,NA,"West",46,40,61,NA,17,11,32
-"Reno 1868 FC",29,NA,"West",50,47,65,NA,21,18,36
+"Reno 1868 FC",29,50,"West",50,50,65,21,21,21,36
 "Rio Grande Valley FC Toros",29,NA,"West",31,28,46,NA,2,-1,17
 "Sacramento Republic FC",29,NA,"West",46,43,61,NA,17,14,32
 "Saint Louis FC",29,NA,"East",44,38,59,NA,15,9,30
@@ -1081,7 +1081,7 @@
 "Tulsa Roughnecks",29,NA,"West",30,27,45,NA,1,-2,16
 "Arizona United",30,NA,"West",74,71,86,NA,44,41,56
 "Atlanta United 2",30,NA,"East",30,24,42,NA,0,-6,12
-"Austin Bold FC",30,NA,"West",46,40,58,NA,16,10,28
+"Austin Bold FC",30,NA,"West",43,40,55,NA,13,10,25
 "Bethlehem Steel FC",30,NA,"East",36,27,48,NA,6,-3,18
 "Birmingham Legion FC",30,NA,"East",45,36,57,NA,15,6,27
 "Charleston Battery",30,NA,"East",44,35,56,NA,14,5,26
@@ -1106,7 +1106,7 @@
 "Pittsburgh Riverhounds",30,NA,"East",60,51,72,NA,30,21,42
 "Portland Timbers 2",30,NA,"West",41,35,53,NA,11,5,23
 "Real Monarchs SLC",30,NA,"West",49,40,61,NA,19,10,31
-"Reno 1868 FC",30,NA,"West",53,47,65,NA,23,17,35
+"Reno 1868 FC",30,NA,"West",53,50,65,NA,23,20,35
 "Rio Grande Valley FC Toros",30,NA,"West",34,28,46,NA,4,-2,16
 "Sacramento Republic FC",30,NA,"West",49,43,61,NA,19,13,31
 "Saint Louis FC",30,NA,"East",47,38,59,NA,17,8,29
@@ -1117,7 +1117,7 @@
 "Tulsa Roughnecks",30,NA,"West",33,27,45,NA,3,-3,15
 "Arizona United",31,NA,"West",77,71,86,NA,46,40,55
 "Atlanta United 2",31,NA,"East",33,24,42,NA,2,-7,11
-"Austin Bold FC",31,NA,"West",49,40,58,NA,18,9,27
+"Austin Bold FC",31,NA,"West",46,40,55,NA,15,9,24
 "Bethlehem Steel FC",31,NA,"East",39,27,48,NA,8,-4,17
 "Birmingham Legion FC",31,NA,"East",48,36,57,NA,17,5,26
 "Charleston Battery",31,NA,"East",47,35,56,NA,16,4,25
@@ -1142,7 +1142,7 @@
 "Pittsburgh Riverhounds",31,NA,"East",63,51,72,NA,32,20,41
 "Portland Timbers 2",31,NA,"West",44,35,53,NA,13,4,22
 "Real Monarchs SLC",31,NA,"West",52,40,61,NA,21,9,30
-"Reno 1868 FC",31,NA,"West",56,47,65,NA,25,16,34
+"Reno 1868 FC",31,NA,"West",56,50,65,NA,25,19,34
 "Rio Grande Valley FC Toros",31,NA,"West",37,28,46,NA,6,-3,15
 "Sacramento Republic FC",31,NA,"West",52,43,61,NA,21,12,30
 "Saint Louis FC",31,NA,"East",50,38,59,NA,19,7,28
@@ -1153,7 +1153,7 @@
 "Tulsa Roughnecks",31,NA,"West",36,27,45,NA,5,-4,14
 "Arizona United",32,NA,"West",80,71,86,NA,48,39,54
 "Atlanta United 2",32,NA,"East",36,24,42,NA,4,-8,10
-"Austin Bold FC",32,NA,"West",52,40,58,NA,20,8,26
+"Austin Bold FC",32,NA,"West",49,40,55,NA,17,8,23
 "Bethlehem Steel FC",32,NA,"East",42,27,48,NA,10,-5,16
 "Birmingham Legion FC",32,NA,"East",51,36,57,NA,19,4,25
 "Charleston Battery",32,NA,"East",50,35,56,NA,18,3,24
@@ -1178,7 +1178,7 @@
 "Pittsburgh Riverhounds",32,NA,"East",66,51,72,NA,34,19,40
 "Portland Timbers 2",32,NA,"West",47,35,53,NA,15,3,21
 "Real Monarchs SLC",32,NA,"West",55,40,61,NA,23,8,29
-"Reno 1868 FC",32,NA,"West",59,47,65,NA,27,15,33
+"Reno 1868 FC",32,NA,"West",59,50,65,NA,27,18,33
 "Rio Grande Valley FC Toros",32,NA,"West",40,28,46,NA,8,-4,14
 "Sacramento Republic FC",32,NA,"West",55,43,61,NA,23,11,29
 "Saint Louis FC",32,NA,"East",53,38,59,NA,21,6,27
@@ -1189,7 +1189,7 @@
 "Tulsa Roughnecks",32,NA,"West",39,27,45,NA,7,-5,13
 "Arizona United",33,NA,"West",83,71,86,NA,50,38,53
 "Atlanta United 2",33,NA,"East",39,24,42,NA,6,-9,9
-"Austin Bold FC",33,NA,"West",55,40,58,NA,22,7,25
+"Austin Bold FC",33,NA,"West",52,40,55,NA,19,7,22
 "Bethlehem Steel FC",33,NA,"East",45,27,48,NA,12,-6,15
 "Birmingham Legion FC",33,NA,"East",54,36,57,NA,21,3,24
 "Charleston Battery",33,NA,"East",53,35,56,NA,20,2,23
@@ -1214,7 +1214,7 @@
 "Pittsburgh Riverhounds",33,NA,"East",69,51,72,NA,36,18,39
 "Portland Timbers 2",33,NA,"West",50,35,53,NA,17,2,20
 "Real Monarchs SLC",33,NA,"West",58,40,61,NA,25,7,28
-"Reno 1868 FC",33,NA,"West",62,47,65,NA,29,14,32
+"Reno 1868 FC",33,NA,"West",62,50,65,NA,29,17,32
 "Rio Grande Valley FC Toros",33,NA,"West",43,28,46,NA,10,-5,13
 "Sacramento Republic FC",33,NA,"West",58,43,61,NA,25,10,28
 "Saint Louis FC",33,NA,"East",56,38,59,NA,23,5,26
@@ -1225,7 +1225,7 @@
 "Tulsa Roughnecks",33,NA,"West",42,27,45,NA,9,-6,12
 "Arizona United",34,NA,"West",86,71,86,NA,52,37,52
 "Atlanta United 2",34,NA,"East",42,24,42,NA,8,-10,8
-"Austin Bold FC",34,NA,"West",58,40,58,NA,24,6,24
+"Austin Bold FC",34,NA,"West",55,40,55,NA,21,6,21
 "Bethlehem Steel FC",34,NA,"East",48,27,48,NA,14,-7,14
 "Birmingham Legion FC",34,NA,"East",57,36,57,NA,23,2,23
 "Charleston Battery",34,NA,"East",56,35,56,NA,22,1,22
@@ -1250,7 +1250,7 @@
 "Pittsburgh Riverhounds",34,NA,"East",72,51,72,NA,38,17,38
 "Portland Timbers 2",34,NA,"West",53,35,53,NA,19,1,19
 "Real Monarchs SLC",34,NA,"West",61,40,61,NA,27,6,27
-"Reno 1868 FC",34,NA,"West",65,47,65,NA,31,13,31
+"Reno 1868 FC",34,NA,"West",65,50,65,NA,31,16,31
 "Rio Grande Valley FC Toros",34,NA,"West",46,28,46,NA,12,-6,12
 "Sacramento Republic FC",34,NA,"West",61,43,61,NA,27,9,27
 "Saint Louis FC",34,NA,"East",59,38,59,NA,25,4,25
