@@ -1,6 +1,6 @@
 ---
 title: "Standings Tracker"
-date: "Updated April 17, 2019"
+date: "Updated September 20, 2019"
 output: 
   flexdashboard::flex_dashboard:
     social: [ "twitter", "facebook"]
@@ -86,9 +86,12 @@ for (item in unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds
 
 cols = c("#e6194b", "#3cb44b", "#ffe119", "#0082c8", "#f58231", "#911eb4", "#46f0f0", "#f032e6",
          "#d2f53c", "#fabebe", "#008080", "#800000", "#e6beff", "#eee9b7", "#aa6e28", "#aaffc3",
-         "#808000")
-chartMax = 35
+         "#808000", "#000000")
+chartMax = 45
 chartMin = -15
+labelX = 34
+labelYUp = 37
+labelYDown = -14
 
 
 ```
@@ -113,8 +116,32 @@ highchart() %>%
            max = chartMax, min = chartMin, 
            endOnTick = F) %>%
   hc_xAxis(title = list(text = "Game")) %>%
-  #hc_add_annotation(title = list(text = "Clinched<br/>Playoffs"), xValue = 34, yValue = 30) %>%
-  #hc_add_annotation(title = list(text = "Mathematically<br/>Eliminated"), xValue = 34, yValue = -10) %>%
+  hc_annotations(
+    list(
+      labelOptions = list(x = 0, y = 0,
+                          backgroundColor = "rgba(255, 255, 255, 0)",
+                          borderColor = "rgba(255, 255, 255, 0)"),
+      labels = list(
+        list(
+          point = list(
+            x = labelX,
+            y = labelYUp,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Clinched<br/>Playoffs"
+        ),
+        list(
+          point = list(
+            x = labelX,
+            y = labelYDown,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Mathematically<br/>Eliminated"
+        )
+        )
+      )) %>%
   hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
   hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
              formatter = JS("function() {
@@ -146,8 +173,32 @@ highchart() %>%
            max = chartMax, min = chartMin,
            endOnTick = F) %>%
   hc_xAxis(title = list(text = "Game")) %>%
-  #hc_add_annotation(title = list(text = "Clinched<br/>Playoffs"), xValue = 34, yValue = 30) %>%
-  #hc_add_annotation(title = list(text = "Mathematically<br/>Eliminated"), xValue = 34, yValue = -10) %>%
+  hc_annotations(
+    list(
+      labelOptions = list(x = 0, y = 0,
+                          backgroundColor = "rgba(255, 255, 255, 0)",
+                          borderColor = "rgba(255, 255, 255, 0)"),
+      labels = list(
+        list(
+          point = list(
+            x = labelX,
+            y = labelYUp,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Clinched<br/>Playoffs"
+        ),
+        list(
+          point = list(
+            x = labelX,
+            y = labelYDown,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Mathematically<br/>Eliminated"
+        )
+        )
+      )) %>%
   hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
   hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
              formatter = JS("function() {
@@ -185,8 +236,32 @@ highchart() %>%
            max = chartMax, min = chartMin,
            endOnTick = F) %>%
   hc_xAxis(title = list(text = "Game")) %>%
-  #hc_add_annotation(title = list(text = "Clinched<br/>Playoffs"), xValue = 34, yValue = 30) %>%
-  #hc_add_annotation(title = list(text = "Mathematically<br/>Eliminated"), xValue = 34, yValue = -10) %>%
+  hc_annotations(
+    list(
+      labelOptions = list(x = 0, y = 0,
+                          backgroundColor = "rgba(255, 255, 255, 0)",
+                          borderColor = "rgba(255, 255, 255, 0)"),
+      labels = list(
+        list(
+          point = list(
+            x = labelX,
+            y = labelYUp,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Clinched<br/>Playoffs"
+        ),
+        list(
+          point = list(
+            x = labelX,
+            y = labelYDown,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Mathematically<br/>Eliminated"
+        )
+        )
+      )) %>%
   hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
   hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
              formatter = JS("function() {
@@ -218,8 +293,32 @@ highchart() %>%
            max = chartMax, min = chartMin, 
            endOnTick = F) %>%
   hc_xAxis(title = list(text = "Game")) %>%
-  #hc_add_annotation(title = list(text = "Clinched<br/>Playoffs"), xValue = 34, yValue = 30) %>%
-  #hc_add_annotation(title = list(text = "Mathematically<br/>Eliminated"), xValue = 34, yValue = -10) %>%
+  hc_annotations(
+    list(
+      labelOptions = list(x = 0, y = 0,
+                          backgroundColor = "rgba(255, 255, 255, 0)",
+                          borderColor = "rgba(255, 255, 255, 0)"),
+      labels = list(
+        list(
+          point = list(
+            x = labelX,
+            y = labelYUp,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Clinched<br/>Playoffs"
+        ),
+        list(
+          point = list(
+            x = labelX,
+            y = labelYDown,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Mathematically<br/>Eliminated"
+        )
+        )
+      )) %>%
   hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
   hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
              formatter = JS("function() {
