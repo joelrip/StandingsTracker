@@ -815,30 +815,30 @@
 "Sporting Kansas City",33,38,"West",38,38,41,5,5,5,8
 "Toronto FC",33,47,"East",47,47,50,14,14,14,17
 "Vancouver Whitecaps",33,34,"West",34,34,37,1,1,1,4
-"Atlanta United FC",34,NA,"East",58,55,58,NA,24,21,24
-"Chicago Fire",34,NA,"East",42,39,42,NA,8,5,8
-"Colorado Rapids",34,NA,"West",45,42,45,NA,11,8,11
-"Columbus Crew",34,NA,"East",41,38,41,NA,7,4,7
-"DC United",34,NA,"East",52,49,52,NA,18,15,18
-"FC Cincinnati",34,NA,"East",26,23,26,NA,-8,-11,-8
-"FC Dallas",34,NA,"West",48,45,48,NA,14,11,14
-"Houston Dynamo",34,NA,"West",40,37,40,NA,6,3,6
-"Los Angeles FC",34,NA,"West",72,69,72,NA,38,35,38
-"Los Angeles Galaxy",34,NA,"West",54,51,54,NA,20,17,20
-"Minnesota United FC",34,NA,"West",56,53,56,NA,22,19,22
-"Montreal Impact",34,NA,"East",41,38,41,NA,7,4,7
-"New England Revolution",34,NA,"East",48,45,48,NA,14,11,14
-"New York City FC",34,NA,"East",64,61,64,NA,30,27,30
-"New York Red Bulls",34,NA,"East",51,48,51,NA,17,14,17
-"Orlando City SC",34,NA,"East",40,37,40,NA,6,3,6
-"Philadelphia Union",34,NA,"East",58,55,58,NA,24,21,24
-"Portland Timbers",34,NA,"West",49,46,49,NA,15,12,15
-"Real Salt Lake",34,NA,"West",53,50,53,NA,19,16,19
-"San Jose Earthquakes",34,NA,"West",47,44,47,NA,13,10,13
-"Seattle Sounders FC",34,NA,"West",56,53,56,NA,22,19,22
-"Sporting Kansas City",34,NA,"West",41,38,41,NA,7,4,7
-"Toronto FC",34,NA,"East",50,47,50,NA,16,13,16
-"Vancouver Whitecaps",34,NA,"West",37,34,37,NA,3,0,3
+"Atlanta United FC",34,58,"East",58,58,58,24,24,24,24
+"Chicago Fire",34,42,"East",42,42,42,8,8,8,8
+"Colorado Rapids",34,42,"West",42,42,42,8,8,8,8
+"Columbus Crew",34,38,"East",38,38,38,4,4,4,4
+"DC United",34,50,"East",50,50,50,16,16,16,16
+"FC Cincinnati",34,24,"East",24,24,24,-10,-10,-10,-10
+"FC Dallas",34,48,"West",48,48,48,14,14,14,14
+"Houston Dynamo",34,40,"West",40,40,40,6,6,6,6
+"Los Angeles FC",34,72,"West",72,72,72,38,38,38,38
+"Los Angeles Galaxy",34,51,"West",51,51,51,17,17,17,17
+"Minnesota United FC",34,53,"West",53,53,53,19,19,19,19
+"Montreal Impact",34,41,"East",41,41,41,7,7,7,7
+"New England Revolution",34,45,"East",45,45,45,11,11,11,11
+"New York City FC",34,64,"East",64,64,64,30,30,30,30
+"New York Red Bulls",34,48,"East",48,48,48,14,14,14,14
+"Orlando City SC",34,37,"East",37,37,37,3,3,3,3
+"Philadelphia Union",34,55,"East",55,55,55,21,21,21,21
+"Portland Timbers",34,49,"West",49,49,49,15,15,15,15
+"Real Salt Lake",34,53,"West",53,53,53,19,19,19,19
+"San Jose Earthquakes",34,44,"West",44,44,44,10,10,10,10
+"Seattle Sounders FC",34,56,"West",56,56,56,22,22,22,22
+"Sporting Kansas City",34,38,"West",38,38,38,4,4,4,4
+"Toronto FC",34,50,"East",50,50,50,16,16,16,16
+"Vancouver Whitecaps",34,34,"West",34,34,34,0,0,0,0
 "Thresholds",0,NA,"West",NA,-103,103,NA,NA,-103,103
 "Thresholds",0,NA,"East",NA,-103,103,NA,NA,-103,103
 "Thresholds",1,NA,"West",NA,-99,101,NA,NA,-100,100
@@ -907,5 +907,5 @@
 "Thresholds",32,NA,"East",NA,35,45,NA,NA,3,13
 "Thresholds",33,NA,"West",NA,41,48,NA,NA,8,15
 "Thresholds",33,NA,"East",NA,41,43,NA,NA,8,10
-"Thresholds",34,NA,"West",NA,44,48,NA,NA,10,14
+"Thresholds",34,NA,"West",NA,47,45,NA,NA,13,11
 "Thresholds",34,NA,"East",NA,44,43,NA,NA,10,9
