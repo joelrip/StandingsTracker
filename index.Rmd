@@ -1,0 +1,349 @@
+---
+title: "Standings Tracker"
+date: "Updated May 25, 2023"
+output: 
+  flexdashboard::flex_dashboard:
+    social: [ "twitter", "facebook"]
+    source_code: "https://github.com/joelrip/StandingsTracker"
+    orientation: rows
+    vertical_layout: fill
+---
+
+<style type="text/css">
+
+.intro {  /* intro  */
+   font-size: 16px;
+   padding-left:10px;
+
+</style>
+
+<p class="intro">Graphing the progress of the 2023 US club soccer season, game by game.</p>
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(highcharter)
+
+USLPointsLong = read.csv("USLPointsLong.csv", stringsAsFactors = F)
+
+#Turn playoff thresholds into a list for graphing
+thresholdsUSLW = list_parse2(USLPointsLong[which(USLPointsLong$Teams == "Thresholds" & USLPointsLong$Conference == "West"), c(2,10,11)])
+thresholdBottomUSLW = list_parse2(USLPointsLong[which(USLPointsLong$Teams == "Thresholds" & USLPointsLong$Conference == "West"), c(2,10)])
+for (item in 1:length(thresholdBottomUSLW)) {
+  thresholdBottomUSLW[[item]][[3]] = -100
+}
+
+thresholdsUSLE = list_parse2(USLPointsLong[which(USLPointsLong$Teams == "Thresholds" & USLPointsLong$Conference == "East"), c(2,10,11)])
+thresholdBottomUSLE = list_parse2(USLPointsLong[which(USLPointsLong$Teams == "Thresholds" & USLPointsLong$Conference == "East"), c(2,10)])
+for (item in 1:length(thresholdBottomUSLE)) {
+  thresholdBottomUSLE[[item]][[3]] = -100
+}
+
+#Turn PointsLessGames into a list for graphing
+USLWestSeries = list()
+for (item in unique(USLPointsLong$Teams[which(USLPointsLong$Teams != "Thresholds" & USLPointsLong$Conference == "West")])) {
+  USLWestSeries = c(USLWestSeries, list(list(name = item,
+                  data = USLPointsLong$PointsLessGames[which(USLPointsLong$Teams == item)],
+                  marker = list(enabled = F))))
+}
+
+USLEastSeries = list()
+for (item in unique(USLPointsLong$Teams[which(USLPointsLong$Teams != "Thresholds" & USLPointsLong$Conference == "East")])) {
+  USLEastSeries = c(USLEastSeries, list(list(name = item,
+                  data = USLPointsLong$PointsLessGames[which(USLPointsLong$Teams == item)],
+                  marker = list(enabled = F))))
+}
+
+
+MLSPointsLong = read.csv("MLSPointsLong.csv", stringsAsFactors = F)
+
+#Turn playoff thresholds into a list for graphing
+thresholdsMLSW = list_parse2(MLSPointsLong[which(MLSPointsLong$Teams == "Thresholds" & MLSPointsLong$Conference == "West"), c(2,10,11)])
+thresholdBottomMLSW = list_parse2(MLSPointsLong[which(MLSPointsLong$Teams == "Thresholds" & MLSPointsLong$Conference == "West"), c(2,10)])
+for (item in 1:length(thresholdBottomMLSW)) {
+  thresholdBottomMLSW[[item]][[3]] = -100
+}
+
+thresholdsMLSE = list_parse2(MLSPointsLong[which(MLSPointsLong$Teams == "Thresholds" & MLSPointsLong$Conference == "East"), c(2,10,11)])
+thresholdBottomMLSE = list_parse2(MLSPointsLong[which(MLSPointsLong$Teams == "Thresholds" & MLSPointsLong$Conference == "East"), c(2,10)])
+for (item in 1:length(thresholdBottomMLSE)) {
+  thresholdBottomMLSE[[item]][[3]] = -100
+}
+
+#Turn PointsLessGames into a list for graphing
+MLSWestSeries = list()
+for (item in unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds" & MLSPointsLong$Conference == "West")])) {
+  MLSWestSeries = c(MLSWestSeries, list(list(name = item,
+                  data = MLSPointsLong$PointsLessGames[which(MLSPointsLong$Teams == item)],
+                  marker = list(enabled = F))))
+}
+
+MLSEastSeries = list()
+for (item in unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds" & MLSPointsLong$Conference == "East")])) {
+  MLSEastSeries = c(MLSEastSeries, list(list(name = item,
+                  data = MLSPointsLong$PointsLessGames[which(MLSPointsLong$Teams == item)],
+                  marker = list(enabled = F))))
+}
+
+cols = c("#e6194b", "#3cb44b", "#ffe119", "#0082c8", "#f58231", "#911eb4", "#46f0f0", "#f032e6",
+         "#d2f53c", "#fabebe", "#008080", "#800000", "#e6beff", "#eee9b7", "#aa6e28", "#aaffc3",
+         "#808000", "#000000")
+chartMax = 45
+chartMin = -15
+labelX = 34
+labelYUp = 37
+labelYDown = -14
+
+
+```
+
+MLS
+===================================== 
+
+Row
+-----------------------------------------------------------------------
+
+### <strong>Western Conference</strong>
+
+```{r}
+highchart() %>%
+  hc_add_series(name = "middle", type = "arearange", lineWidth = 0, showInLegend = F, color = "#f2f2f2",
+                marker = list(enabled = FALSE), data = thresholdsMLSW, enableMouseTracking = F) %>%
+  hc_add_series(name = "bottom", type = "arearange", lineWidth = 0, showInLegend = F, color = "#bbbbbb",
+                marker = list(enabled = FALSE), data = thresholdBottomMLSW, enableMouseTracking = F) %>%
+  hc_add_series_list(MLSWestSeries) %>%
+  hc_colors(cols) %>%
+  hc_yAxis(title = list(text = "Points Minus Games Played"), 
+           max = chartMax, min = chartMin, 
+           endOnTick = F) %>%
+  hc_xAxis(title = list(text = "Game")) %>%
+  hc_annotations(
+    list(
+      labelOptions = list(x = 0, y = 0,
+                          backgroundColor = "rgba(255, 255, 255, 0)",
+                          borderColor = "rgba(255, 255, 255, 0)")
+      # ,
+      # labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
+      #   list(
+      #     point = list(
+      #       x = labelX,
+      #       y = labelYUp,
+      #       xAxis = 0,
+      #       yAxis = 0
+      #     ),
+      #     text = "Clinched<br/>Playoffs"
+      #   ),
+      #   list(
+      #     point = list(
+      #       x = labelX,
+      #       y = labelYDown,
+      #       xAxis = 0,
+      #       yAxis = 0
+      #     ),
+      #     text = "Mathematically<br/>Eliminated"
+      #   )
+      #   )
+      )) %>%
+  hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
+  hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
+             formatter = JS("function() {
+                            var s = '<strong>Game '+ this.x +'</strong>';
+                            
+                            var sortedPoints = this.points.sort(function(a, b){
+                            return ((a.y > b.y) ? -1 : ((a.y < b.y) ? 1 : 0));
+                            });
+                            $.each(sortedPoints , function(i, point) {
+                            s += '<br/>'+ point.series.name +': '+ point.y;
+                            });
+                            
+                            return s;
+                            }")
+                 )
+```
+
+### <strong>Eastern Conference</strong>
+
+```{r}
+highchart() %>%
+  hc_add_series(name = "middle", type = "arearange", lineWidth = 0, showInLegend = F, color = "#f2f2f2",
+                marker = list(enabled = FALSE), data = thresholdsMLSE, enableMouseTracking = F) %>%
+  hc_add_series(name = "bottom", type = "arearange", lineWidth = 0, showInLegend = F, color = "#bbbbbb",
+                marker = list(enabled = FALSE), data = thresholdBottomMLSE, enableMouseTracking = F) %>%
+  hc_add_series_list(MLSEastSeries) %>%
+  hc_colors(cols) %>%
+  hc_yAxis(title = list(text = "Points Minus Games Played"), 
+           max = chartMax, min = chartMin,
+           endOnTick = F) %>%
+  hc_xAxis(title = list(text = "Game")) %>%
+  hc_annotations(
+    list(
+      labelOptions = list(x = 0, y = 0,
+                          backgroundColor = "rgba(255, 255, 255, 0)",
+                          borderColor = "rgba(255, 255, 255, 0)")
+      # ,
+      # labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
+      #   list(
+      #     point = list(
+      #       x = labelX,
+      #       y = labelYUp,
+      #       xAxis = 0,
+      #       yAxis = 0
+      #     ),
+      #     text = "Clinched<br/>Playoffs"
+      #   ),
+      #   list(
+      #     point = list(
+      #       x = labelX,
+      #       y = labelYDown,
+      #       xAxis = 0,
+      #       yAxis = 0
+      #     ),
+      #     text = "Mathematically<br/>Eliminated"
+      #   )
+      #   )
+      )) %>%
+  hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
+  hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
+             formatter = JS("function() {
+                            var s = '<strong>Game '+ this.x +'</strong>';
+                            
+                            var sortedPoints = this.points.sort(function(a, b){
+                            return ((a.y > b.y) ? -1 : ((a.y < b.y) ? 1 : 0));
+                            });
+                            $.each(sortedPoints , function(i, point) {
+                            s += '<br/>'+ point.series.name +': '+ point.y;
+                            });
+                            
+                            return s;
+                            }")
+                 )
+```
+
+USL
+===================================== 
+
+Row
+-----------------------------------------------------------------------
+
+### <strong>Western Conference</strong>
+
+```{r}
+highchart() %>%
+  hc_add_series(name = "middle", type = "arearange", lineWidth = 0, showInLegend = F, color = "#f2f2f2",
+                marker = list(enabled = FALSE), data = thresholdsUSLW, enableMouseTracking = F) %>%
+  hc_add_series(name = "bottom", type = "arearange", lineWidth = 0, showInLegend = F, color = "#bbbbbb",
+                marker = list(enabled = FALSE), data = thresholdBottomUSLW, enableMouseTracking = F) %>%
+  hc_add_series_list(USLWestSeries) %>%
+  hc_colors(cols) %>%
+  hc_yAxis(title = list(text = "Points Minus Games Played"), 
+           max = chartMax, min = chartMin,
+           endOnTick = F) %>%
+  hc_xAxis(title = list(text = "Game")) %>%
+  hc_annotations(
+    list(
+      labelOptions = list(x = 0, y = 0,
+                          backgroundColor = "rgba(255, 255, 255, 0)",
+                          borderColor = "rgba(255, 255, 255, 0)")
+      # ,
+      # labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
+      #   list(
+      #     point = list(
+      #       x = labelX,
+      #       y = labelYUp,
+      #       xAxis = 0,
+      #       yAxis = 0
+      #     ),
+      #     text = "Clinched<br/>Playoffs"
+      #   ),
+      #   list(
+      #     point = list(
+      #       x = labelX,
+      #       y = labelYDown,
+      #       xAxis = 0,
+      #       yAxis = 0
+      #     ),
+      #     text = "Mathematically<br/>Eliminated"
+      #   )
+      #   )
+      )) %>%
+  hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
+  hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
+             formatter = JS("function() {
+                            var s = '<strong>Game '+ this.x +'</strong>';
+                            
+                            var sortedPoints = this.points.sort(function(a, b){
+                            return ((a.y > b.y) ? -1 : ((a.y < b.y) ? 1 : 0));
+                            });
+                            $.each(sortedPoints , function(i, point) {
+                            s += '<br/>'+ point.series.name +': '+ point.y;
+                            });
+                            
+                            return s;
+                            }")
+                 )
+```
+
+### <strong>Eastern Conference</strong>
+
+```{r}
+highchart() %>%
+  hc_add_series(name = "middle", type = "arearange", lineWidth = 0, showInLegend = F, color = "#f2f2f2",
+                marker = list(enabled = FALSE), data = thresholdsUSLE, enableMouseTracking = F) %>%
+  hc_add_series(name = "bottom", type = "arearange", lineWidth = 0, showInLegend = F, color = "#bbbbbb",
+                marker = list(enabled = FALSE), data = thresholdBottomUSLE, enableMouseTracking = F) %>%
+  hc_add_series_list(USLEastSeries) %>%
+  hc_colors(cols) %>%
+  hc_yAxis(title = list(text = "Points Minus Games Played"), 
+           max = chartMax, min = chartMin, 
+           endOnTick = F) %>%
+  hc_xAxis(title = list(text = "Game")) %>%
+  hc_annotations(
+    list(
+      labelOptions = list(x = 0, y = 0,
+                          backgroundColor = "rgba(255, 255, 255, 0)",
+                          borderColor = "rgba(255, 255, 255, 0)")
+      # ,
+      # labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
+      #   list(
+      #     point = list(
+      #       x = labelX,
+      #       y = labelYUp,
+      #       xAxis = 0,
+      #       yAxis = 0
+      #     ),
+      #     text = "Clinched<br/>Playoffs"
+      #   ),
+      #   list(
+      #     point = list(
+      #       x = labelX,
+      #       y = labelYDown,
+      #       xAxis = 0,
+      #       yAxis = 0
+      #     ),
+      #     text = "Mathematically<br/>Eliminated"
+      #   )
+      #   )
+      )) %>%
+  hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
+  hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
+             formatter = JS("function() {
+                            var s = '<strong>Game '+ this.x +'</strong>';
+                            
+                            var sortedPoints = this.points.sort(function(a, b){
+                            return ((a.y > b.y) ? -1 : ((a.y < b.y) ? 1 : 0));
+                            });
+                            $.each(sortedPoints , function(i, point) {
+                            s += '<br/>'+ point.series.name +': '+ point.y;
+                            });
+                            
+                            return s;
+                            }")
+                 )
+```
+
+About
+===================================== 
+<p><strong>Welcome!</strong> I built this interactive chart of <a href="http://www.mlssoccer.com/">MLS</a> and <a href="http://www.uslsoccer.com/">USL Championship</a> standings after becoming frustrated with the fact that some teams had so many games in hand over other teams that the official standings became somewhat misleading. In the middle of the season, it's not uncommon for some teams to have played 5 or 6 more games than others as of a given date! It's less important how many points each team has on a given <strong>date</strong> than how many points they each have after playing a given number of <strong>games</strong>.
+
+<p>So one thing these charts do is allow you to compare relative team standings after any given number of games. Just hover over a point in the charts, and you'll see the relative positions of all the teams when they had played that number of games. You can also remove a team from the chart by clicking its name in the legend, so you can see just the teams you want to see.
+
+<p>But I have also made another, more experimental modification. Instead of showing the number of points each team has, the charts show the number of points <strong>minus the number of games played</strong>. Put another way, instead of 3 points for a win, 1 for a draw, and 0 for a loss, they show 2, 0, and -1 points respectively. This has the benefit of showing a team going <strong>down</strong> when they lose a game, staying level when they draw, and going up when they win, but without changing their relative positions. It's sort of like rotating the picture clockwise a bit. This way, if two teams have the same number of points, but one has played fewer games than the other, the team that has played fewer games is visually higher on the chart than the one that has played more games, giving what I think is a better representation of their relative positions in the standings. I hope you find it as useful as I do!

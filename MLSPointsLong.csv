@@ -1,5 +1,7 @@
 "Teams","Game","Points","Conference","MaxPoints","MinPoints","MaxFinal","PointsLessGames","MaxPointsLessGames","MinPointsLessGames","MaxFinalLessGames"
 "Atlanta United FC",0,0,"East",0,0,102,0,0,0,102
+"Austin FC",0,0,"West",0,0,102,0,0,0,102
+"Charlotte FC",0,0,"East",0,0,102,0,0,0,102
 "Chicago Fire",0,0,"East",0,0,102,0,0,0,102
 "Colorado Rapids",0,0,"West",0,0,102,0,0,0,102
 "Columbus Crew",0,0,"East",0,0,102,0,0,0,102
@@ -7,10 +9,12 @@
 "FC Cincinnati",0,0,"East",0,0,102,0,0,0,102
 "FC Dallas",0,0,"West",0,0,102,0,0,0,102
 "Houston Dynamo",0,0,"West",0,0,102,0,0,0,102
+"Inter Miami CF",0,0,"East",0,0,102,0,0,0,102
 "Los Angeles FC",0,0,"West",0,0,102,0,0,0,102
 "Los Angeles Galaxy",0,0,"West",0,0,102,0,0,0,102
 "Minnesota United FC",0,0,"West",0,0,102,0,0,0,102
 "Montreal Impact",0,0,"East",0,0,102,0,0,0,102
+"Nashville SC",0,0,"East",0,0,102,0,0,0,102
 "New England Revolution",0,0,"East",0,0,102,0,0,0,102
 "New York City FC",0,0,"East",0,0,102,0,0,0,102
 "New York Red Bulls",0,0,"East",0,0,102,0,0,0,102
@@ -21,891 +25,1062 @@
 "San Jose Earthquakes",0,0,"West",0,0,102,0,0,0,102
 "Seattle Sounders FC",0,0,"West",0,0,102,0,0,0,102
 "Sporting Kansas City",0,0,"West",0,0,102,0,0,0,102
+"St. Louis CITY SC",0,0,"West",0,0,102,0,0,0,102
 "Toronto FC",0,0,"East",0,0,102,0,0,0,102
 "Vancouver Whitecaps",0,0,"West",0,0,102,0,0,0,102
-"Atlanta United FC",1,0,"East",0,0,99,-1,-1,-1,98
-"Chicago Fire",1,0,"East",0,0,99,-1,-1,-1,98
-"Colorado Rapids",1,1,"West",1,1,100,0,0,0,99
-"Columbus Crew",1,1,"East",1,1,100,0,0,0,99
+"Atlanta United FC",1,3,"East",3,3,102,2,2,2,101
+"Austin FC",1,0,"West",0,0,99,-1,-1,-1,98
+"Charlotte FC",1,0,"East",0,0,99,-1,-1,-1,98
+"Chicago Fire",1,1,"East",1,1,100,0,0,0,99
+"Colorado Rapids",1,0,"West",0,0,99,-1,-1,-1,98
+"Columbus Crew",1,0,"East",0,0,99,-1,-1,-1,98
 "DC United",1,3,"East",3,3,102,2,2,2,101
-"FC Cincinnati",1,0,"East",0,0,99,-1,-1,-1,98
-"FC Dallas",1,1,"West",1,1,100,0,0,0,99
-"Houston Dynamo",1,1,"West",1,1,100,0,0,0,99
+"FC Cincinnati",1,3,"East",3,3,102,2,2,2,101
+"FC Dallas",1,0,"West",0,0,99,-1,-1,-1,98
+"Houston Dynamo",1,0,"West",0,0,99,-1,-1,-1,98
+"Inter Miami CF",1,3,"East",3,3,102,2,2,2,101
 "Los Angeles FC",1,3,"West",3,3,102,2,2,2,101
-"Los Angeles Galaxy",1,3,"West",3,3,102,2,2,2,101
+"Los Angeles Galaxy",1,0,"West",0,0,99,-1,-1,-1,98
 "Minnesota United FC",1,3,"West",3,3,102,2,2,2,101
-"Montreal Impact",1,3,"East",3,3,102,2,2,2,101
-"New England Revolution",1,1,"East",1,1,100,0,0,0,99
-"New York City FC",1,1,"East",1,1,100,0,0,0,99
-"New York Red Bulls",1,1,"East",1,1,100,0,0,0,99
-"Orlando City SC",1,1,"East",1,1,100,0,0,0,99
-"Philadelphia Union",1,0,"East",0,0,99,-1,-1,-1,98
-"Portland Timbers",1,1,"West",1,1,100,0,0,0,99
-"Real Salt Lake",1,1,"West",1,1,100,0,0,0,99
+"Montreal Impact",1,0,"East",0,0,99,-1,-1,-1,98
+"Nashville SC",1,3,"East",3,3,102,2,2,2,101
+"New England Revolution",1,3,"East",3,3,102,2,2,2,101
+"New York City FC",1,0,"East",0,0,99,-1,-1,-1,98
+"New York Red Bulls",1,0,"East",0,0,99,-1,-1,-1,98
+"Orlando City SC",1,3,"East",3,3,102,2,2,2,101
+"Philadelphia Union",1,3,"East",3,3,102,2,2,2,101
+"Portland Timbers",1,3,"West",3,3,102,2,2,2,101
+"Real Salt Lake",1,3,"West",3,3,102,2,2,2,101
 "San Jose Earthquakes",1,0,"West",0,0,99,-1,-1,-1,98
 "Seattle Sounders FC",1,3,"West",3,3,102,2,2,2,101
 "Sporting Kansas City",1,0,"West",0,0,99,-1,-1,-1,98
-"Toronto FC",1,3,"East",3,3,102,2,2,2,101
+"St. Louis CITY SC",1,3,"West",3,3,102,2,2,2,101
+"Toronto FC",1,0,"East",0,0,99,-1,-1,-1,98
 "Vancouver Whitecaps",1,0,"West",0,0,99,-1,-1,-1,98
-"Atlanta United FC",2,1,"East",1,1,97,-1,-1,-1,95
+"Atlanta United FC",2,4,"East",4,4,100,2,2,2,98
+"Austin FC",2,3,"West",3,3,99,1,1,1,97
+"Charlotte FC",2,0,"East",0,0,96,-2,-2,-2,94
 "Chicago Fire",2,1,"East",1,1,97,-1,-1,-1,95
 "Colorado Rapids",2,1,"West",1,1,97,-1,-1,-1,95
-"Columbus Crew",2,4,"East",4,4,100,2,2,2,98
-"DC United",2,4,"East",4,4,100,2,2,2,98
-"FC Cincinnati",2,1,"East",1,1,97,-1,-1,-1,95
-"FC Dallas",2,4,"West",4,4,100,2,2,2,98
-"Houston Dynamo",2,4,"West",4,4,100,2,2,2,98
+"Columbus Crew",2,3,"East",3,3,99,1,1,1,97
+"DC United",2,3,"East",3,3,99,1,1,1,97
+"FC Cincinnati",2,4,"East",4,4,100,2,2,2,98
+"FC Dallas",2,3,"West",3,3,99,1,1,1,97
+"Houston Dynamo",2,0,"West",0,0,96,-2,-2,-2,94
+"Inter Miami CF",2,6,"East",6,6,102,4,4,4,100
 "Los Angeles FC",2,6,"West",6,6,102,4,4,4,100
-"Los Angeles Galaxy",2,3,"West",3,3,99,1,1,1,97
-"Minnesota United FC",2,6,"West",6,6,102,4,4,4,100
-"Montreal Impact",2,3,"East",3,3,99,1,1,1,97
-"New England Revolution",2,1,"East",1,1,97,-1,-1,-1,95
-"New York City FC",2,2,"East",2,2,98,0,0,0,96
-"New York Red Bulls",2,4,"East",4,4,100,2,2,2,98
-"Orlando City SC",2,2,"East",2,2,98,0,0,0,96
-"Philadelphia Union",2,0,"East",0,0,96,-2,-2,-2,94
-"Portland Timbers",2,1,"West",1,1,97,-1,-1,-1,95
-"Real Salt Lake",2,4,"West",4,4,100,2,2,2,98
-"San Jose Earthquakes",2,0,"West",0,0,96,-2,-2,-2,94
+"Los Angeles Galaxy",2,1,"West",1,1,97,-1,-1,-1,95
+"Minnesota United FC",2,4,"West",4,4,100,2,2,2,98
+"Montreal Impact",2,0,"East",0,0,96,-2,-2,-2,94
+"Nashville SC",2,4,"East",4,4,100,2,2,2,98
+"New England Revolution",2,6,"East",6,6,102,4,4,4,100
+"New York City FC",2,1,"East",1,1,97,-1,-1,-1,95
+"New York Red Bulls",2,1,"East",1,1,97,-1,-1,-1,95
+"Orlando City SC",2,4,"East",4,4,100,2,2,2,98
+"Philadelphia Union",2,3,"East",3,3,99,1,1,1,97
+"Portland Timbers",2,3,"West",3,3,99,1,1,1,97
+"Real Salt Lake",2,3,"West",3,3,99,1,1,1,97
+"San Jose Earthquakes",2,3,"West",3,3,99,1,1,1,97
 "Seattle Sounders FC",2,6,"West",6,6,102,4,4,4,100
-"Sporting Kansas City",2,3,"West",3,3,99,1,1,1,97
-"Toronto FC",2,6,"East",6,6,102,4,4,4,100
+"Sporting Kansas City",2,1,"West",1,1,97,-1,-1,-1,95
+"St. Louis CITY SC",2,6,"West",6,6,102,4,4,4,100
+"Toronto FC",2,1,"East",1,1,97,-1,-1,-1,95
 "Vancouver Whitecaps",2,0,"West",0,0,96,-2,-2,-2,94
-"Atlanta United FC",3,2,"East",2,2,95,-1,-1,-1,92
-"Chicago Fire",3,1,"East",1,1,94,-2,-2,-2,91
-"Colorado Rapids",3,2,"West",2,2,95,-1,-1,-1,92
-"Columbus Crew",3,7,"East",7,7,100,4,4,4,97
-"DC United",3,7,"East",7,7,100,4,4,4,97
-"FC Cincinnati",3,4,"East",4,4,97,1,1,1,94
+"Atlanta United FC",3,7,"East",7,7,100,4,4,4,97
+"Austin FC",3,6,"West",6,6,99,3,3,3,96
+"Charlotte FC",3,0,"East",0,0,93,-3,-3,-3,90
+"Chicago Fire",3,2,"East",2,2,95,-1,-1,-1,92
+"Colorado Rapids",3,1,"West",1,1,94,-2,-2,-2,91
+"Columbus Crew",3,4,"East",4,4,97,1,1,1,94
+"DC United",3,4,"East",4,4,97,1,1,1,94
+"FC Cincinnati",3,7,"East",7,7,100,4,4,4,97
 "FC Dallas",3,4,"West",4,4,97,1,1,1,94
-"Houston Dynamo",3,7,"West",7,7,100,4,4,4,97
+"Houston Dynamo",3,3,"West",3,3,96,0,0,0,93
+"Inter Miami CF",3,6,"East",6,6,99,3,3,3,96
 "Los Angeles FC",3,7,"West",7,7,100,4,4,4,97
-"Los Angeles Galaxy",3,6,"West",6,6,99,3,3,3,96
-"Minnesota United FC",3,6,"West",6,6,99,3,3,3,96
-"Montreal Impact",3,6,"East",6,6,99,3,3,3,96
-"New England Revolution",3,1,"East",1,1,94,-2,-2,-2,91
-"New York City FC",3,3,"East",3,3,96,0,0,0,93
-"New York Red Bulls",3,4,"East",4,4,97,1,1,1,94
-"Orlando City SC",3,2,"East",2,2,95,-1,-1,-1,92
-"Philadelphia Union",3,1,"East",1,1,94,-2,-2,-2,91
-"Portland Timbers",3,1,"West",1,1,94,-2,-2,-2,91
-"Real Salt Lake",3,4,"West",4,4,97,1,1,1,94
-"San Jose Earthquakes",3,0,"West",0,0,93,-3,-3,-3,90
-"Seattle Sounders FC",3,9,"West",9,9,102,6,6,6,99
-"Sporting Kansas City",3,4,"West",4,4,97,1,1,1,94
-"Toronto FC",3,9,"East",9,9,102,6,6,6,99
-"Vancouver Whitecaps",3,0,"West",0,0,93,-3,-3,-3,90
-"Atlanta United FC",4,2,"East",2,2,92,-2,-2,-2,88
-"Chicago Fire",4,4,"East",4,4,94,0,0,0,90
-"Colorado Rapids",4,2,"West",2,2,92,-2,-2,-2,88
-"Columbus Crew",4,7,"East",7,7,97,3,3,3,93
-"DC United",4,10,"East",10,10,100,6,6,6,96
-"FC Cincinnati",4,7,"East",7,7,97,3,3,3,93
+"Los Angeles Galaxy",3,2,"West",2,2,95,-1,-1,-1,92
+"Minnesota United FC",3,7,"West",7,7,100,4,4,4,97
+"Montreal Impact",3,0,"East",0,0,93,-3,-3,-3,90
+"Nashville SC",3,7,"East",7,7,100,4,4,4,97
+"New England Revolution",3,6,"East",6,6,99,3,3,3,96
+"New York City FC",3,4,"East",4,4,97,1,1,1,94
+"New York Red Bulls",3,2,"East",2,2,95,-1,-1,-1,92
+"Orlando City SC",3,5,"East",5,5,98,2,2,2,95
+"Philadelphia Union",3,6,"East",6,6,99,3,3,3,96
+"Portland Timbers",3,3,"West",3,3,96,0,0,0,93
+"Real Salt Lake",3,3,"West",3,3,96,0,0,0,93
+"San Jose Earthquakes",3,6,"West",6,6,99,3,3,3,96
+"Seattle Sounders FC",3,6,"West",6,6,99,3,3,3,96
+"Sporting Kansas City",3,2,"West",2,2,95,-1,-1,-1,92
+"St. Louis CITY SC",3,9,"West",9,9,102,6,6,6,99
+"Toronto FC",3,2,"East",2,2,95,-1,-1,-1,92
+"Vancouver Whitecaps",3,1,"West",1,1,94,-2,-2,-2,91
+"Atlanta United FC",4,10,"East",10,10,100,6,6,6,96
+"Austin FC",4,6,"West",6,6,96,2,2,2,92
+"Charlotte FC",4,3,"East",3,3,93,-1,-1,-1,89
+"Chicago Fire",4,5,"East",5,5,95,1,1,1,91
+"Colorado Rapids",4,1,"West",1,1,91,-3,-3,-3,87
+"Columbus Crew",4,4,"East",4,4,94,0,0,0,90
+"DC United",4,4,"East",4,4,94,0,0,0,90
+"FC Cincinnati",4,8,"East",8,8,98,4,4,4,94
 "FC Dallas",4,7,"West",7,7,97,3,3,3,93
-"Houston Dynamo",4,10,"West",10,10,100,6,6,6,96
+"Houston Dynamo",4,6,"West",6,6,96,2,2,2,92
+"Inter Miami CF",4,6,"East",6,6,96,2,2,2,92
 "Los Angeles FC",4,10,"West",10,10,100,6,6,6,96
-"Los Angeles Galaxy",4,9,"West",9,9,99,5,5,5,95
-"Minnesota United FC",4,6,"West",6,6,96,2,2,2,92
-"Montreal Impact",4,6,"East",6,6,96,2,2,2,92
-"New England Revolution",4,1,"East",1,1,91,-3,-3,-3,87
-"New York City FC",4,3,"East",3,3,93,-1,-1,-1,89
-"New York Red Bulls",4,4,"East",4,4,94,0,0,0,90
+"Los Angeles Galaxy",4,3,"West",3,3,93,-1,-1,-1,89
+"Minnesota United FC",4,8,"West",8,8,98,4,4,4,94
+"Montreal Impact",4,3,"East",3,3,93,-1,-1,-1,89
+"Nashville SC",4,7,"East",7,7,97,3,3,3,93
+"New England Revolution",4,9,"East",9,9,99,5,5,5,95
+"New York City FC",4,7,"East",7,7,97,3,3,3,93
+"New York Red Bulls",4,5,"East",5,5,95,1,1,1,91
 "Orlando City SC",4,5,"East",5,5,95,1,1,1,91
-"Philadelphia Union",4,4,"East",4,4,94,0,0,0,90
-"Portland Timbers",4,1,"West",1,1,91,-3,-3,-3,87
-"Real Salt Lake",4,4,"West",4,4,94,0,0,0,90
-"San Jose Earthquakes",4,0,"West",0,0,90,-4,-4,-4,86
-"Seattle Sounders FC",4,10,"West",10,10,100,6,6,6,96
-"Sporting Kansas City",4,7,"West",7,7,97,3,3,3,93
-"Toronto FC",4,10,"East",10,10,100,6,6,6,96
-"Vancouver Whitecaps",4,1,"West",1,1,91,-3,-3,-3,87
-"Atlanta United FC",5,5,"East",5,5,92,0,0,0,87
-"Chicago Fire",5,5,"East",5,5,92,0,0,0,87
+"Philadelphia Union",4,6,"East",6,6,96,2,2,2,92
+"Portland Timbers",4,3,"West",3,3,93,-1,-1,-1,89
+"Real Salt Lake",4,3,"West",3,3,93,-1,-1,-1,89
+"San Jose Earthquakes",4,6,"West",6,6,96,2,2,2,92
+"Seattle Sounders FC",4,7,"West",7,7,97,3,3,3,93
+"Sporting Kansas City",4,2,"West",2,2,92,-2,-2,-2,88
+"St. Louis CITY SC",4,12,"West",12,12,102,8,8,8,98
+"Toronto FC",4,5,"East",5,5,95,1,1,1,91
+"Vancouver Whitecaps",4,2,"West",2,2,92,-2,-2,-2,88
+"Atlanta United FC",5,10,"East",10,10,97,5,5,5,92
+"Austin FC",5,7,"West",7,7,94,2,2,2,89
+"Charlotte FC",5,4,"East",4,4,91,-1,-1,-1,86
+"Chicago Fire",5,6,"East",6,6,93,1,1,1,88
 "Colorado Rapids",5,2,"West",2,2,89,-3,-3,-3,84
-"Columbus Crew",5,10,"East",10,10,97,5,5,5,92
-"DC United",5,10,"East",10,10,97,5,5,5,92
-"FC Cincinnati",5,7,"East",7,7,94,2,2,2,89
-"FC Dallas",5,10,"West",10,10,97,5,5,5,92
-"Houston Dynamo",5,13,"West",13,13,100,8,8,8,95
-"Los Angeles FC",5,13,"West",13,13,100,8,8,8,95
-"Los Angeles Galaxy",5,12,"West",12,12,99,7,7,7,94
-"Minnesota United FC",5,9,"West",9,9,96,4,4,4,91
-"Montreal Impact",5,7,"East",7,7,94,2,2,2,89
-"New England Revolution",5,4,"East",4,4,91,-1,-1,-1,86
-"New York City FC",5,4,"East",4,4,91,-1,-1,-1,86
-"New York Red Bulls",5,4,"East",4,4,91,-1,-1,-1,86
-"Orlando City SC",5,5,"East",5,5,92,0,0,0,87
-"Philadelphia Union",5,7,"East",7,7,94,2,2,2,89
-"Portland Timbers",5,1,"West",1,1,88,-4,-4,-4,83
-"Real Salt Lake",5,4,"West",4,4,91,-1,-1,-1,86
-"San Jose Earthquakes",5,3,"West",3,3,90,-2,-2,-2,85
-"Seattle Sounders FC",5,13,"West",13,13,100,8,8,8,95
-"Sporting Kansas City",5,8,"West",8,8,95,3,3,3,90
-"Toronto FC",5,10,"East",10,10,97,5,5,5,92
-"Vancouver Whitecaps",5,1,"West",1,1,88,-4,-4,-4,83
-"Atlanta United FC",6,5,"East",5,5,89,-1,-1,-1,83
-"Chicago Fire",6,6,"East",6,6,90,0,0,0,84
-"Colorado Rapids",6,2,"West",2,2,86,-4,-4,-4,80
-"Columbus Crew",6,13,"East",13,13,97,7,7,7,91
-"DC United",6,11,"East",11,11,95,5,5,5,89
-"FC Cincinnati",6,8,"East",8,8,92,2,2,2,86
-"FC Dallas",6,10,"West",10,10,94,4,4,4,88
-"Houston Dynamo",6,13,"West",13,13,97,7,7,7,91
-"Los Angeles FC",6,16,"West",16,16,100,10,10,10,94
-"Los Angeles Galaxy",6,15,"West",15,15,99,9,9,9,93
-"Minnesota United FC",6,10,"West",10,10,94,4,4,4,88
-"Montreal Impact",6,8,"East",8,8,92,2,2,2,86
-"New England Revolution",6,4,"East",4,4,88,-2,-2,-2,82
-"New York City FC",6,5,"East",5,5,89,-1,-1,-1,83
-"New York Red Bulls",6,5,"East",5,5,89,-1,-1,-1,83
+"Columbus Crew",5,7,"East",7,7,94,2,2,2,89
+"DC United",5,4,"East",4,4,91,-1,-1,-1,86
+"FC Cincinnati",5,11,"East",11,11,98,6,6,6,93
+"FC Dallas",5,7,"West",7,7,94,2,2,2,89
+"Houston Dynamo",5,6,"West",6,6,93,1,1,1,88
+"Inter Miami CF",5,6,"East",6,6,93,1,1,1,88
+"Los Angeles FC",5,11,"West",11,11,98,6,6,6,93
+"Los Angeles Galaxy",5,3,"West",3,3,90,-2,-2,-2,85
+"Minnesota United FC",5,11,"West",11,11,98,6,6,6,93
+"Montreal Impact",5,3,"East",3,3,90,-2,-2,-2,85
+"Nashville SC",5,7,"East",7,7,94,2,2,2,89
+"New England Revolution",5,12,"East",12,12,99,7,7,7,94
+"New York City FC",5,7,"East",7,7,94,2,2,2,89
+"New York Red Bulls",5,6,"East",6,6,93,1,1,1,88
+"Orlando City SC",5,8,"East",8,8,95,3,3,3,90
+"Philadelphia Union",5,6,"East",6,6,93,1,1,1,88
+"Portland Timbers",5,4,"West",4,4,91,-1,-1,-1,86
+"Real Salt Lake",5,3,"West",3,3,90,-2,-2,-2,85
+"San Jose Earthquakes",5,7,"West",7,7,94,2,2,2,89
+"Seattle Sounders FC",5,10,"West",10,10,97,5,5,5,92
+"Sporting Kansas City",5,2,"West",2,2,89,-3,-3,-3,84
+"St. Louis CITY SC",5,15,"West",15,15,102,10,10,10,97
+"Toronto FC",5,6,"East",6,6,93,1,1,1,88
+"Vancouver Whitecaps",5,3,"West",3,3,90,-2,-2,-2,85
+"Atlanta United FC",6,13,"East",13,13,97,7,7,7,91
+"Austin FC",6,7,"West",7,7,91,1,1,1,85
+"Charlotte FC",6,5,"East",5,5,89,-1,-1,-1,83
+"Chicago Fire",6,9,"East",9,9,93,3,3,3,87
+"Colorado Rapids",6,3,"West",3,3,87,-3,-3,-3,81
+"Columbus Crew",6,10,"East",10,10,94,4,4,4,88
+"DC United",6,5,"East",5,5,89,-1,-1,-1,83
+"FC Cincinnati",6,14,"East",14,14,98,8,8,8,92
+"FC Dallas",6,8,"West",8,8,92,2,2,2,86
+"Houston Dynamo",6,9,"West",9,9,93,3,3,3,87
+"Inter Miami CF",6,6,"East",6,6,90,0,0,0,84
+"Los Angeles FC",6,14,"West",14,14,98,8,8,8,92
+"Los Angeles Galaxy",6,3,"West",3,3,87,-3,-3,-3,81
+"Minnesota United FC",6,11,"West",11,11,95,5,5,5,89
+"Montreal Impact",6,3,"East",3,3,87,-3,-3,-3,81
+"Nashville SC",6,10,"East",10,10,94,4,4,4,88
+"New England Revolution",6,13,"East",13,13,97,7,7,7,91
+"New York City FC",6,8,"East",8,8,92,2,2,2,86
+"New York Red Bulls",6,6,"East",6,6,90,0,0,0,84
 "Orlando City SC",6,8,"East",8,8,92,2,2,2,86
-"Philadelphia Union",6,10,"East",10,10,94,4,4,4,88
-"Portland Timbers",6,1,"West",1,1,85,-5,-5,-5,79
-"Real Salt Lake",6,4,"West",4,4,88,-2,-2,-2,82
-"San Jose Earthquakes",6,3,"West",3,3,87,-3,-3,-3,81
-"Seattle Sounders FC",6,16,"West",16,16,100,10,10,10,94
-"Sporting Kansas City",6,9,"West",9,9,93,3,3,3,87
-"Toronto FC",6,13,"East",13,13,97,7,7,7,91
-"Vancouver Whitecaps",6,2,"West",2,2,86,-4,-4,-4,80
-"Atlanta United FC",7,8,"East",8,8,89,1,1,1,82
-"Chicago Fire",7,9,"East",9,9,90,2,2,2,83
-"Colorado Rapids",7,2,"West",2,2,83,-5,-5,-5,76
+"Philadelphia Union",6,7,"East",7,7,91,1,1,1,85
+"Portland Timbers",6,5,"West",5,5,89,-1,-1,-1,83
+"Real Salt Lake",6,6,"West",6,6,90,0,0,0,84
+"San Jose Earthquakes",6,10,"West",10,10,94,4,4,4,88
+"Seattle Sounders FC",6,13,"West",13,13,97,7,7,7,91
+"Sporting Kansas City",6,3,"West",3,3,87,-3,-3,-3,81
+"St. Louis CITY SC",6,15,"West",15,15,99,9,9,9,93
+"Toronto FC",6,7,"East",7,7,91,1,1,1,85
+"Vancouver Whitecaps",6,6,"West",6,6,90,0,0,0,84
+"Atlanta United FC",7,14,"East",14,14,95,7,7,7,88
+"Austin FC",7,8,"West",8,8,89,1,1,1,82
+"Charlotte FC",7,5,"East",5,5,86,-2,-2,-2,79
+"Chicago Fire",7,10,"East",10,10,91,3,3,3,84
+"Colorado Rapids",7,6,"West",6,6,87,-1,-1,-1,80
 "Columbus Crew",7,13,"East",13,13,94,6,6,6,87
-"DC United",7,14,"East",14,14,95,7,7,7,88
-"FC Cincinnati",7,8,"East",8,8,89,1,1,1,82
-"FC Dallas",7,13,"West",13,13,94,6,6,6,87
-"Houston Dynamo",7,16,"West",16,16,97,9,9,9,90
-"Los Angeles FC",7,19,"West",19,19,100,12,12,12,93
-"Los Angeles Galaxy",7,18,"West",18,18,99,11,11,11,92
-"Minnesota United FC",7,10,"West",10,10,91,3,3,3,84
-"Montreal Impact",7,11,"East",11,11,92,4,4,4,85
-"New England Revolution",7,4,"East",4,4,85,-3,-3,-3,78
-"New York City FC",7,8,"East",8,8,89,1,1,1,82
-"New York Red Bulls",7,5,"East",5,5,86,-2,-2,-2,79
-"Orlando City SC",7,8,"East",8,8,89,1,1,1,82
-"Philadelphia Union",7,10,"East",10,10,91,3,3,3,84
-"Portland Timbers",7,4,"West",4,4,85,-3,-3,-3,78
-"Real Salt Lake",7,7,"West",7,7,88,0,0,0,81
-"San Jose Earthquakes",7,6,"West",6,6,87,-1,-1,-1,80
+"DC United",7,5,"East",5,5,86,-2,-2,-2,79
+"FC Cincinnati",7,17,"East",17,17,98,10,10,10,91
+"FC Dallas",7,11,"West",11,11,92,4,4,4,85
+"Houston Dynamo",7,10,"West",10,10,91,3,3,3,84
+"Inter Miami CF",7,6,"East",6,6,87,-1,-1,-1,80
+"Los Angeles FC",7,17,"West",17,17,98,10,10,10,91
+"Los Angeles Galaxy",7,3,"West",3,3,84,-4,-4,-4,77
+"Minnesota United FC",7,11,"West",11,11,92,4,4,4,85
+"Montreal Impact",7,3,"East",3,3,84,-4,-4,-4,77
+"Nashville SC",7,11,"East",11,11,92,4,4,4,85
+"New England Revolution",7,16,"East",16,16,97,9,9,9,90
+"New York City FC",7,9,"East",9,9,90,2,2,2,83
+"New York Red Bulls",7,7,"East",7,7,88,0,0,0,81
+"Orlando City SC",7,11,"East",11,11,92,4,4,4,85
+"Philadelphia Union",7,7,"East",7,7,88,0,0,0,81
+"Portland Timbers",7,5,"West",5,5,86,-2,-2,-2,79
+"Real Salt Lake",7,6,"West",6,6,87,-1,-1,-1,80
+"San Jose Earthquakes",7,11,"West",11,11,92,4,4,4,85
 "Seattle Sounders FC",7,16,"West",16,16,97,9,9,9,90
-"Sporting Kansas City",7,9,"West",9,9,90,2,2,2,83
-"Toronto FC",7,13,"East",13,13,94,6,6,6,87
-"Vancouver Whitecaps",7,5,"West",5,5,86,-2,-2,-2,79
-"Atlanta United FC",8,11,"East",11,11,89,3,3,3,81
-"Chicago Fire",8,9,"East",9,9,87,1,1,1,79
-"Colorado Rapids",8,2,"West",2,2,80,-6,-6,-6,72
-"Columbus Crew",8,13,"East",13,13,91,5,5,5,83
-"DC United",8,14,"East",14,14,92,6,6,6,84
-"FC Cincinnati",8,8,"East",8,8,86,0,0,0,78
-"FC Dallas",8,16,"West",16,16,94,8,8,8,86
-"Houston Dynamo",8,19,"West",19,19,97,11,11,11,89
-"Los Angeles FC",8,19,"West",19,19,97,11,11,11,89
-"Los Angeles Galaxy",8,19,"West",19,19,97,11,11,11,89
+"Sporting Kansas City",7,3,"West",3,3,84,-4,-4,-4,77
+"St. Louis CITY SC",7,15,"West",15,15,96,8,8,8,89
+"Toronto FC",7,8,"East",8,8,89,1,1,1,82
+"Vancouver Whitecaps",7,9,"West",9,9,90,2,2,2,83
+"Atlanta United FC",8,15,"East",15,15,93,7,7,7,85
+"Austin FC",8,8,"West",8,8,86,0,0,0,78
+"Charlotte FC",8,6,"East",6,6,84,-2,-2,-2,76
+"Chicago Fire",8,10,"East",10,10,88,2,2,2,80
+"Colorado Rapids",8,7,"West",7,7,85,-1,-1,-1,77
+"Columbus Crew",8,14,"East",14,14,92,6,6,6,84
+"DC United",8,8,"East",8,8,86,0,0,0,78
+"FC Cincinnati",8,17,"East",17,17,95,9,9,9,87
+"FC Dallas",8,14,"West",14,14,92,6,6,6,84
+"Houston Dynamo",8,13,"West",13,13,91,5,5,5,83
+"Inter Miami CF",8,6,"East",6,6,84,-2,-2,-2,76
+"Los Angeles FC",8,18,"West",18,18,96,10,10,10,88
+"Los Angeles Galaxy",8,6,"West",6,6,84,-2,-2,-2,76
 "Minnesota United FC",8,11,"West",11,11,89,3,3,3,81
-"Montreal Impact",8,11,"East",11,11,89,3,3,3,81
-"New England Revolution",8,7,"East",7,7,85,-1,-1,-1,77
-"New York City FC",8,11,"East",11,11,89,3,3,3,81
+"Montreal Impact",8,6,"East",6,6,84,-2,-2,-2,76
+"Nashville SC",8,11,"East",11,11,89,3,3,3,81
+"New England Revolution",8,17,"East",17,17,95,9,9,9,87
+"New York City FC",8,12,"East",12,12,90,4,4,4,82
 "New York Red Bulls",8,8,"East",8,8,86,0,0,0,78
 "Orlando City SC",8,11,"East",11,11,89,3,3,3,81
-"Philadelphia Union",8,13,"East",13,13,91,5,5,5,83
-"Portland Timbers",8,7,"West",7,7,85,-1,-1,-1,77
-"Real Salt Lake",8,10,"West",10,10,88,2,2,2,80
-"San Jose Earthquakes",8,7,"West",7,7,85,-1,-1,-1,77
-"Seattle Sounders FC",8,17,"West",17,17,95,9,9,9,87
-"Sporting Kansas City",8,10,"West",10,10,88,2,2,2,80
-"Toronto FC",8,16,"East",16,16,94,8,8,8,86
-"Vancouver Whitecaps",8,5,"West",5,5,83,-3,-3,-3,75
-"Atlanta United FC",9,14,"East",14,14,89,5,5,5,80
-"Chicago Fire",9,9,"East",9,9,84,0,0,0,75
-"Colorado Rapids",9,2,"West",2,2,77,-7,-7,-7,68
-"Columbus Crew",9,13,"East",13,13,88,4,4,4,79
-"DC United",9,17,"East",17,17,92,8,8,8,83
-"FC Cincinnati",9,8,"East",8,8,83,-1,-1,-1,74
-"FC Dallas",9,17,"West",17,17,92,8,8,8,83
-"Houston Dynamo",9,19,"West",19,19,94,10,10,10,85
-"Los Angeles FC",9,22,"West",22,22,97,13,13,13,88
-"Los Angeles Galaxy",9,22,"West",22,22,97,13,13,13,88
-"Minnesota United FC",9,14,"West",14,14,89,5,5,5,80
-"Montreal Impact",9,14,"East",14,14,89,5,5,5,80
-"New England Revolution",9,7,"East",7,7,82,-2,-2,-2,73
-"New York City FC",9,12,"East",12,12,87,3,3,3,78
-"New York Red Bulls",9,11,"East",11,11,86,2,2,2,77
-"Orlando City SC",9,12,"East",12,12,87,3,3,3,78
-"Philadelphia Union",9,14,"East",14,14,89,5,5,5,80
-"Portland Timbers",9,10,"West",10,10,85,1,1,1,76
+"Philadelphia Union",8,8,"East",8,8,86,0,0,0,78
+"Portland Timbers",8,8,"West",8,8,86,0,0,0,78
+"Real Salt Lake",8,9,"West",9,9,87,1,1,1,79
+"San Jose Earthquakes",8,14,"West",14,14,92,6,6,6,84
+"Seattle Sounders FC",8,16,"West",16,16,94,8,8,8,86
+"Sporting Kansas City",8,3,"West",3,3,81,-5,-5,-5,73
+"St. Louis CITY SC",8,18,"West",18,18,96,10,10,10,88
+"Toronto FC",8,9,"East",9,9,87,1,1,1,79
+"Vancouver Whitecaps",8,10,"West",10,10,88,2,2,2,80
+"Atlanta United FC",9,18,"East",18,18,93,9,9,9,84
+"Austin FC",9,9,"West",9,9,84,0,0,0,75
+"Charlotte FC",9,9,"East",9,9,84,0,0,0,75
+"Chicago Fire",9,11,"East",11,11,86,2,2,2,77
+"Colorado Rapids",9,8,"West",8,8,83,-1,-1,-1,74
+"Columbus Crew",9,14,"East",14,14,89,5,5,5,80
+"DC United",9,11,"East",11,11,86,2,2,2,77
+"FC Cincinnati",9,20,"East",20,20,95,11,11,11,86
+"FC Dallas",9,14,"West",14,14,89,5,5,5,80
+"Houston Dynamo",9,14,"West",14,14,89,5,5,5,80
+"Inter Miami CF",9,9,"East",9,9,84,0,0,0,75
+"Los Angeles FC",9,18,"West",18,18,93,9,9,9,84
+"Los Angeles Galaxy",9,6,"West",6,6,81,-3,-3,-3,72
+"Minnesota United FC",9,12,"West",12,12,87,3,3,3,78
+"Montreal Impact",9,9,"East",9,9,84,0,0,0,75
+"Nashville SC",9,12,"East",12,12,87,3,3,3,78
+"New England Revolution",9,20,"East",20,20,95,11,11,11,86
+"New York City FC",9,15,"East",15,15,90,6,6,6,81
+"New York Red Bulls",9,8,"East",8,8,83,-1,-1,-1,74
+"Orlando City SC",9,14,"East",14,14,89,5,5,5,80
+"Philadelphia Union",9,11,"East",11,11,86,2,2,2,77
+"Portland Timbers",9,8,"West",8,8,83,-1,-1,-1,74
 "Real Salt Lake",9,10,"West",10,10,85,1,1,1,76
-"San Jose Earthquakes",9,8,"West",8,8,83,-1,-1,-1,74
-"Seattle Sounders FC",9,18,"West",18,18,93,9,9,9,84
-"Sporting Kansas City",9,10,"West",10,10,85,1,1,1,76
-"Toronto FC",9,16,"East",16,16,91,7,7,7,82
-"Vancouver Whitecaps",9,6,"West",6,6,81,-3,-3,-3,72
-"Atlanta United FC",10,17,"East",17,17,89,7,7,7,79
-"Chicago Fire",10,10,"East",10,10,82,0,0,0,72
-"Colorado Rapids",10,2,"West",2,2,74,-8,-8,-8,64
-"Columbus Crew",10,13,"East",13,13,85,3,3,3,75
-"DC United",10,17,"East",17,17,89,7,7,7,79
-"FC Cincinnati",10,8,"East",8,8,80,-2,-2,-2,70
-"FC Dallas",10,17,"West",17,17,89,7,7,7,79
-"Houston Dynamo",10,20,"West",20,20,92,10,10,10,82
-"Los Angeles FC",10,23,"West",23,23,95,13,13,13,85
-"Los Angeles Galaxy",10,22,"West",22,22,94,12,12,12,84
-"Minnesota United FC",10,15,"West",15,15,87,5,5,5,77
-"Montreal Impact",10,17,"East",17,17,89,7,7,7,79
-"New England Revolution",10,8,"East",8,8,80,-2,-2,-2,70
+"San Jose Earthquakes",9,14,"West",14,14,89,5,5,5,80
+"Seattle Sounders FC",9,19,"West",19,19,94,10,10,10,85
+"Sporting Kansas City",9,3,"West",3,3,78,-6,-6,-6,69
+"St. Louis CITY SC",9,19,"West",19,19,94,10,10,10,85
+"Toronto FC",9,9,"East",9,9,84,0,0,0,75
+"Vancouver Whitecaps",9,11,"West",11,11,86,2,2,2,77
+"Atlanta United FC",10,18,"East",18,18,90,8,8,8,80
+"Austin FC",10,10,"West",10,10,82,0,0,0,72
+"Charlotte FC",10,9,"East",9,9,81,-1,-1,-1,71
+"Chicago Fire",10,11,"East",11,11,83,1,1,1,73
+"Colorado Rapids",10,9,"West",9,9,81,-1,-1,-1,71
+"Columbus Crew",10,14,"East",14,14,86,4,4,4,76
+"DC United",10,14,"East",14,14,86,4,4,4,76
+"FC Cincinnati",10,21,"East",21,21,93,11,11,11,83
+"FC Dallas",10,15,"West",15,15,87,5,5,5,77
+"Houston Dynamo",10,14,"West",14,14,86,4,4,4,76
+"Inter Miami CF",10,12,"East",12,12,84,2,2,2,74
+"Los Angeles FC",10,21,"West",21,21,93,11,11,11,83
+"Los Angeles Galaxy",10,6,"West",6,6,78,-4,-4,-4,68
+"Minnesota United FC",10,12,"West",12,12,84,2,2,2,74
+"Montreal Impact",10,12,"East",12,12,84,2,2,2,74
+"Nashville SC",10,15,"East",15,15,87,5,5,5,77
+"New England Revolution",10,21,"East",21,21,93,11,11,11,83
 "New York City FC",10,15,"East",15,15,87,5,5,5,77
-"New York Red Bulls",10,11,"East",11,11,83,1,1,1,73
-"Orlando City SC",10,12,"East",12,12,84,2,2,2,74
-"Philadelphia Union",10,17,"East",17,17,89,7,7,7,79
-"Portland Timbers",10,10,"West",10,10,82,0,0,0,72
-"Real Salt Lake",10,10,"West",10,10,82,0,0,0,72
-"San Jose Earthquakes",10,11,"West",11,11,83,1,1,1,73
-"Seattle Sounders FC",10,19,"West",19,19,91,9,9,9,81
-"Sporting Kansas City",10,10,"West",10,10,82,0,0,0,72
-"Toronto FC",10,16,"East",16,16,88,6,6,6,78
-"Vancouver Whitecaps",10,9,"West",9,9,81,-1,-1,-1,71
-"Atlanta United FC",11,20,"East",20,20,89,9,9,9,78
-"Chicago Fire",11,13,"East",13,13,82,2,2,2,71
-"Colorado Rapids",11,2,"West",2,2,71,-9,-9,-9,60
-"Columbus Crew",11,13,"East",13,13,82,2,2,2,71
-"DC United",11,20,"East",20,20,89,9,9,9,78
-"FC Cincinnati",11,8,"East",8,8,77,-3,-3,-3,66
-"FC Dallas",11,17,"West",17,17,86,6,6,6,75
-"Houston Dynamo",11,23,"West",23,23,92,12,12,12,81
-"Los Angeles FC",11,24,"West",24,24,93,13,13,13,82
-"Los Angeles Galaxy",11,22,"West",22,22,91,11,11,11,80
-"Minnesota United FC",11,15,"West",15,15,84,4,4,4,73
-"Montreal Impact",11,17,"East",17,17,86,6,6,6,75
-"New England Revolution",11,8,"East",8,8,77,-3,-3,-3,66
-"New York City FC",11,18,"East",18,18,87,7,7,7,76
-"New York Red Bulls",11,14,"East",14,14,83,3,3,3,72
-"Orlando City SC",11,12,"East",12,12,81,1,1,1,70
-"Philadelphia Union",11,20,"East",20,20,89,9,9,9,78
-"Portland Timbers",11,11,"West",11,11,80,0,0,0,69
-"Real Salt Lake",11,13,"West",13,13,82,2,2,2,71
-"San Jose Earthquakes",11,11,"West",11,11,80,0,0,0,69
-"Seattle Sounders FC",11,22,"West",22,22,91,11,11,11,80
-"Sporting Kansas City",11,11,"West",11,11,80,0,0,0,69
-"Toronto FC",11,17,"East",17,17,86,6,6,6,75
-"Vancouver Whitecaps",11,12,"West",12,12,81,1,1,1,70
-"Atlanta United FC",12,20,"East",20,20,86,8,8,8,74
-"Chicago Fire",12,16,"East",16,16,82,4,4,4,70
-"Colorado Rapids",12,5,"West",5,5,71,-7,-7,-7,59
-"Columbus Crew",12,16,"East",16,16,82,4,4,4,70
-"DC United",12,23,"East",23,23,89,11,11,11,77
-"FC Cincinnati",12,11,"East",11,11,77,-1,-1,-1,65
-"FC Dallas",12,17,"West",17,17,83,5,5,5,71
-"Houston Dynamo",12,23,"West",23,23,89,11,11,11,77
-"Los Angeles FC",12,27,"West",27,27,93,15,15,15,81
-"Los Angeles Galaxy",12,22,"West",22,22,88,10,10,10,76
-"Minnesota United FC",12,18,"West",18,18,84,6,6,6,72
-"Montreal Impact",12,20,"East",20,20,86,8,8,8,74
-"New England Revolution",12,8,"East",8,8,74,-4,-4,-4,62
-"New York City FC",12,19,"East",19,19,85,7,7,7,73
-"New York Red Bulls",12,17,"East",17,17,83,5,5,5,71
-"Orlando City SC",12,12,"East",12,12,78,0,0,0,66
-"Philadelphia Union",12,23,"East",23,23,89,11,11,11,77
-"Portland Timbers",12,14,"West",14,14,80,2,2,2,68
-"Real Salt Lake",12,16,"West",16,16,82,4,4,4,70
-"San Jose Earthquakes",12,14,"West",14,14,80,2,2,2,68
-"Seattle Sounders FC",12,25,"West",25,25,91,13,13,13,79
-"Sporting Kansas City",12,14,"West",14,14,80,2,2,2,68
-"Toronto FC",12,17,"East",17,17,83,5,5,5,71
-"Vancouver Whitecaps",12,12,"West",12,12,78,0,0,0,66
-"Atlanta United FC",13,20,"East",20,20,83,7,7,7,70
-"Chicago Fire",13,16,"East",16,16,79,3,3,3,66
-"Colorado Rapids",13,8,"West",8,8,71,-5,-5,-5,58
-"Columbus Crew",13,16,"East",16,16,79,3,3,3,66
-"DC United",13,24,"East",24,24,87,11,11,11,74
-"FC Cincinnati",13,11,"East",11,11,74,-2,-2,-2,61
-"FC Dallas",13,18,"West",18,18,81,5,5,5,68
-"Houston Dynamo",13,24,"West",24,24,87,11,11,11,74
-"Los Angeles FC",13,30,"West",30,30,93,17,17,17,80
-"Los Angeles Galaxy",13,22,"West",22,22,85,9,9,9,72
-"Minnesota United FC",13,21,"West",21,21,84,8,8,8,71
-"Montreal Impact",13,20,"East",20,20,83,7,7,7,70
-"New England Revolution",13,11,"East",11,11,74,-2,-2,-2,61
-"New York City FC",13,20,"East",20,20,83,7,7,7,70
-"New York Red Bulls",13,18,"East",18,18,81,5,5,5,68
-"Orlando City SC",13,15,"East",15,15,78,2,2,2,65
-"Philadelphia Union",13,24,"East",24,24,87,11,11,11,74
-"Portland Timbers",13,14,"West",14,14,77,1,1,1,64
-"Real Salt Lake",13,19,"West",19,19,82,6,6,6,69
-"San Jose Earthquakes",13,17,"West",17,17,80,4,4,4,67
-"Seattle Sounders FC",13,26,"West",26,26,89,13,13,13,76
-"Sporting Kansas City",13,14,"West",14,14,77,1,1,1,64
-"Toronto FC",13,17,"East",17,17,80,4,4,4,67
-"Vancouver Whitecaps",13,13,"West",13,13,76,0,0,0,63
-"Atlanta United FC",14,23,"East",23,23,83,9,9,9,69
-"Chicago Fire",14,17,"East",17,17,77,3,3,3,63
-"Colorado Rapids",14,9,"West",9,9,69,-5,-5,-5,55
-"Columbus Crew",14,16,"East",16,16,76,2,2,2,62
-"DC United",14,24,"East",24,24,84,10,10,10,70
-"FC Cincinnati",14,11,"East",11,11,71,-3,-3,-3,57
-"FC Dallas",14,18,"West",18,18,78,4,4,4,64
-"Houston Dynamo",14,24,"West",24,24,84,10,10,10,70
-"Los Angeles FC",14,31,"West",31,31,91,17,17,17,77
-"Los Angeles Galaxy",14,25,"West",25,25,85,11,11,11,71
-"Minnesota United FC",14,21,"West",21,21,81,7,7,7,67
-"Montreal Impact",14,21,"East",21,21,81,7,7,7,67
-"New England Revolution",14,12,"East",12,12,72,-2,-2,-2,58
-"New York City FC",14,23,"East",23,23,83,9,9,9,69
-"New York Red Bulls",14,21,"East",21,21,81,7,7,7,67
-"Orlando City SC",14,15,"East",15,15,75,1,1,1,61
-"Philadelphia Union",14,24,"East",24,24,84,10,10,10,70
-"Portland Timbers",14,17,"West",17,17,77,3,3,3,63
-"Real Salt Lake",14,19,"West",19,19,79,5,5,5,65
-"San Jose Earthquakes",14,18,"West",18,18,78,4,4,4,64
-"Seattle Sounders FC",14,26,"West",26,26,86,12,12,12,72
-"Sporting Kansas City",14,15,"West",15,15,75,1,1,1,61
-"Toronto FC",14,18,"East",18,18,78,4,4,4,64
-"Vancouver Whitecaps",14,14,"West",14,14,74,0,0,0,60
-"Atlanta United FC",15,26,"East",26,26,83,11,11,11,68
-"Chicago Fire",15,18,"East",18,18,75,3,3,3,60
-"Colorado Rapids",15,12,"West",12,12,69,-3,-3,-3,54
-"Columbus Crew",15,16,"East",16,16,73,1,1,1,58
-"DC United",15,25,"East",25,25,82,10,10,10,67
-"FC Cincinnati",15,11,"East",11,11,68,-4,-4,-4,53
-"FC Dallas",15,21,"West",21,21,78,6,6,6,63
-"Houston Dynamo",15,24,"West",24,24,81,9,9,9,66
-"Los Angeles FC",15,34,"West",34,34,91,19,19,19,76
-"Los Angeles Galaxy",15,28,"West",28,28,85,13,13,13,70
-"Minnesota United FC",15,21,"West",21,21,78,6,6,6,63
-"Montreal Impact",15,21,"East",21,21,78,6,6,6,63
-"New England Revolution",15,13,"East",13,13,70,-2,-2,-2,55
-"New York City FC",15,26,"East",26,26,83,11,11,11,68
-"New York Red Bulls",15,24,"East",24,24,81,9,9,9,66
-"Orlando City SC",15,18,"East",18,18,75,3,3,3,60
-"Philadelphia Union",15,25,"East",25,25,82,10,10,10,67
-"Portland Timbers",15,17,"West",17,17,74,2,2,2,59
-"Real Salt Lake",15,19,"West",19,19,76,4,4,4,61
-"San Jose Earthquakes",15,19,"West",19,19,76,4,4,4,61
-"Seattle Sounders FC",15,26,"West",26,26,83,11,11,11,68
-"Sporting Kansas City",15,16,"West",16,16,73,1,1,1,58
-"Toronto FC",15,19,"East",19,19,76,4,4,4,61
-"Vancouver Whitecaps",15,17,"West",17,17,74,2,2,2,59
-"Atlanta United FC",16,26,"East",26,26,80,10,10,10,64
-"Chicago Fire",16,18,"East",18,18,72,2,2,2,56
-"Colorado Rapids",16,15,"West",15,15,69,-1,-1,-1,53
-"Columbus Crew",16,17,"East",17,17,71,1,1,1,55
-"DC United",16,26,"East",26,26,80,10,10,10,64
-"FC Cincinnati",16,11,"East",11,11,65,-5,-5,-5,49
-"FC Dallas",16,22,"West",22,22,76,6,6,6,60
-"Houston Dynamo",16,24,"West",24,24,78,8,8,8,62
-"Los Angeles FC",16,37,"West",37,37,91,21,21,21,75
-"Los Angeles Galaxy",16,28,"West",28,28,82,12,12,12,66
-"Minnesota United FC",16,21,"West",21,21,75,5,5,5,59
-"Montreal Impact",16,24,"East",24,24,78,8,8,8,62
-"New England Revolution",16,16,"East",16,16,70,0,0,0,54
-"New York City FC",16,29,"East",29,29,83,13,13,13,67
-"New York Red Bulls",16,24,"East",24,24,78,8,8,8,62
-"Orlando City SC",16,18,"East",18,18,72,2,2,2,56
-"Philadelphia Union",16,28,"East",28,28,82,12,12,12,66
-"Portland Timbers",16,20,"West",20,20,74,4,4,4,58
-"Real Salt Lake",16,20,"West",20,20,74,4,4,4,58
-"San Jose Earthquakes",16,22,"West",22,22,76,6,6,6,60
-"Seattle Sounders FC",16,26,"West",26,26,80,10,10,10,64
-"Sporting Kansas City",16,19,"West",19,19,73,3,3,3,57
-"Toronto FC",16,19,"East",19,19,73,3,3,3,57
-"Vancouver Whitecaps",16,18,"West",18,18,72,2,2,2,56
-"Atlanta United FC",17,29,"East",29,29,80,12,12,12,63
-"Chicago Fire",17,19,"East",19,19,70,2,2,2,53
-"Colorado Rapids",17,16,"West",16,16,67,-1,-1,-1,50
-"Columbus Crew",17,17,"East",17,17,68,0,0,0,51
-"DC United",17,27,"East",27,27,78,10,10,10,61
-"FC Cincinnati",17,11,"East",11,11,62,-6,-6,-6,45
-"FC Dallas",17,25,"West",25,25,76,8,8,8,59
-"Houston Dynamo",17,27,"West",27,27,78,10,10,10,61
-"Los Angeles FC",17,37,"West",37,37,88,20,20,20,71
-"Los Angeles Galaxy",17,31,"West",31,31,82,14,14,14,65
-"Minnesota United FC",17,24,"West",24,24,75,7,7,7,58
-"Montreal Impact",17,24,"East",24,24,75,7,7,7,58
-"New England Revolution",17,17,"East",17,17,68,0,0,0,51
-"New York City FC",17,29,"East",29,29,80,12,12,12,63
-"New York Red Bulls",17,27,"East",27,27,78,10,10,10,61
-"Orlando City SC",17,21,"East",21,21,72,4,4,4,55
-"Philadelphia Union",17,31,"East",31,31,82,14,14,14,65
-"Portland Timbers",17,23,"West",23,23,74,6,6,6,57
-"Real Salt Lake",17,23,"West",23,23,74,6,6,6,57
-"San Jose Earthquakes",17,25,"West",25,25,76,8,8,8,59
-"Seattle Sounders FC",17,29,"West",29,29,80,12,12,12,63
-"Sporting Kansas City",17,19,"West",19,19,70,2,2,2,53
-"Toronto FC",17,22,"East",22,22,73,5,5,5,56
-"Vancouver Whitecaps",17,19,"West",19,19,70,2,2,2,53
-"Atlanta United FC",18,29,"East",29,29,77,11,11,11,59
-"Chicago Fire",18,19,"East",19,19,67,1,1,1,49
-"Colorado Rapids",18,19,"West",19,19,67,1,1,1,49
-"Columbus Crew",18,17,"East",17,17,65,-1,-1,-1,47
-"DC United",18,30,"East",30,30,78,12,12,12,60
-"FC Cincinnati",18,11,"East",11,11,59,-7,-7,-7,41
-"FC Dallas",18,26,"West",26,26,74,8,8,8,56
-"Houston Dynamo",18,27,"West",27,27,75,9,9,9,57
-"Los Angeles FC",18,40,"West",40,40,88,22,22,22,70
-"Los Angeles Galaxy",18,31,"West",31,31,79,13,13,13,61
-"Minnesota United FC",18,27,"West",27,27,75,9,9,9,57
-"Montreal Impact",18,27,"East",27,27,75,9,9,9,57
-"New England Revolution",18,20,"East",20,20,68,2,2,2,50
-"New York City FC",18,29,"East",29,29,77,11,11,11,59
-"New York Red Bulls",18,27,"East",27,27,75,9,9,9,57
-"Orlando City SC",18,21,"East",21,21,69,3,3,3,51
-"Philadelphia Union",18,32,"East",32,32,80,14,14,14,62
-"Portland Timbers",18,24,"West",24,24,72,6,6,6,54
-"Real Salt Lake",18,26,"West",26,26,74,8,8,8,56
-"San Jose Earthquakes",18,25,"West",25,25,73,7,7,7,55
-"Seattle Sounders FC",18,29,"West",29,29,77,11,11,11,59
-"Sporting Kansas City",18,19,"West",19,19,67,1,1,1,49
-"Toronto FC",18,23,"East",23,23,71,5,5,5,53
-"Vancouver Whitecaps",18,20,"West",20,20,68,2,2,2,50
-"Atlanta United FC",19,30,"East",30,30,75,11,11,11,56
-"Chicago Fire",19,22,"East",22,22,67,3,3,3,48
-"Colorado Rapids",19,19,"West",19,19,64,0,0,0,45
-"Columbus Crew",19,17,"East",17,17,62,-2,-2,-2,43
-"DC United",19,31,"East",31,31,76,12,12,12,57
-"FC Cincinnati",19,14,"East",14,14,59,-5,-5,-5,40
-"FC Dallas",19,26,"West",26,26,71,7,7,7,52
-"Houston Dynamo",19,27,"West",27,27,72,8,8,8,53
-"Los Angeles FC",19,43,"West",43,43,88,24,24,24,69
-"Los Angeles Galaxy",19,34,"West",34,34,79,15,15,15,60
-"Minnesota United FC",19,30,"West",30,30,75,11,11,11,56
-"Montreal Impact",19,30,"East",30,30,75,11,11,11,56
-"New England Revolution",19,23,"East",23,23,68,4,4,4,49
-"New York City FC",19,32,"East",32,32,77,13,13,13,58
-"New York Red Bulls",19,28,"East",28,28,73,9,9,9,54
-"Orlando City SC",19,22,"East",22,22,67,3,3,3,48
-"Philadelphia Union",19,32,"East",32,32,77,13,13,13,58
-"Portland Timbers",19,25,"West",25,25,70,6,6,6,51
-"Real Salt Lake",19,26,"West",26,26,71,7,7,7,52
-"San Jose Earthquakes",19,28,"West",28,28,73,9,9,9,54
-"Seattle Sounders FC",19,32,"West",32,32,77,13,13,13,58
-"Sporting Kansas City",19,22,"West",22,22,67,3,3,3,48
-"Toronto FC",19,23,"East",23,23,68,4,4,4,49
-"Vancouver Whitecaps",19,20,"West",20,20,65,1,1,1,46
-"Atlanta United FC",20,30,"East",30,30,72,10,10,10,52
-"Chicago Fire",20,22,"East",22,22,64,2,2,2,44
-"Colorado Rapids",20,20,"West",20,20,62,0,0,0,42
-"Columbus Crew",20,17,"East",17,17,59,-3,-3,-3,39
-"DC United",20,31,"East",31,31,73,11,11,11,53
-"FC Cincinnati",20,17,"East",17,17,59,-3,-3,-3,39
-"FC Dallas",20,29,"West",29,29,71,9,9,9,51
-"Houston Dynamo",20,27,"West",27,27,69,7,7,7,49
-"Los Angeles FC",20,46,"West",46,46,88,26,26,26,68
-"Los Angeles Galaxy",20,34,"West",34,34,76,14,14,14,56
-"Minnesota United FC",20,33,"West",33,33,75,13,13,13,55
-"Montreal Impact",20,30,"East",30,30,72,10,10,10,52
-"New England Revolution",20,24,"East",24,24,66,4,4,4,46
-"New York City FC",20,35,"East",35,35,77,15,15,15,57
-"New York Red Bulls",20,31,"East",31,31,73,11,11,11,53
-"Orlando City SC",20,25,"East",25,25,67,5,5,5,47
-"Philadelphia Union",20,35,"East",35,35,77,15,15,15,57
-"Portland Timbers",20,28,"West",28,28,70,8,8,8,50
-"Real Salt Lake",20,29,"West",29,29,71,9,9,9,51
-"San Jose Earthquakes",20,31,"West",31,31,73,11,11,11,53
-"Seattle Sounders FC",20,35,"West",35,35,77,15,15,15,57
-"Sporting Kansas City",20,25,"West",25,25,67,5,5,5,47
-"Toronto FC",20,26,"East",26,26,68,6,6,6,48
-"Vancouver Whitecaps",20,20,"West",20,20,62,0,0,0,42
-"Atlanta United FC",21,33,"East",33,33,72,12,12,12,51
-"Chicago Fire",21,22,"East",22,22,61,1,1,1,40
-"Colorado Rapids",21,20,"West",20,20,59,-1,-1,-1,38
-"Columbus Crew",21,17,"East",17,17,56,-4,-4,-4,35
-"DC United",21,32,"East",32,32,71,11,11,11,50
-"FC Cincinnati",21,17,"East",17,17,56,-4,-4,-4,35
-"FC Dallas",21,29,"West",29,29,68,8,8,8,47
-"Houston Dynamo",21,30,"West",30,30,69,9,9,9,48
-"Los Angeles FC",21,46,"West",46,46,85,25,25,25,64
-"Los Angeles Galaxy",21,37,"West",37,37,76,16,16,16,55
-"Minnesota United FC",21,34,"West",34,34,73,13,13,13,52
-"Montreal Impact",21,30,"East",30,30,69,9,9,9,48
-"New England Revolution",21,27,"East",27,27,66,6,6,6,45
-"New York City FC",21,35,"East",35,35,74,14,14,14,53
-"New York Red Bulls",21,31,"East",31,31,70,10,10,10,49
-"Orlando City SC",21,26,"East",26,26,65,5,5,5,44
-"Philadelphia Union",21,36,"East",36,36,75,15,15,15,54
-"Portland Timbers",21,31,"West",31,31,70,10,10,10,49
-"Real Salt Lake",21,30,"West",30,30,69,9,9,9,48
-"San Jose Earthquakes",21,34,"West",34,34,73,13,13,13,52
-"Seattle Sounders FC",21,35,"West",35,35,74,14,14,14,53
-"Sporting Kansas City",21,25,"West",25,25,64,4,4,4,43
-"Toronto FC",21,29,"East",29,29,68,8,8,8,47
-"Vancouver Whitecaps",21,20,"West",20,20,59,-1,-1,-1,38
-"Atlanta United FC",22,36,"East",36,36,72,14,14,14,50
-"Chicago Fire",22,23,"East",23,23,59,1,1,1,37
-"Colorado Rapids",22,20,"West",20,20,56,-2,-2,-2,34
-"Columbus Crew",22,18,"East",18,18,54,-4,-4,-4,32
-"DC United",22,35,"East",35,35,71,13,13,13,49
-"FC Cincinnati",22,17,"East",17,17,53,-5,-5,-5,31
-"FC Dallas",22,32,"West",32,32,68,10,10,10,46
-"Houston Dynamo",22,30,"West",30,30,66,8,8,8,44
-"Los Angeles FC",22,49,"West",49,49,85,27,27,27,63
-"Los Angeles Galaxy",22,37,"West",37,37,73,15,15,15,51
-"Minnesota United FC",22,35,"West",35,35,71,13,13,13,49
-"Montreal Impact",22,30,"East",30,30,66,8,8,8,44
-"New England Revolution",22,30,"East",30,30,66,8,8,8,44
-"New York City FC",22,38,"East",38,38,74,16,16,16,52
-"New York Red Bulls",22,34,"East",34,34,70,12,12,12,48
-"Orlando City SC",22,26,"East",26,26,62,4,4,4,40
-"Philadelphia Union",22,36,"East",36,36,72,14,14,14,50
-"Portland Timbers",22,31,"West",31,31,67,9,9,9,45
-"Real Salt Lake",22,31,"West",31,31,67,9,9,9,45
-"San Jose Earthquakes",22,37,"West",37,37,73,15,15,15,51
-"Seattle Sounders FC",22,38,"West",38,38,74,16,16,16,52
-"Sporting Kansas City",22,25,"West",25,25,61,3,3,3,39
-"Toronto FC",22,29,"East",29,29,65,7,7,7,43
-"Vancouver Whitecaps",22,20,"West",20,20,56,-2,-2,-2,34
-"Atlanta United FC",23,36,"East",36,36,69,13,13,13,46
-"Chicago Fire",23,23,"East",23,23,56,0,0,0,33
-"Colorado Rapids",23,23,"West",23,23,56,0,0,0,33
-"Columbus Crew",23,21,"East",21,21,54,-2,-2,-2,31
-"DC United",23,35,"East",35,35,68,12,12,12,45
-"FC Cincinnati",23,17,"East",17,17,50,-6,-6,-6,27
-"FC Dallas",23,33,"West",33,33,66,10,10,10,43
-"Houston Dynamo",23,30,"West",30,30,63,7,7,7,40
-"Los Angeles FC",23,52,"West",52,52,85,29,29,29,62
-"Los Angeles Galaxy",23,37,"West",37,37,70,14,14,14,47
-"Minnesota United FC",23,38,"West",38,38,71,15,15,15,48
-"Montreal Impact",23,30,"East",30,30,63,7,7,7,40
-"New England Revolution",23,33,"East",33,33,66,10,10,10,43
-"New York City FC",23,38,"East",38,38,71,15,15,15,48
-"New York Red Bulls",23,34,"East",34,34,67,11,11,11,44
-"Orlando City SC",23,26,"East",26,26,59,3,3,3,36
-"Philadelphia Union",23,39,"East",39,39,72,16,16,16,49
-"Portland Timbers",23,34,"West",34,34,67,11,11,11,44
-"Real Salt Lake",23,34,"West",34,34,67,11,11,11,44
-"San Jose Earthquakes",23,38,"West",38,38,71,15,15,15,48
-"Seattle Sounders FC",23,38,"West",38,38,71,15,15,15,48
-"Sporting Kansas City",23,28,"West",28,28,61,5,5,5,38
-"Toronto FC",23,32,"East",32,32,65,9,9,9,42
-"Vancouver Whitecaps",23,20,"West",20,20,53,-3,-3,-3,30
-"Atlanta United FC",24,39,"East",39,39,69,15,15,15,45
-"Chicago Fire",24,24,"East",24,24,54,0,0,0,30
-"Colorado Rapids",24,26,"West",26,26,56,2,2,2,32
-"Columbus Crew",24,24,"East",24,24,54,0,0,0,30
-"DC United",24,36,"East",36,36,66,12,12,12,42
-"FC Cincinnati",24,17,"East",17,17,47,-7,-7,-7,23
-"FC Dallas",24,33,"West",33,33,63,9,9,9,39
-"Houston Dynamo",24,30,"West",30,30,60,6,6,6,36
-"Los Angeles FC",24,55,"West",55,55,85,31,31,31,61
-"Los Angeles Galaxy",24,37,"West",37,37,67,13,13,13,43
-"Minnesota United FC",24,38,"West",38,38,68,14,14,14,44
-"Montreal Impact",24,33,"East",33,33,63,9,9,9,39
-"New England Revolution",24,33,"East",33,33,63,9,9,9,39
-"New York City FC",24,41,"East",41,41,71,17,17,17,47
-"New York Red Bulls",24,37,"East",37,37,67,13,13,13,43
-"Orlando City SC",24,29,"East",29,29,59,5,5,5,35
-"Philadelphia Union",24,39,"East",39,39,69,15,15,15,45
-"Portland Timbers",24,37,"West",37,37,67,13,13,13,43
-"Real Salt Lake",24,37,"West",37,37,67,13,13,13,43
-"San Jose Earthquakes",24,38,"West",38,38,68,14,14,14,44
-"Seattle Sounders FC",24,39,"West",39,39,69,15,15,15,45
-"Sporting Kansas City",24,28,"West",28,28,58,4,4,4,34
-"Toronto FC",24,32,"East",32,32,62,8,8,8,38
-"Vancouver Whitecaps",24,21,"West",21,21,51,-3,-3,-3,27
-"Atlanta United FC",25,42,"East",42,42,69,17,17,17,44
-"Chicago Fire",25,27,"East",27,27,54,2,2,2,29
-"Colorado Rapids",25,26,"West",26,26,53,1,1,1,28
-"Columbus Crew",25,25,"East",25,25,52,0,0,0,27
-"DC United",25,36,"East",36,36,63,11,11,11,38
-"FC Cincinnati",25,18,"East",18,18,45,-7,-7,-7,20
-"FC Dallas",25,36,"West",36,36,63,11,11,11,38
-"Houston Dynamo",25,30,"West",30,30,57,5,5,5,32
-"Los Angeles FC",25,58,"West",58,58,85,33,33,33,60
-"Los Angeles Galaxy",25,40,"West",40,40,67,15,15,15,42
-"Minnesota United FC",25,41,"West",41,41,68,16,16,16,43
-"Montreal Impact",25,33,"East",33,33,60,8,8,8,35
-"New England Revolution",25,34,"East",34,34,61,9,9,9,36
-"New York City FC",25,44,"East",44,44,71,19,19,19,46
-"New York Red Bulls",25,37,"East",37,37,64,12,12,12,39
-"Orlando City SC",25,30,"East",30,30,57,5,5,5,32
-"Philadelphia Union",25,42,"East",42,42,69,17,17,17,44
-"Portland Timbers",25,37,"West",37,37,64,12,12,12,39
-"Real Salt Lake",25,40,"West",40,40,67,15,15,15,42
-"San Jose Earthquakes",25,38,"West",38,38,65,13,13,13,40
-"Seattle Sounders FC",25,39,"West",39,39,66,14,14,14,41
-"Sporting Kansas City",25,28,"West",28,28,55,3,3,3,30
-"Toronto FC",25,33,"East",33,33,60,8,8,8,35
-"Vancouver Whitecaps",25,24,"West",24,24,51,-1,-1,-1,26
-"Atlanta United FC",26,45,"East",45,45,69,19,19,19,43
-"Chicago Fire",26,30,"East",30,30,54,4,4,4,28
-"Colorado Rapids",26,27,"West",27,27,51,1,1,1,25
-"Columbus Crew",26,26,"East",26,26,50,0,0,0,24
-"DC United",26,39,"East",39,39,63,13,13,13,37
-"FC Cincinnati",26,18,"East",18,18,42,-8,-8,-8,16
-"FC Dallas",26,36,"West",36,36,60,10,10,10,34
-"Houston Dynamo",26,31,"West",31,31,55,5,5,5,29
-"Los Angeles FC",26,61,"West",61,61,85,35,35,35,59
-"Los Angeles Galaxy",26,41,"West",41,41,65,15,15,15,39
-"Minnesota United FC",26,42,"West",42,42,66,16,16,16,40
-"Montreal Impact",26,33,"East",33,33,57,7,7,7,31
-"New England Revolution",26,35,"East",35,35,59,9,9,9,33
-"New York City FC",26,47,"East",47,47,71,21,21,21,45
-"New York Red Bulls",26,38,"East",38,38,62,12,12,12,36
-"Orlando City SC",26,33,"East",33,33,57,7,7,7,31
-"Philadelphia Union",26,45,"East",45,45,69,19,19,19,43
-"Portland Timbers",26,37,"West",37,37,61,11,11,11,35
-"Real Salt Lake",26,40,"West",40,40,64,14,14,14,38
-"San Jose Earthquakes",26,38,"West",38,38,62,12,12,12,36
-"Seattle Sounders FC",26,40,"West",40,40,64,14,14,14,38
-"Sporting Kansas City",26,31,"West",31,31,55,5,5,5,29
-"Toronto FC",26,34,"East",34,34,58,8,8,8,32
-"Vancouver Whitecaps",26,24,"West",24,24,48,-2,-2,-2,22
-"Atlanta United FC",27,48,"East",48,48,69,21,21,21,42
-"Chicago Fire",27,30,"East",30,30,51,3,3,3,24
-"Colorado Rapids",27,27,"West",27,27,48,0,0,0,21
-"Columbus Crew",27,27,"East",27,27,48,0,0,0,21
-"DC United",27,39,"East",39,39,60,12,12,12,33
-"FC Cincinnati",27,18,"East",18,18,39,-9,-9,-9,12
-"FC Dallas",27,37,"West",37,37,58,10,10,10,31
-"Houston Dynamo",27,31,"West",31,31,52,4,4,4,25
-"Los Angeles FC",27,62,"West",62,62,83,35,35,35,56
-"Los Angeles Galaxy",27,42,"West",42,42,63,15,15,15,36
-"Minnesota United FC",27,42,"West",42,42,63,15,15,15,36
-"Montreal Impact",27,34,"East",34,34,55,7,7,7,28
-"New England Revolution",27,38,"East",38,38,59,11,11,11,32
-"New York City FC",27,50,"East",50,50,71,23,23,23,44
-"New York Red Bulls",27,41,"East",41,41,62,14,14,14,35
-"Orlando City SC",27,34,"East",34,34,55,7,7,7,28
-"Philadelphia Union",27,45,"East",45,45,66,18,18,18,39
-"Portland Timbers",27,40,"West",40,40,61,13,13,13,34
-"Real Salt Lake",27,43,"West",43,43,64,16,16,16,37
-"San Jose Earthquakes",27,41,"West",41,41,62,14,14,14,35
-"Seattle Sounders FC",27,43,"West",43,43,64,16,16,16,37
-"Sporting Kansas City",27,34,"West",34,34,55,7,7,7,28
-"Toronto FC",27,37,"East",37,37,58,10,10,10,31
-"Vancouver Whitecaps",27,27,"West",27,27,48,0,0,0,21
-"Atlanta United FC",28,48,"East",48,48,66,20,20,20,38
-"Chicago Fire",28,33,"East",33,33,51,5,5,5,23
-"Colorado Rapids",28,30,"West",30,30,48,2,2,2,20
-"Columbus Crew",28,27,"East",27,27,45,-1,-1,-1,17
-"DC United",28,39,"East",39,39,57,11,11,11,29
-"FC Cincinnati",28,18,"East",18,18,36,-10,-10,-10,8
-"FC Dallas",28,40,"West",40,40,58,12,12,12,30
-"Houston Dynamo",28,31,"West",31,31,49,3,3,3,21
-"Los Angeles FC",28,62,"West",62,62,80,34,34,34,52
-"Los Angeles Galaxy",28,42,"West",42,42,60,14,14,14,32
-"Minnesota United FC",28,45,"West",45,45,63,17,17,17,35
-"Montreal Impact",28,34,"East",34,34,52,6,6,6,24
-"New England Revolution",28,39,"East",39,39,57,11,11,11,29
-"New York City FC",28,53,"East",53,53,71,25,25,25,43
-"New York Red Bulls",28,41,"East",41,41,59,13,13,13,31
-"Orlando City SC",28,34,"East",34,34,52,6,6,6,24
-"Philadelphia Union",28,48,"East",48,48,66,20,20,20,38
-"Portland Timbers",28,43,"West",43,43,61,15,15,15,33
-"Real Salt Lake",28,43,"West",43,43,61,15,15,15,33
-"San Jose Earthquakes",28,44,"West",44,44,62,16,16,16,34
-"Seattle Sounders FC",28,46,"West",46,46,64,18,18,18,36
-"Sporting Kansas City",28,37,"West",37,37,55,9,9,9,27
-"Toronto FC",28,38,"East",38,38,56,10,10,10,28
-"Vancouver Whitecaps",28,27,"West",27,27,45,-1,-1,-1,17
-"Atlanta United FC",29,48,"East",48,48,63,19,19,19,34
-"Chicago Fire",29,33,"East",33,33,48,4,4,4,19
-"Colorado Rapids",29,33,"West",33,33,48,4,4,4,19
-"Columbus Crew",29,30,"East",30,30,45,1,1,1,16
-"DC United",29,39,"East",39,39,54,10,10,10,25
-"FC Cincinnati",29,18,"East",18,18,33,-11,-11,-11,4
-"FC Dallas",29,43,"West",43,43,58,14,14,14,29
-"Houston Dynamo",29,34,"West",34,34,49,5,5,5,20
-"Los Angeles FC",29,63,"West",63,63,78,34,34,34,49
-"Los Angeles Galaxy",29,42,"West",42,42,57,13,13,13,28
-"Minnesota United FC",29,45,"West",45,45,60,16,16,16,31
-"Montreal Impact",29,37,"East",37,37,52,8,8,8,23
-"New England Revolution",29,39,"East",39,39,54,10,10,10,25
-"New York City FC",29,54,"East",54,54,69,25,25,25,40
-"New York Red Bulls",29,41,"East",41,41,56,12,12,12,27
-"Orlando City SC",29,34,"East",34,34,49,5,5,5,20
-"Philadelphia Union",29,51,"East",51,51,66,22,22,22,37
-"Portland Timbers",29,43,"West",43,43,58,14,14,14,29
-"Real Salt Lake",29,46,"West",46,46,61,17,17,17,32
-"San Jose Earthquakes",29,44,"West",44,44,59,15,15,15,30
-"Seattle Sounders FC",29,46,"West",46,46,61,17,17,17,32
-"Sporting Kansas City",29,37,"West",37,37,52,8,8,8,23
-"Toronto FC",29,41,"East",41,41,56,12,12,12,27
-"Vancouver Whitecaps",29,27,"West",27,27,42,-2,-2,-2,13
-"Atlanta United FC",30,51,"East",51,51,63,21,21,21,33
-"Chicago Fire",30,34,"East",34,34,46,4,4,4,16
-"Colorado Rapids",30,36,"West",36,36,48,6,6,6,18
-"Columbus Crew",30,31,"East",31,31,43,1,1,1,13
-"DC United",30,42,"East",42,42,54,12,12,12,24
-"FC Cincinnati",30,21,"East",21,21,33,-9,-9,-9,3
-"FC Dallas",30,43,"West",43,43,55,13,13,13,25
-"Houston Dynamo",30,34,"West",34,34,46,4,4,4,16
-"Los Angeles FC",30,64,"West",64,64,76,34,34,34,46
-"Los Angeles Galaxy",30,45,"West",45,45,57,15,15,15,27
-"Minnesota United FC",30,48,"West",48,48,60,18,18,18,30
-"Montreal Impact",30,37,"East",37,37,49,7,7,7,19
-"New England Revolution",30,40,"East",40,40,52,10,10,10,22
-"New York City FC",30,57,"East",57,57,69,27,27,27,39
-"New York Red Bulls",30,41,"East",41,41,53,11,11,11,23
-"Orlando City SC",30,35,"East",35,35,47,5,5,5,17
-"Philadelphia Union",30,52,"East",52,52,64,22,22,22,34
-"Portland Timbers",30,43,"West",43,43,55,13,13,13,25
-"Real Salt Lake",30,46,"West",46,46,58,16,16,16,28
-"San Jose Earthquakes",30,44,"West",44,44,56,14,14,14,26
-"Seattle Sounders FC",30,49,"West",49,49,61,19,19,19,31
-"Sporting Kansas City",30,37,"West",37,37,49,7,7,7,19
-"Toronto FC",30,42,"East",42,42,54,12,12,12,24
-"Vancouver Whitecaps",30,27,"West",27,27,39,-3,-3,-3,9
-"Atlanta United FC",31,54,"East",54,54,63,23,23,23,32
-"Chicago Fire",31,37,"East",37,37,46,6,6,6,15
-"Colorado Rapids",31,36,"West",36,36,45,5,5,5,14
-"Columbus Crew",31,34,"East",34,34,43,3,3,3,12
-"DC United",31,45,"East",45,45,54,14,14,14,23
-"FC Cincinnati",31,21,"East",21,21,30,-10,-10,-10,-1
-"FC Dallas",31,44,"West",44,44,53,13,13,13,22
-"Houston Dynamo",31,37,"West",37,37,46,6,6,6,15
-"Los Angeles FC",31,65,"West",65,65,74,34,34,34,43
-"Los Angeles Galaxy",31,48,"West",48,48,57,17,17,17,26
-"Minnesota United FC",31,49,"West",49,49,58,18,18,18,27
-"Montreal Impact",31,37,"East",37,37,46,6,6,6,15
-"New England Revolution",31,41,"East",41,41,50,10,10,10,19
-"New York City FC",31,58,"East",58,58,67,27,27,27,36
-"New York Red Bulls",31,44,"East",44,44,53,13,13,13,22
-"Orlando City SC",31,36,"East",36,36,45,5,5,5,14
-"Philadelphia Union",31,52,"East",52,52,61,21,21,21,30
-"Portland Timbers",31,44,"West",44,44,53,13,13,13,22
-"Real Salt Lake",31,47,"West",47,47,56,16,16,16,25
-"San Jose Earthquakes",31,44,"West",44,44,53,13,13,13,22
-"Seattle Sounders FC",31,50,"West",50,50,59,19,19,19,28
-"Sporting Kansas City",31,37,"West",37,37,46,6,6,6,15
-"Toronto FC",31,45,"East",45,45,54,14,14,14,23
-"Vancouver Whitecaps",31,30,"West",30,30,39,-1,-1,-1,8
-"Atlanta United FC",32,54,"East",54,54,60,22,22,22,28
-"Chicago Fire",32,38,"East",38,38,44,6,6,6,12
-"Colorado Rapids",32,39,"West",39,39,45,7,7,7,13
-"Columbus Crew",32,35,"East",35,35,41,3,3,3,9
-"DC United",32,48,"East",48,48,54,16,16,16,22
-"FC Cincinnati",32,22,"East",22,22,28,-10,-10,-10,-4
-"FC Dallas",32,45,"West",45,45,51,13,13,13,19
-"Houston Dynamo",32,37,"West",37,37,43,5,5,5,11
-"Los Angeles FC",32,68,"West",68,68,74,36,36,36,42
-"Los Angeles Galaxy",32,51,"West",51,51,57,19,19,19,25
-"Minnesota United FC",32,52,"West",52,52,58,20,20,20,26
-"Montreal Impact",32,37,"East",37,37,43,5,5,5,11
-"New England Revolution",32,42,"East",42,42,48,10,10,10,16
-"New York City FC",32,61,"East",61,61,67,29,29,29,35
-"New York Red Bulls",32,47,"East",47,47,53,15,15,15,21
-"Orlando City SC",32,36,"East",36,36,42,4,4,4,10
-"Philadelphia Union",32,55,"East",55,55,61,23,23,23,29
-"Portland Timbers",32,45,"West",45,45,51,13,13,13,19
-"Real Salt Lake",32,47,"West",47,47,53,15,15,15,21
-"San Jose Earthquakes",32,44,"West",44,44,50,12,12,12,18
-"Seattle Sounders FC",32,50,"West",50,50,56,18,18,18,24
-"Sporting Kansas City",32,37,"West",37,37,43,5,5,5,11
-"Toronto FC",32,46,"East",46,46,52,14,14,14,20
-"Vancouver Whitecaps",32,31,"West",31,31,37,-1,-1,-1,5
-"Atlanta United FC",33,55,"East",55,55,58,22,22,22,25
-"Chicago Fire",33,39,"East",39,39,42,6,6,6,9
-"Colorado Rapids",33,42,"West",42,42,45,9,9,9,12
-"Columbus Crew",33,38,"East",38,38,41,5,5,5,8
-"DC United",33,49,"East",49,49,52,16,16,16,19
-"FC Cincinnati",33,23,"East",23,23,26,-10,-10,-10,-7
-"FC Dallas",33,45,"West",45,45,48,12,12,12,15
-"Houston Dynamo",33,37,"West",37,37,40,4,4,4,7
-"Los Angeles FC",33,69,"West",69,69,72,36,36,36,39
-"Los Angeles Galaxy",33,51,"West",51,51,54,18,18,18,21
-"Minnesota United FC",33,53,"West",53,53,56,20,20,20,23
-"Montreal Impact",33,38,"East",38,38,41,5,5,5,8
-"New England Revolution",33,45,"East",45,45,48,12,12,12,15
-"New York City FC",33,61,"East",61,61,64,28,28,28,31
-"New York Red Bulls",33,48,"East",48,48,51,15,15,15,18
-"Orlando City SC",33,37,"East",37,37,40,4,4,4,7
-"Philadelphia Union",33,55,"East",55,55,58,22,22,22,25
-"Portland Timbers",33,46,"West",46,46,49,13,13,13,16
-"Real Salt Lake",33,50,"West",50,50,53,17,17,17,20
-"San Jose Earthquakes",33,44,"West",44,44,47,11,11,11,14
-"Seattle Sounders FC",33,53,"West",53,53,56,20,20,20,23
-"Sporting Kansas City",33,38,"West",38,38,41,5,5,5,8
-"Toronto FC",33,47,"East",47,47,50,14,14,14,17
-"Vancouver Whitecaps",33,34,"West",34,34,37,1,1,1,4
-"Atlanta United FC",34,58,"East",58,58,58,24,24,24,24
-"Chicago Fire",34,42,"East",42,42,42,8,8,8,8
-"Colorado Rapids",34,42,"West",42,42,42,8,8,8,8
-"Columbus Crew",34,38,"East",38,38,38,4,4,4,4
-"DC United",34,50,"East",50,50,50,16,16,16,16
-"FC Cincinnati",34,24,"East",24,24,24,-10,-10,-10,-10
-"FC Dallas",34,48,"West",48,48,48,14,14,14,14
-"Houston Dynamo",34,40,"West",40,40,40,6,6,6,6
-"Los Angeles FC",34,72,"West",72,72,72,38,38,38,38
-"Los Angeles Galaxy",34,51,"West",51,51,51,17,17,17,17
-"Minnesota United FC",34,53,"West",53,53,53,19,19,19,19
-"Montreal Impact",34,41,"East",41,41,41,7,7,7,7
-"New England Revolution",34,45,"East",45,45,45,11,11,11,11
-"New York City FC",34,64,"East",64,64,64,30,30,30,30
-"New York Red Bulls",34,48,"East",48,48,48,14,14,14,14
-"Orlando City SC",34,37,"East",37,37,37,3,3,3,3
-"Philadelphia Union",34,55,"East",55,55,55,21,21,21,21
-"Portland Timbers",34,49,"West",49,49,49,15,15,15,15
-"Real Salt Lake",34,53,"West",53,53,53,19,19,19,19
-"San Jose Earthquakes",34,44,"West",44,44,44,10,10,10,10
-"Seattle Sounders FC",34,56,"West",56,56,56,22,22,22,22
-"Sporting Kansas City",34,38,"West",38,38,38,4,4,4,4
-"Toronto FC",34,50,"East",50,50,50,16,16,16,16
-"Vancouver Whitecaps",34,34,"West",34,34,34,0,0,0,0
+"New York Red Bulls",10,9,"East",9,9,81,-1,-1,-1,71
+"Orlando City SC",10,14,"East",14,14,86,4,4,4,76
+"Philadelphia Union",10,14,"East",14,14,86,4,4,4,76
+"Portland Timbers",10,11,"West",11,11,83,1,1,1,73
+"Real Salt Lake",10,11,"West",11,11,83,1,1,1,73
+"San Jose Earthquakes",10,15,"West",15,15,87,5,5,5,77
+"Seattle Sounders FC",10,20,"West",20,20,92,10,10,10,82
+"Sporting Kansas City",10,3,"West",3,3,75,-7,-7,-7,65
+"St. Louis CITY SC",10,19,"West",19,19,91,9,9,9,81
+"Toronto FC",10,12,"East",12,12,84,2,2,2,74
+"Vancouver Whitecaps",10,14,"West",14,14,86,4,4,4,76
+"Atlanta United FC",11,18,"East",18,18,87,7,7,7,76
+"Austin FC",11,10,"West",10,10,79,-1,-1,-1,68
+"Charlotte FC",11,12,"East",12,12,81,1,1,1,70
+"Chicago Fire",11,14,"East",14,14,83,3,3,3,72
+"Colorado Rapids",11,12,"West",12,12,81,1,1,1,70
+"Columbus Crew",11,15,"East",15,15,84,4,4,4,73
+"DC United",11,14,"East",14,14,83,3,3,3,72
+"FC Cincinnati",11,24,"East",24,24,93,13,13,13,82
+"FC Dallas",11,18,"West",18,18,87,7,7,7,76
+"Houston Dynamo",11,14,"West",14,14,83,3,3,3,72
+"Inter Miami CF",11,15,"East",15,15,84,4,4,4,73
+"Los Angeles FC",11,22,"West",22,22,91,11,11,11,80
+"Los Angeles Galaxy",11,9,"West",9,9,78,-2,-2,-2,67
+"Minnesota United FC",11,12,"West",12,12,81,1,1,1,70
+"Montreal Impact",11,15,"East",15,15,84,4,4,4,73
+"Nashville SC",11,18,"East",18,18,87,7,7,7,76
+"New England Revolution",11,24,"East",24,24,93,13,13,13,82
+"New York City FC",11,15,"East",15,15,84,4,4,4,73
+"New York Red Bulls",11,9,"East",9,9,78,-2,-2,-2,67
+"Orlando City SC",11,15,"East",15,15,84,4,4,4,73
+"Philadelphia Union",11,17,"East",17,17,86,6,6,6,75
+"Portland Timbers",11,12,"West",12,12,81,1,1,1,70
+"Real Salt Lake",11,11,"West",11,11,80,0,0,0,69
+"San Jose Earthquakes",11,18,"West",18,18,87,7,7,7,76
+"Seattle Sounders FC",11,20,"West",20,20,89,9,9,9,78
+"Sporting Kansas City",11,6,"West",6,6,75,-5,-5,-5,64
+"St. Louis CITY SC",11,19,"West",19,19,88,8,8,8,77
+"Toronto FC",11,12,"East",12,12,81,1,1,1,70
+"Vancouver Whitecaps",11,14,"West",14,14,83,3,3,3,72
+"Atlanta United FC",12,18,"East",18,18,84,6,6,6,72
+"Austin FC",12,13,"West",13,13,79,1,1,1,67
+"Charlotte FC",12,15,"East",15,15,81,3,3,3,69
+"Chicago Fire",12,14,"East",14,14,80,2,2,2,68
+"Colorado Rapids",12,12,"West",12,12,78,0,0,0,66
+"Columbus Crew",12,18,"East",18,18,84,6,6,6,72
+"DC United",12,15,"East",15,15,81,3,3,3,69
+"FC Cincinnati",12,27,"East",27,27,93,15,15,15,81
+"FC Dallas",12,21,"West",21,21,87,9,9,9,75
+"Houston Dynamo",12,15,"West",15,15,81,3,3,3,69
+"Inter Miami CF",12,15,"East",15,15,81,3,3,3,69
+"Los Angeles FC",12,25,"West",25,25,91,13,13,13,79
+"Los Angeles Galaxy",12,9,"West",9,9,75,-3,-3,-3,63
+"Minnesota United FC",12,15,"West",15,15,81,3,3,3,69
+"Montreal Impact",12,15,"East",15,15,81,3,3,3,69
+"Nashville SC",12,19,"East",19,19,85,7,7,7,73
+"New England Revolution",12,24,"East",24,24,90,12,12,12,78
+"New York City FC",12,15,"East",15,15,81,3,3,3,69
+"New York Red Bulls",12,12,"East",12,12,78,0,0,0,66
+"Orlando City SC",12,16,"East",16,16,82,4,4,4,70
+"Philadelphia Union",12,18,"East",18,18,84,6,6,6,72
+"Portland Timbers",12,15,"West",15,15,81,3,3,3,69
+"Real Salt Lake",12,12,"West",12,12,78,0,0,0,66
+"San Jose Earthquakes",12,18,"West",18,18,84,6,6,6,72
+"Seattle Sounders FC",12,23,"West",23,23,89,11,11,11,77
+"Sporting Kansas City",12,9,"West",9,9,75,-3,-3,-3,63
+"St. Louis CITY SC",12,22,"West",22,22,88,10,10,10,76
+"Toronto FC",12,12,"East",12,12,78,0,0,0,66
+"Vancouver Whitecaps",12,14,"West",14,14,80,2,2,2,68
+"Atlanta United FC",13,21,"East",21,21,84,8,8,8,71
+"Austin FC",13,16,"West",16,16,79,3,3,3,66
+"Charlotte FC",13,18,"East",18,18,81,5,5,5,68
+"Chicago Fire",13,15,"East",15,15,78,2,2,2,65
+"Colorado Rapids",13,12,"West",12,12,75,-1,-1,-1,62
+"Columbus Crew",13,18,"East",18,18,81,5,5,5,68
+"DC United",13,16,"East",16,16,79,3,3,3,66
+"FC Cincinnati",13,30,"East",30,30,93,17,17,17,80
+"FC Dallas",13,22,"West",22,22,85,9,9,9,72
+"Houston Dynamo",13,NA,"West",18,15,81,NA,5,2,68
+"Inter Miami CF",13,15,"East",15,15,78,2,2,2,65
+"Los Angeles FC",13,NA,"West",28,25,91,NA,15,12,78
+"Los Angeles Galaxy",13,9,"West",9,9,72,-4,-4,-4,59
+"Minnesota United FC",13,18,"West",18,18,81,5,5,5,68
+"Montreal Impact",13,15,"East",15,15,78,2,2,2,65
+"Nashville SC",13,22,"East",22,22,85,9,9,9,72
+"New England Revolution",13,24,"East",24,24,87,11,11,11,74
+"New York City FC",13,16,"East",16,16,79,3,3,3,66
+"New York Red Bulls",13,13,"East",13,13,76,0,0,0,63
+"Orlando City SC",13,19,"East",19,19,82,6,6,6,69
+"Philadelphia Union",13,21,"East",21,21,84,8,8,8,71
+"Portland Timbers",13,16,"West",16,16,79,3,3,3,66
+"Real Salt Lake",13,15,"West",15,15,78,2,2,2,65
+"San Jose Earthquakes",13,18,"West",18,18,81,5,5,5,68
+"Seattle Sounders FC",13,23,"West",23,23,86,10,10,10,73
+"Sporting Kansas City",13,10,"West",10,10,73,-3,-3,-3,60
+"St. Louis CITY SC",13,NA,"West",25,22,88,NA,12,9,75
+"Toronto FC",13,13,"East",13,13,76,0,0,0,63
+"Vancouver Whitecaps",13,17,"West",17,17,80,4,4,4,67
+"Atlanta United FC",14,22,"East",22,22,82,8,8,8,68
+"Austin FC",14,NA,"West",19,16,79,NA,5,2,65
+"Charlotte FC",14,18,"East",18,18,78,4,4,4,64
+"Chicago Fire",14,NA,"East",18,15,78,NA,4,1,64
+"Colorado Rapids",14,12,"West",12,12,72,-2,-2,-2,58
+"Columbus Crew",14,NA,"East",21,18,81,NA,7,4,67
+"DC United",14,19,"East",19,19,79,5,5,5,65
+"FC Cincinnati",14,NA,"East",33,30,93,NA,19,16,79
+"FC Dallas",14,NA,"West",25,22,85,NA,11,8,71
+"Houston Dynamo",14,NA,"West",21,15,81,NA,7,1,67
+"Inter Miami CF",14,NA,"East",18,15,78,NA,4,1,64
+"Los Angeles FC",14,NA,"West",31,25,91,NA,17,11,77
+"Los Angeles Galaxy",14,NA,"West",12,9,72,NA,-2,-5,58
+"Minnesota United FC",14,NA,"West",21,18,81,NA,7,4,67
+"Montreal Impact",14,NA,"East",18,15,78,NA,4,1,64
+"Nashville SC",14,25,"East",25,25,85,11,11,11,71
+"New England Revolution",14,NA,"East",27,24,87,NA,13,10,73
+"New York City FC",14,NA,"East",19,16,79,NA,5,2,65
+"New York Red Bulls",14,16,"East",16,16,76,2,2,2,62
+"Orlando City SC",14,NA,"East",22,19,82,NA,8,5,68
+"Philadelphia Union",14,NA,"East",24,21,84,NA,10,7,70
+"Portland Timbers",14,16,"West",16,16,76,2,2,2,62
+"Real Salt Lake",14,NA,"West",18,15,78,NA,4,1,64
+"San Jose Earthquakes",14,NA,"West",21,18,81,NA,7,4,67
+"Seattle Sounders FC",14,23,"West",23,23,83,9,9,9,69
+"Sporting Kansas City",14,10,"West",10,10,70,-4,-4,-4,56
+"St. Louis CITY SC",14,NA,"West",28,22,88,NA,14,8,74
+"Toronto FC",14,13,"East",13,13,73,-1,-1,-1,59
+"Vancouver Whitecaps",14,NA,"West",20,17,80,NA,6,3,66
+"Atlanta United FC",15,NA,"East",25,22,82,NA,10,7,67
+"Austin FC",15,NA,"West",22,16,79,NA,7,1,64
+"Charlotte FC",15,NA,"East",21,18,78,NA,6,3,63
+"Chicago Fire",15,NA,"East",21,15,78,NA,6,0,63
+"Colorado Rapids",15,NA,"West",15,12,72,NA,0,-3,57
+"Columbus Crew",15,NA,"East",24,18,81,NA,9,3,66
+"DC United",15,NA,"East",22,19,79,NA,7,4,64
+"FC Cincinnati",15,NA,"East",36,30,93,NA,21,15,78
+"FC Dallas",15,NA,"West",28,22,85,NA,13,7,70
+"Houston Dynamo",15,NA,"West",24,15,81,NA,9,0,66
+"Inter Miami CF",15,NA,"East",21,15,78,NA,6,0,63
+"Los Angeles FC",15,NA,"West",34,25,91,NA,19,10,76
+"Los Angeles Galaxy",15,NA,"West",15,9,72,NA,0,-6,57
+"Minnesota United FC",15,NA,"West",24,18,81,NA,9,3,66
+"Montreal Impact",15,NA,"East",21,15,78,NA,6,0,63
+"Nashville SC",15,NA,"East",28,25,85,NA,13,10,70
+"New England Revolution",15,NA,"East",30,24,87,NA,15,9,72
+"New York City FC",15,NA,"East",22,16,79,NA,7,1,64
+"New York Red Bulls",15,NA,"East",19,16,76,NA,4,1,61
+"Orlando City SC",15,NA,"East",25,19,82,NA,10,4,67
+"Philadelphia Union",15,NA,"East",27,21,84,NA,12,6,69
+"Portland Timbers",15,NA,"West",19,16,76,NA,4,1,61
+"Real Salt Lake",15,NA,"West",21,15,78,NA,6,0,63
+"San Jose Earthquakes",15,NA,"West",24,18,81,NA,9,3,66
+"Seattle Sounders FC",15,NA,"West",26,23,83,NA,11,8,68
+"Sporting Kansas City",15,NA,"West",13,10,70,NA,-2,-5,55
+"St. Louis CITY SC",15,NA,"West",31,22,88,NA,16,7,73
+"Toronto FC",15,NA,"East",16,13,73,NA,1,-2,58
+"Vancouver Whitecaps",15,NA,"West",23,17,80,NA,8,2,65
+"Atlanta United FC",16,NA,"East",28,22,82,NA,12,6,66
+"Austin FC",16,NA,"West",25,16,79,NA,9,0,63
+"Charlotte FC",16,NA,"East",24,18,78,NA,8,2,62
+"Chicago Fire",16,NA,"East",24,15,78,NA,8,-1,62
+"Colorado Rapids",16,NA,"West",18,12,72,NA,2,-4,56
+"Columbus Crew",16,NA,"East",27,18,81,NA,11,2,65
+"DC United",16,NA,"East",25,19,79,NA,9,3,63
+"FC Cincinnati",16,NA,"East",39,30,93,NA,23,14,77
+"FC Dallas",16,NA,"West",31,22,85,NA,15,6,69
+"Houston Dynamo",16,NA,"West",27,15,81,NA,11,-1,65
+"Inter Miami CF",16,NA,"East",24,15,78,NA,8,-1,62
+"Los Angeles FC",16,NA,"West",37,25,91,NA,21,9,75
+"Los Angeles Galaxy",16,NA,"West",18,9,72,NA,2,-7,56
+"Minnesota United FC",16,NA,"West",27,18,81,NA,11,2,65
+"Montreal Impact",16,NA,"East",24,15,78,NA,8,-1,62
+"Nashville SC",16,NA,"East",31,25,85,NA,15,9,69
+"New England Revolution",16,NA,"East",33,24,87,NA,17,8,71
+"New York City FC",16,NA,"East",25,16,79,NA,9,0,63
+"New York Red Bulls",16,NA,"East",22,16,76,NA,6,0,60
+"Orlando City SC",16,NA,"East",28,19,82,NA,12,3,66
+"Philadelphia Union",16,NA,"East",30,21,84,NA,14,5,68
+"Portland Timbers",16,NA,"West",22,16,76,NA,6,0,60
+"Real Salt Lake",16,NA,"West",24,15,78,NA,8,-1,62
+"San Jose Earthquakes",16,NA,"West",27,18,81,NA,11,2,65
+"Seattle Sounders FC",16,NA,"West",29,23,83,NA,13,7,67
+"Sporting Kansas City",16,NA,"West",16,10,70,NA,0,-6,54
+"St. Louis CITY SC",16,NA,"West",34,22,88,NA,18,6,72
+"Toronto FC",16,NA,"East",19,13,73,NA,3,-3,57
+"Vancouver Whitecaps",16,NA,"West",26,17,80,NA,10,1,64
+"Atlanta United FC",17,NA,"East",31,22,82,NA,14,5,65
+"Austin FC",17,NA,"West",28,16,79,NA,11,-1,62
+"Charlotte FC",17,NA,"East",27,18,78,NA,10,1,61
+"Chicago Fire",17,NA,"East",27,15,78,NA,10,-2,61
+"Colorado Rapids",17,NA,"West",21,12,72,NA,4,-5,55
+"Columbus Crew",17,NA,"East",30,18,81,NA,13,1,64
+"DC United",17,NA,"East",28,19,79,NA,11,2,62
+"FC Cincinnati",17,NA,"East",42,30,93,NA,25,13,76
+"FC Dallas",17,NA,"West",34,22,85,NA,17,5,68
+"Houston Dynamo",17,NA,"West",30,15,81,NA,13,-2,64
+"Inter Miami CF",17,NA,"East",27,15,78,NA,10,-2,61
+"Los Angeles FC",17,NA,"West",40,25,91,NA,23,8,74
+"Los Angeles Galaxy",17,NA,"West",21,9,72,NA,4,-8,55
+"Minnesota United FC",17,NA,"West",30,18,81,NA,13,1,64
+"Montreal Impact",17,NA,"East",27,15,78,NA,10,-2,61
+"Nashville SC",17,NA,"East",34,25,85,NA,17,8,68
+"New England Revolution",17,NA,"East",36,24,87,NA,19,7,70
+"New York City FC",17,NA,"East",28,16,79,NA,11,-1,62
+"New York Red Bulls",17,NA,"East",25,16,76,NA,8,-1,59
+"Orlando City SC",17,NA,"East",31,19,82,NA,14,2,65
+"Philadelphia Union",17,NA,"East",33,21,84,NA,16,4,67
+"Portland Timbers",17,NA,"West",25,16,76,NA,8,-1,59
+"Real Salt Lake",17,NA,"West",27,15,78,NA,10,-2,61
+"San Jose Earthquakes",17,NA,"West",30,18,81,NA,13,1,64
+"Seattle Sounders FC",17,NA,"West",32,23,83,NA,15,6,66
+"Sporting Kansas City",17,NA,"West",19,10,70,NA,2,-7,53
+"St. Louis CITY SC",17,NA,"West",37,22,88,NA,20,5,71
+"Toronto FC",17,NA,"East",22,13,73,NA,5,-4,56
+"Vancouver Whitecaps",17,NA,"West",29,17,80,NA,12,0,63
+"Atlanta United FC",18,NA,"East",34,22,82,NA,16,4,64
+"Austin FC",18,NA,"West",31,16,79,NA,13,-2,61
+"Charlotte FC",18,NA,"East",30,18,78,NA,12,0,60
+"Chicago Fire",18,NA,"East",30,15,78,NA,12,-3,60
+"Colorado Rapids",18,NA,"West",24,12,72,NA,6,-6,54
+"Columbus Crew",18,NA,"East",33,18,81,NA,15,0,63
+"DC United",18,NA,"East",31,19,79,NA,13,1,61
+"FC Cincinnati",18,NA,"East",45,30,93,NA,27,12,75
+"FC Dallas",18,NA,"West",37,22,85,NA,19,4,67
+"Houston Dynamo",18,NA,"West",33,15,81,NA,15,-3,63
+"Inter Miami CF",18,NA,"East",30,15,78,NA,12,-3,60
+"Los Angeles FC",18,NA,"West",43,25,91,NA,25,7,73
+"Los Angeles Galaxy",18,NA,"West",24,9,72,NA,6,-9,54
+"Minnesota United FC",18,NA,"West",33,18,81,NA,15,0,63
+"Montreal Impact",18,NA,"East",30,15,78,NA,12,-3,60
+"Nashville SC",18,NA,"East",37,25,85,NA,19,7,67
+"New England Revolution",18,NA,"East",39,24,87,NA,21,6,69
+"New York City FC",18,NA,"East",31,16,79,NA,13,-2,61
+"New York Red Bulls",18,NA,"East",28,16,76,NA,10,-2,58
+"Orlando City SC",18,NA,"East",34,19,82,NA,16,1,64
+"Philadelphia Union",18,NA,"East",36,21,84,NA,18,3,66
+"Portland Timbers",18,NA,"West",28,16,76,NA,10,-2,58
+"Real Salt Lake",18,NA,"West",30,15,78,NA,12,-3,60
+"San Jose Earthquakes",18,NA,"West",33,18,81,NA,15,0,63
+"Seattle Sounders FC",18,NA,"West",35,23,83,NA,17,5,65
+"Sporting Kansas City",18,NA,"West",22,10,70,NA,4,-8,52
+"St. Louis CITY SC",18,NA,"West",40,22,88,NA,22,4,70
+"Toronto FC",18,NA,"East",25,13,73,NA,7,-5,55
+"Vancouver Whitecaps",18,NA,"West",32,17,80,NA,14,-1,62
+"Atlanta United FC",19,NA,"East",37,22,82,NA,18,3,63
+"Austin FC",19,NA,"West",34,16,79,NA,15,-3,60
+"Charlotte FC",19,NA,"East",33,18,78,NA,14,-1,59
+"Chicago Fire",19,NA,"East",33,15,78,NA,14,-4,59
+"Colorado Rapids",19,NA,"West",27,12,72,NA,8,-7,53
+"Columbus Crew",19,NA,"East",36,18,81,NA,17,-1,62
+"DC United",19,NA,"East",34,19,79,NA,15,0,60
+"FC Cincinnati",19,NA,"East",48,30,93,NA,29,11,74
+"FC Dallas",19,NA,"West",40,22,85,NA,21,3,66
+"Houston Dynamo",19,NA,"West",36,15,81,NA,17,-4,62
+"Inter Miami CF",19,NA,"East",33,15,78,NA,14,-4,59
+"Los Angeles FC",19,NA,"West",46,25,91,NA,27,6,72
+"Los Angeles Galaxy",19,NA,"West",27,9,72,NA,8,-10,53
+"Minnesota United FC",19,NA,"West",36,18,81,NA,17,-1,62
+"Montreal Impact",19,NA,"East",33,15,78,NA,14,-4,59
+"Nashville SC",19,NA,"East",40,25,85,NA,21,6,66
+"New England Revolution",19,NA,"East",42,24,87,NA,23,5,68
+"New York City FC",19,NA,"East",34,16,79,NA,15,-3,60
+"New York Red Bulls",19,NA,"East",31,16,76,NA,12,-3,57
+"Orlando City SC",19,NA,"East",37,19,82,NA,18,0,63
+"Philadelphia Union",19,NA,"East",39,21,84,NA,20,2,65
+"Portland Timbers",19,NA,"West",31,16,76,NA,12,-3,57
+"Real Salt Lake",19,NA,"West",33,15,78,NA,14,-4,59
+"San Jose Earthquakes",19,NA,"West",36,18,81,NA,17,-1,62
+"Seattle Sounders FC",19,NA,"West",38,23,83,NA,19,4,64
+"Sporting Kansas City",19,NA,"West",25,10,70,NA,6,-9,51
+"St. Louis CITY SC",19,NA,"West",43,22,88,NA,24,3,69
+"Toronto FC",19,NA,"East",28,13,73,NA,9,-6,54
+"Vancouver Whitecaps",19,NA,"West",35,17,80,NA,16,-2,61
+"Atlanta United FC",20,NA,"East",40,22,82,NA,20,2,62
+"Austin FC",20,NA,"West",37,16,79,NA,17,-4,59
+"Charlotte FC",20,NA,"East",36,18,78,NA,16,-2,58
+"Chicago Fire",20,NA,"East",36,15,78,NA,16,-5,58
+"Colorado Rapids",20,NA,"West",30,12,72,NA,10,-8,52
+"Columbus Crew",20,NA,"East",39,18,81,NA,19,-2,61
+"DC United",20,NA,"East",37,19,79,NA,17,-1,59
+"FC Cincinnati",20,NA,"East",51,30,93,NA,31,10,73
+"FC Dallas",20,NA,"West",43,22,85,NA,23,2,65
+"Houston Dynamo",20,NA,"West",39,15,81,NA,19,-5,61
+"Inter Miami CF",20,NA,"East",36,15,78,NA,16,-5,58
+"Los Angeles FC",20,NA,"West",49,25,91,NA,29,5,71
+"Los Angeles Galaxy",20,NA,"West",30,9,72,NA,10,-11,52
+"Minnesota United FC",20,NA,"West",39,18,81,NA,19,-2,61
+"Montreal Impact",20,NA,"East",36,15,78,NA,16,-5,58
+"Nashville SC",20,NA,"East",43,25,85,NA,23,5,65
+"New England Revolution",20,NA,"East",45,24,87,NA,25,4,67
+"New York City FC",20,NA,"East",37,16,79,NA,17,-4,59
+"New York Red Bulls",20,NA,"East",34,16,76,NA,14,-4,56
+"Orlando City SC",20,NA,"East",40,19,82,NA,20,-1,62
+"Philadelphia Union",20,NA,"East",42,21,84,NA,22,1,64
+"Portland Timbers",20,NA,"West",34,16,76,NA,14,-4,56
+"Real Salt Lake",20,NA,"West",36,15,78,NA,16,-5,58
+"San Jose Earthquakes",20,NA,"West",39,18,81,NA,19,-2,61
+"Seattle Sounders FC",20,NA,"West",41,23,83,NA,21,3,63
+"Sporting Kansas City",20,NA,"West",28,10,70,NA,8,-10,50
+"St. Louis CITY SC",20,NA,"West",46,22,88,NA,26,2,68
+"Toronto FC",20,NA,"East",31,13,73,NA,11,-7,53
+"Vancouver Whitecaps",20,NA,"West",38,17,80,NA,18,-3,60
+"Atlanta United FC",21,NA,"East",43,22,82,NA,22,1,61
+"Austin FC",21,NA,"West",40,16,79,NA,19,-5,58
+"Charlotte FC",21,NA,"East",39,18,78,NA,18,-3,57
+"Chicago Fire",21,NA,"East",39,15,78,NA,18,-6,57
+"Colorado Rapids",21,NA,"West",33,12,72,NA,12,-9,51
+"Columbus Crew",21,NA,"East",42,18,81,NA,21,-3,60
+"DC United",21,NA,"East",40,19,79,NA,19,-2,58
+"FC Cincinnati",21,NA,"East",54,30,93,NA,33,9,72
+"FC Dallas",21,NA,"West",46,22,85,NA,25,1,64
+"Houston Dynamo",21,NA,"West",42,15,81,NA,21,-6,60
+"Inter Miami CF",21,NA,"East",39,15,78,NA,18,-6,57
+"Los Angeles FC",21,NA,"West",52,25,91,NA,31,4,70
+"Los Angeles Galaxy",21,NA,"West",33,9,72,NA,12,-12,51
+"Minnesota United FC",21,NA,"West",42,18,81,NA,21,-3,60
+"Montreal Impact",21,NA,"East",39,15,78,NA,18,-6,57
+"Nashville SC",21,NA,"East",46,25,85,NA,25,4,64
+"New England Revolution",21,NA,"East",48,24,87,NA,27,3,66
+"New York City FC",21,NA,"East",40,16,79,NA,19,-5,58
+"New York Red Bulls",21,NA,"East",37,16,76,NA,16,-5,55
+"Orlando City SC",21,NA,"East",43,19,82,NA,22,-2,61
+"Philadelphia Union",21,NA,"East",45,21,84,NA,24,0,63
+"Portland Timbers",21,NA,"West",37,16,76,NA,16,-5,55
+"Real Salt Lake",21,NA,"West",39,15,78,NA,18,-6,57
+"San Jose Earthquakes",21,NA,"West",42,18,81,NA,21,-3,60
+"Seattle Sounders FC",21,NA,"West",44,23,83,NA,23,2,62
+"Sporting Kansas City",21,NA,"West",31,10,70,NA,10,-11,49
+"St. Louis CITY SC",21,NA,"West",49,22,88,NA,28,1,67
+"Toronto FC",21,NA,"East",34,13,73,NA,13,-8,52
+"Vancouver Whitecaps",21,NA,"West",41,17,80,NA,20,-4,59
+"Atlanta United FC",22,NA,"East",46,22,82,NA,24,0,60
+"Austin FC",22,NA,"West",43,16,79,NA,21,-6,57
+"Charlotte FC",22,NA,"East",42,18,78,NA,20,-4,56
+"Chicago Fire",22,NA,"East",42,15,78,NA,20,-7,56
+"Colorado Rapids",22,NA,"West",36,12,72,NA,14,-10,50
+"Columbus Crew",22,NA,"East",45,18,81,NA,23,-4,59
+"DC United",22,NA,"East",43,19,79,NA,21,-3,57
+"FC Cincinnati",22,NA,"East",57,30,93,NA,35,8,71
+"FC Dallas",22,NA,"West",49,22,85,NA,27,0,63
+"Houston Dynamo",22,NA,"West",45,15,81,NA,23,-7,59
+"Inter Miami CF",22,NA,"East",42,15,78,NA,20,-7,56
+"Los Angeles FC",22,NA,"West",55,25,91,NA,33,3,69
+"Los Angeles Galaxy",22,NA,"West",36,9,72,NA,14,-13,50
+"Minnesota United FC",22,NA,"West",45,18,81,NA,23,-4,59
+"Montreal Impact",22,NA,"East",42,15,78,NA,20,-7,56
+"Nashville SC",22,NA,"East",49,25,85,NA,27,3,63
+"New England Revolution",22,NA,"East",51,24,87,NA,29,2,65
+"New York City FC",22,NA,"East",43,16,79,NA,21,-6,57
+"New York Red Bulls",22,NA,"East",40,16,76,NA,18,-6,54
+"Orlando City SC",22,NA,"East",46,19,82,NA,24,-3,60
+"Philadelphia Union",22,NA,"East",48,21,84,NA,26,-1,62
+"Portland Timbers",22,NA,"West",40,16,76,NA,18,-6,54
+"Real Salt Lake",22,NA,"West",42,15,78,NA,20,-7,56
+"San Jose Earthquakes",22,NA,"West",45,18,81,NA,23,-4,59
+"Seattle Sounders FC",22,NA,"West",47,23,83,NA,25,1,61
+"Sporting Kansas City",22,NA,"West",34,10,70,NA,12,-12,48
+"St. Louis CITY SC",22,NA,"West",52,22,88,NA,30,0,66
+"Toronto FC",22,NA,"East",37,13,73,NA,15,-9,51
+"Vancouver Whitecaps",22,NA,"West",44,17,80,NA,22,-5,58
+"Atlanta United FC",23,NA,"East",49,22,82,NA,26,-1,59
+"Austin FC",23,NA,"West",46,16,79,NA,23,-7,56
+"Charlotte FC",23,NA,"East",45,18,78,NA,22,-5,55
+"Chicago Fire",23,NA,"East",45,15,78,NA,22,-8,55
+"Colorado Rapids",23,NA,"West",39,12,72,NA,16,-11,49
+"Columbus Crew",23,NA,"East",48,18,81,NA,25,-5,58
+"DC United",23,NA,"East",46,19,79,NA,23,-4,56
+"FC Cincinnati",23,NA,"East",60,30,93,NA,37,7,70
+"FC Dallas",23,NA,"West",52,22,85,NA,29,-1,62
+"Houston Dynamo",23,NA,"West",48,15,81,NA,25,-8,58
+"Inter Miami CF",23,NA,"East",45,15,78,NA,22,-8,55
+"Los Angeles FC",23,NA,"West",58,25,91,NA,35,2,68
+"Los Angeles Galaxy",23,NA,"West",39,9,72,NA,16,-14,49
+"Minnesota United FC",23,NA,"West",48,18,81,NA,25,-5,58
+"Montreal Impact",23,NA,"East",45,15,78,NA,22,-8,55
+"Nashville SC",23,NA,"East",52,25,85,NA,29,2,62
+"New England Revolution",23,NA,"East",54,24,87,NA,31,1,64
+"New York City FC",23,NA,"East",46,16,79,NA,23,-7,56
+"New York Red Bulls",23,NA,"East",43,16,76,NA,20,-7,53
+"Orlando City SC",23,NA,"East",49,19,82,NA,26,-4,59
+"Philadelphia Union",23,NA,"East",51,21,84,NA,28,-2,61
+"Portland Timbers",23,NA,"West",43,16,76,NA,20,-7,53
+"Real Salt Lake",23,NA,"West",45,15,78,NA,22,-8,55
+"San Jose Earthquakes",23,NA,"West",48,18,81,NA,25,-5,58
+"Seattle Sounders FC",23,NA,"West",50,23,83,NA,27,0,60
+"Sporting Kansas City",23,NA,"West",37,10,70,NA,14,-13,47
+"St. Louis CITY SC",23,NA,"West",55,22,88,NA,32,-1,65
+"Toronto FC",23,NA,"East",40,13,73,NA,17,-10,50
+"Vancouver Whitecaps",23,NA,"West",47,17,80,NA,24,-6,57
+"Atlanta United FC",24,NA,"East",52,22,82,NA,28,-2,58
+"Austin FC",24,NA,"West",49,16,79,NA,25,-8,55
+"Charlotte FC",24,NA,"East",48,18,78,NA,24,-6,54
+"Chicago Fire",24,NA,"East",48,15,78,NA,24,-9,54
+"Colorado Rapids",24,NA,"West",42,12,72,NA,18,-12,48
+"Columbus Crew",24,NA,"East",51,18,81,NA,27,-6,57
+"DC United",24,NA,"East",49,19,79,NA,25,-5,55
+"FC Cincinnati",24,NA,"East",63,30,93,NA,39,6,69
+"FC Dallas",24,NA,"West",55,22,85,NA,31,-2,61
+"Houston Dynamo",24,NA,"West",51,15,81,NA,27,-9,57
+"Inter Miami CF",24,NA,"East",48,15,78,NA,24,-9,54
+"Los Angeles FC",24,NA,"West",61,25,91,NA,37,1,67
+"Los Angeles Galaxy",24,NA,"West",42,9,72,NA,18,-15,48
+"Minnesota United FC",24,NA,"West",51,18,81,NA,27,-6,57
+"Montreal Impact",24,NA,"East",48,15,78,NA,24,-9,54
+"Nashville SC",24,NA,"East",55,25,85,NA,31,1,61
+"New England Revolution",24,NA,"East",57,24,87,NA,33,0,63
+"New York City FC",24,NA,"East",49,16,79,NA,25,-8,55
+"New York Red Bulls",24,NA,"East",46,16,76,NA,22,-8,52
+"Orlando City SC",24,NA,"East",52,19,82,NA,28,-5,58
+"Philadelphia Union",24,NA,"East",54,21,84,NA,30,-3,60
+"Portland Timbers",24,NA,"West",46,16,76,NA,22,-8,52
+"Real Salt Lake",24,NA,"West",48,15,78,NA,24,-9,54
+"San Jose Earthquakes",24,NA,"West",51,18,81,NA,27,-6,57
+"Seattle Sounders FC",24,NA,"West",53,23,83,NA,29,-1,59
+"Sporting Kansas City",24,NA,"West",40,10,70,NA,16,-14,46
+"St. Louis CITY SC",24,NA,"West",58,22,88,NA,34,-2,64
+"Toronto FC",24,NA,"East",43,13,73,NA,19,-11,49
+"Vancouver Whitecaps",24,NA,"West",50,17,80,NA,26,-7,56
+"Atlanta United FC",25,NA,"East",55,22,82,NA,30,-3,57
+"Austin FC",25,NA,"West",52,16,79,NA,27,-9,54
+"Charlotte FC",25,NA,"East",51,18,78,NA,26,-7,53
+"Chicago Fire",25,NA,"East",51,15,78,NA,26,-10,53
+"Colorado Rapids",25,NA,"West",45,12,72,NA,20,-13,47
+"Columbus Crew",25,NA,"East",54,18,81,NA,29,-7,56
+"DC United",25,NA,"East",52,19,79,NA,27,-6,54
+"FC Cincinnati",25,NA,"East",66,30,93,NA,41,5,68
+"FC Dallas",25,NA,"West",58,22,85,NA,33,-3,60
+"Houston Dynamo",25,NA,"West",54,15,81,NA,29,-10,56
+"Inter Miami CF",25,NA,"East",51,15,78,NA,26,-10,53
+"Los Angeles FC",25,NA,"West",64,25,91,NA,39,0,66
+"Los Angeles Galaxy",25,NA,"West",45,9,72,NA,20,-16,47
+"Minnesota United FC",25,NA,"West",54,18,81,NA,29,-7,56
+"Montreal Impact",25,NA,"East",51,15,78,NA,26,-10,53
+"Nashville SC",25,NA,"East",58,25,85,NA,33,0,60
+"New England Revolution",25,NA,"East",60,24,87,NA,35,-1,62
+"New York City FC",25,NA,"East",52,16,79,NA,27,-9,54
+"New York Red Bulls",25,NA,"East",49,16,76,NA,24,-9,51
+"Orlando City SC",25,NA,"East",55,19,82,NA,30,-6,57
+"Philadelphia Union",25,NA,"East",57,21,84,NA,32,-4,59
+"Portland Timbers",25,NA,"West",49,16,76,NA,24,-9,51
+"Real Salt Lake",25,NA,"West",51,15,78,NA,26,-10,53
+"San Jose Earthquakes",25,NA,"West",54,18,81,NA,29,-7,56
+"Seattle Sounders FC",25,NA,"West",56,23,83,NA,31,-2,58
+"Sporting Kansas City",25,NA,"West",43,10,70,NA,18,-15,45
+"St. Louis CITY SC",25,NA,"West",61,22,88,NA,36,-3,63
+"Toronto FC",25,NA,"East",46,13,73,NA,21,-12,48
+"Vancouver Whitecaps",25,NA,"West",53,17,80,NA,28,-8,55
+"Atlanta United FC",26,NA,"East",58,22,82,NA,32,-4,56
+"Austin FC",26,NA,"West",55,16,79,NA,29,-10,53
+"Charlotte FC",26,NA,"East",54,18,78,NA,28,-8,52
+"Chicago Fire",26,NA,"East",54,15,78,NA,28,-11,52
+"Colorado Rapids",26,NA,"West",48,12,72,NA,22,-14,46
+"Columbus Crew",26,NA,"East",57,18,81,NA,31,-8,55
+"DC United",26,NA,"East",55,19,79,NA,29,-7,53
+"FC Cincinnati",26,NA,"East",69,30,93,NA,43,4,67
+"FC Dallas",26,NA,"West",61,22,85,NA,35,-4,59
+"Houston Dynamo",26,NA,"West",57,15,81,NA,31,-11,55
+"Inter Miami CF",26,NA,"East",54,15,78,NA,28,-11,52
+"Los Angeles FC",26,NA,"West",67,25,91,NA,41,-1,65
+"Los Angeles Galaxy",26,NA,"West",48,9,72,NA,22,-17,46
+"Minnesota United FC",26,NA,"West",57,18,81,NA,31,-8,55
+"Montreal Impact",26,NA,"East",54,15,78,NA,28,-11,52
+"Nashville SC",26,NA,"East",61,25,85,NA,35,-1,59
+"New England Revolution",26,NA,"East",63,24,87,NA,37,-2,61
+"New York City FC",26,NA,"East",55,16,79,NA,29,-10,53
+"New York Red Bulls",26,NA,"East",52,16,76,NA,26,-10,50
+"Orlando City SC",26,NA,"East",58,19,82,NA,32,-7,56
+"Philadelphia Union",26,NA,"East",60,21,84,NA,34,-5,58
+"Portland Timbers",26,NA,"West",52,16,76,NA,26,-10,50
+"Real Salt Lake",26,NA,"West",54,15,78,NA,28,-11,52
+"San Jose Earthquakes",26,NA,"West",57,18,81,NA,31,-8,55
+"Seattle Sounders FC",26,NA,"West",59,23,83,NA,33,-3,57
+"Sporting Kansas City",26,NA,"West",46,10,70,NA,20,-16,44
+"St. Louis CITY SC",26,NA,"West",64,22,88,NA,38,-4,62
+"Toronto FC",26,NA,"East",49,13,73,NA,23,-13,47
+"Vancouver Whitecaps",26,NA,"West",56,17,80,NA,30,-9,54
+"Atlanta United FC",27,NA,"East",61,22,82,NA,34,-5,55
+"Austin FC",27,NA,"West",58,16,79,NA,31,-11,52
+"Charlotte FC",27,NA,"East",57,18,78,NA,30,-9,51
+"Chicago Fire",27,NA,"East",57,15,78,NA,30,-12,51
+"Colorado Rapids",27,NA,"West",51,12,72,NA,24,-15,45
+"Columbus Crew",27,NA,"East",60,18,81,NA,33,-9,54
+"DC United",27,NA,"East",58,19,79,NA,31,-8,52
+"FC Cincinnati",27,NA,"East",72,30,93,NA,45,3,66
+"FC Dallas",27,NA,"West",64,22,85,NA,37,-5,58
+"Houston Dynamo",27,NA,"West",60,15,81,NA,33,-12,54
+"Inter Miami CF",27,NA,"East",57,15,78,NA,30,-12,51
+"Los Angeles FC",27,NA,"West",70,25,91,NA,43,-2,64
+"Los Angeles Galaxy",27,NA,"West",51,9,72,NA,24,-18,45
+"Minnesota United FC",27,NA,"West",60,18,81,NA,33,-9,54
+"Montreal Impact",27,NA,"East",57,15,78,NA,30,-12,51
+"Nashville SC",27,NA,"East",64,25,85,NA,37,-2,58
+"New England Revolution",27,NA,"East",66,24,87,NA,39,-3,60
+"New York City FC",27,NA,"East",58,16,79,NA,31,-11,52
+"New York Red Bulls",27,NA,"East",55,16,76,NA,28,-11,49
+"Orlando City SC",27,NA,"East",61,19,82,NA,34,-8,55
+"Philadelphia Union",27,NA,"East",63,21,84,NA,36,-6,57
+"Portland Timbers",27,NA,"West",55,16,76,NA,28,-11,49
+"Real Salt Lake",27,NA,"West",57,15,78,NA,30,-12,51
+"San Jose Earthquakes",27,NA,"West",60,18,81,NA,33,-9,54
+"Seattle Sounders FC",27,NA,"West",62,23,83,NA,35,-4,56
+"Sporting Kansas City",27,NA,"West",49,10,70,NA,22,-17,43
+"St. Louis CITY SC",27,NA,"West",67,22,88,NA,40,-5,61
+"Toronto FC",27,NA,"East",52,13,73,NA,25,-14,46
+"Vancouver Whitecaps",27,NA,"West",59,17,80,NA,32,-10,53
+"Atlanta United FC",28,NA,"East",64,22,82,NA,36,-6,54
+"Austin FC",28,NA,"West",61,16,79,NA,33,-12,51
+"Charlotte FC",28,NA,"East",60,18,78,NA,32,-10,50
+"Chicago Fire",28,NA,"East",60,15,78,NA,32,-13,50
+"Colorado Rapids",28,NA,"West",54,12,72,NA,26,-16,44
+"Columbus Crew",28,NA,"East",63,18,81,NA,35,-10,53
+"DC United",28,NA,"East",61,19,79,NA,33,-9,51
+"FC Cincinnati",28,NA,"East",75,30,93,NA,47,2,65
+"FC Dallas",28,NA,"West",67,22,85,NA,39,-6,57
+"Houston Dynamo",28,NA,"West",63,15,81,NA,35,-13,53
+"Inter Miami CF",28,NA,"East",60,15,78,NA,32,-13,50
+"Los Angeles FC",28,NA,"West",73,25,91,NA,45,-3,63
+"Los Angeles Galaxy",28,NA,"West",54,9,72,NA,26,-19,44
+"Minnesota United FC",28,NA,"West",63,18,81,NA,35,-10,53
+"Montreal Impact",28,NA,"East",60,15,78,NA,32,-13,50
+"Nashville SC",28,NA,"East",67,25,85,NA,39,-3,57
+"New England Revolution",28,NA,"East",69,24,87,NA,41,-4,59
+"New York City FC",28,NA,"East",61,16,79,NA,33,-12,51
+"New York Red Bulls",28,NA,"East",58,16,76,NA,30,-12,48
+"Orlando City SC",28,NA,"East",64,19,82,NA,36,-9,54
+"Philadelphia Union",28,NA,"East",66,21,84,NA,38,-7,56
+"Portland Timbers",28,NA,"West",58,16,76,NA,30,-12,48
+"Real Salt Lake",28,NA,"West",60,15,78,NA,32,-13,50
+"San Jose Earthquakes",28,NA,"West",63,18,81,NA,35,-10,53
+"Seattle Sounders FC",28,NA,"West",65,23,83,NA,37,-5,55
+"Sporting Kansas City",28,NA,"West",52,10,70,NA,24,-18,42
+"St. Louis CITY SC",28,NA,"West",70,22,88,NA,42,-6,60
+"Toronto FC",28,NA,"East",55,13,73,NA,27,-15,45
+"Vancouver Whitecaps",28,NA,"West",62,17,80,NA,34,-11,52
+"Atlanta United FC",29,NA,"East",67,22,82,NA,38,-7,53
+"Austin FC",29,NA,"West",64,16,79,NA,35,-13,50
+"Charlotte FC",29,NA,"East",63,18,78,NA,34,-11,49
+"Chicago Fire",29,NA,"East",63,15,78,NA,34,-14,49
+"Colorado Rapids",29,NA,"West",57,12,72,NA,28,-17,43
+"Columbus Crew",29,NA,"East",66,18,81,NA,37,-11,52
+"DC United",29,NA,"East",64,19,79,NA,35,-10,50
+"FC Cincinnati",29,NA,"East",78,30,93,NA,49,1,64
+"FC Dallas",29,NA,"West",70,22,85,NA,41,-7,56
+"Houston Dynamo",29,NA,"West",66,15,81,NA,37,-14,52
+"Inter Miami CF",29,NA,"East",63,15,78,NA,34,-14,49
+"Los Angeles FC",29,NA,"West",76,25,91,NA,47,-4,62
+"Los Angeles Galaxy",29,NA,"West",57,9,72,NA,28,-20,43
+"Minnesota United FC",29,NA,"West",66,18,81,NA,37,-11,52
+"Montreal Impact",29,NA,"East",63,15,78,NA,34,-14,49
+"Nashville SC",29,NA,"East",70,25,85,NA,41,-4,56
+"New England Revolution",29,NA,"East",72,24,87,NA,43,-5,58
+"New York City FC",29,NA,"East",64,16,79,NA,35,-13,50
+"New York Red Bulls",29,NA,"East",61,16,76,NA,32,-13,47
+"Orlando City SC",29,NA,"East",67,19,82,NA,38,-10,53
+"Philadelphia Union",29,NA,"East",69,21,84,NA,40,-8,55
+"Portland Timbers",29,NA,"West",61,16,76,NA,32,-13,47
+"Real Salt Lake",29,NA,"West",63,15,78,NA,34,-14,49
+"San Jose Earthquakes",29,NA,"West",66,18,81,NA,37,-11,52
+"Seattle Sounders FC",29,NA,"West",68,23,83,NA,39,-6,54
+"Sporting Kansas City",29,NA,"West",55,10,70,NA,26,-19,41
+"St. Louis CITY SC",29,NA,"West",73,22,88,NA,44,-7,59
+"Toronto FC",29,NA,"East",58,13,73,NA,29,-16,44
+"Vancouver Whitecaps",29,NA,"West",65,17,80,NA,36,-12,51
+"Atlanta United FC",30,NA,"East",70,22,82,NA,40,-8,52
+"Austin FC",30,NA,"West",67,16,79,NA,37,-14,49
+"Charlotte FC",30,NA,"East",66,18,78,NA,36,-12,48
+"Chicago Fire",30,NA,"East",66,15,78,NA,36,-15,48
+"Colorado Rapids",30,NA,"West",60,12,72,NA,30,-18,42
+"Columbus Crew",30,NA,"East",69,18,81,NA,39,-12,51
+"DC United",30,NA,"East",67,19,79,NA,37,-11,49
+"FC Cincinnati",30,NA,"East",81,30,93,NA,51,0,63
+"FC Dallas",30,NA,"West",73,22,85,NA,43,-8,55
+"Houston Dynamo",30,NA,"West",69,15,81,NA,39,-15,51
+"Inter Miami CF",30,NA,"East",66,15,78,NA,36,-15,48
+"Los Angeles FC",30,NA,"West",79,25,91,NA,49,-5,61
+"Los Angeles Galaxy",30,NA,"West",60,9,72,NA,30,-21,42
+"Minnesota United FC",30,NA,"West",69,18,81,NA,39,-12,51
+"Montreal Impact",30,NA,"East",66,15,78,NA,36,-15,48
+"Nashville SC",30,NA,"East",73,25,85,NA,43,-5,55
+"New England Revolution",30,NA,"East",75,24,87,NA,45,-6,57
+"New York City FC",30,NA,"East",67,16,79,NA,37,-14,49
+"New York Red Bulls",30,NA,"East",64,16,76,NA,34,-14,46
+"Orlando City SC",30,NA,"East",70,19,82,NA,40,-11,52
+"Philadelphia Union",30,NA,"East",72,21,84,NA,42,-9,54
+"Portland Timbers",30,NA,"West",64,16,76,NA,34,-14,46
+"Real Salt Lake",30,NA,"West",66,15,78,NA,36,-15,48
+"San Jose Earthquakes",30,NA,"West",69,18,81,NA,39,-12,51
+"Seattle Sounders FC",30,NA,"West",71,23,83,NA,41,-7,53
+"Sporting Kansas City",30,NA,"West",58,10,70,NA,28,-20,40
+"St. Louis CITY SC",30,NA,"West",76,22,88,NA,46,-8,58
+"Toronto FC",30,NA,"East",61,13,73,NA,31,-17,43
+"Vancouver Whitecaps",30,NA,"West",68,17,80,NA,38,-13,50
+"Atlanta United FC",31,NA,"East",73,22,82,NA,42,-9,51
+"Austin FC",31,NA,"West",70,16,79,NA,39,-15,48
+"Charlotte FC",31,NA,"East",69,18,78,NA,38,-13,47
+"Chicago Fire",31,NA,"East",69,15,78,NA,38,-16,47
+"Colorado Rapids",31,NA,"West",63,12,72,NA,32,-19,41
+"Columbus Crew",31,NA,"East",72,18,81,NA,41,-13,50
+"DC United",31,NA,"East",70,19,79,NA,39,-12,48
+"FC Cincinnati",31,NA,"East",84,30,93,NA,53,-1,62
+"FC Dallas",31,NA,"West",76,22,85,NA,45,-9,54
+"Houston Dynamo",31,NA,"West",72,15,81,NA,41,-16,50
+"Inter Miami CF",31,NA,"East",69,15,78,NA,38,-16,47
+"Los Angeles FC",31,NA,"West",82,25,91,NA,51,-6,60
+"Los Angeles Galaxy",31,NA,"West",63,9,72,NA,32,-22,41
+"Minnesota United FC",31,NA,"West",72,18,81,NA,41,-13,50
+"Montreal Impact",31,NA,"East",69,15,78,NA,38,-16,47
+"Nashville SC",31,NA,"East",76,25,85,NA,45,-6,54
+"New England Revolution",31,NA,"East",78,24,87,NA,47,-7,56
+"New York City FC",31,NA,"East",70,16,79,NA,39,-15,48
+"New York Red Bulls",31,NA,"East",67,16,76,NA,36,-15,45
+"Orlando City SC",31,NA,"East",73,19,82,NA,42,-12,51
+"Philadelphia Union",31,NA,"East",75,21,84,NA,44,-10,53
+"Portland Timbers",31,NA,"West",67,16,76,NA,36,-15,45
+"Real Salt Lake",31,NA,"West",69,15,78,NA,38,-16,47
+"San Jose Earthquakes",31,NA,"West",72,18,81,NA,41,-13,50
+"Seattle Sounders FC",31,NA,"West",74,23,83,NA,43,-8,52
+"Sporting Kansas City",31,NA,"West",61,10,70,NA,30,-21,39
+"St. Louis CITY SC",31,NA,"West",79,22,88,NA,48,-9,57
+"Toronto FC",31,NA,"East",64,13,73,NA,33,-18,42
+"Vancouver Whitecaps",31,NA,"West",71,17,80,NA,40,-14,49
+"Atlanta United FC",32,NA,"East",76,22,82,NA,44,-10,50
+"Austin FC",32,NA,"West",73,16,79,NA,41,-16,47
+"Charlotte FC",32,NA,"East",72,18,78,NA,40,-14,46
+"Chicago Fire",32,NA,"East",72,15,78,NA,40,-17,46
+"Colorado Rapids",32,NA,"West",66,12,72,NA,34,-20,40
+"Columbus Crew",32,NA,"East",75,18,81,NA,43,-14,49
+"DC United",32,NA,"East",73,19,79,NA,41,-13,47
+"FC Cincinnati",32,NA,"East",87,30,93,NA,55,-2,61
+"FC Dallas",32,NA,"West",79,22,85,NA,47,-10,53
+"Houston Dynamo",32,NA,"West",75,15,81,NA,43,-17,49
+"Inter Miami CF",32,NA,"East",72,15,78,NA,40,-17,46
+"Los Angeles FC",32,NA,"West",85,25,91,NA,53,-7,59
+"Los Angeles Galaxy",32,NA,"West",66,9,72,NA,34,-23,40
+"Minnesota United FC",32,NA,"West",75,18,81,NA,43,-14,49
+"Montreal Impact",32,NA,"East",72,15,78,NA,40,-17,46
+"Nashville SC",32,NA,"East",79,25,85,NA,47,-7,53
+"New England Revolution",32,NA,"East",81,24,87,NA,49,-8,55
+"New York City FC",32,NA,"East",73,16,79,NA,41,-16,47
+"New York Red Bulls",32,NA,"East",70,16,76,NA,38,-16,44
+"Orlando City SC",32,NA,"East",76,19,82,NA,44,-13,50
+"Philadelphia Union",32,NA,"East",78,21,84,NA,46,-11,52
+"Portland Timbers",32,NA,"West",70,16,76,NA,38,-16,44
+"Real Salt Lake",32,NA,"West",72,15,78,NA,40,-17,46
+"San Jose Earthquakes",32,NA,"West",75,18,81,NA,43,-14,49
+"Seattle Sounders FC",32,NA,"West",77,23,83,NA,45,-9,51
+"Sporting Kansas City",32,NA,"West",64,10,70,NA,32,-22,38
+"St. Louis CITY SC",32,NA,"West",82,22,88,NA,50,-10,56
+"Toronto FC",32,NA,"East",67,13,73,NA,35,-19,41
+"Vancouver Whitecaps",32,NA,"West",74,17,80,NA,42,-15,48
+"Atlanta United FC",33,NA,"East",79,22,82,NA,46,-11,49
+"Austin FC",33,NA,"West",76,16,79,NA,43,-17,46
+"Charlotte FC",33,NA,"East",75,18,78,NA,42,-15,45
+"Chicago Fire",33,NA,"East",75,15,78,NA,42,-18,45
+"Colorado Rapids",33,NA,"West",69,12,72,NA,36,-21,39
+"Columbus Crew",33,NA,"East",78,18,81,NA,45,-15,48
+"DC United",33,NA,"East",76,19,79,NA,43,-14,46
+"FC Cincinnati",33,NA,"East",90,30,93,NA,57,-3,60
+"FC Dallas",33,NA,"West",82,22,85,NA,49,-11,52
+"Houston Dynamo",33,NA,"West",78,15,81,NA,45,-18,48
+"Inter Miami CF",33,NA,"East",75,15,78,NA,42,-18,45
+"Los Angeles FC",33,NA,"West",88,25,91,NA,55,-8,58
+"Los Angeles Galaxy",33,NA,"West",69,9,72,NA,36,-24,39
+"Minnesota United FC",33,NA,"West",78,18,81,NA,45,-15,48
+"Montreal Impact",33,NA,"East",75,15,78,NA,42,-18,45
+"Nashville SC",33,NA,"East",82,25,85,NA,49,-8,52
+"New England Revolution",33,NA,"East",84,24,87,NA,51,-9,54
+"New York City FC",33,NA,"East",76,16,79,NA,43,-17,46
+"New York Red Bulls",33,NA,"East",73,16,76,NA,40,-17,43
+"Orlando City SC",33,NA,"East",79,19,82,NA,46,-14,49
+"Philadelphia Union",33,NA,"East",81,21,84,NA,48,-12,51
+"Portland Timbers",33,NA,"West",73,16,76,NA,40,-17,43
+"Real Salt Lake",33,NA,"West",75,15,78,NA,42,-18,45
+"San Jose Earthquakes",33,NA,"West",78,18,81,NA,45,-15,48
+"Seattle Sounders FC",33,NA,"West",80,23,83,NA,47,-10,50
+"Sporting Kansas City",33,NA,"West",67,10,70,NA,34,-23,37
+"St. Louis CITY SC",33,NA,"West",85,22,88,NA,52,-11,55
+"Toronto FC",33,NA,"East",70,13,73,NA,37,-20,40
+"Vancouver Whitecaps",33,NA,"West",77,17,80,NA,44,-16,47
+"Atlanta United FC",34,NA,"East",82,22,82,NA,48,-12,48
+"Austin FC",34,NA,"West",79,16,79,NA,45,-18,45
+"Charlotte FC",34,NA,"East",78,18,78,NA,44,-16,44
+"Chicago Fire",34,NA,"East",78,15,78,NA,44,-19,44
+"Colorado Rapids",34,NA,"West",72,12,72,NA,38,-22,38
+"Columbus Crew",34,NA,"East",81,18,81,NA,47,-16,47
+"DC United",34,NA,"East",79,19,79,NA,45,-15,45
+"FC Cincinnati",34,NA,"East",93,30,93,NA,59,-4,59
+"FC Dallas",34,NA,"West",85,22,85,NA,51,-12,51
+"Houston Dynamo",34,NA,"West",81,15,81,NA,47,-19,47
+"Inter Miami CF",34,NA,"East",78,15,78,NA,44,-19,44
+"Los Angeles FC",34,NA,"West",91,25,91,NA,57,-9,57
+"Los Angeles Galaxy",34,NA,"West",72,9,72,NA,38,-25,38
+"Minnesota United FC",34,NA,"West",81,18,81,NA,47,-16,47
+"Montreal Impact",34,NA,"East",78,15,78,NA,44,-19,44
+"Nashville SC",34,NA,"East",85,25,85,NA,51,-9,51
+"New England Revolution",34,NA,"East",87,24,87,NA,53,-10,53
+"New York City FC",34,NA,"East",79,16,79,NA,45,-18,45
+"New York Red Bulls",34,NA,"East",76,16,76,NA,42,-18,42
+"Orlando City SC",34,NA,"East",82,19,82,NA,48,-15,48
+"Philadelphia Union",34,NA,"East",84,21,84,NA,50,-13,50
+"Portland Timbers",34,NA,"West",76,16,76,NA,42,-18,42
+"Real Salt Lake",34,NA,"West",78,15,78,NA,44,-19,44
+"San Jose Earthquakes",34,NA,"West",81,18,81,NA,47,-16,47
+"Seattle Sounders FC",34,NA,"West",83,23,83,NA,49,-11,49
+"Sporting Kansas City",34,NA,"West",70,10,70,NA,36,-24,36
+"St. Louis CITY SC",34,NA,"West",88,22,88,NA,54,-12,54
+"Toronto FC",34,NA,"East",73,13,73,NA,39,-21,39
+"Vancouver Whitecaps",34,NA,"West",80,17,80,NA,46,-17,46
 "Thresholds",0,NA,"West",NA,-103,103,NA,NA,-103,103
 "Thresholds",0,NA,"East",NA,-103,103,NA,NA,-103,103
-"Thresholds",1,NA,"West",NA,-99,101,NA,NA,-100,100
-"Thresholds",1,NA,"East",NA,-99,101,NA,NA,-100,100
-"Thresholds",2,NA,"West",NA,-94,100,NA,NA,-96,98
-"Thresholds",2,NA,"East",NA,-95,98,NA,NA,-97,96
-"Thresholds",3,NA,"West",NA,-90,98,NA,NA,-93,95
-"Thresholds",3,NA,"East",NA,-91,96,NA,NA,-94,93
-"Thresholds",4,NA,"West",NA,-85,95,NA,NA,-89,91
-"Thresholds",4,NA,"East",NA,-87,95,NA,NA,-91,91
-"Thresholds",5,NA,"West",NA,-80,92,NA,NA,-85,87
-"Thresholds",5,NA,"East",NA,-83,93,NA,NA,-88,88
-"Thresholds",6,NA,"West",NA,-76,89,NA,NA,-82,83
-"Thresholds",6,NA,"East",NA,-77,91,NA,NA,-83,85
-"Thresholds",7,NA,"West",NA,-73,89,NA,NA,-80,82
-"Thresholds",7,NA,"East",NA,-74,90,NA,NA,-81,83
-"Thresholds",8,NA,"West",NA,-69,89,NA,NA,-77,81
-"Thresholds",8,NA,"East",NA,-68,90,NA,NA,-76,82
-"Thresholds",9,NA,"West",NA,-66,86,NA,NA,-75,77
-"Thresholds",9,NA,"East",NA,-64,88,NA,NA,-73,79
-"Thresholds",10,NA,"West",NA,-62,83,NA,NA,-72,73
-"Thresholds",10,NA,"East",NA,-60,85,NA,NA,-70,75
-"Thresholds",11,NA,"West",NA,-57,82,NA,NA,-68,71
-"Thresholds",11,NA,"East",NA,-56,83,NA,NA,-67,72
-"Thresholds",12,NA,"West",NA,-51,81,NA,NA,-63,69
-"Thresholds",12,NA,"East",NA,-50,83,NA,NA,-62,71
-"Thresholds",13,NA,"West",NA,-46,81,NA,NA,-59,68
-"Thresholds",13,NA,"East",NA,-47,80,NA,NA,-60,67
-"Thresholds",14,NA,"West",NA,-43,79,NA,NA,-57,65
-"Thresholds",14,NA,"East",NA,-43,78,NA,NA,-57,64
-"Thresholds",15,NA,"West",NA,-39,77,NA,NA,-54,62
-"Thresholds",15,NA,"East",NA,-39,76,NA,NA,-54,61
-"Thresholds",16,NA,"West",NA,-34,75,NA,NA,-50,59
-"Thresholds",16,NA,"East",NA,-36,73,NA,NA,-52,57
-"Thresholds",17,NA,"West",NA,-28,75,NA,NA,-45,58
-"Thresholds",17,NA,"East",NA,-30,73,NA,NA,-47,56
-"Thresholds",18,NA,"West",NA,-23,74,NA,NA,-41,56
-"Thresholds",18,NA,"East",NA,-26,70,NA,NA,-44,52
-"Thresholds",19,NA,"West",NA,-20,72,NA,NA,-39,53
-"Thresholds",19,NA,"East",NA,-23,69,NA,NA,-42,50
-"Thresholds",20,NA,"West",NA,-14,71,NA,NA,-34,51
-"Thresholds",20,NA,"East",NA,-17,68,NA,NA,-37,48
-"Thresholds",21,NA,"West",NA,-10,70,NA,NA,-31,49
-"Thresholds",21,NA,"East",NA,-11,67,NA,NA,-32,46
-"Thresholds",22,NA,"West",NA,-6,68,NA,NA,-28,46
-"Thresholds",22,NA,"East",NA,-7,66,NA,NA,-29,44
-"Thresholds",23,NA,"West",NA,0,67,NA,NA,-23,44
-"Thresholds",23,NA,"East",NA,-2,64,NA,NA,-25,41
-"Thresholds",24,NA,"West",NA,6,64,NA,NA,-18,40
-"Thresholds",24,NA,"East",NA,2,63,NA,NA,-22,39
-"Thresholds",25,NA,"West",NA,9,64,NA,NA,-16,39
-"Thresholds",25,NA,"East",NA,5,61,NA,NA,-20,36
-"Thresholds",26,NA,"West",NA,12,61,NA,NA,-14,35
-"Thresholds",26,NA,"East",NA,9,58,NA,NA,-17,32
-"Thresholds",27,NA,"West",NA,18,59,NA,NA,-9,32
-"Thresholds",27,NA,"East",NA,15,56,NA,NA,-12,29
-"Thresholds",28,NA,"West",NA,23,59,NA,NA,-5,31
-"Thresholds",28,NA,"East",NA,19,53,NA,NA,-9,25
-"Thresholds",29,NA,"West",NA,27,58,NA,NA,-2,29
-"Thresholds",29,NA,"East",NA,23,53,NA,NA,-6,24
-"Thresholds",30,NA,"West",NA,30,56,NA,NA,0,26
-"Thresholds",30,NA,"East",NA,27,50,NA,NA,-3,20
-"Thresholds",31,NA,"West",NA,34,54,NA,NA,3,23
-"Thresholds",31,NA,"East",NA,31,47,NA,NA,0,16
-"Thresholds",32,NA,"West",NA,38,51,NA,NA,6,19
-"Thresholds",32,NA,"East",NA,35,45,NA,NA,3,13
-"Thresholds",33,NA,"West",NA,41,48,NA,NA,8,15
-"Thresholds",33,NA,"East",NA,41,43,NA,NA,8,10
-"Thresholds",34,NA,"West",NA,47,45,NA,NA,13,11
-"Thresholds",34,NA,"East",NA,44,43,NA,NA,10,9
+"Thresholds",1,NA,"West",NA,-100,100,NA,NA,-101,99
+"Thresholds",1,NA,"East",NA,-100,100,NA,NA,-101,99
+"Thresholds",2,NA,"West",NA,-94,98,NA,NA,-96,96
+"Thresholds",2,NA,"East",NA,-96,98,NA,NA,-98,96
+"Thresholds",3,NA,"West",NA,-91,97,NA,NA,-94,94
+"Thresholds",3,NA,"East",NA,-90,98,NA,NA,-93,95
+"Thresholds",4,NA,"West",NA,-88,94,NA,NA,-92,90
+"Thresholds",4,NA,"East",NA,-86,96,NA,NA,-90,92
+"Thresholds",5,NA,"West",NA,-84,91,NA,NA,-89,86
+"Thresholds",5,NA,"East",NA,-82,94,NA,NA,-87,89
+"Thresholds",6,NA,"West",NA,-79,91,NA,NA,-85,85
+"Thresholds",6,NA,"East",NA,-78,92,NA,NA,-84,86
+"Thresholds",7,NA,"West",NA,-74,88,NA,NA,-81,81
+"Thresholds",7,NA,"East",NA,-75,89,NA,NA,-82,82
+"Thresholds",8,NA,"West",NA,-70,87,NA,NA,-78,79
+"Thresholds",8,NA,"East",NA,-71,87,NA,NA,-79,79
+"Thresholds",9,NA,"West",NA,-66,85,NA,NA,-75,76
+"Thresholds",9,NA,"East",NA,-65,87,NA,NA,-74,78
+"Thresholds",10,NA,"West",NA,-62,84,NA,NA,-72,74
+"Thresholds",10,NA,"East",NA,-61,85,NA,NA,-71,75
+"Thresholds",11,NA,"West",NA,-58,82,NA,NA,-69,71
+"Thresholds",11,NA,"East",NA,-55,85,NA,NA,-66,74
+"Thresholds",12,NA,"West",NA,-53,80,NA,NA,-65,68
+"Thresholds",12,NA,"East",NA,-52,82,NA,NA,-64,70
+"Thresholds",13,NA,"West",NA,-48,80,NA,NA,-61,67
+"Thresholds",13,NA,"East",NA,-48,80,NA,NA,-61,67
+"Thresholds",14,NA,"West",NA,-45,79,NA,NA,-59,65
+"Thresholds",14,NA,"East",NA,-45,79,NA,NA,-59,65
+"Thresholds",15,NA,"West",NA,-42,79,NA,NA,-57,64
+"Thresholds",15,NA,"East",NA,-42,79,NA,NA,-57,64
+"Thresholds",16,NA,"West",NA,-39,79,NA,NA,-55,63
+"Thresholds",16,NA,"East",NA,-39,79,NA,NA,-55,63
+"Thresholds",17,NA,"West",NA,-36,79,NA,NA,-53,62
+"Thresholds",17,NA,"East",NA,-36,79,NA,NA,-53,62
+"Thresholds",18,NA,"West",NA,-33,79,NA,NA,-51,61
+"Thresholds",18,NA,"East",NA,-33,79,NA,NA,-51,61
+"Thresholds",19,NA,"West",NA,-30,79,NA,NA,-49,60
+"Thresholds",19,NA,"East",NA,-30,79,NA,NA,-49,60
+"Thresholds",20,NA,"West",NA,-27,79,NA,NA,-47,59
+"Thresholds",20,NA,"East",NA,-27,79,NA,NA,-47,59
+"Thresholds",21,NA,"West",NA,-24,79,NA,NA,-45,58
+"Thresholds",21,NA,"East",NA,-24,79,NA,NA,-45,58
+"Thresholds",22,NA,"West",NA,-21,79,NA,NA,-43,57
+"Thresholds",22,NA,"East",NA,-21,79,NA,NA,-43,57
+"Thresholds",23,NA,"West",NA,-18,79,NA,NA,-41,56
+"Thresholds",23,NA,"East",NA,-18,79,NA,NA,-41,56
+"Thresholds",24,NA,"West",NA,-15,79,NA,NA,-39,55
+"Thresholds",24,NA,"East",NA,-15,79,NA,NA,-39,55
+"Thresholds",25,NA,"West",NA,-12,79,NA,NA,-37,54
+"Thresholds",25,NA,"East",NA,-12,79,NA,NA,-37,54
+"Thresholds",26,NA,"West",NA,-9,79,NA,NA,-35,53
+"Thresholds",26,NA,"East",NA,-9,79,NA,NA,-35,53
+"Thresholds",27,NA,"West",NA,-6,79,NA,NA,-33,52
+"Thresholds",27,NA,"East",NA,-6,79,NA,NA,-33,52
+"Thresholds",28,NA,"West",NA,-3,79,NA,NA,-31,51
+"Thresholds",28,NA,"East",NA,-3,79,NA,NA,-31,51
+"Thresholds",29,NA,"West",NA,0,79,NA,NA,-29,50
+"Thresholds",29,NA,"East",NA,0,79,NA,NA,-29,50
+"Thresholds",30,NA,"West",NA,3,79,NA,NA,-27,49
+"Thresholds",30,NA,"East",NA,3,79,NA,NA,-27,49
+"Thresholds",31,NA,"West",NA,6,79,NA,NA,-25,48
+"Thresholds",31,NA,"East",NA,6,79,NA,NA,-25,48
+"Thresholds",32,NA,"West",NA,9,79,NA,NA,-23,47
+"Thresholds",32,NA,"East",NA,9,79,NA,NA,-23,47
+"Thresholds",33,NA,"West",NA,12,79,NA,NA,-21,46
+"Thresholds",33,NA,"East",NA,12,79,NA,NA,-21,46
+"Thresholds",34,NA,"West",NA,15,79,NA,NA,-19,45
+"Thresholds",34,NA,"East",NA,15,79,NA,NA,-19,45
