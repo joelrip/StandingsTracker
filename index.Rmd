@@ -1,6 +1,6 @@
 ---
 title: "Standings Tracker"
-date: "Updated May 25, 2023"
+date: "Updated May 27, 2023"
 output: 
   flexdashboard::flex_dashboard:
     social: [ "twitter", "facebook"]
@@ -102,7 +102,7 @@ MLS
 Row
 -----------------------------------------------------------------------
 
-### <strong>Western Conference</strong>
+### <strong>MLS Western Conference</strong>
 
 ```{r}
 highchart() %>%
@@ -160,7 +160,7 @@ highchart() %>%
                  )
 ```
 
-### <strong>Eastern Conference</strong>
+### <strong>MLS Eastern Conference</strong>
 
 ```{r}
 highchart() %>%
@@ -218,13 +218,13 @@ highchart() %>%
                  )
 ```
 
-USL
+USL Championship
 ===================================== 
 
 Row
 -----------------------------------------------------------------------
 
-### <strong>Western Conference</strong>
+### <strong>USL Championship Western Conference</strong>
 
 ```{r}
 highchart() %>%
@@ -282,7 +282,7 @@ highchart() %>%
                  )
 ```
 
-### <strong>Eastern Conference</strong>
+### <strong>USL Championship Eastern Conference</strong>
 
 ```{r}
 highchart() %>%
