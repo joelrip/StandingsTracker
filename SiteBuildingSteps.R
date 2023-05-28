@@ -12,8 +12,10 @@ table(USLScores$team1)
 table(USLScores$team2)
 
 #Run through formatting function
+USLScores$team1[which(USLScores$team1 == "Arizona United")] = "Phoenix Rising" #538 has not kept up with Phoenix's name change
+USLScores$team2[which(USLScores$team2 == "Arizona United")] = "Phoenix Rising"
 USLWest = c("Sacramento Republic FC", "New Mexico United", "Orange County SC", "Colorado Springs Switchbacks FC",
-            "El Paso Locomotive FC", "San Antonio FC", "Las Vegas Lights FC", "Arizona United",
+            "El Paso Locomotive FC", "San Antonio FC", "Las Vegas Lights FC", "Phoenix Rising",
             "Rio Grande Valley FC Toros", "San Diego Loyal SC", "Oakland Roots", "Monterey Bay") #correct for 2023
 USLScores <- USLScores[which(USLScores$date > "2023-01-01"),-1]
 USLPointsLong = StandingsTracker(USLScores, USLWest, 34, 8, 4)
