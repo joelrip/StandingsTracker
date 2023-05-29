@@ -295,7 +295,7 @@
 "Hartford Athletic",12,NA,"East",11,8,77,NA,-1,-4,65
 "Indy Eleven",12,NA,"East",15,12,81,NA,3,0,69
 "Las Vegas Lights FC",12,NA,"West",12,9,78,NA,0,-3,66
-"Loudoun United FC",12,NA,"East",13,10,79,NA,1,-2,67
+"Loudoun United FC",12,10,"East",10,10,76,-2,-2,-2,64
 "Louisville City FC",12,NA,"East",23,20,89,NA,11,8,77
 "Memphis 901 FC",12,NA,"East",24,15,90,NA,12,3,78
 "Miami FC",12,12,"East",12,12,78,0,0,0,66
@@ -304,7 +304,7 @@
 "Oakland Roots",12,NA,"West",20,17,86,NA,8,5,74
 "Orange County SC",12,9,"West",9,9,75,-3,-3,-3,63
 "Phoenix Rising",12,NA,"West",19,16,85,NA,7,4,73
-"Pittsburgh Riverhounds",12,NA,"East",20,17,86,NA,8,5,74
+"Pittsburgh Riverhounds",12,20,"East",20,20,86,8,8,8,74
 "Rio Grande Valley FC Toros",12,NA,"West",14,11,80,NA,2,-1,68
 "Sacramento Republic FC",12,27,"West",27,27,93,15,15,15,81
 "San Antonio FC",12,22,"West",22,22,88,10,10,10,76
@@ -319,7 +319,7 @@
 "Hartford Athletic",13,NA,"East",14,8,77,NA,1,-5,64
 "Indy Eleven",13,NA,"East",18,12,81,NA,5,-1,68
 "Las Vegas Lights FC",13,NA,"West",15,9,78,NA,2,-4,65
-"Loudoun United FC",13,NA,"East",16,10,79,NA,3,-3,66
+"Loudoun United FC",13,NA,"East",13,10,76,NA,0,-3,63
 "Louisville City FC",13,NA,"East",26,20,89,NA,13,7,76
 "Memphis 901 FC",13,NA,"East",27,15,90,NA,14,2,77
 "Miami FC",13,NA,"East",15,12,78,NA,2,-1,65
@@ -328,7 +328,7 @@
 "Oakland Roots",13,NA,"West",23,17,86,NA,10,4,73
 "Orange County SC",13,10,"West",10,10,73,-3,-3,-3,60
 "Phoenix Rising",13,NA,"West",22,16,85,NA,9,3,72
-"Pittsburgh Riverhounds",13,NA,"East",23,17,86,NA,10,4,73
+"Pittsburgh Riverhounds",13,NA,"East",23,20,86,NA,10,7,73
 "Rio Grande Valley FC Toros",13,NA,"West",17,11,80,NA,4,-2,67
 "Sacramento Republic FC",13,NA,"West",30,27,93,NA,17,14,80
 "San Antonio FC",13,NA,"West",25,22,88,NA,12,9,75
@@ -343,7 +343,7 @@
 "Hartford Athletic",14,NA,"East",17,8,77,NA,3,-6,63
 "Indy Eleven",14,NA,"East",21,12,81,NA,7,-2,67
 "Las Vegas Lights FC",14,NA,"West",18,9,78,NA,4,-5,64
-"Loudoun United FC",14,NA,"East",19,10,79,NA,5,-4,65
+"Loudoun United FC",14,NA,"East",16,10,76,NA,2,-4,62
 "Louisville City FC",14,NA,"East",29,20,89,NA,15,6,75
 "Memphis 901 FC",14,NA,"East",30,15,90,NA,16,1,76
 "Miami FC",14,NA,"East",18,12,78,NA,4,-2,64
@@ -352,7 +352,7 @@
 "Oakland Roots",14,NA,"West",26,17,86,NA,12,3,72
 "Orange County SC",14,NA,"West",13,10,73,NA,-1,-4,59
 "Phoenix Rising",14,NA,"West",25,16,85,NA,11,2,71
-"Pittsburgh Riverhounds",14,NA,"East",26,17,86,NA,12,3,72
+"Pittsburgh Riverhounds",14,NA,"East",26,20,86,NA,12,6,72
 "Rio Grande Valley FC Toros",14,NA,"West",20,11,80,NA,6,-3,66
 "Sacramento Republic FC",14,NA,"West",33,27,93,NA,19,13,79
 "San Antonio FC",14,NA,"West",28,22,88,NA,14,8,74
@@ -367,7 +367,7 @@
 "Hartford Athletic",15,NA,"East",20,8,77,NA,5,-7,62
 "Indy Eleven",15,NA,"East",24,12,81,NA,9,-3,66
 "Las Vegas Lights FC",15,NA,"West",21,9,78,NA,6,-6,63
-"Loudoun United FC",15,NA,"East",22,10,79,NA,7,-5,64
+"Loudoun United FC",15,NA,"East",19,10,76,NA,4,-5,61
 "Louisville City FC",15,NA,"East",32,20,89,NA,17,5,74
 "Memphis 901 FC",15,NA,"East",33,15,90,NA,18,0,75
 "Miami FC",15,NA,"East",21,12,78,NA,6,-3,63
@@ -376,7 +376,7 @@
 "Oakland Roots",15,NA,"West",29,17,86,NA,14,2,71
 "Orange County SC",15,NA,"West",16,10,73,NA,1,-5,58
 "Phoenix Rising",15,NA,"West",28,16,85,NA,13,1,70
-"Pittsburgh Riverhounds",15,NA,"East",29,17,86,NA,14,2,71
+"Pittsburgh Riverhounds",15,NA,"East",29,20,86,NA,14,5,71
 "Rio Grande Valley FC Toros",15,NA,"West",23,11,80,NA,8,-4,65
 "Sacramento Republic FC",15,NA,"West",36,27,93,NA,21,12,78
 "San Antonio FC",15,NA,"West",31,22,88,NA,16,7,73
@@ -391,7 +391,7 @@
 "Hartford Athletic",16,NA,"East",23,8,77,NA,7,-8,61
 "Indy Eleven",16,NA,"East",27,12,81,NA,11,-4,65
 "Las Vegas Lights FC",16,NA,"West",24,9,78,NA,8,-7,62
-"Loudoun United FC",16,NA,"East",25,10,79,NA,9,-6,63
+"Loudoun United FC",16,NA,"East",22,10,76,NA,6,-6,60
 "Louisville City FC",16,NA,"East",35,20,89,NA,19,4,73
 "Memphis 901 FC",16,NA,"East",36,15,90,NA,20,-1,74
 "Miami FC",16,NA,"East",24,12,78,NA,8,-4,62
@@ -400,7 +400,7 @@
 "Oakland Roots",16,NA,"West",32,17,86,NA,16,1,70
 "Orange County SC",16,NA,"West",19,10,73,NA,3,-6,57
 "Phoenix Rising",16,NA,"West",31,16,85,NA,15,0,69
-"Pittsburgh Riverhounds",16,NA,"East",32,17,86,NA,16,1,70
+"Pittsburgh Riverhounds",16,NA,"East",32,20,86,NA,16,4,70
 "Rio Grande Valley FC Toros",16,NA,"West",26,11,80,NA,10,-5,64
 "Sacramento Republic FC",16,NA,"West",39,27,93,NA,23,11,77
 "San Antonio FC",16,NA,"West",34,22,88,NA,18,6,72
@@ -415,7 +415,7 @@
 "Hartford Athletic",17,NA,"East",26,8,77,NA,9,-9,60
 "Indy Eleven",17,NA,"East",30,12,81,NA,13,-5,64
 "Las Vegas Lights FC",17,NA,"West",27,9,78,NA,10,-8,61
-"Loudoun United FC",17,NA,"East",28,10,79,NA,11,-7,62
+"Loudoun United FC",17,NA,"East",25,10,76,NA,8,-7,59
 "Louisville City FC",17,NA,"East",38,20,89,NA,21,3,72
 "Memphis 901 FC",17,NA,"East",39,15,90,NA,22,-2,73
 "Miami FC",17,NA,"East",27,12,78,NA,10,-5,61
@@ -424,7 +424,7 @@
 "Oakland Roots",17,NA,"West",35,17,86,NA,18,0,69
 "Orange County SC",17,NA,"West",22,10,73,NA,5,-7,56
 "Phoenix Rising",17,NA,"West",34,16,85,NA,17,-1,68
-"Pittsburgh Riverhounds",17,NA,"East",35,17,86,NA,18,0,69
+"Pittsburgh Riverhounds",17,NA,"East",35,20,86,NA,18,3,69
 "Rio Grande Valley FC Toros",17,NA,"West",29,11,80,NA,12,-6,63
 "Sacramento Republic FC",17,NA,"West",42,27,93,NA,25,10,76
 "San Antonio FC",17,NA,"West",37,22,88,NA,20,5,71
@@ -439,7 +439,7 @@
 "Hartford Athletic",18,NA,"East",29,8,77,NA,11,-10,59
 "Indy Eleven",18,NA,"East",33,12,81,NA,15,-6,63
 "Las Vegas Lights FC",18,NA,"West",30,9,78,NA,12,-9,60
-"Loudoun United FC",18,NA,"East",31,10,79,NA,13,-8,61
+"Loudoun United FC",18,NA,"East",28,10,76,NA,10,-8,58
 "Louisville City FC",18,NA,"East",41,20,89,NA,23,2,71
 "Memphis 901 FC",18,NA,"East",42,15,90,NA,24,-3,72
 "Miami FC",18,NA,"East",30,12,78,NA,12,-6,60
@@ -448,7 +448,7 @@
 "Oakland Roots",18,NA,"West",38,17,86,NA,20,-1,68
 "Orange County SC",18,NA,"West",25,10,73,NA,7,-8,55
 "Phoenix Rising",18,NA,"West",37,16,85,NA,19,-2,67
-"Pittsburgh Riverhounds",18,NA,"East",38,17,86,NA,20,-1,68
+"Pittsburgh Riverhounds",18,NA,"East",38,20,86,NA,20,2,68
 "Rio Grande Valley FC Toros",18,NA,"West",32,11,80,NA,14,-7,62
 "Sacramento Republic FC",18,NA,"West",45,27,93,NA,27,9,75
 "San Antonio FC",18,NA,"West",40,22,88,NA,22,4,70
@@ -463,7 +463,7 @@
 "Hartford Athletic",19,NA,"East",32,8,77,NA,13,-11,58
 "Indy Eleven",19,NA,"East",36,12,81,NA,17,-7,62
 "Las Vegas Lights FC",19,NA,"West",33,9,78,NA,14,-10,59
-"Loudoun United FC",19,NA,"East",34,10,79,NA,15,-9,60
+"Loudoun United FC",19,NA,"East",31,10,76,NA,12,-9,57
 "Louisville City FC",19,NA,"East",44,20,89,NA,25,1,70
 "Memphis 901 FC",19,NA,"East",45,15,90,NA,26,-4,71
 "Miami FC",19,NA,"East",33,12,78,NA,14,-7,59
@@ -472,7 +472,7 @@
 "Oakland Roots",19,NA,"West",41,17,86,NA,22,-2,67
 "Orange County SC",19,NA,"West",28,10,73,NA,9,-9,54
 "Phoenix Rising",19,NA,"West",40,16,85,NA,21,-3,66
-"Pittsburgh Riverhounds",19,NA,"East",41,17,86,NA,22,-2,67
+"Pittsburgh Riverhounds",19,NA,"East",41,20,86,NA,22,1,67
 "Rio Grande Valley FC Toros",19,NA,"West",35,11,80,NA,16,-8,61
 "Sacramento Republic FC",19,NA,"West",48,27,93,NA,29,8,74
 "San Antonio FC",19,NA,"West",43,22,88,NA,24,3,69
@@ -487,7 +487,7 @@
 "Hartford Athletic",20,NA,"East",35,8,77,NA,15,-12,57
 "Indy Eleven",20,NA,"East",39,12,81,NA,19,-8,61
 "Las Vegas Lights FC",20,NA,"West",36,9,78,NA,16,-11,58
-"Loudoun United FC",20,NA,"East",37,10,79,NA,17,-10,59
+"Loudoun United FC",20,NA,"East",34,10,76,NA,14,-10,56
 "Louisville City FC",20,NA,"East",47,20,89,NA,27,0,69
 "Memphis 901 FC",20,NA,"East",48,15,90,NA,28,-5,70
 "Miami FC",20,NA,"East",36,12,78,NA,16,-8,58
@@ -496,7 +496,7 @@
 "Oakland Roots",20,NA,"West",44,17,86,NA,24,-3,66
 "Orange County SC",20,NA,"West",31,10,73,NA,11,-10,53
 "Phoenix Rising",20,NA,"West",43,16,85,NA,23,-4,65
-"Pittsburgh Riverhounds",20,NA,"East",44,17,86,NA,24,-3,66
+"Pittsburgh Riverhounds",20,NA,"East",44,20,86,NA,24,0,66
 "Rio Grande Valley FC Toros",20,NA,"West",38,11,80,NA,18,-9,60
 "Sacramento Republic FC",20,NA,"West",51,27,93,NA,31,7,73
 "San Antonio FC",20,NA,"West",46,22,88,NA,26,2,68
@@ -511,7 +511,7 @@
 "Hartford Athletic",21,NA,"East",38,8,77,NA,17,-13,56
 "Indy Eleven",21,NA,"East",42,12,81,NA,21,-9,60
 "Las Vegas Lights FC",21,NA,"West",39,9,78,NA,18,-12,57
-"Loudoun United FC",21,NA,"East",40,10,79,NA,19,-11,58
+"Loudoun United FC",21,NA,"East",37,10,76,NA,16,-11,55
 "Louisville City FC",21,NA,"East",50,20,89,NA,29,-1,68
 "Memphis 901 FC",21,NA,"East",51,15,90,NA,30,-6,69
 "Miami FC",21,NA,"East",39,12,78,NA,18,-9,57
@@ -520,7 +520,7 @@
 "Oakland Roots",21,NA,"West",47,17,86,NA,26,-4,65
 "Orange County SC",21,NA,"West",34,10,73,NA,13,-11,52
 "Phoenix Rising",21,NA,"West",46,16,85,NA,25,-5,64
-"Pittsburgh Riverhounds",21,NA,"East",47,17,86,NA,26,-4,65
+"Pittsburgh Riverhounds",21,NA,"East",47,20,86,NA,26,-1,65
 "Rio Grande Valley FC Toros",21,NA,"West",41,11,80,NA,20,-10,59
 "Sacramento Republic FC",21,NA,"West",54,27,93,NA,33,6,72
 "San Antonio FC",21,NA,"West",49,22,88,NA,28,1,67
@@ -535,7 +535,7 @@
 "Hartford Athletic",22,NA,"East",41,8,77,NA,19,-14,55
 "Indy Eleven",22,NA,"East",45,12,81,NA,23,-10,59
 "Las Vegas Lights FC",22,NA,"West",42,9,78,NA,20,-13,56
-"Loudoun United FC",22,NA,"East",43,10,79,NA,21,-12,57
+"Loudoun United FC",22,NA,"East",40,10,76,NA,18,-12,54
 "Louisville City FC",22,NA,"East",53,20,89,NA,31,-2,67
 "Memphis 901 FC",22,NA,"East",54,15,90,NA,32,-7,68
 "Miami FC",22,NA,"East",42,12,78,NA,20,-10,56
@@ -544,7 +544,7 @@
 "Oakland Roots",22,NA,"West",50,17,86,NA,28,-5,64
 "Orange County SC",22,NA,"West",37,10,73,NA,15,-12,51
 "Phoenix Rising",22,NA,"West",49,16,85,NA,27,-6,63
-"Pittsburgh Riverhounds",22,NA,"East",50,17,86,NA,28,-5,64
+"Pittsburgh Riverhounds",22,NA,"East",50,20,86,NA,28,-2,64
 "Rio Grande Valley FC Toros",22,NA,"West",44,11,80,NA,22,-11,58
 "Sacramento Republic FC",22,NA,"West",57,27,93,NA,35,5,71
 "San Antonio FC",22,NA,"West",52,22,88,NA,30,0,66
@@ -559,7 +559,7 @@
 "Hartford Athletic",23,NA,"East",44,8,77,NA,21,-15,54
 "Indy Eleven",23,NA,"East",48,12,81,NA,25,-11,58
 "Las Vegas Lights FC",23,NA,"West",45,9,78,NA,22,-14,55
-"Loudoun United FC",23,NA,"East",46,10,79,NA,23,-13,56
+"Loudoun United FC",23,NA,"East",43,10,76,NA,20,-13,53
 "Louisville City FC",23,NA,"East",56,20,89,NA,33,-3,66
 "Memphis 901 FC",23,NA,"East",57,15,90,NA,34,-8,67
 "Miami FC",23,NA,"East",45,12,78,NA,22,-11,55
@@ -568,7 +568,7 @@
 "Oakland Roots",23,NA,"West",53,17,86,NA,30,-6,63
 "Orange County SC",23,NA,"West",40,10,73,NA,17,-13,50
 "Phoenix Rising",23,NA,"West",52,16,85,NA,29,-7,62
-"Pittsburgh Riverhounds",23,NA,"East",53,17,86,NA,30,-6,63
+"Pittsburgh Riverhounds",23,NA,"East",53,20,86,NA,30,-3,63
 "Rio Grande Valley FC Toros",23,NA,"West",47,11,80,NA,24,-12,57
 "Sacramento Republic FC",23,NA,"West",60,27,93,NA,37,4,70
 "San Antonio FC",23,NA,"West",55,22,88,NA,32,-1,65
@@ -583,7 +583,7 @@
 "Hartford Athletic",24,NA,"East",47,8,77,NA,23,-16,53
 "Indy Eleven",24,NA,"East",51,12,81,NA,27,-12,57
 "Las Vegas Lights FC",24,NA,"West",48,9,78,NA,24,-15,54
-"Loudoun United FC",24,NA,"East",49,10,79,NA,25,-14,55
+"Loudoun United FC",24,NA,"East",46,10,76,NA,22,-14,52
 "Louisville City FC",24,NA,"East",59,20,89,NA,35,-4,65
 "Memphis 901 FC",24,NA,"East",60,15,90,NA,36,-9,66
 "Miami FC",24,NA,"East",48,12,78,NA,24,-12,54
@@ -592,7 +592,7 @@
 "Oakland Roots",24,NA,"West",56,17,86,NA,32,-7,62
 "Orange County SC",24,NA,"West",43,10,73,NA,19,-14,49
 "Phoenix Rising",24,NA,"West",55,16,85,NA,31,-8,61
-"Pittsburgh Riverhounds",24,NA,"East",56,17,86,NA,32,-7,62
+"Pittsburgh Riverhounds",24,NA,"East",56,20,86,NA,32,-4,62
 "Rio Grande Valley FC Toros",24,NA,"West",50,11,80,NA,26,-13,56
 "Sacramento Republic FC",24,NA,"West",63,27,93,NA,39,3,69
 "San Antonio FC",24,NA,"West",58,22,88,NA,34,-2,64
@@ -607,7 +607,7 @@
 "Hartford Athletic",25,NA,"East",50,8,77,NA,25,-17,52
 "Indy Eleven",25,NA,"East",54,12,81,NA,29,-13,56
 "Las Vegas Lights FC",25,NA,"West",51,9,78,NA,26,-16,53
-"Loudoun United FC",25,NA,"East",52,10,79,NA,27,-15,54
+"Loudoun United FC",25,NA,"East",49,10,76,NA,24,-15,51
 "Louisville City FC",25,NA,"East",62,20,89,NA,37,-5,64
 "Memphis 901 FC",25,NA,"East",63,15,90,NA,38,-10,65
 "Miami FC",25,NA,"East",51,12,78,NA,26,-13,53
@@ -616,7 +616,7 @@
 "Oakland Roots",25,NA,"West",59,17,86,NA,34,-8,61
 "Orange County SC",25,NA,"West",46,10,73,NA,21,-15,48
 "Phoenix Rising",25,NA,"West",58,16,85,NA,33,-9,60
-"Pittsburgh Riverhounds",25,NA,"East",59,17,86,NA,34,-8,61
+"Pittsburgh Riverhounds",25,NA,"East",59,20,86,NA,34,-5,61
 "Rio Grande Valley FC Toros",25,NA,"West",53,11,80,NA,28,-14,55
 "Sacramento Republic FC",25,NA,"West",66,27,93,NA,41,2,68
 "San Antonio FC",25,NA,"West",61,22,88,NA,36,-3,63
@@ -631,7 +631,7 @@
 "Hartford Athletic",26,NA,"East",53,8,77,NA,27,-18,51
 "Indy Eleven",26,NA,"East",57,12,81,NA,31,-14,55
 "Las Vegas Lights FC",26,NA,"West",54,9,78,NA,28,-17,52
-"Loudoun United FC",26,NA,"East",55,10,79,NA,29,-16,53
+"Loudoun United FC",26,NA,"East",52,10,76,NA,26,-16,50
 "Louisville City FC",26,NA,"East",65,20,89,NA,39,-6,63
 "Memphis 901 FC",26,NA,"East",66,15,90,NA,40,-11,64
 "Miami FC",26,NA,"East",54,12,78,NA,28,-14,52
@@ -640,7 +640,7 @@
 "Oakland Roots",26,NA,"West",62,17,86,NA,36,-9,60
 "Orange County SC",26,NA,"West",49,10,73,NA,23,-16,47
 "Phoenix Rising",26,NA,"West",61,16,85,NA,35,-10,59
-"Pittsburgh Riverhounds",26,NA,"East",62,17,86,NA,36,-9,60
+"Pittsburgh Riverhounds",26,NA,"East",62,20,86,NA,36,-6,60
 "Rio Grande Valley FC Toros",26,NA,"West",56,11,80,NA,30,-15,54
 "Sacramento Republic FC",26,NA,"West",69,27,93,NA,43,1,67
 "San Antonio FC",26,NA,"West",64,22,88,NA,38,-4,62
@@ -655,7 +655,7 @@
 "Hartford Athletic",27,NA,"East",56,8,77,NA,29,-19,50
 "Indy Eleven",27,NA,"East",60,12,81,NA,33,-15,54
 "Las Vegas Lights FC",27,NA,"West",57,9,78,NA,30,-18,51
-"Loudoun United FC",27,NA,"East",58,10,79,NA,31,-17,52
+"Loudoun United FC",27,NA,"East",55,10,76,NA,28,-17,49
 "Louisville City FC",27,NA,"East",68,20,89,NA,41,-7,62
 "Memphis 901 FC",27,NA,"East",69,15,90,NA,42,-12,63
 "Miami FC",27,NA,"East",57,12,78,NA,30,-15,51
@@ -664,7 +664,7 @@
 "Oakland Roots",27,NA,"West",65,17,86,NA,38,-10,59
 "Orange County SC",27,NA,"West",52,10,73,NA,25,-17,46
 "Phoenix Rising",27,NA,"West",64,16,85,NA,37,-11,58
-"Pittsburgh Riverhounds",27,NA,"East",65,17,86,NA,38,-10,59
+"Pittsburgh Riverhounds",27,NA,"East",65,20,86,NA,38,-7,59
 "Rio Grande Valley FC Toros",27,NA,"West",59,11,80,NA,32,-16,53
 "Sacramento Republic FC",27,NA,"West",72,27,93,NA,45,0,66
 "San Antonio FC",27,NA,"West",67,22,88,NA,40,-5,61
@@ -679,7 +679,7 @@
 "Hartford Athletic",28,NA,"East",59,8,77,NA,31,-20,49
 "Indy Eleven",28,NA,"East",63,12,81,NA,35,-16,53
 "Las Vegas Lights FC",28,NA,"West",60,9,78,NA,32,-19,50
-"Loudoun United FC",28,NA,"East",61,10,79,NA,33,-18,51
+"Loudoun United FC",28,NA,"East",58,10,76,NA,30,-18,48
 "Louisville City FC",28,NA,"East",71,20,89,NA,43,-8,61
 "Memphis 901 FC",28,NA,"East",72,15,90,NA,44,-13,62
 "Miami FC",28,NA,"East",60,12,78,NA,32,-16,50
@@ -688,7 +688,7 @@
 "Oakland Roots",28,NA,"West",68,17,86,NA,40,-11,58
 "Orange County SC",28,NA,"West",55,10,73,NA,27,-18,45
 "Phoenix Rising",28,NA,"West",67,16,85,NA,39,-12,57
-"Pittsburgh Riverhounds",28,NA,"East",68,17,86,NA,40,-11,58
+"Pittsburgh Riverhounds",28,NA,"East",68,20,86,NA,40,-8,58
 "Rio Grande Valley FC Toros",28,NA,"West",62,11,80,NA,34,-17,52
 "Sacramento Republic FC",28,NA,"West",75,27,93,NA,47,-1,65
 "San Antonio FC",28,NA,"West",70,22,88,NA,42,-6,60
@@ -703,7 +703,7 @@
 "Hartford Athletic",29,NA,"East",62,8,77,NA,33,-21,48
 "Indy Eleven",29,NA,"East",66,12,81,NA,37,-17,52
 "Las Vegas Lights FC",29,NA,"West",63,9,78,NA,34,-20,49
-"Loudoun United FC",29,NA,"East",64,10,79,NA,35,-19,50
+"Loudoun United FC",29,NA,"East",61,10,76,NA,32,-19,47
 "Louisville City FC",29,NA,"East",74,20,89,NA,45,-9,60
 "Memphis 901 FC",29,NA,"East",75,15,90,NA,46,-14,61
 "Miami FC",29,NA,"East",63,12,78,NA,34,-17,49
@@ -712,7 +712,7 @@
 "Oakland Roots",29,NA,"West",71,17,86,NA,42,-12,57
 "Orange County SC",29,NA,"West",58,10,73,NA,29,-19,44
 "Phoenix Rising",29,NA,"West",70,16,85,NA,41,-13,56
-"Pittsburgh Riverhounds",29,NA,"East",71,17,86,NA,42,-12,57
+"Pittsburgh Riverhounds",29,NA,"East",71,20,86,NA,42,-9,57
 "Rio Grande Valley FC Toros",29,NA,"West",65,11,80,NA,36,-18,51
 "Sacramento Republic FC",29,NA,"West",78,27,93,NA,49,-2,64
 "San Antonio FC",29,NA,"West",73,22,88,NA,44,-7,59
@@ -727,7 +727,7 @@
 "Hartford Athletic",30,NA,"East",65,8,77,NA,35,-22,47
 "Indy Eleven",30,NA,"East",69,12,81,NA,39,-18,51
 "Las Vegas Lights FC",30,NA,"West",66,9,78,NA,36,-21,48
-"Loudoun United FC",30,NA,"East",67,10,79,NA,37,-20,49
+"Loudoun United FC",30,NA,"East",64,10,76,NA,34,-20,46
 "Louisville City FC",30,NA,"East",77,20,89,NA,47,-10,59
 "Memphis 901 FC",30,NA,"East",78,15,90,NA,48,-15,60
 "Miami FC",30,NA,"East",66,12,78,NA,36,-18,48
@@ -736,7 +736,7 @@
 "Oakland Roots",30,NA,"West",74,17,86,NA,44,-13,56
 "Orange County SC",30,NA,"West",61,10,73,NA,31,-20,43
 "Phoenix Rising",30,NA,"West",73,16,85,NA,43,-14,55
-"Pittsburgh Riverhounds",30,NA,"East",74,17,86,NA,44,-13,56
+"Pittsburgh Riverhounds",30,NA,"East",74,20,86,NA,44,-10,56
 "Rio Grande Valley FC Toros",30,NA,"West",68,11,80,NA,38,-19,50
 "Sacramento Republic FC",30,NA,"West",81,27,93,NA,51,-3,63
 "San Antonio FC",30,NA,"West",76,22,88,NA,46,-8,58
@@ -751,7 +751,7 @@
 "Hartford Athletic",31,NA,"East",68,8,77,NA,37,-23,46
 "Indy Eleven",31,NA,"East",72,12,81,NA,41,-19,50
 "Las Vegas Lights FC",31,NA,"West",69,9,78,NA,38,-22,47
-"Loudoun United FC",31,NA,"East",70,10,79,NA,39,-21,48
+"Loudoun United FC",31,NA,"East",67,10,76,NA,36,-21,45
 "Louisville City FC",31,NA,"East",80,20,89,NA,49,-11,58
 "Memphis 901 FC",31,NA,"East",81,15,90,NA,50,-16,59
 "Miami FC",31,NA,"East",69,12,78,NA,38,-19,47
@@ -760,7 +760,7 @@
 "Oakland Roots",31,NA,"West",77,17,86,NA,46,-14,55
 "Orange County SC",31,NA,"West",64,10,73,NA,33,-21,42
 "Phoenix Rising",31,NA,"West",76,16,85,NA,45,-15,54
-"Pittsburgh Riverhounds",31,NA,"East",77,17,86,NA,46,-14,55
+"Pittsburgh Riverhounds",31,NA,"East",77,20,86,NA,46,-11,55
 "Rio Grande Valley FC Toros",31,NA,"West",71,11,80,NA,40,-20,49
 "Sacramento Republic FC",31,NA,"West",84,27,93,NA,53,-4,62
 "San Antonio FC",31,NA,"West",79,22,88,NA,48,-9,57
@@ -775,7 +775,7 @@
 "Hartford Athletic",32,NA,"East",71,8,77,NA,39,-24,45
 "Indy Eleven",32,NA,"East",75,12,81,NA,43,-20,49
 "Las Vegas Lights FC",32,NA,"West",72,9,78,NA,40,-23,46
-"Loudoun United FC",32,NA,"East",73,10,79,NA,41,-22,47
+"Loudoun United FC",32,NA,"East",70,10,76,NA,38,-22,44
 "Louisville City FC",32,NA,"East",83,20,89,NA,51,-12,57
 "Memphis 901 FC",32,NA,"East",84,15,90,NA,52,-17,58
 "Miami FC",32,NA,"East",72,12,78,NA,40,-20,46
@@ -784,7 +784,7 @@
 "Oakland Roots",32,NA,"West",80,17,86,NA,48,-15,54
 "Orange County SC",32,NA,"West",67,10,73,NA,35,-22,41
 "Phoenix Rising",32,NA,"West",79,16,85,NA,47,-16,53
-"Pittsburgh Riverhounds",32,NA,"East",80,17,86,NA,48,-15,54
+"Pittsburgh Riverhounds",32,NA,"East",80,20,86,NA,48,-12,54
 "Rio Grande Valley FC Toros",32,NA,"West",74,11,80,NA,42,-21,48
 "Sacramento Republic FC",32,NA,"West",87,27,93,NA,55,-5,61
 "San Antonio FC",32,NA,"West",82,22,88,NA,50,-10,56
@@ -799,7 +799,7 @@
 "Hartford Athletic",33,NA,"East",74,8,77,NA,41,-25,44
 "Indy Eleven",33,NA,"East",78,12,81,NA,45,-21,48
 "Las Vegas Lights FC",33,NA,"West",75,9,78,NA,42,-24,45
-"Loudoun United FC",33,NA,"East",76,10,79,NA,43,-23,46
+"Loudoun United FC",33,NA,"East",73,10,76,NA,40,-23,43
 "Louisville City FC",33,NA,"East",86,20,89,NA,53,-13,56
 "Memphis 901 FC",33,NA,"East",87,15,90,NA,54,-18,57
 "Miami FC",33,NA,"East",75,12,78,NA,42,-21,45
@@ -808,7 +808,7 @@
 "Oakland Roots",33,NA,"West",83,17,86,NA,50,-16,53
 "Orange County SC",33,NA,"West",70,10,73,NA,37,-23,40
 "Phoenix Rising",33,NA,"West",82,16,85,NA,49,-17,52
-"Pittsburgh Riverhounds",33,NA,"East",83,17,86,NA,50,-16,53
+"Pittsburgh Riverhounds",33,NA,"East",83,20,86,NA,50,-13,53
 "Rio Grande Valley FC Toros",33,NA,"West",77,11,80,NA,44,-22,47
 "Sacramento Republic FC",33,NA,"West",90,27,93,NA,57,-6,60
 "San Antonio FC",33,NA,"West",85,22,88,NA,52,-11,55
@@ -823,7 +823,7 @@
 "Hartford Athletic",34,NA,"East",77,8,77,NA,43,-26,43
 "Indy Eleven",34,NA,"East",81,12,81,NA,47,-22,47
 "Las Vegas Lights FC",34,NA,"West",78,9,78,NA,44,-25,44
-"Loudoun United FC",34,NA,"East",79,10,79,NA,45,-24,45
+"Loudoun United FC",34,NA,"East",76,10,76,NA,42,-24,42
 "Louisville City FC",34,NA,"East",89,20,89,NA,55,-14,55
 "Memphis 901 FC",34,NA,"East",90,15,90,NA,56,-19,56
 "Miami FC",34,NA,"East",78,12,78,NA,44,-22,44
@@ -832,7 +832,7 @@
 "Oakland Roots",34,NA,"West",86,17,86,NA,52,-17,52
 "Orange County SC",34,NA,"West",73,10,73,NA,39,-24,39
 "Phoenix Rising",34,NA,"West",85,16,85,NA,51,-18,51
-"Pittsburgh Riverhounds",34,NA,"East",86,17,86,NA,52,-17,52
+"Pittsburgh Riverhounds",34,NA,"East",86,20,86,NA,52,-14,52
 "Rio Grande Valley FC Toros",34,NA,"West",80,11,80,NA,46,-23,46
 "Sacramento Republic FC",34,NA,"West",93,27,93,NA,59,-7,59
 "San Antonio FC",34,NA,"West",88,22,88,NA,54,-12,54
