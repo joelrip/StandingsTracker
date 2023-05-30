@@ -1,6 +1,6 @@
 ---
 title: "Standings Tracker"
-date: "Updated May 27, 2023"
+date: "Updated May 30, 2023"
 output: 
   flexdashboard::flex_dashboard:
     social: [ "twitter", "facebook"]
@@ -84,9 +84,70 @@ for (item in unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds
                   marker = list(enabled = F))))
 }
 
-cols = c("#e6194b", "#3cb44b", "#ffe119", "#0082c8", "#f58231", "#911eb4", "#46f0f0", "#f032e6",
-         "#d2f53c", "#fabebe", "#008080", "#800000", "#e6beff", "#eee9b7", "#aa6e28", "#aaffc3",
-         "#808000", "#000000")
+#cols = c("#e6194b", "#3cb44b", "#ffe119", "#0082c8", "#f58231", "#911eb4", "#46f0f0", "#f032e6",
+#         "#d2f53c", "#fabebe", "#008080", "#800000", "#e6beff", "#eee9b7", "#aa6e28", "#aaffc3",
+#         "#808000", "#000000")
+cols = c("Atlanta United FC" = "#80000A",
+         "Austin FC" = "#00B140",
+         "Charlotte FC" = "#1A85C8",
+         "Chicago Fire" = "#C2002F",
+         "Colorado Rapids" = "#862633",
+         "Columbus Crew" = "#FFF200",
+         "DC United" = "#231F20",
+         "FC Cincinnati" = "#F05323",
+         "FC Dallas" = "#003E7E",
+         "Houston Dynamo" = "#F4911E",
+         "Inter Miami CF" = "#F7B5CD",
+         "Los Angeles FC" = "#C39E6D",
+         "Los Angeles Galaxy" = "#FFD200",
+         "Minnesota United FC" = "#8CD2F4",
+         "Montreal Impact" = "#2B63AD",
+         "Nashville SC" = "#ECE83A",
+         "New England Revolution" = "#E51938",
+         "New York City FC" = "#6CACE4",
+         "New York Red Bulls" = "#E31351",
+         "Orlando City SC" = "#61259E",
+         "Philadelphia Union" = "#002D55",
+         "Portland Timbers" = "#00482B",
+         "Real Salt Lake" = "#B30838",
+         "San Jose Earthquakes" = "#221F1F",
+         "Seattle Sounders FC" = "#658D1B",
+         "Sporting Kansas City" = "#93B1D7",
+         "St. Louis CITY SC" = "#E0004D",
+         "Toronto FC" = "#AB1E2D",
+         "Vancouver Whitecaps" = "#94C2E4",
+         "Birmingham Legion FC" = "#9F8A59",
+         "Charleston Battery" = "#FDCA00",
+         "CS Switchbacks FC" = "#09305D",
+         "Detroit City FC" = "#3F2021",
+         "El Paso Locomotive FC" = "#73B3E6",
+         "Hartford Athletic" = "#009845",
+         "Indy Eleven" = "#CF1C2B",
+         "Las Vegas Lights FC" = "#00BDEF",
+         "Loudoun United FC" = "#000000",
+         "Louisville City FC" = "#532B78",
+         "Memphis 901 FC" = "#D31245",
+         "Miami FC" = "#F03E1E",
+         "Monterey Bay" = "#67D2DF",
+         "New Mexico United" = "#FFF000",
+         "Oakland Roots" = "#00BB7E",
+         "Orange County SC" = "#EF3432",
+         "Phoenix Rising" = "#EB1921",
+         "Pittsburgh Riverhounds" = "#FFC629",
+         "Rio Grande Valley FC Toros" = "#EE351E",
+         "Sacramento Republic FC" = "#8B0F04",
+         "San Antonio FC" = "#161113",
+         "San Diego Loyal SC" = "#148F8C",
+         "Tampa Bay Rowdies" = "#4A8B2C",
+         "Tulsa Roughnecks" = "#BD9B60")
+MLSWest = unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds" & MLSPointsLong$Conference == "West")])
+MLSWestCols = unname(cols[grep(paste(MLSWest, collapse = "|"), names(cols))])
+MLSEast = unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds" & MLSPointsLong$Conference == "East")])
+MLSEastCols = unname(cols[grep(paste(MLSEast, collapse = "|"), names(cols))])
+USLWest = unique(USLPointsLong$Teams[which(USLPointsLong$Teams != "Thresholds" & USLPointsLong$Conference == "West")])
+USLWestCols = unname(cols[grep(paste(USLWest, collapse = "|"), names(cols))])
+USLEast = unique(USLPointsLong$Teams[which(USLPointsLong$Teams != "Thresholds" & USLPointsLong$Conference == "East")])
+USLEastCols = unname(cols[grep(paste(USLEast, collapse = "|"), names(cols))])
 chartMax = 30
 chartMin = -15
 labelX = 34
@@ -111,7 +172,7 @@ highchart() %>%
   hc_add_series(name = "bottom", type = "arearange", lineWidth = 0, showInLegend = F, color = "#bbbbbb",
                 marker = list(enabled = FALSE), data = thresholdBottomMLSW, enableMouseTracking = F) %>%
   hc_add_series_list(MLSWestSeries) %>%
-  hc_colors(cols) %>%
+  hc_colors(MLSWestCols) %>%
   hc_yAxis(title = list(text = "Points Minus Games Played"), 
            max = chartMax, min = chartMin, 
            endOnTick = F) %>%
@@ -169,7 +230,7 @@ highchart() %>%
   hc_add_series(name = "bottom", type = "arearange", lineWidth = 0, showInLegend = F, color = "#bbbbbb",
                 marker = list(enabled = FALSE), data = thresholdBottomMLSE, enableMouseTracking = F) %>%
   hc_add_series_list(MLSEastSeries) %>%
-  hc_colors(cols) %>%
+  hc_colors(MLSEastCols) %>%
   hc_yAxis(title = list(text = "Points Minus Games Played"), 
            max = chartMax, min = chartMin,
            endOnTick = F) %>%
@@ -233,7 +294,7 @@ highchart() %>%
   hc_add_series(name = "bottom", type = "arearange", lineWidth = 0, showInLegend = F, color = "#bbbbbb",
                 marker = list(enabled = FALSE), data = thresholdBottomUSLW, enableMouseTracking = F) %>%
   hc_add_series_list(USLWestSeries) %>%
-  hc_colors(cols) %>%
+  hc_colors(USLWestCols) %>%
   hc_yAxis(title = list(text = "Points Minus Games Played"), 
            max = chartMax, min = chartMin,
            endOnTick = F) %>%
@@ -291,7 +352,7 @@ highchart() %>%
   hc_add_series(name = "bottom", type = "arearange", lineWidth = 0, showInLegend = F, color = "#bbbbbb",
                 marker = list(enabled = FALSE), data = thresholdBottomUSLE, enableMouseTracking = F) %>%
   hc_add_series_list(USLEastSeries) %>%
-  hc_colors(cols) %>%
+  hc_colors(USLEastCols) %>%
   hc_yAxis(title = list(text = "Points Minus Games Played"), 
            max = chartMax, min = chartMin, 
            endOnTick = F) %>%
