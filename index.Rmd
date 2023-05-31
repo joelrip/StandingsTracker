@@ -87,6 +87,8 @@ for (item in unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds
 #cols = c("#e6194b", "#3cb44b", "#ffe119", "#0082c8", "#f58231", "#911eb4", "#46f0f0", "#f032e6",
 #         "#d2f53c", "#fabebe", "#008080", "#800000", "#e6beff", "#eee9b7", "#aa6e28", "#aaffc3",
 #         "#808000", "#000000")
+
+###Assign team colors to all teams
 cols = c("Atlanta United FC" = "#80000A",
          "Austin FC" = "#00B140",
          "Charlotte FC" = "#1A85C8",
@@ -148,6 +150,8 @@ USLWest = unique(USLPointsLong$Teams[which(USLPointsLong$Teams != "Thresholds" &
 USLWestCols = unname(cols[grep(paste(USLWest, collapse = "|"), names(cols))])
 USLEast = unique(USLPointsLong$Teams[which(USLPointsLong$Teams != "Thresholds" & USLPointsLong$Conference == "East")])
 USLEastCols = unname(cols[grep(paste(USLEast, collapse = "|"), names(cols))])
+
+###Chart parameters
 chartMax = 30
 chartMin = -15
 labelX = 34
