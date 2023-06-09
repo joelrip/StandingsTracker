@@ -314,7 +314,7 @@
 "Birmingham Legion FC",13,16,"East",16,16,79,3,3,3,66
 "Charleston Battery",13,24,"East",24,24,87,11,11,11,74
 "CS Switchbacks FC",13,16,"West",16,16,79,3,3,3,66
-"Detroit City FC",13,NA,"East",14,11,77,NA,1,-2,64
+"Detroit City FC",13,12,"East",12,12,75,-1,-1,-1,62
 "El Paso Locomotive FC",13,NA,"West",28,25,91,NA,15,12,78
 "Hartford Athletic",13,NA,"East",12,9,75,NA,-1,-4,62
 "Indy Eleven",13,NA,"East",18,15,81,NA,5,2,68
@@ -336,9 +336,9 @@
 "Tampa Bay Rowdies",13,21,"East",21,21,84,8,8,8,71
 "Tulsa Roughnecks",13,13,"East",13,13,76,0,0,0,63
 "Birmingham Legion FC",14,NA,"East",19,16,79,NA,5,2,65
-"Charleston Battery",14,NA,"East",27,24,87,NA,13,10,73
+"Charleston Battery",14,25,"East",25,25,85,11,11,11,71
 "CS Switchbacks FC",14,NA,"West",19,16,79,NA,5,2,65
-"Detroit City FC",14,NA,"East",17,11,77,NA,3,-3,63
+"Detroit City FC",14,NA,"East",15,12,75,NA,1,-2,61
 "El Paso Locomotive FC",14,NA,"West",31,25,91,NA,17,11,77
 "Hartford Athletic",14,NA,"East",15,9,75,NA,1,-5,61
 "Indy Eleven",14,NA,"East",21,15,81,NA,7,1,67
@@ -360,9 +360,9 @@
 "Tampa Bay Rowdies",14,NA,"East",24,21,84,NA,10,7,70
 "Tulsa Roughnecks",14,NA,"East",16,13,76,NA,2,-1,62
 "Birmingham Legion FC",15,NA,"East",22,16,79,NA,7,1,64
-"Charleston Battery",15,NA,"East",30,24,87,NA,15,9,72
+"Charleston Battery",15,NA,"East",28,25,85,NA,13,10,70
 "CS Switchbacks FC",15,NA,"West",22,16,79,NA,7,1,64
-"Detroit City FC",15,NA,"East",20,11,77,NA,5,-4,62
+"Detroit City FC",15,NA,"East",18,12,75,NA,3,-3,60
 "El Paso Locomotive FC",15,NA,"West",34,25,91,NA,19,10,76
 "Hartford Athletic",15,NA,"East",18,9,75,NA,3,-6,60
 "Indy Eleven",15,NA,"East",24,15,81,NA,9,0,66
@@ -384,9 +384,9 @@
 "Tampa Bay Rowdies",15,NA,"East",27,21,84,NA,12,6,69
 "Tulsa Roughnecks",15,NA,"East",19,13,76,NA,4,-2,61
 "Birmingham Legion FC",16,NA,"East",25,16,79,NA,9,0,63
-"Charleston Battery",16,NA,"East",33,24,87,NA,17,8,71
+"Charleston Battery",16,NA,"East",31,25,85,NA,15,9,69
 "CS Switchbacks FC",16,NA,"West",25,16,79,NA,9,0,63
-"Detroit City FC",16,NA,"East",23,11,77,NA,7,-5,61
+"Detroit City FC",16,NA,"East",21,12,75,NA,5,-4,59
 "El Paso Locomotive FC",16,NA,"West",37,25,91,NA,21,9,75
 "Hartford Athletic",16,NA,"East",21,9,75,NA,5,-7,59
 "Indy Eleven",16,NA,"East",27,15,81,NA,11,-1,65
@@ -408,9 +408,9 @@
 "Tampa Bay Rowdies",16,NA,"East",30,21,84,NA,14,5,68
 "Tulsa Roughnecks",16,NA,"East",22,13,76,NA,6,-3,60
 "Birmingham Legion FC",17,NA,"East",28,16,79,NA,11,-1,62
-"Charleston Battery",17,NA,"East",36,24,87,NA,19,7,70
+"Charleston Battery",17,NA,"East",34,25,85,NA,17,8,68
 "CS Switchbacks FC",17,NA,"West",28,16,79,NA,11,-1,62
-"Detroit City FC",17,NA,"East",26,11,77,NA,9,-6,60
+"Detroit City FC",17,NA,"East",24,12,75,NA,7,-5,58
 "El Paso Locomotive FC",17,NA,"West",40,25,91,NA,23,8,74
 "Hartford Athletic",17,NA,"East",24,9,75,NA,7,-8,58
 "Indy Eleven",17,NA,"East",30,15,81,NA,13,-2,64
@@ -432,9 +432,9 @@
 "Tampa Bay Rowdies",17,NA,"East",33,21,84,NA,16,4,67
 "Tulsa Roughnecks",17,NA,"East",25,13,76,NA,8,-4,59
 "Birmingham Legion FC",18,NA,"East",31,16,79,NA,13,-2,61
-"Charleston Battery",18,NA,"East",39,24,87,NA,21,6,69
+"Charleston Battery",18,NA,"East",37,25,85,NA,19,7,67
 "CS Switchbacks FC",18,NA,"West",31,16,79,NA,13,-2,61
-"Detroit City FC",18,NA,"East",29,11,77,NA,11,-7,59
+"Detroit City FC",18,NA,"East",27,12,75,NA,9,-6,57
 "El Paso Locomotive FC",18,NA,"West",43,25,91,NA,25,7,73
 "Hartford Athletic",18,NA,"East",27,9,75,NA,9,-9,57
 "Indy Eleven",18,NA,"East",33,15,81,NA,15,-3,63
@@ -456,9 +456,9 @@
 "Tampa Bay Rowdies",18,NA,"East",36,21,84,NA,18,3,66
 "Tulsa Roughnecks",18,NA,"East",28,13,76,NA,10,-5,58
 "Birmingham Legion FC",19,NA,"East",34,16,79,NA,15,-3,60
-"Charleston Battery",19,NA,"East",42,24,87,NA,23,5,68
+"Charleston Battery",19,NA,"East",40,25,85,NA,21,6,66
 "CS Switchbacks FC",19,NA,"West",34,16,79,NA,15,-3,60
-"Detroit City FC",19,NA,"East",32,11,77,NA,13,-8,58
+"Detroit City FC",19,NA,"East",30,12,75,NA,11,-7,56
 "El Paso Locomotive FC",19,NA,"West",46,25,91,NA,27,6,72
 "Hartford Athletic",19,NA,"East",30,9,75,NA,11,-10,56
 "Indy Eleven",19,NA,"East",36,15,81,NA,17,-4,62
@@ -480,9 +480,9 @@
 "Tampa Bay Rowdies",19,NA,"East",39,21,84,NA,20,2,65
 "Tulsa Roughnecks",19,NA,"East",31,13,76,NA,12,-6,57
 "Birmingham Legion FC",20,NA,"East",37,16,79,NA,17,-4,59
-"Charleston Battery",20,NA,"East",45,24,87,NA,25,4,67
+"Charleston Battery",20,NA,"East",43,25,85,NA,23,5,65
 "CS Switchbacks FC",20,NA,"West",37,16,79,NA,17,-4,59
-"Detroit City FC",20,NA,"East",35,11,77,NA,15,-9,57
+"Detroit City FC",20,NA,"East",33,12,75,NA,13,-8,55
 "El Paso Locomotive FC",20,NA,"West",49,25,91,NA,29,5,71
 "Hartford Athletic",20,NA,"East",33,9,75,NA,13,-11,55
 "Indy Eleven",20,NA,"East",39,15,81,NA,19,-5,61
@@ -504,9 +504,9 @@
 "Tampa Bay Rowdies",20,NA,"East",42,21,84,NA,22,1,64
 "Tulsa Roughnecks",20,NA,"East",34,13,76,NA,14,-7,56
 "Birmingham Legion FC",21,NA,"East",40,16,79,NA,19,-5,58
-"Charleston Battery",21,NA,"East",48,24,87,NA,27,3,66
+"Charleston Battery",21,NA,"East",46,25,85,NA,25,4,64
 "CS Switchbacks FC",21,NA,"West",40,16,79,NA,19,-5,58
-"Detroit City FC",21,NA,"East",38,11,77,NA,17,-10,56
+"Detroit City FC",21,NA,"East",36,12,75,NA,15,-9,54
 "El Paso Locomotive FC",21,NA,"West",52,25,91,NA,31,4,70
 "Hartford Athletic",21,NA,"East",36,9,75,NA,15,-12,54
 "Indy Eleven",21,NA,"East",42,15,81,NA,21,-6,60
@@ -528,9 +528,9 @@
 "Tampa Bay Rowdies",21,NA,"East",45,21,84,NA,24,0,63
 "Tulsa Roughnecks",21,NA,"East",37,13,76,NA,16,-8,55
 "Birmingham Legion FC",22,NA,"East",43,16,79,NA,21,-6,57
-"Charleston Battery",22,NA,"East",51,24,87,NA,29,2,65
+"Charleston Battery",22,NA,"East",49,25,85,NA,27,3,63
 "CS Switchbacks FC",22,NA,"West",43,16,79,NA,21,-6,57
-"Detroit City FC",22,NA,"East",41,11,77,NA,19,-11,55
+"Detroit City FC",22,NA,"East",39,12,75,NA,17,-10,53
 "El Paso Locomotive FC",22,NA,"West",55,25,91,NA,33,3,69
 "Hartford Athletic",22,NA,"East",39,9,75,NA,17,-13,53
 "Indy Eleven",22,NA,"East",45,15,81,NA,23,-7,59
@@ -552,9 +552,9 @@
 "Tampa Bay Rowdies",22,NA,"East",48,21,84,NA,26,-1,62
 "Tulsa Roughnecks",22,NA,"East",40,13,76,NA,18,-9,54
 "Birmingham Legion FC",23,NA,"East",46,16,79,NA,23,-7,56
-"Charleston Battery",23,NA,"East",54,24,87,NA,31,1,64
+"Charleston Battery",23,NA,"East",52,25,85,NA,29,2,62
 "CS Switchbacks FC",23,NA,"West",46,16,79,NA,23,-7,56
-"Detroit City FC",23,NA,"East",44,11,77,NA,21,-12,54
+"Detroit City FC",23,NA,"East",42,12,75,NA,19,-11,52
 "El Paso Locomotive FC",23,NA,"West",58,25,91,NA,35,2,68
 "Hartford Athletic",23,NA,"East",42,9,75,NA,19,-14,52
 "Indy Eleven",23,NA,"East",48,15,81,NA,25,-8,58
@@ -576,9 +576,9 @@
 "Tampa Bay Rowdies",23,NA,"East",51,21,84,NA,28,-2,61
 "Tulsa Roughnecks",23,NA,"East",43,13,76,NA,20,-10,53
 "Birmingham Legion FC",24,NA,"East",49,16,79,NA,25,-8,55
-"Charleston Battery",24,NA,"East",57,24,87,NA,33,0,63
+"Charleston Battery",24,NA,"East",55,25,85,NA,31,1,61
 "CS Switchbacks FC",24,NA,"West",49,16,79,NA,25,-8,55
-"Detroit City FC",24,NA,"East",47,11,77,NA,23,-13,53
+"Detroit City FC",24,NA,"East",45,12,75,NA,21,-12,51
 "El Paso Locomotive FC",24,NA,"West",61,25,91,NA,37,1,67
 "Hartford Athletic",24,NA,"East",45,9,75,NA,21,-15,51
 "Indy Eleven",24,NA,"East",51,15,81,NA,27,-9,57
@@ -600,9 +600,9 @@
 "Tampa Bay Rowdies",24,NA,"East",54,21,84,NA,30,-3,60
 "Tulsa Roughnecks",24,NA,"East",46,13,76,NA,22,-11,52
 "Birmingham Legion FC",25,NA,"East",52,16,79,NA,27,-9,54
-"Charleston Battery",25,NA,"East",60,24,87,NA,35,-1,62
+"Charleston Battery",25,NA,"East",58,25,85,NA,33,0,60
 "CS Switchbacks FC",25,NA,"West",52,16,79,NA,27,-9,54
-"Detroit City FC",25,NA,"East",50,11,77,NA,25,-14,52
+"Detroit City FC",25,NA,"East",48,12,75,NA,23,-13,50
 "El Paso Locomotive FC",25,NA,"West",64,25,91,NA,39,0,66
 "Hartford Athletic",25,NA,"East",48,9,75,NA,23,-16,50
 "Indy Eleven",25,NA,"East",54,15,81,NA,29,-10,56
@@ -624,9 +624,9 @@
 "Tampa Bay Rowdies",25,NA,"East",57,21,84,NA,32,-4,59
 "Tulsa Roughnecks",25,NA,"East",49,13,76,NA,24,-12,51
 "Birmingham Legion FC",26,NA,"East",55,16,79,NA,29,-10,53
-"Charleston Battery",26,NA,"East",63,24,87,NA,37,-2,61
+"Charleston Battery",26,NA,"East",61,25,85,NA,35,-1,59
 "CS Switchbacks FC",26,NA,"West",55,16,79,NA,29,-10,53
-"Detroit City FC",26,NA,"East",53,11,77,NA,27,-15,51
+"Detroit City FC",26,NA,"East",51,12,75,NA,25,-14,49
 "El Paso Locomotive FC",26,NA,"West",67,25,91,NA,41,-1,65
 "Hartford Athletic",26,NA,"East",51,9,75,NA,25,-17,49
 "Indy Eleven",26,NA,"East",57,15,81,NA,31,-11,55
@@ -648,9 +648,9 @@
 "Tampa Bay Rowdies",26,NA,"East",60,21,84,NA,34,-5,58
 "Tulsa Roughnecks",26,NA,"East",52,13,76,NA,26,-13,50
 "Birmingham Legion FC",27,NA,"East",58,16,79,NA,31,-11,52
-"Charleston Battery",27,NA,"East",66,24,87,NA,39,-3,60
+"Charleston Battery",27,NA,"East",64,25,85,NA,37,-2,58
 "CS Switchbacks FC",27,NA,"West",58,16,79,NA,31,-11,52
-"Detroit City FC",27,NA,"East",56,11,77,NA,29,-16,50
+"Detroit City FC",27,NA,"East",54,12,75,NA,27,-15,48
 "El Paso Locomotive FC",27,NA,"West",70,25,91,NA,43,-2,64
 "Hartford Athletic",27,NA,"East",54,9,75,NA,27,-18,48
 "Indy Eleven",27,NA,"East",60,15,81,NA,33,-12,54
@@ -672,9 +672,9 @@
 "Tampa Bay Rowdies",27,NA,"East",63,21,84,NA,36,-6,57
 "Tulsa Roughnecks",27,NA,"East",55,13,76,NA,28,-14,49
 "Birmingham Legion FC",28,NA,"East",61,16,79,NA,33,-12,51
-"Charleston Battery",28,NA,"East",69,24,87,NA,41,-4,59
+"Charleston Battery",28,NA,"East",67,25,85,NA,39,-3,57
 "CS Switchbacks FC",28,NA,"West",61,16,79,NA,33,-12,51
-"Detroit City FC",28,NA,"East",59,11,77,NA,31,-17,49
+"Detroit City FC",28,NA,"East",57,12,75,NA,29,-16,47
 "El Paso Locomotive FC",28,NA,"West",73,25,91,NA,45,-3,63
 "Hartford Athletic",28,NA,"East",57,9,75,NA,29,-19,47
 "Indy Eleven",28,NA,"East",63,15,81,NA,35,-13,53
@@ -696,9 +696,9 @@
 "Tampa Bay Rowdies",28,NA,"East",66,21,84,NA,38,-7,56
 "Tulsa Roughnecks",28,NA,"East",58,13,76,NA,30,-15,48
 "Birmingham Legion FC",29,NA,"East",64,16,79,NA,35,-13,50
-"Charleston Battery",29,NA,"East",72,24,87,NA,43,-5,58
+"Charleston Battery",29,NA,"East",70,25,85,NA,41,-4,56
 "CS Switchbacks FC",29,NA,"West",64,16,79,NA,35,-13,50
-"Detroit City FC",29,NA,"East",62,11,77,NA,33,-18,48
+"Detroit City FC",29,NA,"East",60,12,75,NA,31,-17,46
 "El Paso Locomotive FC",29,NA,"West",76,25,91,NA,47,-4,62
 "Hartford Athletic",29,NA,"East",60,9,75,NA,31,-20,46
 "Indy Eleven",29,NA,"East",66,15,81,NA,37,-14,52
@@ -720,9 +720,9 @@
 "Tampa Bay Rowdies",29,NA,"East",69,21,84,NA,40,-8,55
 "Tulsa Roughnecks",29,NA,"East",61,13,76,NA,32,-16,47
 "Birmingham Legion FC",30,NA,"East",67,16,79,NA,37,-14,49
-"Charleston Battery",30,NA,"East",75,24,87,NA,45,-6,57
+"Charleston Battery",30,NA,"East",73,25,85,NA,43,-5,55
 "CS Switchbacks FC",30,NA,"West",67,16,79,NA,37,-14,49
-"Detroit City FC",30,NA,"East",65,11,77,NA,35,-19,47
+"Detroit City FC",30,NA,"East",63,12,75,NA,33,-18,45
 "El Paso Locomotive FC",30,NA,"West",79,25,91,NA,49,-5,61
 "Hartford Athletic",30,NA,"East",63,9,75,NA,33,-21,45
 "Indy Eleven",30,NA,"East",69,15,81,NA,39,-15,51
@@ -744,9 +744,9 @@
 "Tampa Bay Rowdies",30,NA,"East",72,21,84,NA,42,-9,54
 "Tulsa Roughnecks",30,NA,"East",64,13,76,NA,34,-17,46
 "Birmingham Legion FC",31,NA,"East",70,16,79,NA,39,-15,48
-"Charleston Battery",31,NA,"East",78,24,87,NA,47,-7,56
+"Charleston Battery",31,NA,"East",76,25,85,NA,45,-6,54
 "CS Switchbacks FC",31,NA,"West",70,16,79,NA,39,-15,48
-"Detroit City FC",31,NA,"East",68,11,77,NA,37,-20,46
+"Detroit City FC",31,NA,"East",66,12,75,NA,35,-19,44
 "El Paso Locomotive FC",31,NA,"West",82,25,91,NA,51,-6,60
 "Hartford Athletic",31,NA,"East",66,9,75,NA,35,-22,44
 "Indy Eleven",31,NA,"East",72,15,81,NA,41,-16,50
@@ -768,9 +768,9 @@
 "Tampa Bay Rowdies",31,NA,"East",75,21,84,NA,44,-10,53
 "Tulsa Roughnecks",31,NA,"East",67,13,76,NA,36,-18,45
 "Birmingham Legion FC",32,NA,"East",73,16,79,NA,41,-16,47
-"Charleston Battery",32,NA,"East",81,24,87,NA,49,-8,55
+"Charleston Battery",32,NA,"East",79,25,85,NA,47,-7,53
 "CS Switchbacks FC",32,NA,"West",73,16,79,NA,41,-16,47
-"Detroit City FC",32,NA,"East",71,11,77,NA,39,-21,45
+"Detroit City FC",32,NA,"East",69,12,75,NA,37,-20,43
 "El Paso Locomotive FC",32,NA,"West",85,25,91,NA,53,-7,59
 "Hartford Athletic",32,NA,"East",69,9,75,NA,37,-23,43
 "Indy Eleven",32,NA,"East",75,15,81,NA,43,-17,49
@@ -792,9 +792,9 @@
 "Tampa Bay Rowdies",32,NA,"East",78,21,84,NA,46,-11,52
 "Tulsa Roughnecks",32,NA,"East",70,13,76,NA,38,-19,44
 "Birmingham Legion FC",33,NA,"East",76,16,79,NA,43,-17,46
-"Charleston Battery",33,NA,"East",84,24,87,NA,51,-9,54
+"Charleston Battery",33,NA,"East",82,25,85,NA,49,-8,52
 "CS Switchbacks FC",33,NA,"West",76,16,79,NA,43,-17,46
-"Detroit City FC",33,NA,"East",74,11,77,NA,41,-22,44
+"Detroit City FC",33,NA,"East",72,12,75,NA,39,-21,42
 "El Paso Locomotive FC",33,NA,"West",88,25,91,NA,55,-8,58
 "Hartford Athletic",33,NA,"East",72,9,75,NA,39,-24,42
 "Indy Eleven",33,NA,"East",78,15,81,NA,45,-18,48
@@ -816,9 +816,9 @@
 "Tampa Bay Rowdies",33,NA,"East",81,21,84,NA,48,-12,51
 "Tulsa Roughnecks",33,NA,"East",73,13,76,NA,40,-20,43
 "Birmingham Legion FC",34,NA,"East",79,16,79,NA,45,-18,45
-"Charleston Battery",34,NA,"East",87,24,87,NA,53,-10,53
+"Charleston Battery",34,NA,"East",85,25,85,NA,51,-9,51
 "CS Switchbacks FC",34,NA,"West",79,16,79,NA,45,-18,45
-"Detroit City FC",34,NA,"East",77,11,77,NA,43,-23,43
+"Detroit City FC",34,NA,"East",75,12,75,NA,41,-22,41
 "El Paso Locomotive FC",34,NA,"West",91,25,91,NA,57,-9,57
 "Hartford Athletic",34,NA,"East",75,9,75,NA,41,-25,41
 "Indy Eleven",34,NA,"East",81,15,81,NA,47,-19,47
@@ -866,46 +866,46 @@
 "Thresholds",12,NA,"West",NA,-53,81,NA,NA,-65,69
 "Thresholds",12,NA,"East",NA,-55,79,NA,NA,-67,67
 "Thresholds",13,NA,"West",NA,-48,80,NA,NA,-61,67
-"Thresholds",13,NA,"East",NA,-51,77,NA,NA,-64,64
+"Thresholds",13,NA,"East",NA,-51,76,NA,NA,-64,63
 "Thresholds",14,NA,"West",NA,-45,80,NA,NA,-59,66
-"Thresholds",14,NA,"East",NA,-48,77,NA,NA,-62,63
+"Thresholds",14,NA,"East",NA,-48,76,NA,NA,-62,62
 "Thresholds",15,NA,"West",NA,-42,80,NA,NA,-57,65
-"Thresholds",15,NA,"East",NA,-45,77,NA,NA,-60,62
+"Thresholds",15,NA,"East",NA,-45,76,NA,NA,-60,61
 "Thresholds",16,NA,"West",NA,-39,80,NA,NA,-55,64
-"Thresholds",16,NA,"East",NA,-42,77,NA,NA,-58,61
+"Thresholds",16,NA,"East",NA,-42,76,NA,NA,-58,60
 "Thresholds",17,NA,"West",NA,-36,80,NA,NA,-53,63
-"Thresholds",17,NA,"East",NA,-39,77,NA,NA,-56,60
+"Thresholds",17,NA,"East",NA,-39,76,NA,NA,-56,59
 "Thresholds",18,NA,"West",NA,-33,80,NA,NA,-51,62
-"Thresholds",18,NA,"East",NA,-36,77,NA,NA,-54,59
+"Thresholds",18,NA,"East",NA,-36,76,NA,NA,-54,58
 "Thresholds",19,NA,"West",NA,-30,80,NA,NA,-49,61
-"Thresholds",19,NA,"East",NA,-33,77,NA,NA,-52,58
+"Thresholds",19,NA,"East",NA,-33,76,NA,NA,-52,57
 "Thresholds",20,NA,"West",NA,-27,80,NA,NA,-47,60
-"Thresholds",20,NA,"East",NA,-30,77,NA,NA,-50,57
+"Thresholds",20,NA,"East",NA,-30,76,NA,NA,-50,56
 "Thresholds",21,NA,"West",NA,-24,80,NA,NA,-45,59
-"Thresholds",21,NA,"East",NA,-27,77,NA,NA,-48,56
+"Thresholds",21,NA,"East",NA,-27,76,NA,NA,-48,55
 "Thresholds",22,NA,"West",NA,-21,80,NA,NA,-43,58
-"Thresholds",22,NA,"East",NA,-24,77,NA,NA,-46,55
+"Thresholds",22,NA,"East",NA,-24,76,NA,NA,-46,54
 "Thresholds",23,NA,"West",NA,-18,80,NA,NA,-41,57
-"Thresholds",23,NA,"East",NA,-21,77,NA,NA,-44,54
+"Thresholds",23,NA,"East",NA,-21,76,NA,NA,-44,53
 "Thresholds",24,NA,"West",NA,-15,80,NA,NA,-39,56
-"Thresholds",24,NA,"East",NA,-18,77,NA,NA,-42,53
+"Thresholds",24,NA,"East",NA,-18,76,NA,NA,-42,52
 "Thresholds",25,NA,"West",NA,-12,80,NA,NA,-37,55
-"Thresholds",25,NA,"East",NA,-15,77,NA,NA,-40,52
+"Thresholds",25,NA,"East",NA,-15,76,NA,NA,-40,51
 "Thresholds",26,NA,"West",NA,-9,80,NA,NA,-35,54
-"Thresholds",26,NA,"East",NA,-12,77,NA,NA,-38,51
+"Thresholds",26,NA,"East",NA,-12,76,NA,NA,-38,50
 "Thresholds",27,NA,"West",NA,-6,80,NA,NA,-33,53
-"Thresholds",27,NA,"East",NA,-9,77,NA,NA,-36,50
+"Thresholds",27,NA,"East",NA,-9,76,NA,NA,-36,49
 "Thresholds",28,NA,"West",NA,-3,80,NA,NA,-31,52
-"Thresholds",28,NA,"East",NA,-6,77,NA,NA,-34,49
+"Thresholds",28,NA,"East",NA,-6,76,NA,NA,-34,48
 "Thresholds",29,NA,"West",NA,0,80,NA,NA,-29,51
-"Thresholds",29,NA,"East",NA,-3,77,NA,NA,-32,48
+"Thresholds",29,NA,"East",NA,-3,76,NA,NA,-32,47
 "Thresholds",30,NA,"West",NA,3,80,NA,NA,-27,50
-"Thresholds",30,NA,"East",NA,0,77,NA,NA,-30,47
+"Thresholds",30,NA,"East",NA,0,76,NA,NA,-30,46
 "Thresholds",31,NA,"West",NA,6,80,NA,NA,-25,49
-"Thresholds",31,NA,"East",NA,3,77,NA,NA,-28,46
+"Thresholds",31,NA,"East",NA,3,76,NA,NA,-28,45
 "Thresholds",32,NA,"West",NA,9,80,NA,NA,-23,48
-"Thresholds",32,NA,"East",NA,6,77,NA,NA,-26,45
+"Thresholds",32,NA,"East",NA,6,76,NA,NA,-26,44
 "Thresholds",33,NA,"West",NA,12,80,NA,NA,-21,47
-"Thresholds",33,NA,"East",NA,9,77,NA,NA,-24,44
+"Thresholds",33,NA,"East",NA,9,76,NA,NA,-24,43
 "Thresholds",34,NA,"West",NA,15,80,NA,NA,-19,46
-"Thresholds",34,NA,"East",NA,12,77,NA,NA,-22,43
+"Thresholds",34,NA,"East",NA,12,76,NA,NA,-22,42
