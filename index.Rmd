@@ -17,7 +17,7 @@ output:
 
 </style>
 
-<p class="intro">Graphing the progress of the 2023 US club soccer season, game by game.</p>
+<p class="intro">PLEASE NOTE: My data source, FiveThirtyEight, has stopped updating their match results as of June 13. I will update this site as soon as new data is available.</p>
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
