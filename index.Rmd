@@ -1,6 +1,6 @@
 ---
 title: "Standings Tracker"
-date: "Updated June 14, 2023"
+date: "Updated June 30, 2023"
 output: 
   flexdashboard::flex_dashboard:
     social: [ "twitter", "facebook"]
@@ -17,7 +17,7 @@ output:
 
 </style>
 
-<p class="intro">PLEASE NOTE: My data source, FiveThirtyEight, has stopped updating their match results as of June 13. I will update this site as soon as new data is available.</p>
+<p class="intro">UPDATE JUNE 30: Now built on data from api-football.com, a free information service!</p>
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
@@ -90,8 +90,8 @@ for (item in unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds
 
 ###Assign team colors to all teams
 cols = c("Atlanta United FC" = "#80000A",
-         "Austin FC" = "#00B140",
-         "Charlotte FC" = "#1A85C8",
+         "Austin" = "#00B140",
+         "Charlotte" = "#1A85C8",
          "Chicago Fire" = "#C2002F",
          "Colorado Rapids" = "#862633",
          "Columbus Crew" = "#FFF200",
@@ -99,7 +99,7 @@ cols = c("Atlanta United FC" = "#80000A",
          "FC Cincinnati" = "#F05323",
          "FC Dallas" = "#003E7E",
          "Houston Dynamo" = "#F4911E",
-         "Inter Miami CF" = "#F7B5CD",
+         "Inter Miami" = "#F7B5CD",
          "Los Angeles FC" = "#C39E6D",
          "Los Angeles Galaxy" = "#FFD200",
          "Minnesota United FC" = "#8CD2F4",
@@ -113,22 +113,22 @@ cols = c("Atlanta United FC" = "#80000A",
          "Portland Timbers" = "#00482B",
          "Real Salt Lake" = "#B30838",
          "San Jose Earthquakes" = "#221F1F",
-         "Seattle Sounders FC" = "#658D1B",
+         "Seattle Sounders" = "#658D1B",
          "Sporting Kansas City" = "#93B1D7",
-         "St. Louis CITY SC" = "#E0004D",
+         "St. Louis City" = "#E0004D",
          "Toronto FC" = "#AB1E2D",
          "Vancouver Whitecaps" = "#94C2E4",
-         "Birmingham Legion FC" = "#9F8A59",
+         "Birmingham Legion" = "#9F8A59",
          "Charleston Battery" = "#FDCA00",
-         "CS Switchbacks FC" = "#09305D",
-         "Detroit City FC" = "#3F2021",
-         "El Paso Locomotive FC" = "#73B3E6",
+         "Colorado Springs" = "#09305D",
+         "Detroit City" = "#3F2021",
+         "El Paso Locomotive" = "#73B3E6",
          "Hartford Athletic" = "#009845",
          "Indy Eleven" = "#CF1C2B",
-         "Las Vegas Lights FC" = "#00BDEF",
-         "Loudoun United FC" = "#000000",
-         "Louisville City FC" = "#532B78",
-         "Memphis 901 FC" = "#D31245",
+         "Las Vegas Lights" = "#00BDEF",
+         "Loudoun United" = "#000000",
+         "Louisville City" = "#532B78",
+         "Memphis 901" = "#D31245",
          "Miami FC" = "#F03E1E",
          "Monterey Bay" = "#67D2DF",
          "New Mexico United" = "#FFF000",
@@ -136,12 +136,12 @@ cols = c("Atlanta United FC" = "#80000A",
          "Orange County SC" = "#EF3432",
          "Phoenix Rising" = "#EB1921",
          "Pittsburgh Riverhounds" = "#FFC629",
-         "Rio Grande Valley FC Toros" = "#EE351E",
-         "Sacramento Republic FC" = "#8B0F04",
-         "San Antonio FC" = "#161113",
-         "San Diego Loyal SC" = "#148F8C",
+         "Rio Grande Valley" = "#EE351E",
+         "Sacramento Republic" = "#8B0F04",
+         "San Antonio" = "#161113",
+         "San Diego Loyal" = "#148F8C",
          "Tampa Bay Rowdies" = "#4A8B2C",
-         "Tulsa Roughnecks" = "#BD9B60")
+         "FC Tulsa" = "#BD9B60")
 MLSWest = unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds" & MLSPointsLong$Conference == "West")])
 MLSWestCols = unname(cols[grep(paste(MLSWest, collapse = "|"), names(cols))])
 MLSEast = unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds" & MLSPointsLong$Conference == "East")])

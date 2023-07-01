@@ -1,7 +1,7 @@
 # StandingsTracker
 Charting the 2023 US club soccer season.
 
-Data downloaded from https://projects.fivethirtyeight.com/soccer-api/club/spi_matches.csv
+Data imported using the api-football.com API.
 
 Using SiteBuildingSteps.R, data subsetted into USL and MLS games from the current season, Western Conference teams identified, then run through StandingsTracker.R to produce MLSPointsLong.csv and USLPointsLong.csv.
 
