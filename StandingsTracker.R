@@ -81,7 +81,7 @@ StandingsTracker <- function(ScoresTable, west, games, inNum, outNum) {
   PointsLong$Game = as.numeric(substr(as.character(PointsLong$Game), 5, nchar(as.character(PointsLong$Game))))
   PointsLong$Teams = as.character(PointsLong$Teams)
   PointsLong$Conference = "East"
-  if (!is.na(west)) {
+  if (length(west) > 1) {
     for (item in 1:nrow(PointsLong)) {
       if (PointsLong$Teams[item] %in% west) {
         PointsLong$Conference[item] = "West"
