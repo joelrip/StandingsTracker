@@ -6,11 +6,11 @@
 #inNum is the number of teams in each conference that make the playoffs (or are promoted or go on to a larger tournament)
 #outNum is the number of teams in each conference that don't make the playoffs (or are relegated)
 
-#ScoresTable <- USLScores
-#west <- USLWest
-#games = 34
-#inNum = 10
-#outNum = 8
+#ScoresTable <- USLOneScores
+#west <- NA
+#games = 32
+#inNum = 6
+#outNum = 6
 
 StandingsTracker <- function(ScoresTable, west, games, inNum, outNum) {
   
@@ -81,12 +81,15 @@ StandingsTracker <- function(ScoresTable, west, games, inNum, outNum) {
   PointsLong$Game = as.numeric(substr(as.character(PointsLong$Game), 5, nchar(as.character(PointsLong$Game))))
   PointsLong$Teams = as.character(PointsLong$Teams)
   PointsLong$Conference = "East"
-  for (item in 1:nrow(PointsLong)) {
-    if (PointsLong$Teams[item] %in% west) {
-      PointsLong$Conference[item] = "West"
-    }
+  if (!is.na(west)) {
+    for (item in 1:nrow(PointsLong)) {
+      if (PointsLong$Teams[item] %in% west) {
+        PointsLong$Conference[item] = "West"
+      }
+    }    
   }
-  PointsLong$Teams[which(PointsLong$Teams == "Colorado Springs Switchbacks FC")] = "CS Switchbacks FC"
+
+  #PointsLong$Teams[which(PointsLong$Teams == "Colorado Springs Switchbacks FC")] = "CS Switchbacks FC"
   
   ###Figure out playoffs positioning
   PointsLong$MaxPoints = PointsLong$Points

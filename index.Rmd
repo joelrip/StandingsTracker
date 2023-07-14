@@ -1,6 +1,6 @@
 ---
 title: "Standings Tracker"
-date: "Updated July 13, 2023"
+date: "Updated July 14, 2023"
 output: 
   flexdashboard::flex_dashboard:
     social: [ "twitter", "facebook"]
@@ -17,12 +17,31 @@ output:
 
 </style>
 
-<p class="intro">UPDATE JUNE 30: Now built on data from api-football.com, a free information service!</p>
+<p class="intro">UPDATE JULY 14: USL League One standings added!</p>
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(highcharter)
 
+###USL League One
+USLOnePointsLong = read.csv("USLOnePointsLong.csv", stringsAsFactors = F)
+
+#Turn playoff thresholds into a list for graphing
+thresholdsUSL1E = list_parse2(USLOnePointsLong[which(USLOnePointsLong$Teams == "Thresholds" & USLOnePointsLong$Conference == "East"), c(2,10,11)])
+thresholdBottomUSL1E = list_parse2(USLOnePointsLong[which(USLOnePointsLong$Teams == "Thresholds" & USLOnePointsLong$Conference == "East"), c(2,10)])
+for (item in 1:length(thresholdBottomUSL1E)) {
+  thresholdBottomUSL1E[[item]][[3]] = -100
+}
+
+#Turn PointsLessGames into a list for graphing
+USLOneSeries = list()
+for (item in unique(USLOnePointsLong$Teams[which(USLOnePointsLong$Teams != "Thresholds" & USLOnePointsLong$Conference == "East")])) {
+  USLOneSeries = c(USLOneSeries, list(list(name = item,
+                  data = USLOnePointsLong$PointsLessGames[which(USLOnePointsLong$Teams == item)],
+                  marker = list(enabled = F))))
+}
+
+###USL Championship
 USLPointsLong = read.csv("USLPointsLong.csv", stringsAsFactors = F)
 
 #Turn playoff thresholds into a list for graphing
@@ -53,7 +72,7 @@ for (item in unique(USLPointsLong$Teams[which(USLPointsLong$Teams != "Thresholds
                   marker = list(enabled = F))))
 }
 
-
+###MLS
 MLSPointsLong = read.csv("MLSPointsLong.csv", stringsAsFactors = F)
 
 #Turn playoff thresholds into a list for graphing
@@ -141,7 +160,20 @@ cols = c("Atlanta United FC" = "#80000A",
          "San Antonio" = "#161113",
          "San Diego Loyal" = "#148F8C",
          "Tampa Bay Rowdies" = "#4A8B2C",
-         "FC Tulsa" = "#BD9B60")
+         "FC Tulsa" = "#BD9B60",
+         "Central Valley Fuego" = "#64A70B",
+         "Charlotte Independence" = "#003DA5",
+         "Chattanooga Red Wolves" = "#7C2629",
+         "Forward Madison" = "#71C5E8",
+         "Greenville Triumph" = "#97D700",
+         "Lexington" = "#00491E",
+         "North Carolina" = "#01426A",
+         "Northern Colorado" = "#BD9B60",
+         "One Knoxville" = "#E56A54",
+         "Richmond Kickers" = "#C8102E",
+         "Tormenta" = "#8D9093",
+         "Union Omaha" = "#010101"
+         )
 MLSWest = unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds" & MLSPointsLong$Conference == "West")])
 MLSWestCols = unname(cols[grep(paste(MLSWest, collapse = "|"), names(cols))])
 MLSEast = unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds" & MLSPointsLong$Conference == "East")])
@@ -150,6 +182,8 @@ USLWest = unique(USLPointsLong$Teams[which(USLPointsLong$Teams != "Thresholds" &
 USLWestCols = unname(cols[grep(paste(USLWest, collapse = "|"), names(cols))])
 USLEast = unique(USLPointsLong$Teams[which(USLPointsLong$Teams != "Thresholds" & USLPointsLong$Conference == "East")])
 USLEastCols = unname(cols[grep(paste(USLEast, collapse = "|"), names(cols))])
+USLOne = unique(USLOnePointsLong$Teams[which(USLOnePointsLong$Teams != "Thresholds" & USLOnePointsLong$Conference == "East")])
+USLOneCols = unname(cols[grep(paste(USLOne, collapse = "|"), names(cols))])
 
 ###Chart parameters
 chartMax = 30
@@ -405,9 +439,73 @@ highchart() %>%
                  )
 ```
 
+USL League One
+===================================== 
+
+Row
+-----------------------------------------------------------------------
+
+### <strong>USL League One</strong>
+
+```{r}
+highchart() %>%
+  hc_add_series(name = "middle", type = "arearange", lineWidth = 0, showInLegend = F, color = "#f2f2f2",
+                marker = list(enabled = FALSE), data = thresholdsUSL1E, enableMouseTracking = F) %>%
+  hc_add_series(name = "bottom", type = "arearange", lineWidth = 0, showInLegend = F, color = "#bbbbbb",
+                marker = list(enabled = FALSE), data = thresholdBottomUSL1E, enableMouseTracking = F) %>%
+  hc_add_series_list(USLOneSeries) %>%
+  hc_colors(USLOneCols) %>%
+  hc_yAxis(title = list(text = "Points Minus Games Played"), 
+           max = chartMax, min = chartMin, 
+           endOnTick = F) %>%
+  hc_xAxis(title = list(text = "Game")) %>%
+  hc_annotations(
+    list(
+      labelOptions = list(x = 0, y = 0,
+                          backgroundColor = "rgba(255, 255, 255, 0)",
+                          borderColor = "rgba(255, 255, 255, 0)")
+      # ,
+      # labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
+      #   list(
+      #     point = list(
+      #       x = labelX,
+      #       y = labelYUp,
+      #       xAxis = 0,
+      #       yAxis = 0
+      #     ),
+      #     text = "Clinched<br/>Playoffs"
+      #   ),
+      #   list(
+      #     point = list(
+      #       x = labelX,
+      #       y = labelYDown,
+      #       xAxis = 0,
+      #       yAxis = 0
+      #     ),
+      #     text = "Mathematically<br/>Eliminated"
+      #   )
+      #   )
+      )) %>%
+  hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
+  hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
+             formatter = JS("function() {
+                            var s = '<strong>Game '+ this.x +'</strong>';
+                            
+                            var sortedPoints = this.points.sort(function(a, b){
+                            return ((a.y > b.y) ? -1 : ((a.y < b.y) ? 1 : 0));
+                            });
+                            $.each(sortedPoints , function(i, point) {
+                            s += '<br/>'+ point.series.name +': '+ point.y;
+                            });
+                            
+                            return s;
+                            }")
+                 )
+```
+
 About
 ===================================== 
-<p><strong>Welcome!</strong> I built this interactive chart of <a href="http://www.mlssoccer.com/">MLS</a> and <a href="http://www.uslsoccer.com/">USL Championship</a> standings after becoming frustrated with the fact that some teams had so many games in hand over other teams that the official standings became somewhat misleading. In the middle of the season, it's not uncommon for some teams to have played 5 or 6 more games than others as of a given date! It's less important how many points each team has on a given <strong>date</strong> than how many points they each have after playing a given number of <strong>games</strong>.
+<p><strong>Welcome!</strong> I built this interactive chart of <a href="http://www.mlssoccer.com/">MLS</a> and <a href="http://www.uslsoccer.com/">USL</a> standings after becoming frustrated with the fact that some teams had so many games in hand over other teams that the official standings became somewhat misleading. In the middle of the season, it's not uncommon for some teams to have played 5 or 6 more games than others as of a given date! It's less important how many points each team has on a given <strong>date</strong> than how many points they each have after playing a given number of <strong>games</strong>.
 
 <p>So one thing these charts do is allow you to compare relative team standings after any given number of games. Just hover over a point in the charts, and you'll see the relative positions of all the teams when they had played that number of games. You can also remove a team from the chart by clicking its name in the legend, so you can see just the teams you want to see.
 
