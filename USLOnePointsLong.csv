@@ -186,215 +186,215 @@
 "Greenville Triumph",15,22,"East",22,22,73,7,7,7,58
 "Lexington",15,14,"East",14,14,65,-1,-1,-1,50
 "North Carolina",15,27,"East",27,27,78,12,12,12,63
-"Northern Colorado",15,NA,"East",32,29,83,NA,17,14,68
+"Northern Colorado",15,32,"East",32,32,83,17,17,17,68
 "One Knoxville",15,21,"East",21,21,72,6,6,6,57
 "Richmond Kickers",15,21,"East",21,21,72,6,6,6,57
 "Tormenta",15,18,"East",18,18,69,3,3,3,54
 "Union Omaha",15,22,"East",22,22,73,7,7,7,58
-"Central Valley Fuego",16,NA,"East",13,10,61,NA,-3,-6,45
+"Central Valley Fuego",16,13,"East",13,13,61,-3,-3,-3,45
 "Charlotte Independence",16,23,"East",23,23,71,7,7,7,55
 "Chattanooga Red Wolves",16,13,"East",13,13,61,-3,-3,-3,45
 "Forward Madison",16,28,"East",28,28,76,12,12,12,60
-"Greenville Triumph",16,NA,"East",25,22,73,NA,9,6,57
+"Greenville Triumph",16,25,"East",25,25,73,9,9,9,57
 "Lexington",16,14,"East",14,14,62,-2,-2,-2,46
-"North Carolina",16,NA,"East",30,27,78,NA,14,11,62
-"Northern Colorado",16,NA,"East",35,29,83,NA,19,13,67
+"North Carolina",16,28,"East",28,28,76,12,12,12,60
+"Northern Colorado",16,NA,"East",35,32,83,NA,19,16,67
 "One Knoxville",16,22,"East",22,22,70,6,6,6,54
 "Richmond Kickers",16,24,"East",24,24,72,8,8,8,56
-"Tormenta",16,NA,"East",21,18,69,NA,5,2,53
-"Union Omaha",16,NA,"East",25,22,73,NA,9,6,57
-"Central Valley Fuego",17,NA,"East",16,10,61,NA,-1,-7,44
+"Tormenta",16,21,"East",21,21,69,5,5,5,53
+"Union Omaha",16,22,"East",22,22,70,6,6,6,54
+"Central Valley Fuego",17,NA,"East",16,13,61,NA,-1,-4,44
 "Charlotte Independence",17,26,"East",26,26,71,9,9,9,54
-"Chattanooga Red Wolves",17,NA,"East",16,13,61,NA,-1,-4,44
-"Forward Madison",17,NA,"East",31,28,76,NA,14,11,59
-"Greenville Triumph",17,NA,"East",28,22,73,NA,11,5,56
-"Lexington",17,NA,"East",17,14,62,NA,0,-3,45
-"North Carolina",17,NA,"East",33,27,78,NA,16,10,61
-"Northern Colorado",17,NA,"East",38,29,83,NA,21,12,66
+"Chattanooga Red Wolves",17,13,"East",13,13,58,-4,-4,-4,41
+"Forward Madison",17,29,"East",29,29,74,12,12,12,57
+"Greenville Triumph",17,NA,"East",28,25,73,NA,11,8,56
+"Lexington",17,14,"East",14,14,59,-3,-3,-3,42
+"North Carolina",17,NA,"East",31,28,76,NA,14,11,59
+"Northern Colorado",17,NA,"East",38,32,83,NA,21,15,66
 "One Knoxville",17,22,"East",22,22,67,5,5,5,50
 "Richmond Kickers",17,24,"East",24,24,69,7,7,7,52
-"Tormenta",17,NA,"East",24,18,69,NA,7,1,52
-"Union Omaha",17,NA,"East",28,22,73,NA,11,5,56
-"Central Valley Fuego",18,NA,"East",19,10,61,NA,1,-8,43
-"Charlotte Independence",18,NA,"East",29,26,71,NA,11,8,53
-"Chattanooga Red Wolves",18,NA,"East",19,13,61,NA,1,-5,43
-"Forward Madison",18,NA,"East",34,28,76,NA,16,10,58
-"Greenville Triumph",18,NA,"East",31,22,73,NA,13,4,55
-"Lexington",18,NA,"East",20,14,62,NA,2,-4,44
-"North Carolina",18,NA,"East",36,27,78,NA,18,9,60
-"Northern Colorado",18,NA,"East",41,29,83,NA,23,11,65
-"One Knoxville",18,NA,"East",25,22,67,NA,7,4,49
-"Richmond Kickers",18,NA,"East",27,24,69,NA,9,6,51
-"Tormenta",18,NA,"East",27,18,69,NA,9,0,51
-"Union Omaha",18,NA,"East",31,22,73,NA,13,4,55
-"Central Valley Fuego",19,NA,"East",22,10,61,NA,3,-9,42
-"Charlotte Independence",19,NA,"East",32,26,71,NA,13,7,52
-"Chattanooga Red Wolves",19,NA,"East",22,13,61,NA,3,-6,42
-"Forward Madison",19,NA,"East",37,28,76,NA,18,9,57
-"Greenville Triumph",19,NA,"East",34,22,73,NA,15,3,54
-"Lexington",19,NA,"East",23,14,62,NA,4,-5,43
-"North Carolina",19,NA,"East",39,27,78,NA,20,8,59
-"Northern Colorado",19,NA,"East",44,29,83,NA,25,10,64
-"One Knoxville",19,NA,"East",28,22,67,NA,9,3,48
-"Richmond Kickers",19,NA,"East",30,24,69,NA,11,5,50
-"Tormenta",19,NA,"East",30,18,69,NA,11,-1,50
-"Union Omaha",19,NA,"East",34,22,73,NA,15,3,54
-"Central Valley Fuego",20,NA,"East",25,10,61,NA,5,-10,41
-"Charlotte Independence",20,NA,"East",35,26,71,NA,15,6,51
-"Chattanooga Red Wolves",20,NA,"East",25,13,61,NA,5,-7,41
-"Forward Madison",20,NA,"East",40,28,76,NA,20,8,56
-"Greenville Triumph",20,NA,"East",37,22,73,NA,17,2,53
-"Lexington",20,NA,"East",26,14,62,NA,6,-6,42
-"North Carolina",20,NA,"East",42,27,78,NA,22,7,58
-"Northern Colorado",20,NA,"East",47,29,83,NA,27,9,63
-"One Knoxville",20,NA,"East",31,22,67,NA,11,2,47
-"Richmond Kickers",20,NA,"East",33,24,69,NA,13,4,49
-"Tormenta",20,NA,"East",33,18,69,NA,13,-2,49
-"Union Omaha",20,NA,"East",37,22,73,NA,17,2,53
-"Central Valley Fuego",21,NA,"East",28,10,61,NA,7,-11,40
-"Charlotte Independence",21,NA,"East",38,26,71,NA,17,5,50
-"Chattanooga Red Wolves",21,NA,"East",28,13,61,NA,7,-8,40
-"Forward Madison",21,NA,"East",43,28,76,NA,22,7,55
-"Greenville Triumph",21,NA,"East",40,22,73,NA,19,1,52
-"Lexington",21,NA,"East",29,14,62,NA,8,-7,41
-"North Carolina",21,NA,"East",45,27,78,NA,24,6,57
-"Northern Colorado",21,NA,"East",50,29,83,NA,29,8,62
-"One Knoxville",21,NA,"East",34,22,67,NA,13,1,46
-"Richmond Kickers",21,NA,"East",36,24,69,NA,15,3,48
-"Tormenta",21,NA,"East",36,18,69,NA,15,-3,48
-"Union Omaha",21,NA,"East",40,22,73,NA,19,1,52
-"Central Valley Fuego",22,NA,"East",31,10,61,NA,9,-12,39
-"Charlotte Independence",22,NA,"East",41,26,71,NA,19,4,49
-"Chattanooga Red Wolves",22,NA,"East",31,13,61,NA,9,-9,39
-"Forward Madison",22,NA,"East",46,28,76,NA,24,6,54
-"Greenville Triumph",22,NA,"East",43,22,73,NA,21,0,51
-"Lexington",22,NA,"East",32,14,62,NA,10,-8,40
-"North Carolina",22,NA,"East",48,27,78,NA,26,5,56
-"Northern Colorado",22,NA,"East",53,29,83,NA,31,7,61
-"One Knoxville",22,NA,"East",37,22,67,NA,15,0,45
-"Richmond Kickers",22,NA,"East",39,24,69,NA,17,2,47
-"Tormenta",22,NA,"East",39,18,69,NA,17,-4,47
-"Union Omaha",22,NA,"East",43,22,73,NA,21,0,51
-"Central Valley Fuego",23,NA,"East",34,10,61,NA,11,-13,38
-"Charlotte Independence",23,NA,"East",44,26,71,NA,21,3,48
-"Chattanooga Red Wolves",23,NA,"East",34,13,61,NA,11,-10,38
-"Forward Madison",23,NA,"East",49,28,76,NA,26,5,53
-"Greenville Triumph",23,NA,"East",46,22,73,NA,23,-1,50
-"Lexington",23,NA,"East",35,14,62,NA,12,-9,39
-"North Carolina",23,NA,"East",51,27,78,NA,28,4,55
-"Northern Colorado",23,NA,"East",56,29,83,NA,33,6,60
-"One Knoxville",23,NA,"East",40,22,67,NA,17,-1,44
-"Richmond Kickers",23,NA,"East",42,24,69,NA,19,1,46
-"Tormenta",23,NA,"East",42,18,69,NA,19,-5,46
-"Union Omaha",23,NA,"East",46,22,73,NA,23,-1,50
-"Central Valley Fuego",24,NA,"East",37,10,61,NA,13,-14,37
-"Charlotte Independence",24,NA,"East",47,26,71,NA,23,2,47
-"Chattanooga Red Wolves",24,NA,"East",37,13,61,NA,13,-11,37
-"Forward Madison",24,NA,"East",52,28,76,NA,28,4,52
-"Greenville Triumph",24,NA,"East",49,22,73,NA,25,-2,49
-"Lexington",24,NA,"East",38,14,62,NA,14,-10,38
-"North Carolina",24,NA,"East",54,27,78,NA,30,3,54
-"Northern Colorado",24,NA,"East",59,29,83,NA,35,5,59
-"One Knoxville",24,NA,"East",43,22,67,NA,19,-2,43
-"Richmond Kickers",24,NA,"East",45,24,69,NA,21,0,45
-"Tormenta",24,NA,"East",45,18,69,NA,21,-6,45
-"Union Omaha",24,NA,"East",49,22,73,NA,25,-2,49
-"Central Valley Fuego",25,NA,"East",40,10,61,NA,15,-15,36
-"Charlotte Independence",25,NA,"East",50,26,71,NA,25,1,46
-"Chattanooga Red Wolves",25,NA,"East",40,13,61,NA,15,-12,36
-"Forward Madison",25,NA,"East",55,28,76,NA,30,3,51
-"Greenville Triumph",25,NA,"East",52,22,73,NA,27,-3,48
-"Lexington",25,NA,"East",41,14,62,NA,16,-11,37
-"North Carolina",25,NA,"East",57,27,78,NA,32,2,53
-"Northern Colorado",25,NA,"East",62,29,83,NA,37,4,58
-"One Knoxville",25,NA,"East",46,22,67,NA,21,-3,42
-"Richmond Kickers",25,NA,"East",48,24,69,NA,23,-1,44
-"Tormenta",25,NA,"East",48,18,69,NA,23,-7,44
-"Union Omaha",25,NA,"East",52,22,73,NA,27,-3,48
-"Central Valley Fuego",26,NA,"East",43,10,61,NA,17,-16,35
-"Charlotte Independence",26,NA,"East",53,26,71,NA,27,0,45
-"Chattanooga Red Wolves",26,NA,"East",43,13,61,NA,17,-13,35
-"Forward Madison",26,NA,"East",58,28,76,NA,32,2,50
-"Greenville Triumph",26,NA,"East",55,22,73,NA,29,-4,47
-"Lexington",26,NA,"East",44,14,62,NA,18,-12,36
-"North Carolina",26,NA,"East",60,27,78,NA,34,1,52
-"Northern Colorado",26,NA,"East",65,29,83,NA,39,3,57
-"One Knoxville",26,NA,"East",49,22,67,NA,23,-4,41
-"Richmond Kickers",26,NA,"East",51,24,69,NA,25,-2,43
-"Tormenta",26,NA,"East",51,18,69,NA,25,-8,43
-"Union Omaha",26,NA,"East",55,22,73,NA,29,-4,47
-"Central Valley Fuego",27,NA,"East",46,10,61,NA,19,-17,34
-"Charlotte Independence",27,NA,"East",56,26,71,NA,29,-1,44
-"Chattanooga Red Wolves",27,NA,"East",46,13,61,NA,19,-14,34
-"Forward Madison",27,NA,"East",61,28,76,NA,34,1,49
-"Greenville Triumph",27,NA,"East",58,22,73,NA,31,-5,46
-"Lexington",27,NA,"East",47,14,62,NA,20,-13,35
-"North Carolina",27,NA,"East",63,27,78,NA,36,0,51
-"Northern Colorado",27,NA,"East",68,29,83,NA,41,2,56
-"One Knoxville",27,NA,"East",52,22,67,NA,25,-5,40
-"Richmond Kickers",27,NA,"East",54,24,69,NA,27,-3,42
-"Tormenta",27,NA,"East",54,18,69,NA,27,-9,42
-"Union Omaha",27,NA,"East",58,22,73,NA,31,-5,46
-"Central Valley Fuego",28,NA,"East",49,10,61,NA,21,-18,33
-"Charlotte Independence",28,NA,"East",59,26,71,NA,31,-2,43
-"Chattanooga Red Wolves",28,NA,"East",49,13,61,NA,21,-15,33
-"Forward Madison",28,NA,"East",64,28,76,NA,36,0,48
-"Greenville Triumph",28,NA,"East",61,22,73,NA,33,-6,45
-"Lexington",28,NA,"East",50,14,62,NA,22,-14,34
-"North Carolina",28,NA,"East",66,27,78,NA,38,-1,50
-"Northern Colorado",28,NA,"East",71,29,83,NA,43,1,55
-"One Knoxville",28,NA,"East",55,22,67,NA,27,-6,39
-"Richmond Kickers",28,NA,"East",57,24,69,NA,29,-4,41
-"Tormenta",28,NA,"East",57,18,69,NA,29,-10,41
-"Union Omaha",28,NA,"East",61,22,73,NA,33,-6,45
-"Central Valley Fuego",29,NA,"East",52,10,61,NA,23,-19,32
-"Charlotte Independence",29,NA,"East",62,26,71,NA,33,-3,42
-"Chattanooga Red Wolves",29,NA,"East",52,13,61,NA,23,-16,32
-"Forward Madison",29,NA,"East",67,28,76,NA,38,-1,47
-"Greenville Triumph",29,NA,"East",64,22,73,NA,35,-7,44
-"Lexington",29,NA,"East",53,14,62,NA,24,-15,33
-"North Carolina",29,NA,"East",69,27,78,NA,40,-2,49
-"Northern Colorado",29,NA,"East",74,29,83,NA,45,0,54
-"One Knoxville",29,NA,"East",58,22,67,NA,29,-7,38
-"Richmond Kickers",29,NA,"East",60,24,69,NA,31,-5,40
-"Tormenta",29,NA,"East",60,18,69,NA,31,-11,40
-"Union Omaha",29,NA,"East",64,22,73,NA,35,-7,44
-"Central Valley Fuego",30,NA,"East",55,10,61,NA,25,-20,31
-"Charlotte Independence",30,NA,"East",65,26,71,NA,35,-4,41
-"Chattanooga Red Wolves",30,NA,"East",55,13,61,NA,25,-17,31
-"Forward Madison",30,NA,"East",70,28,76,NA,40,-2,46
-"Greenville Triumph",30,NA,"East",67,22,73,NA,37,-8,43
-"Lexington",30,NA,"East",56,14,62,NA,26,-16,32
-"North Carolina",30,NA,"East",72,27,78,NA,42,-3,48
-"Northern Colorado",30,NA,"East",77,29,83,NA,47,-1,53
-"One Knoxville",30,NA,"East",61,22,67,NA,31,-8,37
-"Richmond Kickers",30,NA,"East",63,24,69,NA,33,-6,39
-"Tormenta",30,NA,"East",63,18,69,NA,33,-12,39
-"Union Omaha",30,NA,"East",67,22,73,NA,37,-8,43
-"Central Valley Fuego",31,NA,"East",58,10,61,NA,27,-21,30
-"Charlotte Independence",31,NA,"East",68,26,71,NA,37,-5,40
-"Chattanooga Red Wolves",31,NA,"East",58,13,61,NA,27,-18,30
-"Forward Madison",31,NA,"East",73,28,76,NA,42,-3,45
-"Greenville Triumph",31,NA,"East",70,22,73,NA,39,-9,42
-"Lexington",31,NA,"East",59,14,62,NA,28,-17,31
-"North Carolina",31,NA,"East",75,27,78,NA,44,-4,47
-"Northern Colorado",31,NA,"East",80,29,83,NA,49,-2,52
-"One Knoxville",31,NA,"East",64,22,67,NA,33,-9,36
-"Richmond Kickers",31,NA,"East",66,24,69,NA,35,-7,38
-"Tormenta",31,NA,"East",66,18,69,NA,35,-13,38
-"Union Omaha",31,NA,"East",70,22,73,NA,39,-9,42
-"Central Valley Fuego",32,NA,"East",61,10,61,NA,29,-22,29
-"Charlotte Independence",32,NA,"East",71,26,71,NA,39,-6,39
-"Chattanooga Red Wolves",32,NA,"East",61,13,61,NA,29,-19,29
-"Forward Madison",32,NA,"East",76,28,76,NA,44,-4,44
-"Greenville Triumph",32,NA,"East",73,22,73,NA,41,-10,41
-"Lexington",32,NA,"East",62,14,62,NA,30,-18,30
-"North Carolina",32,NA,"East",78,27,78,NA,46,-5,46
-"Northern Colorado",32,NA,"East",83,29,83,NA,51,-3,51
-"One Knoxville",32,NA,"East",67,22,67,NA,35,-10,35
-"Richmond Kickers",32,NA,"East",69,24,69,NA,37,-8,37
-"Tormenta",32,NA,"East",69,18,69,NA,37,-14,37
-"Union Omaha",32,NA,"East",73,22,73,NA,41,-10,41
+"Tormenta",17,NA,"East",24,21,69,NA,7,4,52
+"Union Omaha",17,23,"East",23,23,68,6,6,6,51
+"Central Valley Fuego",18,NA,"East",19,13,61,NA,1,-5,43
+"Charlotte Independence",18,27,"East",27,27,69,9,9,9,51
+"Chattanooga Red Wolves",18,NA,"East",16,13,58,NA,-2,-5,40
+"Forward Madison",18,NA,"East",32,29,74,NA,14,11,56
+"Greenville Triumph",18,NA,"East",31,25,73,NA,13,7,55
+"Lexington",18,NA,"East",17,14,59,NA,-1,-4,41
+"North Carolina",18,NA,"East",34,28,76,NA,16,10,58
+"Northern Colorado",18,NA,"East",41,32,83,NA,23,14,65
+"One Knoxville",18,22,"East",22,22,64,4,4,4,46
+"Richmond Kickers",18,25,"East",25,25,67,7,7,7,49
+"Tormenta",18,NA,"East",27,21,69,NA,9,3,51
+"Union Omaha",18,NA,"East",26,23,68,NA,8,5,50
+"Central Valley Fuego",19,NA,"East",22,13,61,NA,3,-6,42
+"Charlotte Independence",19,NA,"East",30,27,69,NA,11,8,50
+"Chattanooga Red Wolves",19,NA,"East",19,13,58,NA,0,-6,39
+"Forward Madison",19,NA,"East",35,29,74,NA,16,10,55
+"Greenville Triumph",19,NA,"East",34,25,73,NA,15,6,54
+"Lexington",19,NA,"East",20,14,59,NA,1,-5,40
+"North Carolina",19,NA,"East",37,28,76,NA,18,9,57
+"Northern Colorado",19,NA,"East",44,32,83,NA,25,13,64
+"One Knoxville",19,23,"East",23,23,62,4,4,4,43
+"Richmond Kickers",19,NA,"East",28,25,67,NA,9,6,48
+"Tormenta",19,NA,"East",30,21,69,NA,11,2,50
+"Union Omaha",19,NA,"East",29,23,68,NA,10,4,49
+"Central Valley Fuego",20,NA,"East",25,13,61,NA,5,-7,41
+"Charlotte Independence",20,NA,"East",33,27,69,NA,13,7,49
+"Chattanooga Red Wolves",20,NA,"East",22,13,58,NA,2,-7,38
+"Forward Madison",20,NA,"East",38,29,74,NA,18,9,54
+"Greenville Triumph",20,NA,"East",37,25,73,NA,17,5,53
+"Lexington",20,NA,"East",23,14,59,NA,3,-6,39
+"North Carolina",20,NA,"East",40,28,76,NA,20,8,56
+"Northern Colorado",20,NA,"East",47,32,83,NA,27,12,63
+"One Knoxville",20,NA,"East",26,23,62,NA,6,3,42
+"Richmond Kickers",20,NA,"East",31,25,67,NA,11,5,47
+"Tormenta",20,NA,"East",33,21,69,NA,13,1,49
+"Union Omaha",20,NA,"East",32,23,68,NA,12,3,48
+"Central Valley Fuego",21,NA,"East",28,13,61,NA,7,-8,40
+"Charlotte Independence",21,NA,"East",36,27,69,NA,15,6,48
+"Chattanooga Red Wolves",21,NA,"East",25,13,58,NA,4,-8,37
+"Forward Madison",21,NA,"East",41,29,74,NA,20,8,53
+"Greenville Triumph",21,NA,"East",40,25,73,NA,19,4,52
+"Lexington",21,NA,"East",26,14,59,NA,5,-7,38
+"North Carolina",21,NA,"East",43,28,76,NA,22,7,55
+"Northern Colorado",21,NA,"East",50,32,83,NA,29,11,62
+"One Knoxville",21,NA,"East",29,23,62,NA,8,2,41
+"Richmond Kickers",21,NA,"East",34,25,67,NA,13,4,46
+"Tormenta",21,NA,"East",36,21,69,NA,15,0,48
+"Union Omaha",21,NA,"East",35,23,68,NA,14,2,47
+"Central Valley Fuego",22,NA,"East",31,13,61,NA,9,-9,39
+"Charlotte Independence",22,NA,"East",39,27,69,NA,17,5,47
+"Chattanooga Red Wolves",22,NA,"East",28,13,58,NA,6,-9,36
+"Forward Madison",22,NA,"East",44,29,74,NA,22,7,52
+"Greenville Triumph",22,NA,"East",43,25,73,NA,21,3,51
+"Lexington",22,NA,"East",29,14,59,NA,7,-8,37
+"North Carolina",22,NA,"East",46,28,76,NA,24,6,54
+"Northern Colorado",22,NA,"East",53,32,83,NA,31,10,61
+"One Knoxville",22,NA,"East",32,23,62,NA,10,1,40
+"Richmond Kickers",22,NA,"East",37,25,67,NA,15,3,45
+"Tormenta",22,NA,"East",39,21,69,NA,17,-1,47
+"Union Omaha",22,NA,"East",38,23,68,NA,16,1,46
+"Central Valley Fuego",23,NA,"East",34,13,61,NA,11,-10,38
+"Charlotte Independence",23,NA,"East",42,27,69,NA,19,4,46
+"Chattanooga Red Wolves",23,NA,"East",31,13,58,NA,8,-10,35
+"Forward Madison",23,NA,"East",47,29,74,NA,24,6,51
+"Greenville Triumph",23,NA,"East",46,25,73,NA,23,2,50
+"Lexington",23,NA,"East",32,14,59,NA,9,-9,36
+"North Carolina",23,NA,"East",49,28,76,NA,26,5,53
+"Northern Colorado",23,NA,"East",56,32,83,NA,33,9,60
+"One Knoxville",23,NA,"East",35,23,62,NA,12,0,39
+"Richmond Kickers",23,NA,"East",40,25,67,NA,17,2,44
+"Tormenta",23,NA,"East",42,21,69,NA,19,-2,46
+"Union Omaha",23,NA,"East",41,23,68,NA,18,0,45
+"Central Valley Fuego",24,NA,"East",37,13,61,NA,13,-11,37
+"Charlotte Independence",24,NA,"East",45,27,69,NA,21,3,45
+"Chattanooga Red Wolves",24,NA,"East",34,13,58,NA,10,-11,34
+"Forward Madison",24,NA,"East",50,29,74,NA,26,5,50
+"Greenville Triumph",24,NA,"East",49,25,73,NA,25,1,49
+"Lexington",24,NA,"East",35,14,59,NA,11,-10,35
+"North Carolina",24,NA,"East",52,28,76,NA,28,4,52
+"Northern Colorado",24,NA,"East",59,32,83,NA,35,8,59
+"One Knoxville",24,NA,"East",38,23,62,NA,14,-1,38
+"Richmond Kickers",24,NA,"East",43,25,67,NA,19,1,43
+"Tormenta",24,NA,"East",45,21,69,NA,21,-3,45
+"Union Omaha",24,NA,"East",44,23,68,NA,20,-1,44
+"Central Valley Fuego",25,NA,"East",40,13,61,NA,15,-12,36
+"Charlotte Independence",25,NA,"East",48,27,69,NA,23,2,44
+"Chattanooga Red Wolves",25,NA,"East",37,13,58,NA,12,-12,33
+"Forward Madison",25,NA,"East",53,29,74,NA,28,4,49
+"Greenville Triumph",25,NA,"East",52,25,73,NA,27,0,48
+"Lexington",25,NA,"East",38,14,59,NA,13,-11,34
+"North Carolina",25,NA,"East",55,28,76,NA,30,3,51
+"Northern Colorado",25,NA,"East",62,32,83,NA,37,7,58
+"One Knoxville",25,NA,"East",41,23,62,NA,16,-2,37
+"Richmond Kickers",25,NA,"East",46,25,67,NA,21,0,42
+"Tormenta",25,NA,"East",48,21,69,NA,23,-4,44
+"Union Omaha",25,NA,"East",47,23,68,NA,22,-2,43
+"Central Valley Fuego",26,NA,"East",43,13,61,NA,17,-13,35
+"Charlotte Independence",26,NA,"East",51,27,69,NA,25,1,43
+"Chattanooga Red Wolves",26,NA,"East",40,13,58,NA,14,-13,32
+"Forward Madison",26,NA,"East",56,29,74,NA,30,3,48
+"Greenville Triumph",26,NA,"East",55,25,73,NA,29,-1,47
+"Lexington",26,NA,"East",41,14,59,NA,15,-12,33
+"North Carolina",26,NA,"East",58,28,76,NA,32,2,50
+"Northern Colorado",26,NA,"East",65,32,83,NA,39,6,57
+"One Knoxville",26,NA,"East",44,23,62,NA,18,-3,36
+"Richmond Kickers",26,NA,"East",49,25,67,NA,23,-1,41
+"Tormenta",26,NA,"East",51,21,69,NA,25,-5,43
+"Union Omaha",26,NA,"East",50,23,68,NA,24,-3,42
+"Central Valley Fuego",27,NA,"East",46,13,61,NA,19,-14,34
+"Charlotte Independence",27,NA,"East",54,27,69,NA,27,0,42
+"Chattanooga Red Wolves",27,NA,"East",43,13,58,NA,16,-14,31
+"Forward Madison",27,NA,"East",59,29,74,NA,32,2,47
+"Greenville Triumph",27,NA,"East",58,25,73,NA,31,-2,46
+"Lexington",27,NA,"East",44,14,59,NA,17,-13,32
+"North Carolina",27,NA,"East",61,28,76,NA,34,1,49
+"Northern Colorado",27,NA,"East",68,32,83,NA,41,5,56
+"One Knoxville",27,NA,"East",47,23,62,NA,20,-4,35
+"Richmond Kickers",27,NA,"East",52,25,67,NA,25,-2,40
+"Tormenta",27,NA,"East",54,21,69,NA,27,-6,42
+"Union Omaha",27,NA,"East",53,23,68,NA,26,-4,41
+"Central Valley Fuego",28,NA,"East",49,13,61,NA,21,-15,33
+"Charlotte Independence",28,NA,"East",57,27,69,NA,29,-1,41
+"Chattanooga Red Wolves",28,NA,"East",46,13,58,NA,18,-15,30
+"Forward Madison",28,NA,"East",62,29,74,NA,34,1,46
+"Greenville Triumph",28,NA,"East",61,25,73,NA,33,-3,45
+"Lexington",28,NA,"East",47,14,59,NA,19,-14,31
+"North Carolina",28,NA,"East",64,28,76,NA,36,0,48
+"Northern Colorado",28,NA,"East",71,32,83,NA,43,4,55
+"One Knoxville",28,NA,"East",50,23,62,NA,22,-5,34
+"Richmond Kickers",28,NA,"East",55,25,67,NA,27,-3,39
+"Tormenta",28,NA,"East",57,21,69,NA,29,-7,41
+"Union Omaha",28,NA,"East",56,23,68,NA,28,-5,40
+"Central Valley Fuego",29,NA,"East",52,13,61,NA,23,-16,32
+"Charlotte Independence",29,NA,"East",60,27,69,NA,31,-2,40
+"Chattanooga Red Wolves",29,NA,"East",49,13,58,NA,20,-16,29
+"Forward Madison",29,NA,"East",65,29,74,NA,36,0,45
+"Greenville Triumph",29,NA,"East",64,25,73,NA,35,-4,44
+"Lexington",29,NA,"East",50,14,59,NA,21,-15,30
+"North Carolina",29,NA,"East",67,28,76,NA,38,-1,47
+"Northern Colorado",29,NA,"East",74,32,83,NA,45,3,54
+"One Knoxville",29,NA,"East",53,23,62,NA,24,-6,33
+"Richmond Kickers",29,NA,"East",58,25,67,NA,29,-4,38
+"Tormenta",29,NA,"East",60,21,69,NA,31,-8,40
+"Union Omaha",29,NA,"East",59,23,68,NA,30,-6,39
+"Central Valley Fuego",30,NA,"East",55,13,61,NA,25,-17,31
+"Charlotte Independence",30,NA,"East",63,27,69,NA,33,-3,39
+"Chattanooga Red Wolves",30,NA,"East",52,13,58,NA,22,-17,28
+"Forward Madison",30,NA,"East",68,29,74,NA,38,-1,44
+"Greenville Triumph",30,NA,"East",67,25,73,NA,37,-5,43
+"Lexington",30,NA,"East",53,14,59,NA,23,-16,29
+"North Carolina",30,NA,"East",70,28,76,NA,40,-2,46
+"Northern Colorado",30,NA,"East",77,32,83,NA,47,2,53
+"One Knoxville",30,NA,"East",56,23,62,NA,26,-7,32
+"Richmond Kickers",30,NA,"East",61,25,67,NA,31,-5,37
+"Tormenta",30,NA,"East",63,21,69,NA,33,-9,39
+"Union Omaha",30,NA,"East",62,23,68,NA,32,-7,38
+"Central Valley Fuego",31,NA,"East",58,13,61,NA,27,-18,30
+"Charlotte Independence",31,NA,"East",66,27,69,NA,35,-4,38
+"Chattanooga Red Wolves",31,NA,"East",55,13,58,NA,24,-18,27
+"Forward Madison",31,NA,"East",71,29,74,NA,40,-2,43
+"Greenville Triumph",31,NA,"East",70,25,73,NA,39,-6,42
+"Lexington",31,NA,"East",56,14,59,NA,25,-17,28
+"North Carolina",31,NA,"East",73,28,76,NA,42,-3,45
+"Northern Colorado",31,NA,"East",80,32,83,NA,49,1,52
+"One Knoxville",31,NA,"East",59,23,62,NA,28,-8,31
+"Richmond Kickers",31,NA,"East",64,25,67,NA,33,-6,36
+"Tormenta",31,NA,"East",66,21,69,NA,35,-10,38
+"Union Omaha",31,NA,"East",65,23,68,NA,34,-8,37
+"Central Valley Fuego",32,NA,"East",61,13,61,NA,29,-19,29
+"Charlotte Independence",32,NA,"East",69,27,69,NA,37,-5,37
+"Chattanooga Red Wolves",32,NA,"East",58,13,58,NA,26,-19,26
+"Forward Madison",32,NA,"East",74,29,74,NA,42,-3,42
+"Greenville Triumph",32,NA,"East",73,25,73,NA,41,-7,41
+"Lexington",32,NA,"East",59,14,59,NA,27,-18,27
+"North Carolina",32,NA,"East",76,28,76,NA,44,-4,44
+"Northern Colorado",32,NA,"East",83,32,83,NA,51,0,51
+"One Knoxville",32,NA,"East",62,23,62,NA,30,-9,30
+"Richmond Kickers",32,NA,"East",67,25,67,NA,35,-7,35
+"Tormenta",32,NA,"East",69,21,69,NA,37,-11,37
+"Union Omaha",32,NA,"East",68,23,68,NA,36,-9,36
 "Thresholds",0,NA,"West",NA,NA,NA,NA,NA,NA,NA
 "Thresholds",0,NA,"East",NA,-97,97,NA,NA,-97,97
 "Thresholds",1,NA,"West",NA,NA,NA,NA,NA,NA,NA
@@ -428,36 +428,36 @@
 "Thresholds",15,NA,"West",NA,NA,NA,NA,NA,NA,NA
 "Thresholds",15,NA,"East",NA,-30,73,NA,NA,-45,58
 "Thresholds",16,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",16,NA,"East",NA,-27,72,NA,NA,-43,56
+"Thresholds",16,NA,"East",NA,-26,71,NA,NA,-42,55
 "Thresholds",17,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",17,NA,"East",NA,-24,70,NA,NA,-41,53
+"Thresholds",17,NA,"East",NA,-22,70,NA,NA,-39,53
 "Thresholds",18,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",18,NA,"East",NA,-21,70,NA,NA,-39,52
+"Thresholds",18,NA,"East",NA,-18,69,NA,NA,-36,51
 "Thresholds",19,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",19,NA,"East",NA,-18,70,NA,NA,-37,51
+"Thresholds",19,NA,"East",NA,-15,69,NA,NA,-34,50
 "Thresholds",20,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",20,NA,"East",NA,-15,70,NA,NA,-35,50
+"Thresholds",20,NA,"East",NA,-12,69,NA,NA,-32,49
 "Thresholds",21,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",21,NA,"East",NA,-12,70,NA,NA,-33,49
+"Thresholds",21,NA,"East",NA,-9,69,NA,NA,-30,48
 "Thresholds",22,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",22,NA,"East",NA,-9,70,NA,NA,-31,48
+"Thresholds",22,NA,"East",NA,-6,69,NA,NA,-28,47
 "Thresholds",23,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",23,NA,"East",NA,-6,70,NA,NA,-29,47
+"Thresholds",23,NA,"East",NA,-3,69,NA,NA,-26,46
 "Thresholds",24,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",24,NA,"East",NA,-3,70,NA,NA,-27,46
+"Thresholds",24,NA,"East",NA,0,69,NA,NA,-24,45
 "Thresholds",25,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",25,NA,"East",NA,0,70,NA,NA,-25,45
+"Thresholds",25,NA,"East",NA,3,69,NA,NA,-22,44
 "Thresholds",26,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",26,NA,"East",NA,3,70,NA,NA,-23,44
+"Thresholds",26,NA,"East",NA,6,69,NA,NA,-20,43
 "Thresholds",27,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",27,NA,"East",NA,6,70,NA,NA,-21,43
+"Thresholds",27,NA,"East",NA,9,69,NA,NA,-18,42
 "Thresholds",28,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",28,NA,"East",NA,9,70,NA,NA,-19,42
+"Thresholds",28,NA,"East",NA,12,69,NA,NA,-16,41
 "Thresholds",29,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",29,NA,"East",NA,12,70,NA,NA,-17,41
+"Thresholds",29,NA,"East",NA,15,69,NA,NA,-14,40
 "Thresholds",30,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",30,NA,"East",NA,15,70,NA,NA,-15,40
+"Thresholds",30,NA,"East",NA,18,69,NA,NA,-12,39
 "Thresholds",31,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",31,NA,"East",NA,18,70,NA,NA,-13,39
+"Thresholds",31,NA,"East",NA,21,69,NA,NA,-10,38
 "Thresholds",32,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",32,NA,"East",NA,21,70,NA,NA,-11,38
+"Thresholds",32,NA,"East",NA,24,69,NA,NA,-8,37
