@@ -17,7 +17,6 @@ StandingsTracker <- function(ScoresTable, west, games, inNum, outNum) {
   require(tidyr)
   
   #Format dates, calculate points per game
-#  ScoresTable = ScoresTable[,c(1,4,5,15,16)]
   ScoresTable = ScoresTable[which(!is.na(ScoresTable$score1)),]
   ScoresTable$HPoints = NA
   ScoresTable$APoints = NA

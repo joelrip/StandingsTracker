@@ -103,10 +103,6 @@ for (item in unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds
                   marker = list(enabled = F))))
 }
 
-#cols = c("#e6194b", "#3cb44b", "#ffe119", "#0082c8", "#f58231", "#911eb4", "#46f0f0", "#f032e6",
-#         "#d2f53c", "#fabebe", "#008080", "#800000", "#e6beff", "#eee9b7", "#aa6e28", "#aaffc3",
-#         "#808000", "#000000")
-
 ###Assign team colors to all teams
 cols = c("Atlanta United FC" = "#80000A",
          "Austin" = "#00B140",

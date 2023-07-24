@@ -1,12 +1,6 @@
 #Site building steps
 #Downloads and formats game data for USL and MLS from api-football.com, runs through StandingsTracker function, saves csvs in long format
 
-#Import scores from FiveThirtyEight (DATA UPDATE DISCONTINUED JUNE 2023)
-#AllScores <- read.csv("https://projects.fivethirtyeight.com/soccer-api/club/spi_matches.csv", stringsAsFactors = F)
-#AllScores$date <- as.POSIXct(AllScores$date)
-#USLScores <- AllScores[which(AllScores$league_id == 2160), ] 
-#MLSScores <- AllScores[which(AllScores$league_id == 1951), ] 
-
 #Setup
 library(tidyverse)
 library(httr)
