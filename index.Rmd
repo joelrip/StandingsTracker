@@ -1,6 +1,6 @@
 ---
 title: "Standings Tracker"
-date: "Updated August 9, 2023"
+date: "Updated August 13, 2023"
 output: 
   flexdashboard::flex_dashboard:
     social: [ "twitter", "facebook"]
@@ -182,7 +182,7 @@ USLOne = unique(USLOnePointsLong$Teams[which(USLOnePointsLong$Teams != "Threshol
 USLOneCols = unname(cols[grep(paste(USLOne, collapse = "|"), names(cols))])
 
 ###Chart parameters
-chartMax = 30
+chartMax = 40
 chartMin = -15
 labelX = 34
 labelYUp = 37
@@ -216,27 +216,27 @@ highchart() %>%
       labelOptions = list(x = 0, y = 0,
                           backgroundColor = "rgba(255, 255, 255, 0)",
                           borderColor = "rgba(255, 255, 255, 0)")
-      # ,
-      # labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
-      #   list(
-      #     point = list(
-      #       x = labelX,
-      #       y = labelYUp,
-      #       xAxis = 0,
-      #       yAxis = 0
-      #     ),
-      #     text = "Clinched<br/>Playoffs"
-      #   ),
-      #   list(
-      #     point = list(
-      #       x = labelX,
-      #       y = labelYDown,
-      #       xAxis = 0,
-      #       yAxis = 0
-      #     ),
-      #     text = "Mathematically<br/>Eliminated"
-      #   )
-      #   )
+      ,
+      labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
+        list(
+          point = list(
+            x = labelX,
+            y = labelYUp,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Clinched<br/>Playoffs"
+        ),
+        list(
+          point = list(
+            x = labelX,
+            y = labelYDown,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Mathematically<br/>Eliminated"
+        )
+        )
       )) %>%
   hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
   hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
@@ -274,27 +274,27 @@ highchart() %>%
       labelOptions = list(x = 0, y = 0,
                           backgroundColor = "rgba(255, 255, 255, 0)",
                           borderColor = "rgba(255, 255, 255, 0)")
-      # ,
-      # labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
-      #   list(
-      #     point = list(
-      #       x = labelX,
-      #       y = labelYUp,
-      #       xAxis = 0,
-      #       yAxis = 0
-      #     ),
-      #     text = "Clinched<br/>Playoffs"
-      #   ),
-      #   list(
-      #     point = list(
-      #       x = labelX,
-      #       y = labelYDown,
-      #       xAxis = 0,
-      #       yAxis = 0
-      #     ),
-      #     text = "Mathematically<br/>Eliminated"
-      #   )
-      #   )
+      ,
+      labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
+        list(
+          point = list(
+            x = labelX,
+            y = labelYUp,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Clinched<br/>Playoffs"
+        ),
+        list(
+          point = list(
+            x = labelX,
+            y = labelYDown,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Mathematically<br/>Eliminated"
+        )
+        )
       )) %>%
   hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
   hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
@@ -338,27 +338,27 @@ highchart() %>%
       labelOptions = list(x = 0, y = 0,
                           backgroundColor = "rgba(255, 255, 255, 0)",
                           borderColor = "rgba(255, 255, 255, 0)")
-      # ,
-      # labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
-      #   list(
-      #     point = list(
-      #       x = labelX,
-      #       y = labelYUp,
-      #       xAxis = 0,
-      #       yAxis = 0
-      #     ),
-      #     text = "Clinched<br/>Playoffs"
-      #   ),
-      #   list(
-      #     point = list(
-      #       x = labelX,
-      #       y = labelYDown,
-      #       xAxis = 0,
-      #       yAxis = 0
-      #     ),
-      #     text = "Mathematically<br/>Eliminated"
-      #   )
-      #   )
+      ,
+      labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
+        list(
+          point = list(
+            x = labelX,
+            y = labelYUp,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Clinched<br/>Playoffs"
+        ),
+        list(
+          point = list(
+            x = labelX,
+            y = labelYDown,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Mathematically<br/>Eliminated"
+        )
+        )
       )) %>%
   hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
   hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
@@ -396,27 +396,27 @@ highchart() %>%
       labelOptions = list(x = 0, y = 0,
                           backgroundColor = "rgba(255, 255, 255, 0)",
                           borderColor = "rgba(255, 255, 255, 0)")
-      # ,
-      # labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
-      #   list(
-      #     point = list(
-      #       x = labelX,
-      #       y = labelYUp,
-      #       xAxis = 0,
-      #       yAxis = 0
-      #     ),
-      #     text = "Clinched<br/>Playoffs"
-      #   ),
-      #   list(
-      #     point = list(
-      #       x = labelX,
-      #       y = labelYDown,
-      #       xAxis = 0,
-      #       yAxis = 0
-      #     ),
-      #     text = "Mathematically<br/>Eliminated"
-      #   )
-      #   )
+      ,
+      labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
+        list(
+          point = list(
+            x = labelX,
+            y = labelYUp,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Clinched<br/>Playoffs"
+        ),
+        list(
+          point = list(
+            x = labelX,
+            y = labelYDown,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Mathematically<br/>Eliminated"
+        )
+        )
       )) %>%
   hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
   hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
@@ -460,27 +460,27 @@ highchart() %>%
       labelOptions = list(x = 0, y = 0,
                           backgroundColor = "rgba(255, 255, 255, 0)",
                           borderColor = "rgba(255, 255, 255, 0)")
-      # ,
-      # labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
-      #   list(
-      #     point = list(
-      #       x = labelX,
-      #       y = labelYUp,
-      #       xAxis = 0,
-      #       yAxis = 0
-      #     ),
-      #     text = "Clinched<br/>Playoffs"
-      #   ),
-      #   list(
-      #     point = list(
-      #       x = labelX,
-      #       y = labelYDown,
-      #       xAxis = 0,
-      #       yAxis = 0
-      #     ),
-      #     text = "Mathematically<br/>Eliminated"
-      #   )
-      #   )
+      ,
+      labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
+        list(
+          point = list(
+            x = labelX,
+            y = labelYUp,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Clinched<br/>Playoffs"
+        ),
+        list(
+          point = list(
+            x = labelX,
+            y = labelYDown,
+            xAxis = 0,
+            yAxis = 0
+          ),
+          text = "Mathematically<br/>Eliminated"
+        )
+        )
       )) %>%
   hc_legend(align = "right", verticalAlign = "middle", layout = "vertical") %>%
   hc_tooltip(crosshairs = T, backgroundColor = "#fcffc5", shared = T,
