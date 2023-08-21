@@ -1,6 +1,6 @@
 ---
 title: "Standings Tracker"
-date: "Updated August 13, 2023"
+date: "Updated August 19, 2023"
 output: 
   flexdashboard::flex_dashboard:
     social: [ "twitter", "facebook"]
@@ -17,7 +17,7 @@ output:
 
 </style>
 
-<p class="intro">UPDATE JULY 14: USL League One standings added!</p>
+<p class="intro">Tracking US club soccer standings, game by game. See the "About" page for more info!</p>
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
@@ -464,7 +464,7 @@ highchart() %>%
       labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
         list(
           point = list(
-            x = labelX,
+            x = 32,
             y = labelYUp,
             xAxis = 0,
             yAxis = 0
@@ -473,7 +473,7 @@ highchart() %>%
         ),
         list(
           point = list(
-            x = labelX,
+            x = 32,
             y = labelYDown,
             xAxis = 0,
             yAxis = 0
