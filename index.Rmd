@@ -182,10 +182,10 @@ USLOne = unique(USLOnePointsLong$Teams[which(USLOnePointsLong$Teams != "Threshol
 USLOneCols = unname(cols[grep(paste(USLOne, collapse = "|"), names(cols))])
 
 ###Chart parameters
-chartMax = 40
+chartMax = 35
 chartMin = -15
 labelX = 34
-labelYUp = 37
+labelYUp = 32
 labelYDown = -14
 
 
