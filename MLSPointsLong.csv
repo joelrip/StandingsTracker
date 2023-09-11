@@ -765,7 +765,7 @@
 "Houston Dynamo",26,38,"West",38,38,62,12,12,12,36
 "Inter Miami",26,28,"East",28,28,52,2,2,2,26
 "Los Angeles FC",26,40,"West",40,40,64,14,14,14,38
-"Los Angeles Galaxy",26,NA,"West",32,29,56,NA,6,3,30
+"Los Angeles Galaxy",26,30,"West",30,30,54,4,4,4,28
 "Minnesota United FC",26,36,"West",36,36,60,10,10,10,34
 "Montreal Impact",26,35,"East",35,35,59,9,9,9,33
 "Nashville SC",26,39,"East",39,39,63,13,13,13,37
@@ -794,7 +794,7 @@
 "Houston Dynamo",27,39,"West",39,39,60,12,12,12,33
 "Inter Miami",27,NA,"East",31,28,52,NA,4,1,25
 "Los Angeles FC",27,40,"West",40,40,61,13,13,13,34
-"Los Angeles Galaxy",27,NA,"West",35,29,56,NA,8,2,29
+"Los Angeles Galaxy",27,NA,"West",33,30,54,NA,6,3,27
 "Minnesota United FC",27,37,"West",37,37,58,10,10,10,31
 "Montreal Impact",27,35,"East",35,35,56,8,8,8,29
 "Nashville SC",27,40,"East",40,40,61,13,13,13,34
@@ -823,7 +823,7 @@
 "Houston Dynamo",28,NA,"West",42,39,60,NA,14,11,32
 "Inter Miami",28,NA,"East",34,28,52,NA,6,0,24
 "Los Angeles FC",28,NA,"West",43,40,61,NA,15,12,33
-"Los Angeles Galaxy",28,NA,"West",38,29,56,NA,10,1,28
+"Los Angeles Galaxy",28,NA,"West",36,30,54,NA,8,2,26
 "Minnesota United FC",28,NA,"West",40,37,58,NA,12,9,30
 "Montreal Impact",28,NA,"East",38,35,56,NA,10,7,28
 "Nashville SC",28,NA,"East",43,40,61,NA,15,12,33
@@ -837,7 +837,7 @@
 "San Jose Earthquakes",28,37,"West",37,37,55,9,9,9,27
 "Seattle Sounders",28,41,"West",41,41,59,13,13,13,31
 "Sporting Kansas City",28,32,"West",32,32,50,4,4,4,22
-"St. Louis City",28,NA,"West",50,47,68,NA,22,19,40
+"St. Louis City",28,48,"West",48,48,66,20,20,20,38
 "Toronto FC",28,NA,"East",25,22,43,NA,-3,-6,15
 "Vancouver Whitecaps",28,NA,"West",44,38,62,NA,16,10,34
 "Atlanta United FC",29,NA,"East",45,42,60,NA,16,13,31
@@ -852,7 +852,7 @@
 "Houston Dynamo",29,NA,"West",45,39,60,NA,16,10,31
 "Inter Miami",29,NA,"East",37,28,52,NA,8,-1,23
 "Los Angeles FC",29,NA,"West",46,40,61,NA,17,11,32
-"Los Angeles Galaxy",29,NA,"West",41,29,56,NA,12,0,27
+"Los Angeles Galaxy",29,NA,"West",39,30,54,NA,10,1,25
 "Minnesota United FC",29,NA,"West",43,37,58,NA,14,8,29
 "Montreal Impact",29,NA,"East",41,35,56,NA,12,6,27
 "Nashville SC",29,NA,"East",46,40,61,NA,17,11,32
@@ -866,7 +866,7 @@
 "San Jose Earthquakes",29,NA,"West",40,37,55,NA,11,8,26
 "Seattle Sounders",29,NA,"West",44,41,59,NA,15,12,30
 "Sporting Kansas City",29,NA,"West",35,32,50,NA,6,3,21
-"St. Louis City",29,NA,"West",53,47,68,NA,24,18,39
+"St. Louis City",29,NA,"West",51,48,66,NA,22,19,37
 "Toronto FC",29,NA,"East",28,22,43,NA,-1,-7,14
 "Vancouver Whitecaps",29,NA,"West",47,38,62,NA,18,9,33
 "Atlanta United FC",30,NA,"East",48,42,60,NA,18,12,30
@@ -881,7 +881,7 @@
 "Houston Dynamo",30,NA,"West",48,39,60,NA,18,9,30
 "Inter Miami",30,NA,"East",40,28,52,NA,10,-2,22
 "Los Angeles FC",30,NA,"West",49,40,61,NA,19,10,31
-"Los Angeles Galaxy",30,NA,"West",44,29,56,NA,14,-1,26
+"Los Angeles Galaxy",30,NA,"West",42,30,54,NA,12,0,24
 "Minnesota United FC",30,NA,"West",46,37,58,NA,16,7,28
 "Montreal Impact",30,NA,"East",44,35,56,NA,14,5,26
 "Nashville SC",30,NA,"East",49,40,61,NA,19,10,31
@@ -895,7 +895,7 @@
 "San Jose Earthquakes",30,NA,"West",43,37,55,NA,13,7,25
 "Seattle Sounders",30,NA,"West",47,41,59,NA,17,11,29
 "Sporting Kansas City",30,NA,"West",38,32,50,NA,8,2,20
-"St. Louis City",30,NA,"West",56,47,68,NA,26,17,38
+"St. Louis City",30,NA,"West",54,48,66,NA,24,18,36
 "Toronto FC",30,NA,"East",31,22,43,NA,1,-8,13
 "Vancouver Whitecaps",30,NA,"West",50,38,62,NA,20,8,32
 "Atlanta United FC",31,NA,"East",51,42,60,NA,20,11,29
@@ -910,7 +910,7 @@
 "Houston Dynamo",31,NA,"West",51,39,60,NA,20,8,29
 "Inter Miami",31,NA,"East",43,28,52,NA,12,-3,21
 "Los Angeles FC",31,NA,"West",52,40,61,NA,21,9,30
-"Los Angeles Galaxy",31,NA,"West",47,29,56,NA,16,-2,25
+"Los Angeles Galaxy",31,NA,"West",45,30,54,NA,14,-1,23
 "Minnesota United FC",31,NA,"West",49,37,58,NA,18,6,27
 "Montreal Impact",31,NA,"East",47,35,56,NA,16,4,25
 "Nashville SC",31,NA,"East",52,40,61,NA,21,9,30
@@ -924,7 +924,7 @@
 "San Jose Earthquakes",31,NA,"West",46,37,55,NA,15,6,24
 "Seattle Sounders",31,NA,"West",50,41,59,NA,19,10,28
 "Sporting Kansas City",31,NA,"West",41,32,50,NA,10,1,19
-"St. Louis City",31,NA,"West",59,47,68,NA,28,16,37
+"St. Louis City",31,NA,"West",57,48,66,NA,26,17,35
 "Toronto FC",31,NA,"East",34,22,43,NA,3,-9,12
 "Vancouver Whitecaps",31,NA,"West",53,38,62,NA,22,7,31
 "Atlanta United FC",32,NA,"East",54,42,60,NA,22,10,28
@@ -939,7 +939,7 @@
 "Houston Dynamo",32,NA,"West",54,39,60,NA,22,7,28
 "Inter Miami",32,NA,"East",46,28,52,NA,14,-4,20
 "Los Angeles FC",32,NA,"West",55,40,61,NA,23,8,29
-"Los Angeles Galaxy",32,NA,"West",50,29,56,NA,18,-3,24
+"Los Angeles Galaxy",32,NA,"West",48,30,54,NA,16,-2,22
 "Minnesota United FC",32,NA,"West",52,37,58,NA,20,5,26
 "Montreal Impact",32,NA,"East",50,35,56,NA,18,3,24
 "Nashville SC",32,NA,"East",55,40,61,NA,23,8,29
@@ -953,7 +953,7 @@
 "San Jose Earthquakes",32,NA,"West",49,37,55,NA,17,5,23
 "Seattle Sounders",32,NA,"West",53,41,59,NA,21,9,27
 "Sporting Kansas City",32,NA,"West",44,32,50,NA,12,0,18
-"St. Louis City",32,NA,"West",62,47,68,NA,30,15,36
+"St. Louis City",32,NA,"West",60,48,66,NA,28,16,34
 "Toronto FC",32,NA,"East",37,22,43,NA,5,-10,11
 "Vancouver Whitecaps",32,NA,"West",56,38,62,NA,24,6,30
 "Atlanta United FC",33,NA,"East",57,42,60,NA,24,9,27
@@ -968,7 +968,7 @@
 "Houston Dynamo",33,NA,"West",57,39,60,NA,24,6,27
 "Inter Miami",33,NA,"East",49,28,52,NA,16,-5,19
 "Los Angeles FC",33,NA,"West",58,40,61,NA,25,7,28
-"Los Angeles Galaxy",33,NA,"West",53,29,56,NA,20,-4,23
+"Los Angeles Galaxy",33,NA,"West",51,30,54,NA,18,-3,21
 "Minnesota United FC",33,NA,"West",55,37,58,NA,22,4,25
 "Montreal Impact",33,NA,"East",53,35,56,NA,20,2,23
 "Nashville SC",33,NA,"East",58,40,61,NA,25,7,28
@@ -982,7 +982,7 @@
 "San Jose Earthquakes",33,NA,"West",52,37,55,NA,19,4,22
 "Seattle Sounders",33,NA,"West",56,41,59,NA,23,8,26
 "Sporting Kansas City",33,NA,"West",47,32,50,NA,14,-1,17
-"St. Louis City",33,NA,"West",65,47,68,NA,32,14,35
+"St. Louis City",33,NA,"West",63,48,66,NA,30,15,33
 "Toronto FC",33,NA,"East",40,22,43,NA,7,-11,10
 "Vancouver Whitecaps",33,NA,"West",59,38,62,NA,26,5,29
 "Atlanta United FC",34,NA,"East",60,42,60,NA,26,8,26
@@ -997,7 +997,7 @@
 "Houston Dynamo",34,NA,"West",60,39,60,NA,26,5,26
 "Inter Miami",34,NA,"East",52,28,52,NA,18,-6,18
 "Los Angeles FC",34,NA,"West",61,40,61,NA,27,6,27
-"Los Angeles Galaxy",34,NA,"West",56,29,56,NA,22,-5,22
+"Los Angeles Galaxy",34,NA,"West",54,30,54,NA,20,-4,20
 "Minnesota United FC",34,NA,"West",58,37,58,NA,24,3,24
 "Montreal Impact",34,NA,"East",56,35,56,NA,22,1,22
 "Nashville SC",34,NA,"East",61,40,61,NA,27,6,27
@@ -1011,7 +1011,7 @@
 "San Jose Earthquakes",34,NA,"West",55,37,55,NA,21,3,21
 "Seattle Sounders",34,NA,"West",59,41,59,NA,25,7,25
 "Sporting Kansas City",34,NA,"West",50,32,50,NA,16,-2,16
-"St. Louis City",34,NA,"West",68,47,68,NA,34,13,34
+"St. Louis City",34,NA,"West",66,48,66,NA,32,14,32
 "Toronto FC",34,NA,"East",43,22,43,NA,9,-12,9
 "Vancouver Whitecaps",34,NA,"West",62,38,62,NA,28,4,28
 "Thresholds",0,NA,"West",NA,-103,103,NA,NA,-103,103
@@ -1068,19 +1068,19 @@
 "Thresholds",25,NA,"East",NA,2,58,NA,NA,-23,33
 "Thresholds",26,NA,"West",NA,9,57,NA,NA,-17,31
 "Thresholds",26,NA,"East",NA,6,56,NA,NA,-20,30
-"Thresholds",27,NA,"West",NA,12,57,NA,NA,-15,30
+"Thresholds",27,NA,"West",NA,12,55,NA,NA,-15,28
 "Thresholds",27,NA,"East",NA,10,55,NA,NA,-17,28
-"Thresholds",28,NA,"West",NA,15,56,NA,NA,-13,28
+"Thresholds",28,NA,"West",NA,15,55,NA,NA,-13,27
 "Thresholds",28,NA,"East",NA,13,54,NA,NA,-15,26
-"Thresholds",29,NA,"West",NA,18,56,NA,NA,-11,27
+"Thresholds",29,NA,"West",NA,18,55,NA,NA,-11,26
 "Thresholds",29,NA,"East",NA,16,54,NA,NA,-13,25
-"Thresholds",30,NA,"West",NA,21,56,NA,NA,-9,26
+"Thresholds",30,NA,"West",NA,21,55,NA,NA,-9,25
 "Thresholds",30,NA,"East",NA,19,54,NA,NA,-11,24
-"Thresholds",31,NA,"West",NA,24,56,NA,NA,-7,25
+"Thresholds",31,NA,"West",NA,24,55,NA,NA,-7,24
 "Thresholds",31,NA,"East",NA,22,54,NA,NA,-9,23
-"Thresholds",32,NA,"West",NA,27,56,NA,NA,-5,24
+"Thresholds",32,NA,"West",NA,27,55,NA,NA,-5,23
 "Thresholds",32,NA,"East",NA,25,54,NA,NA,-7,22
-"Thresholds",33,NA,"West",NA,30,56,NA,NA,-3,23
+"Thresholds",33,NA,"West",NA,30,55,NA,NA,-3,22
 "Thresholds",33,NA,"East",NA,28,54,NA,NA,-5,21
-"Thresholds",34,NA,"West",NA,33,56,NA,NA,-1,22
+"Thresholds",34,NA,"West",NA,33,55,NA,NA,-1,21
 "Thresholds",34,NA,"East",NA,31,54,NA,NA,-3,20
