@@ -1,6 +1,6 @@
 ---
 title: "Standings Tracker"
-date: "Updated September 28, 2023"
+date: "Updated September 30, 2023"
 output: 
   flexdashboard::flex_dashboard:
     social: [ "twitter", "facebook"]
