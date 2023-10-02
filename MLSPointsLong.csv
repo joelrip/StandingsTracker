@@ -909,7 +909,7 @@
 "FC Dallas",31,41,"West",41,41,50,10,10,10,19
 "Houston Dynamo",31,44,"West",44,44,53,13,13,13,22
 "Inter Miami",31,NA,"East",36,33,45,NA,5,2,14
-"Los Angeles FC",31,NA,"West",48,45,57,NA,17,14,26
+"Los Angeles FC",31,45,"West",45,45,54,14,14,14,23
 "Los Angeles Galaxy",31,NA,"West",38,35,47,NA,7,4,16
 "Minnesota United FC",31,38,"West",38,38,47,7,7,7,16
 "Montreal Impact",31,37,"East",37,37,46,6,6,6,15
@@ -920,7 +920,7 @@
 "Orlando City SC",31,54,"East",54,54,63,23,23,23,32
 "Philadelphia Union",31,51,"East",51,51,60,20,20,20,29
 "Portland Timbers",31,42,"West",42,42,51,11,11,11,20
-"Real Salt Lake",31,NA,"West",46,43,55,NA,15,12,24
+"Real Salt Lake",31,46,"West",46,46,55,15,15,15,24
 "San Jose Earthquakes",31,41,"West",41,41,50,10,10,10,19
 "Seattle Sounders",31,46,"West",46,46,55,15,15,15,24
 "Sporting Kansas City",31,38,"West",38,38,47,7,7,7,16
@@ -938,7 +938,7 @@
 "FC Dallas",32,NA,"West",44,41,50,NA,12,9,18
 "Houston Dynamo",32,NA,"West",47,44,53,NA,15,12,21
 "Inter Miami",32,NA,"East",39,33,45,NA,7,1,13
-"Los Angeles FC",32,NA,"West",51,45,57,NA,19,13,25
+"Los Angeles FC",32,NA,"West",48,45,54,NA,16,13,22
 "Los Angeles Galaxy",32,NA,"West",41,35,47,NA,9,3,15
 "Minnesota United FC",32,NA,"West",41,38,47,NA,9,6,15
 "Montreal Impact",32,NA,"East",40,37,46,NA,8,5,14
@@ -949,7 +949,7 @@
 "Orlando City SC",32,NA,"East",57,54,63,NA,25,22,31
 "Philadelphia Union",32,NA,"East",54,51,60,NA,22,19,28
 "Portland Timbers",32,43,"West",43,43,49,11,11,11,17
-"Real Salt Lake",32,NA,"West",49,43,55,NA,17,11,23
+"Real Salt Lake",32,NA,"West",49,46,55,NA,17,14,23
 "San Jose Earthquakes",32,42,"West",42,42,48,10,10,10,16
 "Seattle Sounders",32,NA,"West",49,46,55,NA,17,14,23
 "Sporting Kansas City",32,38,"West",38,38,44,6,6,6,12
@@ -967,7 +967,7 @@
 "FC Dallas",33,NA,"West",47,41,50,NA,14,8,17
 "Houston Dynamo",33,NA,"West",50,44,53,NA,17,11,20
 "Inter Miami",33,NA,"East",42,33,45,NA,9,0,12
-"Los Angeles FC",33,NA,"West",54,45,57,NA,21,12,24
+"Los Angeles FC",33,NA,"West",51,45,54,NA,18,12,21
 "Los Angeles Galaxy",33,NA,"West",44,35,47,NA,11,2,14
 "Minnesota United FC",33,NA,"West",44,38,47,NA,11,5,14
 "Montreal Impact",33,NA,"East",43,37,46,NA,10,4,13
@@ -978,7 +978,7 @@
 "Orlando City SC",33,NA,"East",60,54,63,NA,27,21,30
 "Philadelphia Union",33,NA,"East",57,51,60,NA,24,18,27
 "Portland Timbers",33,NA,"West",46,43,49,NA,13,10,16
-"Real Salt Lake",33,NA,"West",52,43,55,NA,19,10,22
+"Real Salt Lake",33,NA,"West",52,46,55,NA,19,13,22
 "San Jose Earthquakes",33,NA,"West",45,42,48,NA,12,9,15
 "Seattle Sounders",33,NA,"West",52,46,55,NA,19,13,22
 "Sporting Kansas City",33,NA,"West",41,38,44,NA,8,5,11
@@ -996,7 +996,7 @@
 "FC Dallas",34,NA,"West",50,41,50,NA,16,7,16
 "Houston Dynamo",34,NA,"West",53,44,53,NA,19,10,19
 "Inter Miami",34,NA,"East",45,33,45,NA,11,-1,11
-"Los Angeles FC",34,NA,"West",57,45,57,NA,23,11,23
+"Los Angeles FC",34,NA,"West",54,45,54,NA,20,11,20
 "Los Angeles Galaxy",34,NA,"West",47,35,47,NA,13,1,13
 "Minnesota United FC",34,NA,"West",47,38,47,NA,13,4,13
 "Montreal Impact",34,NA,"East",46,37,46,NA,12,3,12
@@ -1007,7 +1007,7 @@
 "Orlando City SC",34,NA,"East",63,54,63,NA,29,20,29
 "Philadelphia Union",34,NA,"East",60,51,60,NA,26,17,26
 "Portland Timbers",34,NA,"West",49,43,49,NA,15,9,15
-"Real Salt Lake",34,NA,"West",55,43,55,NA,21,9,21
+"Real Salt Lake",34,NA,"West",55,46,55,NA,21,12,21
 "San Jose Earthquakes",34,NA,"West",48,42,48,NA,14,8,14
 "Seattle Sounders",34,NA,"West",55,46,55,NA,21,12,21
 "Sporting Kansas City",34,NA,"West",44,38,44,NA,10,4,10
