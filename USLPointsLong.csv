@@ -791,7 +791,7 @@
 "San Antonio",32,55,"West",55,55,61,23,23,23,29
 "San Diego Loyal",32,51,"West",51,51,57,19,19,19,25
 "Tampa Bay Rowdies",32,60,"East",60,60,66,28,28,28,34
-"Birmingham Legion",33,NA,"East",46,43,49,NA,13,10,16
+"Birmingham Legion",33,46,"East",46,46,49,13,13,13,16
 "Charleston Battery",33,56,"East",56,56,59,23,23,23,26
 "Colorado Springs",33,50,"West",50,50,53,17,17,17,20
 "Detroit City",33,40,"East",40,40,43,7,7,7,10
@@ -804,18 +804,18 @@
 "Louisville City",33,50,"East",50,50,53,17,17,17,20
 "Memphis 901",33,52,"East",52,52,55,19,19,19,22
 "Miami FC",33,41,"East",41,41,44,8,8,8,11
-"Monterey Bay",33,NA,"West",44,41,47,NA,11,8,14
-"New Mexico United",33,41,"West",41,41,44,8,8,8,11
+"Monterey Bay",33,41,"West",41,41,44,8,8,8,11
+"New Mexico United",33,43,"West",43,43,46,10,10,10,13
 "Oakland Roots",33,42,"West",42,42,45,9,9,9,12
 "Orange County SC",33,54,"West",54,54,57,21,21,21,24
-"Phoenix Rising",33,49,"West",49,49,52,16,16,16,19
+"Phoenix Rising",33,48,"West",48,48,51,15,15,15,18
 "Pittsburgh Riverhounds",33,66,"East",66,66,69,33,33,33,36
 "Rio Grande Valley",33,40,"West",40,40,43,7,7,7,10
 "Sacramento Republic",33,61,"West",61,61,64,28,28,28,31
 "San Antonio",33,55,"West",55,55,58,22,22,22,25
 "San Diego Loyal",33,54,"West",54,54,57,21,21,21,24
 "Tampa Bay Rowdies",33,60,"East",60,60,63,27,27,27,30
-"Birmingham Legion",34,NA,"East",49,43,49,NA,15,9,15
+"Birmingham Legion",34,NA,"East",49,46,49,NA,15,12,15
 "Charleston Battery",34,NA,"East",59,56,59,NA,25,22,25
 "Colorado Springs",34,NA,"West",53,50,53,NA,19,16,19
 "Detroit City",34,NA,"East",43,40,43,NA,9,6,9
@@ -828,11 +828,11 @@
 "Louisville City",34,NA,"East",53,50,53,NA,19,16,19
 "Memphis 901",34,NA,"East",55,52,55,NA,21,18,21
 "Miami FC",34,NA,"East",44,41,44,NA,10,7,10
-"Monterey Bay",34,NA,"West",47,41,47,NA,13,7,13
-"New Mexico United",34,NA,"West",44,41,44,NA,10,7,10
+"Monterey Bay",34,NA,"West",44,41,44,NA,10,7,10
+"New Mexico United",34,NA,"West",46,43,46,NA,12,9,12
 "Oakland Roots",34,NA,"West",45,42,45,NA,11,8,11
 "Orange County SC",34,NA,"West",57,54,57,NA,23,20,23
-"Phoenix Rising",34,NA,"West",52,49,52,NA,18,15,18
+"Phoenix Rising",34,NA,"West",51,48,51,NA,17,14,17
 "Pittsburgh Riverhounds",34,NA,"East",69,66,69,NA,35,32,35
 "Rio Grande Valley",34,NA,"West",43,40,43,NA,9,6,9
 "Sacramento Republic",34,NA,"West",64,61,64,NA,30,27,30
@@ -905,7 +905,7 @@
 "Thresholds",31,NA,"East",NA,27,46,NA,NA,-4,15
 "Thresholds",32,NA,"West",NA,35,48,NA,NA,3,16
 "Thresholds",32,NA,"East",NA,31,44,NA,NA,-1,12
-"Thresholds",33,NA,"West",NA,38,46,NA,NA,5,13
+"Thresholds",33,NA,"West",NA,39,46,NA,NA,6,13
 "Thresholds",33,NA,"East",NA,37,44,NA,NA,4,11
-"Thresholds",34,NA,"West",NA,41,46,NA,NA,7,12
+"Thresholds",34,NA,"West",NA,42,46,NA,NA,8,12
 "Thresholds",34,NA,"East",NA,40,44,NA,NA,6,10
