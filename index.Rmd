@@ -1,6 +1,6 @@
 ---
 title: "Standings Tracker"
-date: "Updated October 21, 2023"
+date: "Updated July 13, 2025"
 output: 
   flexdashboard::flex_dashboard:
     social: [ "twitter", "facebook"]
@@ -18,6 +18,7 @@ output:
 </style>
 
 <p class="intro">Tracking US club soccer standings, game by game. See the "About" page for more info!</p>
+
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
@@ -106,6 +107,7 @@ for (item in unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds
 ###Assign team colors to all teams
 cols = c("Atlanta United FC" = "#80000A",
          "Austin" = "#00B140",
+         "CF Montreal" = "#003DA5",
          "Charlotte" = "#1A85C8",
          "Chicago Fire" = "#C2002F",
          "Colorado Rapids" = "#862633",
@@ -127,6 +129,7 @@ cols = c("Atlanta United FC" = "#80000A",
          "Philadelphia Union" = "#002D55",
          "Portland Timbers" = "#00482B",
          "Real Salt Lake" = "#B30838",
+         "San Diego" = "#697A7C",
          "San Jose Earthquakes" = "#221F1F",
          "Seattle Sounders" = "#658D1B",
          "Sporting Kansas City" = "#93B1D7",
@@ -138,37 +141,44 @@ cols = c("Atlanta United FC" = "#80000A",
          "Colorado Springs" = "#09305D",
          "Detroit City" = "#3F2021",
          "El Paso Locomotive" = "#73B3E6",
+         "FC Tulsa" = "#BD9B60",
          "Hartford Athletic" = "#009845",
          "Indy Eleven" = "#CF1C2B",
          "Las Vegas Lights" = "#00BDEF",
+         "Lexington" = "#00EA1F",
          "Loudoun United" = "#000000",
          "Louisville City" = "#532B78",
-         "Memphis 901" = "#D31245",
+         #"Memphis 901" = "#D31245",
          "Miami FC" = "#F03E1E",
          "Monterey Bay" = "#67D2DF",
          "New Mexico United" = "#FFF000",
+         "North Carolina" = "#01426A",
          "Oakland Roots" = "#00BB7E",
          "Orange County SC" = "#EF3432",
          "Phoenix Rising" = "#EB1921",
          "Pittsburgh Riverhounds" = "#FFC629",
+         "Rhode Island" = "#F9A50D",
          "Rio Grande Valley" = "#EE351E",
          "Sacramento Republic" = "#8B0F04",
          "San Antonio" = "#161113",
-         "San Diego Loyal" = "#148F8C",
+         #"San Diego Loyal" = "#148F8C",
          "Tampa Bay Rowdies" = "#4A8B2C",
-         "FC Tulsa" = "#BD9B60",
+         "Alta" = "#D1CCBD",
          "Central Valley Fuego" = "#64A70B",
          "Charlotte Independence" = "#003DA5",
          "Chattanooga Red Wolves" = "#7C2629",
          "Forward Madison" = "#71C5E8",
          "Greenville Triumph" = "#97D700",
-         "Lexington" = "#44D62C",
-         "North Carolina" = "#01426A",
+         "Naples" = "#1B365D",
          "Northern Colorado" = "#BD9B60",
          "One Knoxville" = "#E56A54",
+         "Portland Hearts of Pine" = "#1D3C34",
          "Richmond Kickers" = "#C8102E",
+         "Spokane Velocity" = "#0093B2",
+         "Texoma" = "#E10600",
          "Tormenta" = "#8D9093",
-         "Union Omaha" = "#010101"
+         "Union Omaha" = "#010101",
+         "Westchester SC" = "#F1BE48"
          )
 MLSWest = unique(MLSPointsLong$Teams[which(MLSPointsLong$Teams != "Thresholds" & MLSPointsLong$Conference == "West")])
 MLSWestCols = unname(cols[grep(paste(MLSWest, collapse = "|"), names(cols))])
@@ -342,7 +352,7 @@ highchart() %>%
       labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
         list(
           point = list(
-            x = labelX,
+            x = 30,
             y = labelYUp,
             xAxis = 0,
             yAxis = 0
@@ -351,7 +361,7 @@ highchart() %>%
         ),
         list(
           point = list(
-            x = labelX,
+            x = 30,
             y = labelYDown,
             xAxis = 0,
             yAxis = 0
@@ -400,7 +410,7 @@ highchart() %>%
       labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
         list(
           point = list(
-            x = labelX,
+            x = 30,
             y = labelYUp,
             xAxis = 0,
             yAxis = 0
@@ -409,7 +419,7 @@ highchart() %>%
         ),
         list(
           point = list(
-            x = labelX,
+            x = 30,
             y = labelYDown,
             xAxis = 0,
             yAxis = 0
@@ -464,7 +474,7 @@ highchart() %>%
       labels = list(  #UNCOMMENT WHEN CLINCHED AND ELIMINATED AREAS APPEAR ON THE CHARTS
         list(
           point = list(
-            x = 32,
+            x = 30,
             y = labelYUp,
             xAxis = 0,
             yAxis = 0
@@ -473,7 +483,7 @@ highchart() %>%
         ),
         list(
           point = list(
-            x = 32,
+            x = 30,
             y = labelYDown,
             xAxis = 0,
             yAxis = 0
@@ -501,8 +511,10 @@ highchart() %>%
 
 About
 ===================================== 
+<span style="font-size:24px;">
 <p><strong>Welcome!</strong> I built this interactive chart of <a href="http://www.mlssoccer.com/">MLS</a> and <a href="http://www.uslsoccer.com/">USL</a> standings after becoming frustrated with the fact that some teams had so many games in hand over other teams that the official standings became somewhat misleading. In the middle of the season, it's not uncommon for some teams to have played 5 or 6 more games than others as of a given date! It's less important how many points each team has on a given <strong>date</strong> than how many points they each have after playing a given number of <strong>games</strong>.
 
 <p>So one thing these charts do is allow you to compare relative team standings after any given number of games. Just hover over a point in the charts, and you'll see the relative positions of all the teams when they had played that number of games. You can also remove a team from the chart by clicking its name in the legend, so you can see just the teams you want to see.
 
 <p>But I have also made another, more experimental modification. Instead of showing the number of points each team has, the charts show the number of points <strong>minus the number of games played</strong>. Put another way, instead of 3 points for a win, 1 for a draw, and 0 for a loss, they show 2, 0, and -1 points respectively. This has the benefit of showing a team going <strong>down</strong> when they lose a game, staying level when they draw, and going up when they win, but without changing their relative positions. It's sort of like rotating the picture clockwise a bit. This way, if two teams have the same number of points, but one has played fewer games than the other, the team that has played fewer games is visually higher on the chart than the one that has played more games, giving what I think is a better representation of their relative positions in the standings. I hope you find it as useful as I do!
+</span>

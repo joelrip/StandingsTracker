@@ -6,9 +6,11 @@ library(tidyverse)
 library(httr)
 library(dotenv)
 
+load_dot_env("apikey.env") #Put your api-sports.io key in this file. The file should contain this line: API_SPORTS_API_KEY:"your_key_here"
+
 #Import USL League 1 scores from api-sports.io
 api_usl_one <- GET(
-  "https://v3.football.api-sports.io/fixtures?season=2023&league=489",
+  "https://v3.football.api-sports.io/fixtures?season=2025&league=489",
   add_headers(
     'x-rapidapi-host' = "v3.football.api-sports.io",
     'x-rapidapi-key' = Sys.getenv("API_SPORTS_API_KEY")
@@ -37,14 +39,14 @@ table(USLOneScores$team1)
 table(USLOneScores$team2)
 
 #Run through formatting function
-USLOnePointsLong = StandingsTracker(USLOneScores, NA, 32, 6, 6)
+USLOnePointsLong = StandingsTracker(USLOneScores, NA, 30, 8, 6)
 
 #Save
 write.csv(USLOnePointsLong, "USLOnePointsLong.csv", row.names = F)
 
 #Import USL Championship scores from api-sports.io
 api_usl <- GET(
-  "https://v3.football.api-sports.io/fixtures?season=2023&league=255",
+  "https://v3.football.api-sports.io/fixtures?season=2025&league=255",
   add_headers(
     'x-rapidapi-host' = "v3.football.api-sports.io",
     'x-rapidapi-key' = Sys.getenv("API_SPORTS_API_KEY")
@@ -75,16 +77,16 @@ table(USLScores$team2)
 #Run through formatting function
 USLWest = c("Sacramento Republic", "New Mexico United", "Orange County SC", "Colorado Springs",
             "El Paso Locomotive", "San Antonio", "Las Vegas Lights", "Phoenix Rising",
-            "Rio Grande Valley", "San Diego Loyal", "Oakland Roots", "Monterey Bay") #correct for 2023
+            "Lexington", "FC Tulsa", "Oakland Roots", "Monterey Bay") #correct for 2025
 #USLScores <- USLScores[which(USLScores$date > "2023-01-01"),-1]
-USLPointsLong = StandingsTracker(USLScores, USLWest, 34, 8, 4)
+USLPointsLong = StandingsTracker(USLScores, USLWest, 30, 8, 4)
 
 #Save
 write.csv(USLPointsLong, "USLPointsLong.csv", row.names = F)
 
 #Import MLS scores from api-sports.io
 api_mls <- GET(
-  "https://v3.football.api-sports.io/fixtures?season=2023&league=253",
+  "https://v3.football.api-sports.io/fixtures?season=2025&league=253",
   add_headers(
     'x-rapidapi-host' = "v3.football.api-sports.io",
     'x-rapidapi-key' = Sys.getenv("API_SPORTS_API_KEY")
@@ -115,9 +117,9 @@ table(MLSScores$team2)
 #Run through formatting function
 MLSWest = c("Vancouver Whitecaps", "Portland Timbers", "Seattle Sounders", "Sporting Kansas City", "Houston Dynamo",
             "FC Dallas", "San Jose Earthquakes", "Real Salt Lake", "Los Angeles Galaxy", "Minnesota United FC", "Colorado Rapids",
-            "Los Angeles FC", "Austin", "St. Louis City") #correct for 2023
+            "Los Angeles FC", "Austin", "St. Louis City", "San Diego") #correct for 2025
 #MLSScores <- MLSScores[which(MLSScores$date > "2023-01-01"),-1]
-MLSPointsLong = StandingsTracker(MLSScores, MLSWest, 34, 9, 5)
+MLSPointsLong = StandingsTracker(MLSScores, MLSWest, 34, 9, 6)
 
 #Save
 write.csv(MLSPointsLong, "MLSPointsLong.csv", row.names = F)
