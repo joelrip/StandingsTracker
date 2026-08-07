@@ -13,11 +13,10 @@
 #outNum = 6
 
 StandingsTracker <- function(ScoresTable, west, games, inNum, outNum) {
-  
   require(tidyr)
-  
+
   #Format dates, calculate points per game
-  ScoresTable = ScoresTable[which(!is.na(ScoresTable$score1)),]
+  ScoresTable = ScoresTable[which(!is.na(ScoresTable$score1)), ]
   ScoresTable$HPoints = NA
   ScoresTable$APoints = NA
   for (item in 1:nrow(ScoresTable)) {
@@ -32,7 +31,7 @@ StandingsTracker <- function(ScoresTable, west, games, inNum, outNum) {
       ScoresTable$HPoints[item] = 1
     }
   }
-  
+
   #convert to cumulative points table
   teams = c(ScoresTable$team1, ScoresTable$team2)
   teams = unique(teams[order(teams)])
@@ -55,7 +54,8 @@ StandingsTracker <- function(ScoresTable, west, games, inNum, outNum) {
           PointsTable[homeRow, column] = ScoresTable$HPoints[item]
           break
         } else {
-          PointsTable[homeRow, column] = ScoresTable$HPoints[item] + PointsTable[homeRow, column -1]
+          PointsTable[homeRow, column] = ScoresTable$HPoints[item] +
+            PointsTable[homeRow, column - 1]
           break
         }
       }
@@ -67,17 +67,22 @@ StandingsTracker <- function(ScoresTable, west, games, inNum, outNum) {
           PointsTable[awayRow, column] = ScoresTable$APoints[item]
           break
         } else {
-          PointsTable[awayRow, column] = ScoresTable$APoints[item] + PointsTable[awayRow, column -1]
+          PointsTable[awayRow, column] = ScoresTable$APoints[item] +
+            PointsTable[awayRow, column - 1]
           break
         }
       }
     }
   }
-  
+
   #format for plotting, divide by conference
   LastGame = paste0("Game", games)
   PointsLong = gather(PointsTable, Game, Points, Game0:LastGame)
-  PointsLong$Game = as.numeric(substr(as.character(PointsLong$Game), 5, nchar(as.character(PointsLong$Game))))
+  PointsLong$Game = as.numeric(substr(
+    as.character(PointsLong$Game),
+    5,
+    nchar(as.character(PointsLong$Game))
+  ))
   PointsLong$Teams = as.character(PointsLong$Teams)
   PointsLong$Conference = "East"
   if (length(west) > 1) {
@@ -85,43 +90,77 @@ StandingsTracker <- function(ScoresTable, west, games, inNum, outNum) {
       if (PointsLong$Teams[item] %in% west) {
         PointsLong$Conference[item] = "West"
       }
-    }    
+    }
   }
 
   #PointsLong$Teams[which(PointsLong$Teams == "Colorado Springs Switchbacks FC")] = "CS Switchbacks FC"
-  
+
   ###Figure out playoffs positioning
   PointsLong$MaxPoints = PointsLong$Points
   PointsLong$MinPoints = PointsLong$Points
   PointsLong$MaxFinal = NA
   for (item in 1:nrow(PointsLong)) {
     if (is.na(PointsLong$Points[item])) {
-      PointsLong$MaxPoints[item] = max(PointsLong$Points[which(PointsLong$Teams == PointsLong$Teams[item])], na.rm = T) +
-        (3 * (PointsLong$Game[item] - max(PointsLong$Game[which(PointsLong$Teams == PointsLong$Teams[item] & !is.na(PointsLong$Points))], na.rm = T)))
-      PointsLong$MinPoints[item] = max(PointsLong$Points[which(PointsLong$Teams == PointsLong$Teams[item])], na.rm = T)
+      PointsLong$MaxPoints[item] = max(
+        PointsLong$Points[which(PointsLong$Teams == PointsLong$Teams[item])],
+        na.rm = T
+      ) +
+        (3 *
+          (PointsLong$Game[item] -
+            max(
+              PointsLong$Game[which(
+                PointsLong$Teams == PointsLong$Teams[item] &
+                  !is.na(PointsLong$Points)
+              )],
+              na.rm = T
+            )))
+      PointsLong$MinPoints[item] = max(
+        PointsLong$Points[which(PointsLong$Teams == PointsLong$Teams[item])],
+        na.rm = T
+      )
     }
-    PointsLong$MaxFinal[item] = PointsLong$MaxPoints[item] + (3 * (games - PointsLong$Game[item]))
+    PointsLong$MaxFinal[item] = PointsLong$MaxPoints[item] +
+      (3 * (games - PointsLong$Game[item]))
   }
   for (item in 0:games) {
-    MaxScoresW = sort(PointsLong$MaxFinal[which(PointsLong$Game == item & PointsLong$Conference == "West")], decreasing = T)
+    MaxScoresW = sort(
+      PointsLong$MaxFinal[which(
+        PointsLong$Game == item & PointsLong$Conference == "West"
+      )],
+      decreasing = T
+    )
     InThresholdW = MaxScoresW[inNum + 1] + 1
-    MinScoresW = sort(PointsLong$MinPoints[which(PointsLong$Game == item & PointsLong$Conference == "West")])
+    MinScoresW = sort(PointsLong$MinPoints[which(
+      PointsLong$Game == item & PointsLong$Conference == "West"
+    )])
     OutThresholdW = (MinScoresW[outNum + 1] - 1) - (3 * (games - item))
-    PointsLong = rbind(PointsLong, list("Thresholds", item, NA, "West", NA, OutThresholdW, InThresholdW))
+    PointsLong = rbind(
+      PointsLong,
+      list("Thresholds", item, NA, "West", NA, OutThresholdW, InThresholdW)
+    )
 
-    MaxScoresE = sort(PointsLong$MaxFinal[which(PointsLong$Game == item & PointsLong$Conference == "East")], decreasing = T)
+    MaxScoresE = sort(
+      PointsLong$MaxFinal[which(
+        PointsLong$Game == item & PointsLong$Conference == "East"
+      )],
+      decreasing = T
+    )
     InThresholdE = MaxScoresE[inNum + 1] + 1
-    MinScoresE = sort(PointsLong$MinPoints[which(PointsLong$Game == item & PointsLong$Conference == "East")])
+    MinScoresE = sort(PointsLong$MinPoints[which(
+      PointsLong$Game == item & PointsLong$Conference == "East"
+    )])
     OutThresholdE = (MinScoresE[outNum + 1] - 1) - (3 * (games - item))
-    PointsLong = rbind(PointsLong, list("Thresholds", item, NA, "East", NA, OutThresholdE, InThresholdE))
+    PointsLong = rbind(
+      PointsLong,
+      list("Thresholds", item, NA, "East", NA, OutThresholdE, InThresholdE)
+    )
   }
-  
+
   #Add columns to PointsLong to precalculate values for charts
   PointsLong$PointsLessGames = PointsLong$Points - PointsLong$Game
   PointsLong$MaxPointsLessGames = PointsLong$MaxPoints - PointsLong$Game
   PointsLong$MinPointsLessGames = PointsLong$MinPoints - PointsLong$Game
   PointsLong$MaxFinalLessGames = PointsLong$MaxFinal - PointsLong$Game
-  
+
   return(PointsLong)
 }
-
