@@ -1,5 +1,5 @@
 # StandingsTracker
-Charting the 2023 US club soccer season.
+Charting the US club soccer season.
 
 Data imported using the api-football.com API.
 
