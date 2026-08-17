@@ -1,6 +1,6 @@
 ---
 title: "Standings Tracker"
-date: "Updated August 9, 2026"
+date: "Updated August 17, 2026"
 output: 
   flexdashboard::flex_dashboard:
     social: [ "twitter", "facebook"]
@@ -137,6 +137,7 @@ cols = c("Atlanta United FC" = "#80000A",
          "Toronto FC" = "#AB1E2D",
          "Vancouver Whitecaps" = "#94C2E4",
          "Birmingham Legion" = "#9F8A59",
+         "Brooklyn" = "#C5BFAE",
          "Charleston Battery" = "#FDCA00",
          "Colorado Springs" = "#09305D",
          "Detroit City" = "#3F2021",
@@ -162,21 +163,27 @@ cols = c("Atlanta United FC" = "#80000A",
          "Sacramento Republic" = "#8B0F04",
          "San Antonio" = "#161113",
          #"San Diego Loyal" = "#148F8C",
+         "Sporting JAX" = "#00ADEE",
          "Tampa Bay Rowdies" = "#4A8B2C",
          "Alta" = "#D1CCBD",
-         "Central Valley Fuego" = "#64A70B",
+         "Boise" = "#218F45",
+         #"Central Valley Fuego" = "#64A70B",
          "Charlotte Independence" = "#003DA5",
          "Chattanooga Red Wolves" = "#7C2629",
+         "Corpus Christi" = "#A5201A",
+         "Fort Wayne" = "#ED9B33",
          "Forward Madison" = "#71C5E8",
          "Greenville Triumph" = "#97D700",
          "Naples" = "#1B365D",
-         "Northern Colorado" = "#BD9B60",
+         #"Northern Colorado" = "#BD9B60",
+         "NY Cosmos" = "#002755",
          "One Knoxville" = "#E56A54",
          "Portland Hearts of Pine" = "#1D3C34",
          "Richmond Kickers" = "#C8102E",
+         "Sarasota Paradise" = "#6BBDAB",
          "Spokane Velocity" = "#0093B2",
-         "Texoma" = "#E10600",
-         "Tormenta" = "#8D9093",
+         #"Texoma" = "#E10600",
+         #"Tormenta" = "#8D9093",
          "Union Omaha" = "#010101",
          "Westchester SC" = "#F1BE48"
          )

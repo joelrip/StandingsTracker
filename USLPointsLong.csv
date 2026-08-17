@@ -439,7 +439,7 @@
 "Louisville City",17,27,"East",27,27,66,10,10,10,49
 "Miami FC",17,21,"East",21,21,60,4,4,4,43
 "Monterey Bay",17,15,"West",15,15,54,-2,-2,-2,37
-"New Mexico United",17,NA,"West",33,30,72,NA,16,13,55
+"New Mexico United",17,33,"West",33,33,72,16,16,16,55
 "Oakland Roots",17,21,"West",21,21,60,4,4,4,43
 "Orange County SC",17,31,"West",31,31,70,14,14,14,53
 "Phoenix Rising",17,21,"West",21,21,60,4,4,4,43
@@ -449,331 +449,331 @@
 "San Antonio",17,28,"West",28,28,67,11,11,11,50
 "Sporting JAX",17,8,"East",8,8,47,-9,-9,-9,30
 "Tampa Bay Rowdies",17,35,"East",35,35,74,18,18,18,57
-"Birmingham Legion",18,NA,"East",20,17,56,NA,2,-1,38
-"Brooklyn",18,NA,"East",16,13,52,NA,-2,-5,34
+"Birmingham Legion",18,17,"East",17,17,53,-1,-1,-1,35
+"Brooklyn",18,13,"East",13,13,49,-5,-5,-5,31
 "Charleston Battery",18,30,"East",30,30,66,12,12,12,48
 "Colorado Springs",18,25,"West",25,25,61,7,7,7,43
 "Detroit City",18,31,"East",31,31,67,13,13,13,49
 "El Paso Locomotive",18,25,"West",25,25,61,7,7,7,43
 "FC Tulsa",18,29,"West",29,29,65,11,11,11,47
 "Hartford Athletic",18,21,"East",21,21,57,3,3,3,39
-"Indy Eleven",18,NA,"East",25,22,61,NA,7,4,43
+"Indy Eleven",18,25,"East",25,25,61,7,7,7,43
 "Las Vegas Lights",18,23,"West",23,23,59,5,5,5,41
 "Lexington",18,28,"West",28,28,64,10,10,10,46
 "Loudoun United",18,18,"East",18,18,54,0,0,0,36
 "Louisville City",18,27,"East",27,27,63,9,9,9,45
 "Miami FC",18,21,"East",21,21,57,3,3,3,39
 "Monterey Bay",18,15,"West",15,15,51,-3,-3,-3,33
-"New Mexico United",18,NA,"West",36,30,72,NA,18,12,54
+"New Mexico United",18,NA,"West",36,33,72,NA,18,15,54
 "Oakland Roots",18,21,"West",21,21,57,3,3,3,39
 "Orange County SC",18,34,"West",34,34,70,16,16,16,52
 "Phoenix Rising",18,22,"West",22,22,58,4,4,4,40
 "Pittsburgh Riverhounds",18,26,"East",26,26,62,8,8,8,44
-"Rhode Island",18,NA,"East",28,25,64,NA,10,7,46
+"Rhode Island",18,25,"East",25,25,61,7,7,7,43
 "Sacramento Republic",18,27,"West",27,27,63,9,9,9,45
 "San Antonio",18,31,"West",31,31,67,13,13,13,49
 "Sporting JAX",18,8,"East",8,8,44,-10,-10,-10,26
 "Tampa Bay Rowdies",18,38,"East",38,38,74,20,20,20,56
-"Birmingham Legion",19,NA,"East",23,17,56,NA,4,-2,37
-"Brooklyn",19,NA,"East",19,13,52,NA,0,-6,33
+"Birmingham Legion",19,NA,"East",20,17,53,NA,1,-2,34
+"Brooklyn",19,NA,"East",16,13,49,NA,-3,-6,30
 "Charleston Battery",19,33,"East",33,33,66,14,14,14,47
-"Colorado Springs",19,NA,"West",28,25,61,NA,9,6,42
-"Detroit City",19,NA,"East",34,31,67,NA,15,12,48
+"Colorado Springs",19,28,"West",28,28,61,9,9,9,42
+"Detroit City",19,32,"East",32,32,65,13,13,13,46
 "El Paso Locomotive",19,28,"West",28,28,61,9,9,9,42
-"FC Tulsa",19,NA,"West",32,29,65,NA,13,10,46
-"Hartford Athletic",19,NA,"East",24,21,57,NA,5,2,38
-"Indy Eleven",19,NA,"East",28,22,61,NA,9,3,42
+"FC Tulsa",19,29,"West",29,29,62,10,10,10,43
+"Hartford Athletic",19,24,"East",24,24,57,5,5,5,38
+"Indy Eleven",19,NA,"East",28,25,61,NA,9,6,42
 "Las Vegas Lights",19,26,"West",26,26,59,7,7,7,40
-"Lexington",19,NA,"West",31,28,64,NA,12,9,45
-"Loudoun United",19,NA,"East",21,18,54,NA,2,-1,35
+"Lexington",19,28,"West",28,28,61,9,9,9,42
+"Loudoun United",19,19,"East",19,19,52,0,0,0,33
 "Louisville City",19,28,"East",28,28,61,9,9,9,42
 "Miami FC",19,22,"East",22,22,55,3,3,3,36
 "Monterey Bay",19,15,"West",15,15,48,-4,-4,-4,29
-"New Mexico United",19,NA,"West",39,30,72,NA,20,11,53
+"New Mexico United",19,NA,"West",39,33,72,NA,20,14,53
 "Oakland Roots",19,22,"West",22,22,55,3,3,3,36
 "Orange County SC",19,34,"West",34,34,67,15,15,15,48
 "Phoenix Rising",19,22,"West",22,22,55,3,3,3,36
 "Pittsburgh Riverhounds",19,27,"East",27,27,60,8,8,8,41
-"Rhode Island",19,NA,"East",31,25,64,NA,12,6,45
-"Sacramento Republic",19,NA,"West",30,27,63,NA,11,8,44
+"Rhode Island",19,NA,"East",28,25,61,NA,9,6,42
+"Sacramento Republic",19,30,"West",30,30,63,11,11,11,44
 "San Antonio",19,32,"West",32,32,65,13,13,13,46
 "Sporting JAX",19,8,"East",8,8,41,-11,-11,-11,22
 "Tampa Bay Rowdies",19,41,"East",41,41,74,22,22,22,55
-"Birmingham Legion",20,NA,"East",26,17,56,NA,6,-3,36
-"Brooklyn",20,NA,"East",22,13,52,NA,2,-7,32
-"Charleston Battery",20,NA,"East",36,33,66,NA,16,13,46
-"Colorado Springs",20,NA,"West",31,25,61,NA,11,5,41
-"Detroit City",20,NA,"East",37,31,67,NA,17,11,47
-"El Paso Locomotive",20,NA,"West",31,28,61,NA,11,8,41
-"FC Tulsa",20,NA,"West",35,29,65,NA,15,9,45
-"Hartford Athletic",20,NA,"East",27,21,57,NA,7,1,37
-"Indy Eleven",20,NA,"East",31,22,61,NA,11,2,41
-"Las Vegas Lights",20,NA,"West",29,26,59,NA,9,6,39
-"Lexington",20,NA,"West",34,28,64,NA,14,8,44
-"Loudoun United",20,NA,"East",24,18,54,NA,4,-2,34
-"Louisville City",20,NA,"East",31,28,61,NA,11,8,41
+"Birmingham Legion",20,NA,"East",23,17,53,NA,3,-3,33
+"Brooklyn",20,NA,"East",19,13,49,NA,-1,-7,29
+"Charleston Battery",20,33,"East",33,33,63,13,13,13,43
+"Colorado Springs",20,NA,"West",31,28,61,NA,11,8,41
+"Detroit City",20,NA,"East",35,32,65,NA,15,12,45
+"El Paso Locomotive",20,31,"West",31,31,61,11,11,11,41
+"FC Tulsa",20,NA,"West",32,29,62,NA,12,9,42
+"Hartford Athletic",20,NA,"East",27,24,57,NA,7,4,37
+"Indy Eleven",20,NA,"East",31,25,61,NA,11,5,41
+"Las Vegas Lights",20,29,"West",29,29,59,9,9,9,39
+"Lexington",20,NA,"West",31,28,61,NA,11,8,41
+"Loudoun United",20,NA,"East",22,19,52,NA,2,-1,32
+"Louisville City",20,31,"East",31,31,61,11,11,11,41
 "Miami FC",20,22,"East",22,22,52,2,2,2,32
 "Monterey Bay",20,15,"West",15,15,45,-5,-5,-5,25
-"New Mexico United",20,NA,"West",42,30,72,NA,22,10,52
+"New Mexico United",20,NA,"West",42,33,72,NA,22,13,52
 "Oakland Roots",20,22,"West",22,22,52,2,2,2,32
-"Orange County SC",20,NA,"West",37,34,67,NA,17,14,47
+"Orange County SC",20,34,"West",34,34,64,14,14,14,44
 "Phoenix Rising",20,NA,"West",25,22,55,NA,5,2,35
-"Pittsburgh Riverhounds",20,NA,"East",30,27,60,NA,10,7,40
-"Rhode Island",20,NA,"East",34,25,64,NA,14,5,44
-"Sacramento Republic",20,NA,"West",33,27,63,NA,13,7,43
-"San Antonio",20,NA,"West",35,32,65,NA,15,12,45
-"Sporting JAX",20,NA,"East",11,8,41,NA,-9,-12,21
-"Tampa Bay Rowdies",20,NA,"East",44,41,74,NA,24,21,54
-"Birmingham Legion",21,NA,"East",29,17,56,NA,8,-4,35
-"Brooklyn",21,NA,"East",25,13,52,NA,4,-8,31
-"Charleston Battery",21,NA,"East",39,33,66,NA,18,12,45
-"Colorado Springs",21,NA,"West",34,25,61,NA,13,4,40
-"Detroit City",21,NA,"East",40,31,67,NA,19,10,46
-"El Paso Locomotive",21,NA,"West",34,28,61,NA,13,7,40
-"FC Tulsa",21,NA,"West",38,29,65,NA,17,8,44
-"Hartford Athletic",21,NA,"East",30,21,57,NA,9,0,36
-"Indy Eleven",21,NA,"East",34,22,61,NA,13,1,40
-"Las Vegas Lights",21,NA,"West",32,26,59,NA,11,5,38
-"Lexington",21,NA,"West",37,28,64,NA,16,7,43
-"Loudoun United",21,NA,"East",27,18,54,NA,6,-3,33
-"Louisville City",21,NA,"East",34,28,61,NA,13,7,40
-"Miami FC",21,NA,"East",25,22,52,NA,4,1,31
-"Monterey Bay",21,NA,"West",18,15,45,NA,-3,-6,24
-"New Mexico United",21,NA,"West",45,30,72,NA,24,9,51
-"Oakland Roots",21,NA,"West",25,22,52,NA,4,1,31
-"Orange County SC",21,NA,"West",40,34,67,NA,19,13,46
+"Pittsburgh Riverhounds",20,30,"East",30,30,60,10,10,10,40
+"Rhode Island",20,NA,"East",31,25,61,NA,11,5,41
+"Sacramento Republic",20,NA,"West",33,30,63,NA,13,10,43
+"San Antonio",20,32,"West",32,32,62,12,12,12,42
+"Sporting JAX",20,8,"East",8,8,38,-12,-12,-12,18
+"Tampa Bay Rowdies",20,44,"East",44,44,74,24,24,24,54
+"Birmingham Legion",21,NA,"East",26,17,53,NA,5,-4,32
+"Brooklyn",21,NA,"East",22,13,49,NA,1,-8,28
+"Charleston Battery",21,NA,"East",36,33,63,NA,15,12,42
+"Colorado Springs",21,NA,"West",34,28,61,NA,13,7,40
+"Detroit City",21,NA,"East",38,32,65,NA,17,11,44
+"El Paso Locomotive",21,NA,"West",34,31,61,NA,13,10,40
+"FC Tulsa",21,NA,"West",35,29,62,NA,14,8,41
+"Hartford Athletic",21,NA,"East",30,24,57,NA,9,3,36
+"Indy Eleven",21,NA,"East",34,25,61,NA,13,4,40
+"Las Vegas Lights",21,NA,"West",32,29,59,NA,11,8,38
+"Lexington",21,NA,"West",34,28,61,NA,13,7,40
+"Loudoun United",21,NA,"East",25,19,52,NA,4,-2,31
+"Louisville City",21,NA,"East",34,31,61,NA,13,10,40
+"Miami FC",21,22,"East",22,22,49,1,1,1,28
+"Monterey Bay",21,16,"West",16,16,43,-5,-5,-5,22
+"New Mexico United",21,NA,"West",45,33,72,NA,24,12,51
+"Oakland Roots",21,23,"West",23,23,50,2,2,2,29
+"Orange County SC",21,NA,"West",37,34,64,NA,16,13,43
 "Phoenix Rising",21,NA,"West",28,22,55,NA,7,1,34
-"Pittsburgh Riverhounds",21,NA,"East",33,27,60,NA,12,6,39
-"Rhode Island",21,NA,"East",37,25,64,NA,16,4,43
-"Sacramento Republic",21,NA,"West",36,27,63,NA,15,6,42
-"San Antonio",21,NA,"West",38,32,65,NA,17,11,44
-"Sporting JAX",21,NA,"East",14,8,41,NA,-7,-13,20
-"Tampa Bay Rowdies",21,NA,"East",47,41,74,NA,26,20,53
-"Birmingham Legion",22,NA,"East",32,17,56,NA,10,-5,34
-"Brooklyn",22,NA,"East",28,13,52,NA,6,-9,30
-"Charleston Battery",22,NA,"East",42,33,66,NA,20,11,44
-"Colorado Springs",22,NA,"West",37,25,61,NA,15,3,39
-"Detroit City",22,NA,"East",43,31,67,NA,21,9,45
-"El Paso Locomotive",22,NA,"West",37,28,61,NA,15,6,39
-"FC Tulsa",22,NA,"West",41,29,65,NA,19,7,43
-"Hartford Athletic",22,NA,"East",33,21,57,NA,11,-1,35
-"Indy Eleven",22,NA,"East",37,22,61,NA,15,0,39
-"Las Vegas Lights",22,NA,"West",35,26,59,NA,13,4,37
-"Lexington",22,NA,"West",40,28,64,NA,18,6,42
-"Loudoun United",22,NA,"East",30,18,54,NA,8,-4,32
-"Louisville City",22,NA,"East",37,28,61,NA,15,6,39
-"Miami FC",22,NA,"East",28,22,52,NA,6,0,30
-"Monterey Bay",22,NA,"West",21,15,45,NA,-1,-7,23
-"New Mexico United",22,NA,"West",48,30,72,NA,26,8,50
-"Oakland Roots",22,NA,"West",28,22,52,NA,6,0,30
-"Orange County SC",22,NA,"West",43,34,67,NA,21,12,45
+"Pittsburgh Riverhounds",21,NA,"East",33,30,60,NA,12,9,39
+"Rhode Island",21,NA,"East",34,25,61,NA,13,4,40
+"Sacramento Republic",21,NA,"West",36,30,63,NA,15,9,42
+"San Antonio",21,NA,"West",35,32,62,NA,14,11,41
+"Sporting JAX",21,NA,"East",11,8,38,NA,-10,-13,17
+"Tampa Bay Rowdies",21,NA,"East",47,44,74,NA,26,23,53
+"Birmingham Legion",22,NA,"East",29,17,53,NA,7,-5,31
+"Brooklyn",22,NA,"East",25,13,49,NA,3,-9,27
+"Charleston Battery",22,NA,"East",39,33,63,NA,17,11,41
+"Colorado Springs",22,NA,"West",37,28,61,NA,15,6,39
+"Detroit City",22,NA,"East",41,32,65,NA,19,10,43
+"El Paso Locomotive",22,NA,"West",37,31,61,NA,15,9,39
+"FC Tulsa",22,NA,"West",38,29,62,NA,16,7,40
+"Hartford Athletic",22,NA,"East",33,24,57,NA,11,2,35
+"Indy Eleven",22,NA,"East",37,25,61,NA,15,3,39
+"Las Vegas Lights",22,NA,"West",35,29,59,NA,13,7,37
+"Lexington",22,NA,"West",37,28,61,NA,15,6,39
+"Loudoun United",22,NA,"East",28,19,52,NA,6,-3,30
+"Louisville City",22,NA,"East",37,31,61,NA,15,9,39
+"Miami FC",22,NA,"East",25,22,49,NA,3,0,27
+"Monterey Bay",22,NA,"West",19,16,43,NA,-3,-6,21
+"New Mexico United",22,NA,"West",48,33,72,NA,26,11,50
+"Oakland Roots",22,NA,"West",26,23,50,NA,4,1,28
+"Orange County SC",22,NA,"West",40,34,64,NA,18,12,42
 "Phoenix Rising",22,NA,"West",31,22,55,NA,9,0,33
-"Pittsburgh Riverhounds",22,NA,"East",36,27,60,NA,14,5,38
-"Rhode Island",22,NA,"East",40,25,64,NA,18,3,42
-"Sacramento Republic",22,NA,"West",39,27,63,NA,17,5,41
-"San Antonio",22,NA,"West",41,32,65,NA,19,10,43
-"Sporting JAX",22,NA,"East",17,8,41,NA,-5,-14,19
-"Tampa Bay Rowdies",22,NA,"East",50,41,74,NA,28,19,52
-"Birmingham Legion",23,NA,"East",35,17,56,NA,12,-6,33
-"Brooklyn",23,NA,"East",31,13,52,NA,8,-10,29
-"Charleston Battery",23,NA,"East",45,33,66,NA,22,10,43
-"Colorado Springs",23,NA,"West",40,25,61,NA,17,2,38
-"Detroit City",23,NA,"East",46,31,67,NA,23,8,44
-"El Paso Locomotive",23,NA,"West",40,28,61,NA,17,5,38
-"FC Tulsa",23,NA,"West",44,29,65,NA,21,6,42
-"Hartford Athletic",23,NA,"East",36,21,57,NA,13,-2,34
-"Indy Eleven",23,NA,"East",40,22,61,NA,17,-1,38
-"Las Vegas Lights",23,NA,"West",38,26,59,NA,15,3,36
-"Lexington",23,NA,"West",43,28,64,NA,20,5,41
-"Loudoun United",23,NA,"East",33,18,54,NA,10,-5,31
-"Louisville City",23,NA,"East",40,28,61,NA,17,5,38
-"Miami FC",23,NA,"East",31,22,52,NA,8,-1,29
-"Monterey Bay",23,NA,"West",24,15,45,NA,1,-8,22
-"New Mexico United",23,NA,"West",51,30,72,NA,28,7,49
-"Oakland Roots",23,NA,"West",31,22,52,NA,8,-1,29
-"Orange County SC",23,NA,"West",46,34,67,NA,23,11,44
+"Pittsburgh Riverhounds",22,NA,"East",36,30,60,NA,14,8,38
+"Rhode Island",22,NA,"East",37,25,61,NA,15,3,39
+"Sacramento Republic",22,NA,"West",39,30,63,NA,17,8,41
+"San Antonio",22,NA,"West",38,32,62,NA,16,10,40
+"Sporting JAX",22,NA,"East",14,8,38,NA,-8,-14,16
+"Tampa Bay Rowdies",22,NA,"East",50,44,74,NA,28,22,52
+"Birmingham Legion",23,NA,"East",32,17,53,NA,9,-6,30
+"Brooklyn",23,NA,"East",28,13,49,NA,5,-10,26
+"Charleston Battery",23,NA,"East",42,33,63,NA,19,10,40
+"Colorado Springs",23,NA,"West",40,28,61,NA,17,5,38
+"Detroit City",23,NA,"East",44,32,65,NA,21,9,42
+"El Paso Locomotive",23,NA,"West",40,31,61,NA,17,8,38
+"FC Tulsa",23,NA,"West",41,29,62,NA,18,6,39
+"Hartford Athletic",23,NA,"East",36,24,57,NA,13,1,34
+"Indy Eleven",23,NA,"East",40,25,61,NA,17,2,38
+"Las Vegas Lights",23,NA,"West",38,29,59,NA,15,6,36
+"Lexington",23,NA,"West",40,28,61,NA,17,5,38
+"Loudoun United",23,NA,"East",31,19,52,NA,8,-4,29
+"Louisville City",23,NA,"East",40,31,61,NA,17,8,38
+"Miami FC",23,NA,"East",28,22,49,NA,5,-1,26
+"Monterey Bay",23,NA,"West",22,16,43,NA,-1,-7,20
+"New Mexico United",23,NA,"West",51,33,72,NA,28,10,49
+"Oakland Roots",23,NA,"West",29,23,50,NA,6,0,27
+"Orange County SC",23,NA,"West",43,34,64,NA,20,11,41
 "Phoenix Rising",23,NA,"West",34,22,55,NA,11,-1,32
-"Pittsburgh Riverhounds",23,NA,"East",39,27,60,NA,16,4,37
-"Rhode Island",23,NA,"East",43,25,64,NA,20,2,41
-"Sacramento Republic",23,NA,"West",42,27,63,NA,19,4,40
-"San Antonio",23,NA,"West",44,32,65,NA,21,9,42
-"Sporting JAX",23,NA,"East",20,8,41,NA,-3,-15,18
-"Tampa Bay Rowdies",23,NA,"East",53,41,74,NA,30,18,51
-"Birmingham Legion",24,NA,"East",38,17,56,NA,14,-7,32
-"Brooklyn",24,NA,"East",34,13,52,NA,10,-11,28
-"Charleston Battery",24,NA,"East",48,33,66,NA,24,9,42
-"Colorado Springs",24,NA,"West",43,25,61,NA,19,1,37
-"Detroit City",24,NA,"East",49,31,67,NA,25,7,43
-"El Paso Locomotive",24,NA,"West",43,28,61,NA,19,4,37
-"FC Tulsa",24,NA,"West",47,29,65,NA,23,5,41
-"Hartford Athletic",24,NA,"East",39,21,57,NA,15,-3,33
-"Indy Eleven",24,NA,"East",43,22,61,NA,19,-2,37
-"Las Vegas Lights",24,NA,"West",41,26,59,NA,17,2,35
-"Lexington",24,NA,"West",46,28,64,NA,22,4,40
-"Loudoun United",24,NA,"East",36,18,54,NA,12,-6,30
-"Louisville City",24,NA,"East",43,28,61,NA,19,4,37
-"Miami FC",24,NA,"East",34,22,52,NA,10,-2,28
-"Monterey Bay",24,NA,"West",27,15,45,NA,3,-9,21
-"New Mexico United",24,NA,"West",54,30,72,NA,30,6,48
-"Oakland Roots",24,NA,"West",34,22,52,NA,10,-2,28
-"Orange County SC",24,NA,"West",49,34,67,NA,25,10,43
+"Pittsburgh Riverhounds",23,NA,"East",39,30,60,NA,16,7,37
+"Rhode Island",23,NA,"East",40,25,61,NA,17,2,38
+"Sacramento Republic",23,NA,"West",42,30,63,NA,19,7,40
+"San Antonio",23,NA,"West",41,32,62,NA,18,9,39
+"Sporting JAX",23,NA,"East",17,8,38,NA,-6,-15,15
+"Tampa Bay Rowdies",23,NA,"East",53,44,74,NA,30,21,51
+"Birmingham Legion",24,NA,"East",35,17,53,NA,11,-7,29
+"Brooklyn",24,NA,"East",31,13,49,NA,7,-11,25
+"Charleston Battery",24,NA,"East",45,33,63,NA,21,9,39
+"Colorado Springs",24,NA,"West",43,28,61,NA,19,4,37
+"Detroit City",24,NA,"East",47,32,65,NA,23,8,41
+"El Paso Locomotive",24,NA,"West",43,31,61,NA,19,7,37
+"FC Tulsa",24,NA,"West",44,29,62,NA,20,5,38
+"Hartford Athletic",24,NA,"East",39,24,57,NA,15,0,33
+"Indy Eleven",24,NA,"East",43,25,61,NA,19,1,37
+"Las Vegas Lights",24,NA,"West",41,29,59,NA,17,5,35
+"Lexington",24,NA,"West",43,28,61,NA,19,4,37
+"Loudoun United",24,NA,"East",34,19,52,NA,10,-5,28
+"Louisville City",24,NA,"East",43,31,61,NA,19,7,37
+"Miami FC",24,NA,"East",31,22,49,NA,7,-2,25
+"Monterey Bay",24,NA,"West",25,16,43,NA,1,-8,19
+"New Mexico United",24,NA,"West",54,33,72,NA,30,9,48
+"Oakland Roots",24,NA,"West",32,23,50,NA,8,-1,26
+"Orange County SC",24,NA,"West",46,34,64,NA,22,10,40
 "Phoenix Rising",24,NA,"West",37,22,55,NA,13,-2,31
-"Pittsburgh Riverhounds",24,NA,"East",42,27,60,NA,18,3,36
-"Rhode Island",24,NA,"East",46,25,64,NA,22,1,40
-"Sacramento Republic",24,NA,"West",45,27,63,NA,21,3,39
-"San Antonio",24,NA,"West",47,32,65,NA,23,8,41
-"Sporting JAX",24,NA,"East",23,8,41,NA,-1,-16,17
-"Tampa Bay Rowdies",24,NA,"East",56,41,74,NA,32,17,50
-"Birmingham Legion",25,NA,"East",41,17,56,NA,16,-8,31
-"Brooklyn",25,NA,"East",37,13,52,NA,12,-12,27
-"Charleston Battery",25,NA,"East",51,33,66,NA,26,8,41
-"Colorado Springs",25,NA,"West",46,25,61,NA,21,0,36
-"Detroit City",25,NA,"East",52,31,67,NA,27,6,42
-"El Paso Locomotive",25,NA,"West",46,28,61,NA,21,3,36
-"FC Tulsa",25,NA,"West",50,29,65,NA,25,4,40
-"Hartford Athletic",25,NA,"East",42,21,57,NA,17,-4,32
-"Indy Eleven",25,NA,"East",46,22,61,NA,21,-3,36
-"Las Vegas Lights",25,NA,"West",44,26,59,NA,19,1,34
-"Lexington",25,NA,"West",49,28,64,NA,24,3,39
-"Loudoun United",25,NA,"East",39,18,54,NA,14,-7,29
-"Louisville City",25,NA,"East",46,28,61,NA,21,3,36
-"Miami FC",25,NA,"East",37,22,52,NA,12,-3,27
-"Monterey Bay",25,NA,"West",30,15,45,NA,5,-10,20
-"New Mexico United",25,NA,"West",57,30,72,NA,32,5,47
-"Oakland Roots",25,NA,"West",37,22,52,NA,12,-3,27
-"Orange County SC",25,NA,"West",52,34,67,NA,27,9,42
+"Pittsburgh Riverhounds",24,NA,"East",42,30,60,NA,18,6,36
+"Rhode Island",24,NA,"East",43,25,61,NA,19,1,37
+"Sacramento Republic",24,NA,"West",45,30,63,NA,21,6,39
+"San Antonio",24,NA,"West",44,32,62,NA,20,8,38
+"Sporting JAX",24,NA,"East",20,8,38,NA,-4,-16,14
+"Tampa Bay Rowdies",24,NA,"East",56,44,74,NA,32,20,50
+"Birmingham Legion",25,NA,"East",38,17,53,NA,13,-8,28
+"Brooklyn",25,NA,"East",34,13,49,NA,9,-12,24
+"Charleston Battery",25,NA,"East",48,33,63,NA,23,8,38
+"Colorado Springs",25,NA,"West",46,28,61,NA,21,3,36
+"Detroit City",25,NA,"East",50,32,65,NA,25,7,40
+"El Paso Locomotive",25,NA,"West",46,31,61,NA,21,6,36
+"FC Tulsa",25,NA,"West",47,29,62,NA,22,4,37
+"Hartford Athletic",25,NA,"East",42,24,57,NA,17,-1,32
+"Indy Eleven",25,NA,"East",46,25,61,NA,21,0,36
+"Las Vegas Lights",25,NA,"West",44,29,59,NA,19,4,34
+"Lexington",25,NA,"West",46,28,61,NA,21,3,36
+"Loudoun United",25,NA,"East",37,19,52,NA,12,-6,27
+"Louisville City",25,NA,"East",46,31,61,NA,21,6,36
+"Miami FC",25,NA,"East",34,22,49,NA,9,-3,24
+"Monterey Bay",25,NA,"West",28,16,43,NA,3,-9,18
+"New Mexico United",25,NA,"West",57,33,72,NA,32,8,47
+"Oakland Roots",25,NA,"West",35,23,50,NA,10,-2,25
+"Orange County SC",25,NA,"West",49,34,64,NA,24,9,39
 "Phoenix Rising",25,NA,"West",40,22,55,NA,15,-3,30
-"Pittsburgh Riverhounds",25,NA,"East",45,27,60,NA,20,2,35
-"Rhode Island",25,NA,"East",49,25,64,NA,24,0,39
-"Sacramento Republic",25,NA,"West",48,27,63,NA,23,2,38
-"San Antonio",25,NA,"West",50,32,65,NA,25,7,40
-"Sporting JAX",25,NA,"East",26,8,41,NA,1,-17,16
-"Tampa Bay Rowdies",25,NA,"East",59,41,74,NA,34,16,49
-"Birmingham Legion",26,NA,"East",44,17,56,NA,18,-9,30
-"Brooklyn",26,NA,"East",40,13,52,NA,14,-13,26
-"Charleston Battery",26,NA,"East",54,33,66,NA,28,7,40
-"Colorado Springs",26,NA,"West",49,25,61,NA,23,-1,35
-"Detroit City",26,NA,"East",55,31,67,NA,29,5,41
-"El Paso Locomotive",26,NA,"West",49,28,61,NA,23,2,35
-"FC Tulsa",26,NA,"West",53,29,65,NA,27,3,39
-"Hartford Athletic",26,NA,"East",45,21,57,NA,19,-5,31
-"Indy Eleven",26,NA,"East",49,22,61,NA,23,-4,35
-"Las Vegas Lights",26,NA,"West",47,26,59,NA,21,0,33
-"Lexington",26,NA,"West",52,28,64,NA,26,2,38
-"Loudoun United",26,NA,"East",42,18,54,NA,16,-8,28
-"Louisville City",26,NA,"East",49,28,61,NA,23,2,35
-"Miami FC",26,NA,"East",40,22,52,NA,14,-4,26
-"Monterey Bay",26,NA,"West",33,15,45,NA,7,-11,19
-"New Mexico United",26,NA,"West",60,30,72,NA,34,4,46
-"Oakland Roots",26,NA,"West",40,22,52,NA,14,-4,26
-"Orange County SC",26,NA,"West",55,34,67,NA,29,8,41
+"Pittsburgh Riverhounds",25,NA,"East",45,30,60,NA,20,5,35
+"Rhode Island",25,NA,"East",46,25,61,NA,21,0,36
+"Sacramento Republic",25,NA,"West",48,30,63,NA,23,5,38
+"San Antonio",25,NA,"West",47,32,62,NA,22,7,37
+"Sporting JAX",25,NA,"East",23,8,38,NA,-2,-17,13
+"Tampa Bay Rowdies",25,NA,"East",59,44,74,NA,34,19,49
+"Birmingham Legion",26,NA,"East",41,17,53,NA,15,-9,27
+"Brooklyn",26,NA,"East",37,13,49,NA,11,-13,23
+"Charleston Battery",26,NA,"East",51,33,63,NA,25,7,37
+"Colorado Springs",26,NA,"West",49,28,61,NA,23,2,35
+"Detroit City",26,NA,"East",53,32,65,NA,27,6,39
+"El Paso Locomotive",26,NA,"West",49,31,61,NA,23,5,35
+"FC Tulsa",26,NA,"West",50,29,62,NA,24,3,36
+"Hartford Athletic",26,NA,"East",45,24,57,NA,19,-2,31
+"Indy Eleven",26,NA,"East",49,25,61,NA,23,-1,35
+"Las Vegas Lights",26,NA,"West",47,29,59,NA,21,3,33
+"Lexington",26,NA,"West",49,28,61,NA,23,2,35
+"Loudoun United",26,NA,"East",40,19,52,NA,14,-7,26
+"Louisville City",26,NA,"East",49,31,61,NA,23,5,35
+"Miami FC",26,NA,"East",37,22,49,NA,11,-4,23
+"Monterey Bay",26,NA,"West",31,16,43,NA,5,-10,17
+"New Mexico United",26,NA,"West",60,33,72,NA,34,7,46
+"Oakland Roots",26,NA,"West",38,23,50,NA,12,-3,24
+"Orange County SC",26,NA,"West",52,34,64,NA,26,8,38
 "Phoenix Rising",26,NA,"West",43,22,55,NA,17,-4,29
-"Pittsburgh Riverhounds",26,NA,"East",48,27,60,NA,22,1,34
-"Rhode Island",26,NA,"East",52,25,64,NA,26,-1,38
-"Sacramento Republic",26,NA,"West",51,27,63,NA,25,1,37
-"San Antonio",26,NA,"West",53,32,65,NA,27,6,39
-"Sporting JAX",26,NA,"East",29,8,41,NA,3,-18,15
-"Tampa Bay Rowdies",26,NA,"East",62,41,74,NA,36,15,48
-"Birmingham Legion",27,NA,"East",47,17,56,NA,20,-10,29
-"Brooklyn",27,NA,"East",43,13,52,NA,16,-14,25
-"Charleston Battery",27,NA,"East",57,33,66,NA,30,6,39
-"Colorado Springs",27,NA,"West",52,25,61,NA,25,-2,34
-"Detroit City",27,NA,"East",58,31,67,NA,31,4,40
-"El Paso Locomotive",27,NA,"West",52,28,61,NA,25,1,34
-"FC Tulsa",27,NA,"West",56,29,65,NA,29,2,38
-"Hartford Athletic",27,NA,"East",48,21,57,NA,21,-6,30
-"Indy Eleven",27,NA,"East",52,22,61,NA,25,-5,34
-"Las Vegas Lights",27,NA,"West",50,26,59,NA,23,-1,32
-"Lexington",27,NA,"West",55,28,64,NA,28,1,37
-"Loudoun United",27,NA,"East",45,18,54,NA,18,-9,27
-"Louisville City",27,NA,"East",52,28,61,NA,25,1,34
-"Miami FC",27,NA,"East",43,22,52,NA,16,-5,25
-"Monterey Bay",27,NA,"West",36,15,45,NA,9,-12,18
-"New Mexico United",27,NA,"West",63,30,72,NA,36,3,45
-"Oakland Roots",27,NA,"West",43,22,52,NA,16,-5,25
-"Orange County SC",27,NA,"West",58,34,67,NA,31,7,40
+"Pittsburgh Riverhounds",26,NA,"East",48,30,60,NA,22,4,34
+"Rhode Island",26,NA,"East",49,25,61,NA,23,-1,35
+"Sacramento Republic",26,NA,"West",51,30,63,NA,25,4,37
+"San Antonio",26,NA,"West",50,32,62,NA,24,6,36
+"Sporting JAX",26,NA,"East",26,8,38,NA,0,-18,12
+"Tampa Bay Rowdies",26,NA,"East",62,44,74,NA,36,18,48
+"Birmingham Legion",27,NA,"East",44,17,53,NA,17,-10,26
+"Brooklyn",27,NA,"East",40,13,49,NA,13,-14,22
+"Charleston Battery",27,NA,"East",54,33,63,NA,27,6,36
+"Colorado Springs",27,NA,"West",52,28,61,NA,25,1,34
+"Detroit City",27,NA,"East",56,32,65,NA,29,5,38
+"El Paso Locomotive",27,NA,"West",52,31,61,NA,25,4,34
+"FC Tulsa",27,NA,"West",53,29,62,NA,26,2,35
+"Hartford Athletic",27,NA,"East",48,24,57,NA,21,-3,30
+"Indy Eleven",27,NA,"East",52,25,61,NA,25,-2,34
+"Las Vegas Lights",27,NA,"West",50,29,59,NA,23,2,32
+"Lexington",27,NA,"West",52,28,61,NA,25,1,34
+"Loudoun United",27,NA,"East",43,19,52,NA,16,-8,25
+"Louisville City",27,NA,"East",52,31,61,NA,25,4,34
+"Miami FC",27,NA,"East",40,22,49,NA,13,-5,22
+"Monterey Bay",27,NA,"West",34,16,43,NA,7,-11,16
+"New Mexico United",27,NA,"West",63,33,72,NA,36,6,45
+"Oakland Roots",27,NA,"West",41,23,50,NA,14,-4,23
+"Orange County SC",27,NA,"West",55,34,64,NA,28,7,37
 "Phoenix Rising",27,NA,"West",46,22,55,NA,19,-5,28
-"Pittsburgh Riverhounds",27,NA,"East",51,27,60,NA,24,0,33
-"Rhode Island",27,NA,"East",55,25,64,NA,28,-2,37
-"Sacramento Republic",27,NA,"West",54,27,63,NA,27,0,36
-"San Antonio",27,NA,"West",56,32,65,NA,29,5,38
-"Sporting JAX",27,NA,"East",32,8,41,NA,5,-19,14
-"Tampa Bay Rowdies",27,NA,"East",65,41,74,NA,38,14,47
-"Birmingham Legion",28,NA,"East",50,17,56,NA,22,-11,28
-"Brooklyn",28,NA,"East",46,13,52,NA,18,-15,24
-"Charleston Battery",28,NA,"East",60,33,66,NA,32,5,38
-"Colorado Springs",28,NA,"West",55,25,61,NA,27,-3,33
-"Detroit City",28,NA,"East",61,31,67,NA,33,3,39
-"El Paso Locomotive",28,NA,"West",55,28,61,NA,27,0,33
-"FC Tulsa",28,NA,"West",59,29,65,NA,31,1,37
-"Hartford Athletic",28,NA,"East",51,21,57,NA,23,-7,29
-"Indy Eleven",28,NA,"East",55,22,61,NA,27,-6,33
-"Las Vegas Lights",28,NA,"West",53,26,59,NA,25,-2,31
-"Lexington",28,NA,"West",58,28,64,NA,30,0,36
-"Loudoun United",28,NA,"East",48,18,54,NA,20,-10,26
-"Louisville City",28,NA,"East",55,28,61,NA,27,0,33
-"Miami FC",28,NA,"East",46,22,52,NA,18,-6,24
-"Monterey Bay",28,NA,"West",39,15,45,NA,11,-13,17
-"New Mexico United",28,NA,"West",66,30,72,NA,38,2,44
-"Oakland Roots",28,NA,"West",46,22,52,NA,18,-6,24
-"Orange County SC",28,NA,"West",61,34,67,NA,33,6,39
+"Pittsburgh Riverhounds",27,NA,"East",51,30,60,NA,24,3,33
+"Rhode Island",27,NA,"East",52,25,61,NA,25,-2,34
+"Sacramento Republic",27,NA,"West",54,30,63,NA,27,3,36
+"San Antonio",27,NA,"West",53,32,62,NA,26,5,35
+"Sporting JAX",27,NA,"East",29,8,38,NA,2,-19,11
+"Tampa Bay Rowdies",27,NA,"East",65,44,74,NA,38,17,47
+"Birmingham Legion",28,NA,"East",47,17,53,NA,19,-11,25
+"Brooklyn",28,NA,"East",43,13,49,NA,15,-15,21
+"Charleston Battery",28,NA,"East",57,33,63,NA,29,5,35
+"Colorado Springs",28,NA,"West",55,28,61,NA,27,0,33
+"Detroit City",28,NA,"East",59,32,65,NA,31,4,37
+"El Paso Locomotive",28,NA,"West",55,31,61,NA,27,3,33
+"FC Tulsa",28,NA,"West",56,29,62,NA,28,1,34
+"Hartford Athletic",28,NA,"East",51,24,57,NA,23,-4,29
+"Indy Eleven",28,NA,"East",55,25,61,NA,27,-3,33
+"Las Vegas Lights",28,NA,"West",53,29,59,NA,25,1,31
+"Lexington",28,NA,"West",55,28,61,NA,27,0,33
+"Loudoun United",28,NA,"East",46,19,52,NA,18,-9,24
+"Louisville City",28,NA,"East",55,31,61,NA,27,3,33
+"Miami FC",28,NA,"East",43,22,49,NA,15,-6,21
+"Monterey Bay",28,NA,"West",37,16,43,NA,9,-12,15
+"New Mexico United",28,NA,"West",66,33,72,NA,38,5,44
+"Oakland Roots",28,NA,"West",44,23,50,NA,16,-5,22
+"Orange County SC",28,NA,"West",58,34,64,NA,30,6,36
 "Phoenix Rising",28,NA,"West",49,22,55,NA,21,-6,27
-"Pittsburgh Riverhounds",28,NA,"East",54,27,60,NA,26,-1,32
-"Rhode Island",28,NA,"East",58,25,64,NA,30,-3,36
-"Sacramento Republic",28,NA,"West",57,27,63,NA,29,-1,35
-"San Antonio",28,NA,"West",59,32,65,NA,31,4,37
-"Sporting JAX",28,NA,"East",35,8,41,NA,7,-20,13
-"Tampa Bay Rowdies",28,NA,"East",68,41,74,NA,40,13,46
-"Birmingham Legion",29,NA,"East",53,17,56,NA,24,-12,27
-"Brooklyn",29,NA,"East",49,13,52,NA,20,-16,23
-"Charleston Battery",29,NA,"East",63,33,66,NA,34,4,37
-"Colorado Springs",29,NA,"West",58,25,61,NA,29,-4,32
-"Detroit City",29,NA,"East",64,31,67,NA,35,2,38
-"El Paso Locomotive",29,NA,"West",58,28,61,NA,29,-1,32
-"FC Tulsa",29,NA,"West",62,29,65,NA,33,0,36
-"Hartford Athletic",29,NA,"East",54,21,57,NA,25,-8,28
-"Indy Eleven",29,NA,"East",58,22,61,NA,29,-7,32
-"Las Vegas Lights",29,NA,"West",56,26,59,NA,27,-3,30
-"Lexington",29,NA,"West",61,28,64,NA,32,-1,35
-"Loudoun United",29,NA,"East",51,18,54,NA,22,-11,25
-"Louisville City",29,NA,"East",58,28,61,NA,29,-1,32
-"Miami FC",29,NA,"East",49,22,52,NA,20,-7,23
-"Monterey Bay",29,NA,"West",42,15,45,NA,13,-14,16
-"New Mexico United",29,NA,"West",69,30,72,NA,40,1,43
-"Oakland Roots",29,NA,"West",49,22,52,NA,20,-7,23
-"Orange County SC",29,NA,"West",64,34,67,NA,35,5,38
+"Pittsburgh Riverhounds",28,NA,"East",54,30,60,NA,26,2,32
+"Rhode Island",28,NA,"East",55,25,61,NA,27,-3,33
+"Sacramento Republic",28,NA,"West",57,30,63,NA,29,2,35
+"San Antonio",28,NA,"West",56,32,62,NA,28,4,34
+"Sporting JAX",28,NA,"East",32,8,38,NA,4,-20,10
+"Tampa Bay Rowdies",28,NA,"East",68,44,74,NA,40,16,46
+"Birmingham Legion",29,NA,"East",50,17,53,NA,21,-12,24
+"Brooklyn",29,NA,"East",46,13,49,NA,17,-16,20
+"Charleston Battery",29,NA,"East",60,33,63,NA,31,4,34
+"Colorado Springs",29,NA,"West",58,28,61,NA,29,-1,32
+"Detroit City",29,NA,"East",62,32,65,NA,33,3,36
+"El Paso Locomotive",29,NA,"West",58,31,61,NA,29,2,32
+"FC Tulsa",29,NA,"West",59,29,62,NA,30,0,33
+"Hartford Athletic",29,NA,"East",54,24,57,NA,25,-5,28
+"Indy Eleven",29,NA,"East",58,25,61,NA,29,-4,32
+"Las Vegas Lights",29,NA,"West",56,29,59,NA,27,0,30
+"Lexington",29,NA,"West",58,28,61,NA,29,-1,32
+"Loudoun United",29,NA,"East",49,19,52,NA,20,-10,23
+"Louisville City",29,NA,"East",58,31,61,NA,29,2,32
+"Miami FC",29,NA,"East",46,22,49,NA,17,-7,20
+"Monterey Bay",29,NA,"West",40,16,43,NA,11,-13,14
+"New Mexico United",29,NA,"West",69,33,72,NA,40,4,43
+"Oakland Roots",29,NA,"West",47,23,50,NA,18,-6,21
+"Orange County SC",29,NA,"West",61,34,64,NA,32,5,35
 "Phoenix Rising",29,NA,"West",52,22,55,NA,23,-7,26
-"Pittsburgh Riverhounds",29,NA,"East",57,27,60,NA,28,-2,31
-"Rhode Island",29,NA,"East",61,25,64,NA,32,-4,35
-"Sacramento Republic",29,NA,"West",60,27,63,NA,31,-2,34
-"San Antonio",29,NA,"West",62,32,65,NA,33,3,36
-"Sporting JAX",29,NA,"East",38,8,41,NA,9,-21,12
-"Tampa Bay Rowdies",29,NA,"East",71,41,74,NA,42,12,45
-"Birmingham Legion",30,NA,"East",56,17,56,NA,26,-13,26
-"Brooklyn",30,NA,"East",52,13,52,NA,22,-17,22
-"Charleston Battery",30,NA,"East",66,33,66,NA,36,3,36
-"Colorado Springs",30,NA,"West",61,25,61,NA,31,-5,31
-"Detroit City",30,NA,"East",67,31,67,NA,37,1,37
-"El Paso Locomotive",30,NA,"West",61,28,61,NA,31,-2,31
-"FC Tulsa",30,NA,"West",65,29,65,NA,35,-1,35
-"Hartford Athletic",30,NA,"East",57,21,57,NA,27,-9,27
-"Indy Eleven",30,NA,"East",61,22,61,NA,31,-8,31
-"Las Vegas Lights",30,NA,"West",59,26,59,NA,29,-4,29
-"Lexington",30,NA,"West",64,28,64,NA,34,-2,34
-"Loudoun United",30,NA,"East",54,18,54,NA,24,-12,24
-"Louisville City",30,NA,"East",61,28,61,NA,31,-2,31
-"Miami FC",30,NA,"East",52,22,52,NA,22,-8,22
-"Monterey Bay",30,NA,"West",45,15,45,NA,15,-15,15
-"New Mexico United",30,NA,"West",72,30,72,NA,42,0,42
-"Oakland Roots",30,NA,"West",52,22,52,NA,22,-8,22
-"Orange County SC",30,NA,"West",67,34,67,NA,37,4,37
+"Pittsburgh Riverhounds",29,NA,"East",57,30,60,NA,28,1,31
+"Rhode Island",29,NA,"East",58,25,61,NA,29,-4,32
+"Sacramento Republic",29,NA,"West",60,30,63,NA,31,1,34
+"San Antonio",29,NA,"West",59,32,62,NA,30,3,33
+"Sporting JAX",29,NA,"East",35,8,38,NA,6,-21,9
+"Tampa Bay Rowdies",29,NA,"East",71,44,74,NA,42,15,45
+"Birmingham Legion",30,NA,"East",53,17,53,NA,23,-13,23
+"Brooklyn",30,NA,"East",49,13,49,NA,19,-17,19
+"Charleston Battery",30,NA,"East",63,33,63,NA,33,3,33
+"Colorado Springs",30,NA,"West",61,28,61,NA,31,-2,31
+"Detroit City",30,NA,"East",65,32,65,NA,35,2,35
+"El Paso Locomotive",30,NA,"West",61,31,61,NA,31,1,31
+"FC Tulsa",30,NA,"West",62,29,62,NA,32,-1,32
+"Hartford Athletic",30,NA,"East",57,24,57,NA,27,-6,27
+"Indy Eleven",30,NA,"East",61,25,61,NA,31,-5,31
+"Las Vegas Lights",30,NA,"West",59,29,59,NA,29,-1,29
+"Lexington",30,NA,"West",61,28,61,NA,31,-2,31
+"Loudoun United",30,NA,"East",52,19,52,NA,22,-11,22
+"Louisville City",30,NA,"East",61,31,61,NA,31,1,31
+"Miami FC",30,NA,"East",49,22,49,NA,19,-8,19
+"Monterey Bay",30,NA,"West",43,16,43,NA,13,-14,13
+"New Mexico United",30,NA,"West",72,33,72,NA,42,3,42
+"Oakland Roots",30,NA,"West",50,23,50,NA,20,-7,20
+"Orange County SC",30,NA,"West",64,34,64,NA,34,4,34
 "Phoenix Rising",30,NA,"West",55,22,55,NA,25,-8,25
-"Pittsburgh Riverhounds",30,NA,"East",60,27,60,NA,30,-3,30
-"Rhode Island",30,NA,"East",64,25,64,NA,34,-5,34
-"Sacramento Republic",30,NA,"West",63,27,63,NA,33,-3,33
-"San Antonio",30,NA,"West",65,32,65,NA,35,2,35
-"Sporting JAX",30,NA,"East",41,8,41,NA,11,-22,11
-"Tampa Bay Rowdies",30,NA,"East",74,41,74,NA,44,11,44
+"Pittsburgh Riverhounds",30,NA,"East",60,30,60,NA,30,0,30
+"Rhode Island",30,NA,"East",61,25,61,NA,31,-5,31
+"Sacramento Republic",30,NA,"West",63,30,63,NA,33,0,33
+"San Antonio",30,NA,"West",62,32,62,NA,32,2,32
+"Sporting JAX",30,NA,"East",38,8,38,NA,8,-22,8
+"Tampa Bay Rowdies",30,NA,"East",74,44,74,NA,44,14,44
 "Thresholds",0,NA,"West",NA,-91,91,NA,NA,-91,91
 "Thresholds",0,NA,"East",NA,-91,91,NA,NA,-91,91
 "Thresholds",1,NA,"West",NA,-88,88,NA,NA,-89,87
@@ -812,27 +812,27 @@
 "Thresholds",17,NA,"East",NA,-20,60,NA,NA,-37,43
 "Thresholds",18,NA,"West",NA,-12,60,NA,NA,-30,42
 "Thresholds",18,NA,"East",NA,-16,58,NA,NA,-34,40
-"Thresholds",19,NA,"West",NA,-8,60,NA,NA,-27,41
-"Thresholds",19,NA,"East",NA,-13,57,NA,NA,-32,38
-"Thresholds",20,NA,"West",NA,-5,60,NA,NA,-25,40
-"Thresholds",20,NA,"East",NA,-10,57,NA,NA,-30,37
-"Thresholds",21,NA,"West",NA,-2,60,NA,NA,-23,39
-"Thresholds",21,NA,"East",NA,-7,57,NA,NA,-28,36
-"Thresholds",22,NA,"West",NA,1,60,NA,NA,-21,38
-"Thresholds",22,NA,"East",NA,-4,57,NA,NA,-26,35
-"Thresholds",23,NA,"West",NA,4,60,NA,NA,-19,37
-"Thresholds",23,NA,"East",NA,-1,57,NA,NA,-24,34
-"Thresholds",24,NA,"West",NA,7,60,NA,NA,-17,36
-"Thresholds",24,NA,"East",NA,2,57,NA,NA,-22,33
-"Thresholds",25,NA,"West",NA,10,60,NA,NA,-15,35
-"Thresholds",25,NA,"East",NA,5,57,NA,NA,-20,32
-"Thresholds",26,NA,"West",NA,13,60,NA,NA,-13,34
-"Thresholds",26,NA,"East",NA,8,57,NA,NA,-18,31
-"Thresholds",27,NA,"West",NA,16,60,NA,NA,-11,33
-"Thresholds",27,NA,"East",NA,11,57,NA,NA,-16,30
-"Thresholds",28,NA,"West",NA,19,60,NA,NA,-9,32
-"Thresholds",28,NA,"East",NA,14,57,NA,NA,-14,29
-"Thresholds",29,NA,"West",NA,22,60,NA,NA,-7,31
-"Thresholds",29,NA,"East",NA,17,57,NA,NA,-12,28
-"Thresholds",30,NA,"West",NA,25,60,NA,NA,-5,30
-"Thresholds",30,NA,"East",NA,20,57,NA,NA,-10,27
+"Thresholds",19,NA,"West",NA,-6,60,NA,NA,-25,41
+"Thresholds",19,NA,"East",NA,-12,56,NA,NA,-31,37
+"Thresholds",20,NA,"West",NA,-3,60,NA,NA,-23,40
+"Thresholds",20,NA,"East",NA,-9,54,NA,NA,-29,34
+"Thresholds",21,NA,"West",NA,0,60,NA,NA,-21,39
+"Thresholds",21,NA,"East",NA,-6,54,NA,NA,-27,33
+"Thresholds",22,NA,"West",NA,3,60,NA,NA,-19,38
+"Thresholds",22,NA,"East",NA,-3,54,NA,NA,-25,32
+"Thresholds",23,NA,"West",NA,6,60,NA,NA,-17,37
+"Thresholds",23,NA,"East",NA,0,54,NA,NA,-23,31
+"Thresholds",24,NA,"West",NA,9,60,NA,NA,-15,36
+"Thresholds",24,NA,"East",NA,3,54,NA,NA,-21,30
+"Thresholds",25,NA,"West",NA,12,60,NA,NA,-13,35
+"Thresholds",25,NA,"East",NA,6,54,NA,NA,-19,29
+"Thresholds",26,NA,"West",NA,15,60,NA,NA,-11,34
+"Thresholds",26,NA,"East",NA,9,54,NA,NA,-17,28
+"Thresholds",27,NA,"West",NA,18,60,NA,NA,-9,33
+"Thresholds",27,NA,"East",NA,12,54,NA,NA,-15,27
+"Thresholds",28,NA,"West",NA,21,60,NA,NA,-7,32
+"Thresholds",28,NA,"East",NA,15,54,NA,NA,-13,26
+"Thresholds",29,NA,"West",NA,24,60,NA,NA,-5,31
+"Thresholds",29,NA,"East",NA,18,54,NA,NA,-11,25
+"Thresholds",30,NA,"West",NA,27,60,NA,NA,-3,30
+"Thresholds",30,NA,"East",NA,21,54,NA,NA,-9,24
