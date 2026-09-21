@@ -404,7 +404,7 @@
 "Portland Hearts of Pine",23,23,"East",23,23,50,0,0,0,27
 "Richmond Kickers",23,19,"East",19,19,46,-4,-4,-4,23
 "Sarasota Paradise",23,25,"East",25,25,52,2,2,2,29
-"Spokane Velocity",23,NA,"East",42,39,69,NA,19,16,46
+"Spokane Velocity",23,39,"East",39,39,66,16,16,16,43
 "Union Omaha",23,45,"East",45,45,72,22,22,22,49
 "Westchester SC",23,23,"East",23,23,50,0,0,0,27
 "Alta",24,32,"East",32,32,56,8,8,8,32
@@ -421,145 +421,145 @@
 "Portland Hearts of Pine",24,23,"East",23,23,47,-1,-1,-1,23
 "Richmond Kickers",24,20,"East",20,20,44,-4,-4,-4,20
 "Sarasota Paradise",24,26,"East",26,26,50,2,2,2,26
-"Spokane Velocity",24,NA,"East",45,39,69,NA,21,15,45
+"Spokane Velocity",24,40,"East",40,40,64,16,16,16,40
 "Union Omaha",24,46,"East",46,46,70,22,22,22,46
 "Westchester SC",24,23,"East",23,23,47,-1,-1,-1,23
 "Alta",25,32,"East",32,32,53,7,7,7,28
 "Boise",25,44,"East",44,44,65,19,19,19,40
 "Charlotte Independence",25,52,"East",52,52,73,27,27,27,48
-"Chattanooga Red Wolves",25,NA,"East",42,39,63,NA,17,14,38
+"Chattanooga Red Wolves",25,42,"East",42,42,63,17,17,17,38
 "Corpus Christi",25,30,"East",30,30,51,5,5,5,26
-"Fort Wayne",25,NA,"East",39,36,60,NA,14,11,35
+"Fort Wayne",25,36,"East",36,36,57,11,11,11,32
 "Forward Madison",25,48,"East",48,48,69,23,23,23,44
-"Greenville Triumph",25,NA,"East",26,23,47,NA,1,-2,22
+"Greenville Triumph",25,23,"East",23,23,44,-2,-2,-2,19
 "Naples",25,27,"East",27,27,48,2,2,2,23
 "NY Cosmos",25,22,"East",22,22,43,-3,-3,-3,18
 "One Knoxville",25,44,"East",44,44,65,19,19,19,40
 "Portland Hearts of Pine",25,26,"East",26,26,47,1,1,1,22
-"Richmond Kickers",25,NA,"East",23,20,44,NA,-2,-5,19
+"Richmond Kickers",25,20,"East",20,20,41,-5,-5,-5,16
 "Sarasota Paradise",25,27,"East",27,27,48,2,2,2,23
-"Spokane Velocity",25,NA,"East",48,39,69,NA,23,14,44
+"Spokane Velocity",25,NA,"East",43,40,64,NA,18,15,39
 "Union Omaha",25,49,"East",49,49,70,24,24,24,45
 "Westchester SC",25,23,"East",23,23,44,-2,-2,-2,19
 "Alta",26,32,"East",32,32,50,6,6,6,24
-"Boise",26,NA,"East",47,44,65,NA,21,18,39
-"Charlotte Independence",26,NA,"East",55,52,73,NA,29,26,47
-"Chattanooga Red Wolves",26,NA,"East",45,39,63,NA,19,13,37
-"Corpus Christi",26,NA,"East",33,30,51,NA,7,4,25
-"Fort Wayne",26,NA,"East",42,36,60,NA,16,10,34
-"Forward Madison",26,NA,"East",51,48,69,NA,25,22,43
-"Greenville Triumph",26,NA,"East",29,23,47,NA,3,-3,21
-"Naples",26,NA,"East",30,27,48,NA,4,1,22
-"NY Cosmos",26,NA,"East",25,22,43,NA,-1,-4,17
-"One Knoxville",26,NA,"East",47,44,65,NA,21,18,39
+"Boise",26,45,"East",45,45,63,19,19,19,37
+"Charlotte Independence",26,53,"East",53,53,71,27,27,27,45
+"Chattanooga Red Wolves",26,43,"East",43,43,61,17,17,17,35
+"Corpus Christi",26,33,"East",33,33,51,7,7,7,25
+"Fort Wayne",26,37,"East",37,37,55,11,11,11,29
+"Forward Madison",26,48,"East",48,48,66,22,22,22,40
+"Greenville Triumph",26,23,"East",23,23,41,-3,-3,-3,15
+"Naples",26,28,"East",28,28,46,2,2,2,20
+"NY Cosmos",26,22,"East",22,22,40,-4,-4,-4,14
+"One Knoxville",26,47,"East",47,47,65,21,21,21,39
 "Portland Hearts of Pine",26,29,"East",29,29,47,3,3,3,21
-"Richmond Kickers",26,NA,"East",26,20,44,NA,0,-6,18
-"Sarasota Paradise",26,NA,"East",30,27,48,NA,4,1,22
-"Spokane Velocity",26,NA,"East",51,39,69,NA,25,13,43
+"Richmond Kickers",26,20,"East",20,20,38,-6,-6,-6,12
+"Sarasota Paradise",26,30,"East",30,30,48,4,4,4,22
+"Spokane Velocity",26,NA,"East",46,40,64,NA,20,14,38
 "Union Omaha",26,52,"East",52,52,70,26,26,26,44
-"Westchester SC",26,NA,"East",26,23,44,NA,0,-3,18
+"Westchester SC",26,26,"East",26,26,44,0,0,0,18
 "Alta",27,32,"East",32,32,47,5,5,5,20
-"Boise",27,NA,"East",50,44,65,NA,23,17,38
-"Charlotte Independence",27,NA,"East",58,52,73,NA,31,25,46
-"Chattanooga Red Wolves",27,NA,"East",48,39,63,NA,21,12,36
-"Corpus Christi",27,NA,"East",36,30,51,NA,9,3,24
-"Fort Wayne",27,NA,"East",45,36,60,NA,18,9,33
-"Forward Madison",27,NA,"East",54,48,69,NA,27,21,42
-"Greenville Triumph",27,NA,"East",32,23,47,NA,5,-4,20
-"Naples",27,NA,"East",33,27,48,NA,6,0,21
-"NY Cosmos",27,NA,"East",28,22,43,NA,1,-5,16
-"One Knoxville",27,NA,"East",50,44,65,NA,23,17,38
-"Portland Hearts of Pine",27,NA,"East",32,29,47,NA,5,2,20
-"Richmond Kickers",27,NA,"East",29,20,44,NA,2,-7,17
-"Sarasota Paradise",27,NA,"East",33,27,48,NA,6,0,21
-"Spokane Velocity",27,NA,"East",54,39,69,NA,27,12,42
-"Union Omaha",27,NA,"East",55,52,70,NA,28,25,43
-"Westchester SC",27,NA,"East",29,23,44,NA,2,-4,17
-"Alta",28,NA,"East",35,32,47,NA,7,4,19
-"Boise",28,NA,"East",53,44,65,NA,25,16,37
-"Charlotte Independence",28,NA,"East",61,52,73,NA,33,24,45
-"Chattanooga Red Wolves",28,NA,"East",51,39,63,NA,23,11,35
-"Corpus Christi",28,NA,"East",39,30,51,NA,11,2,23
-"Fort Wayne",28,NA,"East",48,36,60,NA,20,8,32
-"Forward Madison",28,NA,"East",57,48,69,NA,29,20,41
-"Greenville Triumph",28,NA,"East",35,23,47,NA,7,-5,19
-"Naples",28,NA,"East",36,27,48,NA,8,-1,20
-"NY Cosmos",28,NA,"East",31,22,43,NA,3,-6,15
-"One Knoxville",28,NA,"East",53,44,65,NA,25,16,37
-"Portland Hearts of Pine",28,NA,"East",35,29,47,NA,7,1,19
-"Richmond Kickers",28,NA,"East",32,20,44,NA,4,-8,16
-"Sarasota Paradise",28,NA,"East",36,27,48,NA,8,-1,20
-"Spokane Velocity",28,NA,"East",57,39,69,NA,29,11,41
-"Union Omaha",28,NA,"East",58,52,70,NA,30,24,42
-"Westchester SC",28,NA,"East",32,23,44,NA,4,-5,16
-"Alta",29,NA,"East",38,32,47,NA,9,3,18
-"Boise",29,NA,"East",56,44,65,NA,27,15,36
-"Charlotte Independence",29,NA,"East",64,52,73,NA,35,23,44
-"Chattanooga Red Wolves",29,NA,"East",54,39,63,NA,25,10,34
-"Corpus Christi",29,NA,"East",42,30,51,NA,13,1,22
-"Fort Wayne",29,NA,"East",51,36,60,NA,22,7,31
-"Forward Madison",29,NA,"East",60,48,69,NA,31,19,40
-"Greenville Triumph",29,NA,"East",38,23,47,NA,9,-6,18
-"Naples",29,NA,"East",39,27,48,NA,10,-2,19
-"NY Cosmos",29,NA,"East",34,22,43,NA,5,-7,14
-"One Knoxville",29,NA,"East",56,44,65,NA,27,15,36
-"Portland Hearts of Pine",29,NA,"East",38,29,47,NA,9,0,18
-"Richmond Kickers",29,NA,"East",35,20,44,NA,6,-9,15
-"Sarasota Paradise",29,NA,"East",39,27,48,NA,10,-2,19
-"Spokane Velocity",29,NA,"East",60,39,69,NA,31,10,40
-"Union Omaha",29,NA,"East",61,52,70,NA,32,23,41
-"Westchester SC",29,NA,"East",35,23,44,NA,6,-6,15
-"Alta",30,NA,"East",41,32,47,NA,11,2,17
-"Boise",30,NA,"East",59,44,65,NA,29,14,35
-"Charlotte Independence",30,NA,"East",67,52,73,NA,37,22,43
-"Chattanooga Red Wolves",30,NA,"East",57,39,63,NA,27,9,33
-"Corpus Christi",30,NA,"East",45,30,51,NA,15,0,21
-"Fort Wayne",30,NA,"East",54,36,60,NA,24,6,30
-"Forward Madison",30,NA,"East",63,48,69,NA,33,18,39
-"Greenville Triumph",30,NA,"East",41,23,47,NA,11,-7,17
-"Naples",30,NA,"East",42,27,48,NA,12,-3,18
-"NY Cosmos",30,NA,"East",37,22,43,NA,7,-8,13
-"One Knoxville",30,NA,"East",59,44,65,NA,29,14,35
-"Portland Hearts of Pine",30,NA,"East",41,29,47,NA,11,-1,17
-"Richmond Kickers",30,NA,"East",38,20,44,NA,8,-10,14
-"Sarasota Paradise",30,NA,"East",42,27,48,NA,12,-3,18
-"Spokane Velocity",30,NA,"East",63,39,69,NA,33,9,39
-"Union Omaha",30,NA,"East",64,52,70,NA,34,22,40
-"Westchester SC",30,NA,"East",38,23,44,NA,8,-7,14
-"Alta",31,NA,"East",44,32,47,NA,13,1,16
-"Boise",31,NA,"East",62,44,65,NA,31,13,34
-"Charlotte Independence",31,NA,"East",70,52,73,NA,39,21,42
-"Chattanooga Red Wolves",31,NA,"East",60,39,63,NA,29,8,32
-"Corpus Christi",31,NA,"East",48,30,51,NA,17,-1,20
-"Fort Wayne",31,NA,"East",57,36,60,NA,26,5,29
-"Forward Madison",31,NA,"East",66,48,69,NA,35,17,38
-"Greenville Triumph",31,NA,"East",44,23,47,NA,13,-8,16
-"Naples",31,NA,"East",45,27,48,NA,14,-4,17
-"NY Cosmos",31,NA,"East",40,22,43,NA,9,-9,12
-"One Knoxville",31,NA,"East",62,44,65,NA,31,13,34
-"Portland Hearts of Pine",31,NA,"East",44,29,47,NA,13,-2,16
-"Richmond Kickers",31,NA,"East",41,20,44,NA,10,-11,13
-"Sarasota Paradise",31,NA,"East",45,27,48,NA,14,-4,17
-"Spokane Velocity",31,NA,"East",66,39,69,NA,35,8,38
-"Union Omaha",31,NA,"East",67,52,70,NA,36,21,39
-"Westchester SC",31,NA,"East",41,23,44,NA,10,-8,13
-"Alta",32,NA,"East",47,32,47,NA,15,0,15
-"Boise",32,NA,"East",65,44,65,NA,33,12,33
-"Charlotte Independence",32,NA,"East",73,52,73,NA,41,20,41
-"Chattanooga Red Wolves",32,NA,"East",63,39,63,NA,31,7,31
-"Corpus Christi",32,NA,"East",51,30,51,NA,19,-2,19
-"Fort Wayne",32,NA,"East",60,36,60,NA,28,4,28
-"Forward Madison",32,NA,"East",69,48,69,NA,37,16,37
-"Greenville Triumph",32,NA,"East",47,23,47,NA,15,-9,15
-"Naples",32,NA,"East",48,27,48,NA,16,-5,16
-"NY Cosmos",32,NA,"East",43,22,43,NA,11,-10,11
-"One Knoxville",32,NA,"East",65,44,65,NA,33,12,33
-"Portland Hearts of Pine",32,NA,"East",47,29,47,NA,15,-3,15
-"Richmond Kickers",32,NA,"East",44,20,44,NA,12,-12,12
-"Sarasota Paradise",32,NA,"East",48,27,48,NA,16,-5,16
-"Spokane Velocity",32,NA,"East",69,39,69,NA,37,7,37
-"Union Omaha",32,NA,"East",70,52,70,NA,38,20,38
-"Westchester SC",32,NA,"East",44,23,44,NA,12,-9,12
+"Boise",27,46,"East",46,46,61,19,19,19,34
+"Charlotte Independence",27,56,"East",56,56,71,29,29,29,44
+"Chattanooga Red Wolves",27,NA,"East",46,43,61,NA,19,16,34
+"Corpus Christi",27,NA,"East",36,33,51,NA,9,6,24
+"Fort Wayne",27,NA,"East",40,37,55,NA,13,10,28
+"Forward Madison",27,51,"East",51,51,66,24,24,24,39
+"Greenville Triumph",27,NA,"East",26,23,41,NA,-1,-4,14
+"Naples",27,NA,"East",31,28,46,NA,4,1,19
+"NY Cosmos",27,NA,"East",25,22,40,NA,-2,-5,13
+"One Knoxville",27,47,"East",47,47,62,20,20,20,35
+"Portland Hearts of Pine",27,30,"East",30,30,45,3,3,3,18
+"Richmond Kickers",27,NA,"East",23,20,38,NA,-4,-7,11
+"Sarasota Paradise",27,NA,"East",33,30,48,NA,6,3,21
+"Spokane Velocity",27,NA,"East",49,40,64,NA,22,13,37
+"Union Omaha",27,55,"East",55,55,70,28,28,28,43
+"Westchester SC",27,29,"East",29,29,44,2,2,2,17
+"Alta",28,32,"East",32,32,44,4,4,4,16
+"Boise",28,NA,"East",49,46,61,NA,21,18,33
+"Charlotte Independence",28,NA,"East",59,56,71,NA,31,28,43
+"Chattanooga Red Wolves",28,NA,"East",49,43,61,NA,21,15,33
+"Corpus Christi",28,NA,"East",39,33,51,NA,11,5,23
+"Fort Wayne",28,NA,"East",43,37,55,NA,15,9,27
+"Forward Madison",28,NA,"East",54,51,66,NA,26,23,38
+"Greenville Triumph",28,NA,"East",29,23,41,NA,1,-5,13
+"Naples",28,NA,"East",34,28,46,NA,6,0,18
+"NY Cosmos",28,NA,"East",28,22,40,NA,0,-6,12
+"One Knoxville",28,NA,"East",50,47,62,NA,22,19,34
+"Portland Hearts of Pine",28,NA,"East",33,30,45,NA,5,2,17
+"Richmond Kickers",28,NA,"East",26,20,38,NA,-2,-8,10
+"Sarasota Paradise",28,NA,"East",36,30,48,NA,8,2,20
+"Spokane Velocity",28,NA,"East",52,40,64,NA,24,12,36
+"Union Omaha",28,58,"East",58,58,70,30,30,30,42
+"Westchester SC",28,NA,"East",32,29,44,NA,4,1,16
+"Alta",29,NA,"East",35,32,44,NA,6,3,15
+"Boise",29,NA,"East",52,46,61,NA,23,17,32
+"Charlotte Independence",29,NA,"East",62,56,71,NA,33,27,42
+"Chattanooga Red Wolves",29,NA,"East",52,43,61,NA,23,14,32
+"Corpus Christi",29,NA,"East",42,33,51,NA,13,4,22
+"Fort Wayne",29,NA,"East",46,37,55,NA,17,8,26
+"Forward Madison",29,NA,"East",57,51,66,NA,28,22,37
+"Greenville Triumph",29,NA,"East",32,23,41,NA,3,-6,12
+"Naples",29,NA,"East",37,28,46,NA,8,-1,17
+"NY Cosmos",29,NA,"East",31,22,40,NA,2,-7,11
+"One Knoxville",29,NA,"East",53,47,62,NA,24,18,33
+"Portland Hearts of Pine",29,NA,"East",36,30,45,NA,7,1,16
+"Richmond Kickers",29,NA,"East",29,20,38,NA,0,-9,9
+"Sarasota Paradise",29,NA,"East",39,30,48,NA,10,1,19
+"Spokane Velocity",29,NA,"East",55,40,64,NA,26,11,35
+"Union Omaha",29,NA,"East",61,58,70,NA,32,29,41
+"Westchester SC",29,NA,"East",35,29,44,NA,6,0,15
+"Alta",30,NA,"East",38,32,44,NA,8,2,14
+"Boise",30,NA,"East",55,46,61,NA,25,16,31
+"Charlotte Independence",30,NA,"East",65,56,71,NA,35,26,41
+"Chattanooga Red Wolves",30,NA,"East",55,43,61,NA,25,13,31
+"Corpus Christi",30,NA,"East",45,33,51,NA,15,3,21
+"Fort Wayne",30,NA,"East",49,37,55,NA,19,7,25
+"Forward Madison",30,NA,"East",60,51,66,NA,30,21,36
+"Greenville Triumph",30,NA,"East",35,23,41,NA,5,-7,11
+"Naples",30,NA,"East",40,28,46,NA,10,-2,16
+"NY Cosmos",30,NA,"East",34,22,40,NA,4,-8,10
+"One Knoxville",30,NA,"East",56,47,62,NA,26,17,32
+"Portland Hearts of Pine",30,NA,"East",39,30,45,NA,9,0,15
+"Richmond Kickers",30,NA,"East",32,20,38,NA,2,-10,8
+"Sarasota Paradise",30,NA,"East",42,30,48,NA,12,0,18
+"Spokane Velocity",30,NA,"East",58,40,64,NA,28,10,34
+"Union Omaha",30,NA,"East",64,58,70,NA,34,28,40
+"Westchester SC",30,NA,"East",38,29,44,NA,8,-1,14
+"Alta",31,NA,"East",41,32,44,NA,10,1,13
+"Boise",31,NA,"East",58,46,61,NA,27,15,30
+"Charlotte Independence",31,NA,"East",68,56,71,NA,37,25,40
+"Chattanooga Red Wolves",31,NA,"East",58,43,61,NA,27,12,30
+"Corpus Christi",31,NA,"East",48,33,51,NA,17,2,20
+"Fort Wayne",31,NA,"East",52,37,55,NA,21,6,24
+"Forward Madison",31,NA,"East",63,51,66,NA,32,20,35
+"Greenville Triumph",31,NA,"East",38,23,41,NA,7,-8,10
+"Naples",31,NA,"East",43,28,46,NA,12,-3,15
+"NY Cosmos",31,NA,"East",37,22,40,NA,6,-9,9
+"One Knoxville",31,NA,"East",59,47,62,NA,28,16,31
+"Portland Hearts of Pine",31,NA,"East",42,30,45,NA,11,-1,14
+"Richmond Kickers",31,NA,"East",35,20,38,NA,4,-11,7
+"Sarasota Paradise",31,NA,"East",45,30,48,NA,14,-1,17
+"Spokane Velocity",31,NA,"East",61,40,64,NA,30,9,33
+"Union Omaha",31,NA,"East",67,58,70,NA,36,27,39
+"Westchester SC",31,NA,"East",41,29,44,NA,10,-2,13
+"Alta",32,NA,"East",44,32,44,NA,12,0,12
+"Boise",32,NA,"East",61,46,61,NA,29,14,29
+"Charlotte Independence",32,NA,"East",71,56,71,NA,39,24,39
+"Chattanooga Red Wolves",32,NA,"East",61,43,61,NA,29,11,29
+"Corpus Christi",32,NA,"East",51,33,51,NA,19,1,19
+"Fort Wayne",32,NA,"East",55,37,55,NA,23,5,23
+"Forward Madison",32,NA,"East",66,51,66,NA,34,19,34
+"Greenville Triumph",32,NA,"East",41,23,41,NA,9,-9,9
+"Naples",32,NA,"East",46,28,46,NA,14,-4,14
+"NY Cosmos",32,NA,"East",40,22,40,NA,8,-10,8
+"One Knoxville",32,NA,"East",62,47,62,NA,30,15,30
+"Portland Hearts of Pine",32,NA,"East",45,30,45,NA,13,-2,13
+"Richmond Kickers",32,NA,"East",38,20,38,NA,6,-12,6
+"Sarasota Paradise",32,NA,"East",48,30,48,NA,16,-2,16
+"Spokane Velocity",32,NA,"East",64,40,64,NA,32,8,32
+"Union Omaha",32,NA,"East",70,58,70,NA,38,26,38
+"Westchester SC",32,NA,"East",44,29,44,NA,12,-3,12
 "Thresholds",0,NA,"West",NA,NA,NA,NA,NA,NA,NA
 "Thresholds",0,NA,"East",NA,-97,97,NA,NA,-97,97
 "Thresholds",1,NA,"West",NA,NA,NA,NA,NA,NA,NA
@@ -613,16 +613,16 @@
 "Thresholds",25,NA,"West",NA,NA,NA,NA,NA,NA,NA
 "Thresholds",25,NA,"East",NA,14,54,NA,NA,-11,29
 "Thresholds",26,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",26,NA,"East",NA,17,52,NA,NA,-9,26
+"Thresholds",26,NA,"East",NA,18,52,NA,NA,-8,26
 "Thresholds",27,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",27,NA,"East",NA,20,52,NA,NA,-7,25
+"Thresholds",27,NA,"East",NA,21,52,NA,NA,-6,25
 "Thresholds",28,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",28,NA,"East",NA,23,52,NA,NA,-5,24
+"Thresholds",28,NA,"East",NA,24,52,NA,NA,-4,24
 "Thresholds",29,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",29,NA,"East",NA,26,52,NA,NA,-3,23
+"Thresholds",29,NA,"East",NA,27,52,NA,NA,-2,23
 "Thresholds",30,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",30,NA,"East",NA,29,52,NA,NA,-1,22
+"Thresholds",30,NA,"East",NA,30,52,NA,NA,0,22
 "Thresholds",31,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",31,NA,"East",NA,32,52,NA,NA,1,21
+"Thresholds",31,NA,"East",NA,33,52,NA,NA,2,21
 "Thresholds",32,NA,"West",NA,NA,NA,NA,NA,NA,NA
-"Thresholds",32,NA,"East",NA,35,52,NA,NA,3,20
+"Thresholds",32,NA,"East",NA,36,52,NA,NA,4,20
