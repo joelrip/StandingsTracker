@@ -157,3 +157,4 @@ MLSPointsLong = StandingsTracker(MLSScores, MLSWest, 34, 9, 6)
 
 #Save
 write.csv(MLSPointsLong, "MLSPointsLong.csv", row.names = F)
+
