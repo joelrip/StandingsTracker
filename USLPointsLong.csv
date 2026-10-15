@@ -701,16 +701,16 @@
 "Tampa Bay Rowdies",27,52,"East",52,52,61,25,25,25,34
 "Birmingham Legion",28,NA,"East",29,26,35,NA,1,-2,7
 "Brooklyn",28,NA,"East",21,18,27,NA,-7,-10,-1
-"Charleston Battery",28,NA,"East",49,46,55,NA,21,18,27
+"Charleston Battery",28,47,"East",47,47,53,19,19,19,25
 "Colorado Springs",28,41,"West",41,41,47,13,13,13,19
 "Detroit City",28,50,"East",50,50,56,22,22,22,28
 "El Paso Locomotive",28,50,"West",50,50,56,22,22,22,28
 "FC Tulsa",28,43,"West",43,43,49,15,15,15,21
-"Hartford Athletic",28,NA,"East",42,39,48,NA,14,11,20
+"Hartford Athletic",28,40,"East",40,40,46,12,12,12,18
 "Indy Eleven",28,34,"East",34,34,40,6,6,6,12
 "Las Vegas Lights",28,36,"West",36,36,42,8,8,8,14
 "Lexington",28,44,"West",44,44,50,16,16,16,22
-"Loudoun United",28,NA,"East",30,27,36,NA,2,-1,8
+"Loudoun United",28,27,"East",27,27,33,-1,-1,-1,5
 "Louisville City",28,NA,"East",43,40,49,NA,15,12,21
 "Miami FC",28,36,"East",36,36,42,8,8,8,14
 "Monterey Bay",28,21,"West",21,21,27,-7,-7,-7,-1
@@ -719,23 +719,23 @@
 "Orange County SC",28,39,"West",39,39,45,11,11,11,17
 "Phoenix Rising",28,36,"West",36,36,42,8,8,8,14
 "Pittsburgh Riverhounds",28,41,"East",41,41,47,13,13,13,19
-"Rhode Island",28,NA,"East",41,38,47,NA,13,10,19
+"Rhode Island",28,41,"East",41,41,47,13,13,13,19
 "Sacramento Republic",28,45,"West",45,45,51,17,17,17,23
 "San Antonio",28,39,"West",39,39,45,11,11,11,17
 "Sporting JAX",28,14,"East",14,14,20,-14,-14,-14,-8
 "Tampa Bay Rowdies",28,55,"East",55,55,61,27,27,27,33
 "Birmingham Legion",29,NA,"East",32,26,35,NA,3,-3,6
 "Brooklyn",29,NA,"East",24,18,27,NA,-5,-11,-2
-"Charleston Battery",29,NA,"East",52,46,55,NA,23,17,26
+"Charleston Battery",29,NA,"East",50,47,53,NA,21,18,24
 "Colorado Springs",29,NA,"West",44,41,47,NA,15,12,18
 "Detroit City",29,NA,"East",53,50,56,NA,24,21,27
 "El Paso Locomotive",29,NA,"West",53,50,56,NA,24,21,27
 "FC Tulsa",29,NA,"West",46,43,49,NA,17,14,20
-"Hartford Athletic",29,NA,"East",45,39,48,NA,16,10,19
+"Hartford Athletic",29,NA,"East",43,40,46,NA,14,11,17
 "Indy Eleven",29,NA,"East",37,34,40,NA,8,5,11
 "Las Vegas Lights",29,NA,"West",39,36,42,NA,10,7,13
 "Lexington",29,NA,"West",47,44,50,NA,18,15,21
-"Loudoun United",29,NA,"East",33,27,36,NA,4,-2,7
+"Loudoun United",29,NA,"East",30,27,33,NA,1,-2,4
 "Louisville City",29,NA,"East",46,40,49,NA,17,11,20
 "Miami FC",29,36,"East",36,36,39,7,7,7,10
 "Monterey Bay",29,NA,"West",24,21,27,NA,-5,-8,-2
@@ -744,23 +744,23 @@
 "Orange County SC",29,NA,"West",42,39,45,NA,13,10,16
 "Phoenix Rising",29,NA,"West",39,36,42,NA,10,7,13
 "Pittsburgh Riverhounds",29,NA,"East",44,41,47,NA,15,12,18
-"Rhode Island",29,NA,"East",44,38,47,NA,15,9,18
+"Rhode Island",29,NA,"East",44,41,47,NA,15,12,18
 "Sacramento Republic",29,NA,"West",48,45,51,NA,19,16,22
 "San Antonio",29,NA,"West",42,39,45,NA,13,10,16
 "Sporting JAX",29,NA,"East",17,14,20,NA,-12,-15,-9
 "Tampa Bay Rowdies",29,NA,"East",58,55,61,NA,29,26,32
 "Birmingham Legion",30,NA,"East",35,26,35,NA,5,-4,5
 "Brooklyn",30,NA,"East",27,18,27,NA,-3,-12,-3
-"Charleston Battery",30,NA,"East",55,46,55,NA,25,16,25
+"Charleston Battery",30,NA,"East",53,47,53,NA,23,17,23
 "Colorado Springs",30,NA,"West",47,41,47,NA,17,11,17
 "Detroit City",30,NA,"East",56,50,56,NA,26,20,26
 "El Paso Locomotive",30,NA,"West",56,50,56,NA,26,20,26
 "FC Tulsa",30,NA,"West",49,43,49,NA,19,13,19
-"Hartford Athletic",30,NA,"East",48,39,48,NA,18,9,18
+"Hartford Athletic",30,NA,"East",46,40,46,NA,16,10,16
 "Indy Eleven",30,NA,"East",40,34,40,NA,10,4,10
 "Las Vegas Lights",30,NA,"West",42,36,42,NA,12,6,12
 "Lexington",30,NA,"West",50,44,50,NA,20,14,20
-"Loudoun United",30,NA,"East",36,27,36,NA,6,-3,6
+"Loudoun United",30,NA,"East",33,27,33,NA,3,-3,3
 "Louisville City",30,NA,"East",49,40,49,NA,19,10,19
 "Miami FC",30,NA,"East",39,36,39,NA,9,6,9
 "Monterey Bay",30,NA,"West",27,21,27,NA,-3,-9,-3
@@ -769,7 +769,7 @@
 "Orange County SC",30,NA,"West",45,39,45,NA,15,9,15
 "Phoenix Rising",30,NA,"West",42,36,42,NA,12,6,12
 "Pittsburgh Riverhounds",30,NA,"East",47,41,47,NA,17,11,17
-"Rhode Island",30,NA,"East",47,38,47,NA,17,8,17
+"Rhode Island",30,NA,"East",47,41,47,NA,17,11,17
 "Sacramento Republic",30,NA,"West",51,45,51,NA,21,15,21
 "San Antonio",30,NA,"West",45,39,45,NA,15,9,15
 "Sporting JAX",30,NA,"East",20,14,20,NA,-10,-16,-10
